@@ -8,7 +8,7 @@ QuickStudy Hub is a study app for History (extensible to other subjects). Studen
 - Take auto-graded quizzes with immediate scoring
 - Track progress (cards studied, quiz scores, completion %) over time
 
-The AI step is the core of the app: raw PDF text is extracted, chunked, and sent to Gemini with a strict system prompt ("never invent facts not present in the text") and a structured output schema, so the generated material stays grounded in what the student actually uploaded — rather than generic quiz content.
+The AI step is the core of the app: raw PDF text is extracted, chunked, and sent to Gemini with a strict system prompt ("never invent facts not present in the text") and a structured output schema, so the generated material stays grounded in what the student actually uploaded - rather than generic quiz content.
 
 ## Who it's for
 Students who have their own study materials (lecture PDFs, textbook excerpts, notes) but don't have time to manually turn them into flashcards and practice questions. It assumes the learner:
@@ -33,4 +33,4 @@ Requires a `LOVABLE_API_KEY` environment variable (for AI generation) and a conf
 
 **What does it assume?** That the learner already has a PDF worth studying, can read it independently, and has some baseline digital literacy (uploading files, navigating a web app).
 
-**Misuse risk.** Because the AI is instructed not to invent facts, output is reasonably grounded — but it can still misread ambiguous or poorly-formatted source text and generate a subtly wrong flashcard that a student then studies as fact, with no second check. There's also a risk of over-reliance: a student could use the app to generate "study material" without ever reading the source PDF themselves, mistaking recognition of an AI-written answer for actual understanding. Mitigation: the in-app PDF reader is kept alongside the generated cards specifically so students can verify against the source, and answers are capped short (max 15 words) to reduce room for confident-sounding fabrication.
+**Misuse risk.** Because the AI is instructed not to invent facts, output is reasonably grounded - but it can still misread ambiguous or poorly-formatted source text and generate a subtly wrong flashcard that a student then studies as fact, with no second check. There's also a risk of over-reliance: a student could use the app to generate "study material" without ever reading the source PDF themselves, mistaking recognition of an AI-written answer for actual understanding. Mitigation: the in-app PDF reader is kept alongside the generated cards specifically so students can verify against the source, and answers are capped short (max 15 words) to reduce room for confident-sounding fabrication.
