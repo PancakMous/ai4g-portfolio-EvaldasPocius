@@ -17,7 +17,7 @@ Students who have their own study materials (lecture PDFs, textbook excerpts, no
 - Can read/write in the language the PDF is written in
 
 ## Which SDG it addresses and why
-**SDG 4 — Quality Education.** A major barrier to effective studying isn't access to material, it's time: converting a 20-page reading into usable active-recall practice (flashcards, quiz questions) can take far longer than reading it once, so many students skip active recall entirely and re-read passively instead, which is a much less effective study method. QuickStudy Hub removes that bottleneck, making evidence-based study techniques (flashcards, retrieval practice) accessible to any student with a PDF, not just those with time to build their own materials by hand.
+**SDG 4 - Quality Education.** A major barrier to effective studying isn't access to material, it's time: converting a 20-page reading into usable active-recall practice (flashcards, quiz questions) can take far longer than reading it once, so many students skip active recall entirely and re-read passively instead, which is a much less effective study method. QuickStudy Hub removes that bottleneck, making evidence-based study techniques (flashcards, retrieval practice) accessible to any student with a PDF, not just those with time to build their own materials by hand.
 
 ## How to run it
 ```sh
@@ -26,7 +26,7 @@ cd quickstudy-hub
 npm i
 npm run dev
 ```
-Requires a `LOVABLE_API_KEY` environment variable (for AI generation) and a configured Supabase project (for storage/auth) — see `.env` setup in the Lovable project settings.
+Requires a `LOVABLE_API_KEY` environment variable (for AI generation) and a configured Supabase project (for storage/auth) - see `.env` setup in the Lovable project settings.
 
 ## Ethical reflection
 **Who is excluded?** Students without reliable internet (the AI generation step requires a live connection), without a digital/searchable PDF (scanned handwritten notes produce no extractable text and are rejected), or who can't afford data/device costs. Students who rely on screen readers may also be underserved, since PDF layout extraction isn't accessibility-tested.
