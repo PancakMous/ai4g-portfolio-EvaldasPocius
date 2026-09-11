@@ -35,4 +35,4 @@ Requires a `LOVABLE_API_KEY` environment variable (for AI generation) and a conf
 
 **Misuse risk.** Because the AI is instructed not to invent facts, output is reasonably grounded - but it can still misread ambiguous or poorly-formatted source text and generate a subtly wrong flashcard that a student then studies as fact, with no second check. There's also a risk of over-reliance: a student could use the app to generate "study material" without ever reading the source PDF themselves, mistaking recognition of an AI-written answer for actual understanding. Mitigation: the in-app PDF reader is kept alongside the generated cards specifically so students can verify against the source, and answers are capped short (max 15 words) to reduce room for confident-sounding fabrication.
 
-##Link to the Website** https://studyquick.lovable.app
+**Link to the Website** https://studyquick.lovable.app
