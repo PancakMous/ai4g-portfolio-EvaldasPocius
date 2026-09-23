@@ -26,11 +26,20 @@ RETRY_DELAY_SECONDS = 5  # doubles each retry: 5s, 10s, 20s
 
 def get_client() -> genai.Client:
     api_key = os.environ.get("GEMINI_API_KEY")
+
+    if not api_key:
+        try:
+            import streamlit as st
+            api_key = st.secrets["GEMINI_API_KEY"]
+        except Exception:
+            pass
+
     if not api_key:
         raise RuntimeError(
-            "No API key found. Create a .env file next to this script "
-            "containing: GEMINI_API_KEY=your-key-here"
+            "No API key found. Set GEMINI_API_KEY in your .env file "
+            "when running locally or in Streamlit Secrets when deployed."
         )
+
     return genai.Client(api_key=api_key)
 
 
