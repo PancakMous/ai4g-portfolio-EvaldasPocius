@@ -296,6 +296,15 @@ The demo shows:
 
 ---
 
+## Who did what?
+The work was divided between the two team members, with some parts completed individually and other parts done collaboratively.
+One team member worked primarily on the Streamlit application and its functionality, including the implementation of the application flow.
+The other team member focused primarily on the interface and UI design, including how the application and its results are presented to the user.
+Both team members worked together on the Gemini API setup and API key configuration, as well as testing the AI functionality.
+The documentation, project description, ethical reflection, and overall project development were completed collaboratively.
+
+---
+
 ## 📝 Hackathon Requirements Checklist
 
 | Requirement                     | Dutch4You                                        |
