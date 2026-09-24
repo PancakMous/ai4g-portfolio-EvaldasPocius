@@ -19,6 +19,16 @@ The user pastes Dutch text into the application and receives:
 
 ---
 
+## User group
+
+Intended users: international and exchange students, and other newcomers with little or no Dutch. They paste text from a phone or laptop, often under time pressure, and act on the result themselves.
+Not intended users:
+People who need a certified or legally valid translation.
+People in a legal or immigration dispute (for example a decision from the IND).
+People who need to translate images, scans, audio or handwriting. The prototype accepts pasted text only.
+
+---
+
 ## 🎯 The Problem
 
 Many important communications in the Netherlands are written in Dutch. For someone who is still learning Dutch, understanding an official letter can be difficult, especially when the text contains deadlines, payments, required documents, or other actions.
