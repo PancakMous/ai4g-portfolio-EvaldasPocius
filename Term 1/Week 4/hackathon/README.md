@@ -2,7 +2,7 @@
 ### A 28-second climate short film, generated in ComfyUI
 **AI for Good — Hackathon 4 "Picture the Planet" · SDG 13: Climate Action**
 
-▶ **Watch on YouTube (unlisted):** TODO_PASTE_YOUTUBE_LINK
+▶ **Watch on YouTube (https://youtu.be/nW8UBwSIesA):** 
 🎬 **Film file:** [`film/silent_tides.mp4`](film/silent_tides.mp4)
 🧩 **ComfyUI workflow:** [`workflow/silent_tides_workflow.json`](workflow/silent_tides_workflow.json)
 
@@ -25,7 +25,7 @@ README.md                           this file
 | Name | Contribution |
 |---|---|
 | **Lan Dinh** | Storyboard and shot list, refining the ComfyUI workflow (prompts, seeds, frame lengths), rendering all 7 shots, README and ethical reflection |
-| **Evaldas [TODO: surname]** | Base ComfyUI workflow (Wan 2.2 TI2V setup), voiceover (Kokoro TTS in ComfyUI), editing the final cut in CapCut |
+| **Evaldas Pocius** | Base ComfyUI workflow (Wan 2.2 TI2V setup), voiceover (Kokoro TTS in ComfyUI), editing the final cut in CapCut and ethical reflection |
 
 ---
 
