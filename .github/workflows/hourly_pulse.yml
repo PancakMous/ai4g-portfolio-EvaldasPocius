@@ -1,16 +1,23 @@
-name: Hourly Autonomous Live Pulse Ingestion
+name: Hourly Live Pulse
 
 on:
   schedule:
-    # Trigger at minute 0 of every hour (24/7)
     - cron: '0 * * * *'
-  workflow_dispatch: # Allows manual trigger from GitHub Actions dashboard
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: live-pulse
+  cancel-in-progress: false
 
 jobs:
-  ingest-and-sync:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
+  ingest:
+    runs-on: ubuntu-24.04
+    defaults:
+      run:
+        working-directory: "Term 1/Week 6/hackathon"
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -19,28 +26,34 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-          cache: 'pip'
 
-      - name: Install dependencies
+      - name: Cache Hugging Face model
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-robbert-v1
+
+      - name: Install dependencies (CPU-only torch is much faster on GitHub runners)
         run: |
           python -m pip install --upgrade pip
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
           pip install -r requirements.txt
 
-      - name: Run autonomous live fetch & sentiment scoring
+      - name: Fetch, score and store new posts
         env:
           HF_HUB_DISABLE_SYMLINKS_WARNING: "1"
           TOKENIZERS_PARALLELISM: "false"
-        run: |
-          python run.py --fetch
+        run: python run.py --fetch
 
-      - name: Commit and push updated live data to repository & GitHub Pages
+      - name: Commit and push updated data
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action [Live Pulse]"
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action [Live Pulse]"
           git add data/pulse.db data/collected_posts.json docs/pulse_data.json docs/index.html
-          if git diff-index --quiet HEAD --; then
-            echo "No new commuter posts fetched this hour."
+          if git diff --cached --quiet; then
+            echo "No new posts this hour."
           else
-            git commit -m "chore(live-pulse): hourly live stream sync [$(date -u +'%Y-%m-%d %H:%M UTC')]"
+            git commit -m "chore(live-pulse): hourly sync [$(date -u +'%Y-%m-%d %H:%M UTC')]"
+            git pull --rebase -X theirs
             git push
           fi
