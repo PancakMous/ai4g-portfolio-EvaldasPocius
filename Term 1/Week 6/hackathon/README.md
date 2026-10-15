@@ -1,4 +1,7 @@
 # NS Rail Live Pulse: Passenger Sentiment Radar 🚆
+### The link to the site
+https://pancakmous.github.io/ai4g-portfolio-EvaldasPocius/
+
 ### Autonomous Stream Intelligence for Dutch Rail Infrastructure (SDG 9)
 
 **Live Pulse** is an autonomous sentiment monitoring system designed for Dutch public railway infrastructure (Nederlandse Spoorwegen - NS and ProRail). It continuously ingests real-time commuter reactions and incident announcements from live social and transit data streams, analyzes the sentiment of each item using a local pre-trained Dutch transformer (**RobBERT**), stores the results in a persistent time-series database, and visualizes passenger mood shifts on an interactive dashboard tailored for transit operational decision-makers.
