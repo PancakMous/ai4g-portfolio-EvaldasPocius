@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 581,
+    "total_posts": 582,
     "positive_count": 452,
     "neutral_count": 0,
-    "negative_count": 129,
+    "negative_count": 130,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-15T11:12:05+00:00",
-    "net_sentiment": 55.6
+    "latest_post": "2026-10-15T11:22:11.694000+00:00",
+    "net_sentiment": 55.3
   },
   "timeline": [
     {
@@ -3377,15 +3377,28 @@
     },
     {
       "time_bucket": "2026-10-15 11:00",
-      "total_count": 2,
+      "total_count": 3,
       "positive_count": 1,
       "neutral_count": 0,
-      "negative_count": 1,
-      "avg_confidence": 0.992,
-      "net_sentiment": 0.0
+      "negative_count": 2,
+      "avg_confidence": 0.9940000000000001,
+      "net_sentiment": -33.3
     }
   ],
   "posts": [
+    {
+      "id": "masto_1a6d7464b687",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-15T11:22:11.694000+00:00",
+      "fetched_at": "2026-10-15T11:34:02.963708+00:00",
+      "text": "STORING: defecte trein Sittard - Heerlen #storing #ns #arriva",
+      "url": "https://mastodon.nl/@rijdendetreinen/117444662505735052",
+      "primary_sentiment": "negative",
+      "primary_score": 0.998,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "masto_0e24b8f4f4c5",
       "source": "mastodon:mastodon.nl",
@@ -6622,20 +6635,7 @@
       "secondary_sentiment": "neutral",
       "secondary_score": 0.5,
       "language": "de"
-    },
-    {
-      "id": "masto_b23e486fd84c",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-07T04:38:10+00:00",
-      "fetched_at": "2026-10-09T10:36:52.193323Z",
-      "text": "PKP Intercity i Alstom: Budowa “piętrusów” zacznie się na początku 2027 r. #Alstom #AlstomPolska #Biznes #Business #CoradiaMax #Intercity #Kolej #KolejeMazowieckie #PiętroweEzt #PiętroweZespołyTrakcyjne #PKP #PKPIntercity #PL #Poland #Polish #Polska #Polski #PrzewozyRegionalne #RozkładyJazdyPKP #RynekKolejowy",
-      "url": "https://pubeurope.com/@pl/117397775321060956",
-      "primary_sentiment": "positive",
-      "primary_score": 0.997,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "pl"
     }
   ],
-  "updated_at": "2026-10-15T11:17:56.240459+00:00"
+  "updated_at": "2026-10-15T11:34:03.022706+00:00"
 }

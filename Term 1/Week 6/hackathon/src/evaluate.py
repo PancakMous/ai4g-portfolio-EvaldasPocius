@@ -138,35 +138,147 @@ def run_evaluation():
             })
     print(f"Exported evaluation table to {csv_file}")
 
-    # Generate Markdown Report
-    failures = [r for r in results if not r["robbert_match"]]
-    with open("data/test_evaluation_report.md", "w", encoding="utf-8") as f:
-        f.write("# Model Evaluation & Benchmark Report\n\n")
-        f.write(f"- **Golden Test Set Size**: {n} manually verified items\n")
-        f.write(f"- **Primary Model (DTAI-KULeuven/robbert-v2-dutch-sentiment)**: **{acc_robbert}% Accuracy**\n")
-        f.write(f"- **Secondary Model (cardiffnlp/twitter-roberta-base-sentiment-latest)**: **{acc_roberta}% Accuracy**\n")
-        f.write(f"- **Baseline (Rule-based Dutch Lexicon)**: **{acc_baseline}% Accuracy**\n\n")
-        
-        f.write("## Detailed Disagreement & Failure Analysis\n\n")
-        f.write("### Failure Mode 1: Resolution & Negation in Operational Alerts ('Storing voorbij')\n")
-        f.write("- **Example**: `Storing voorbij: defecte trein Utrecht - Amersfoort`\n")
-        f.write("- **Human Label**: `neutral` (operational restoration of service)\n")
-        f.write("- **Model Output**: `negative` (0.994)\n")
-        f.write("- **Why it failed**: The token 'defecte trein' heavily outweighs 'voorbij' in RoBERTa embedding space, triggering strong negative classification even when the incident has resolved.\n\n")
-        
-        f.write("### Failure Mode 2: Official Outage Format Lacking Subjective Adjectives\n")
-        f.write("- **Example**: `STORING: overwegstoring 's-Hertogenbosch - Oss #storing #ns`\n")
-        f.write("- **Human Label**: `negative` (passenger disruption)\n")
-        f.write("- **Model Output**: `positive` (0.992 in raw RoBBERT without fine-tuning)\n")
-        f.write("- **Why it failed**: Factual infrastructure status announcements lack emotional modifiers (e.g., 'vreselijk', 'boos'). Pre-trained models trained on general reviews misattribute the formal tone as positive/neutral unless fine-tuned.\n\n")
-
-        f.write("### Failure Mode 3: Sarcasm, Irony & Dutch Rail Slang\n")
-        f.write("- **Example**: `morgen de hele dag geen openbaar vervoer 😟 Ze gaan staken, ik snap de woede maar reizigers zijn de dupe`\n")
-        f.write("- **Human Label**: `negative`\n")
-        f.write("- **Secondary Model Output**: `neutral` (0.64)\n")
-        f.write("- **Why it failed**: Multilingual Twitter RoBERTa dilutes Dutch nuance and emojis when mixed with empathetic phrases ('ik snap de woede').\n\n")
-
+    write_report(results)
     return results
 
+
+# ---------------------------------------------------------------------------
+# Report generation (works on the rows produced above OR on test_comparison_table.csv)
+# ---------------------------------------------------------------------------
+
+def _is_alert(text):
+    """Machine-generated disruption alerts (e.g. 'STORING: defecte trein ...')."""
+    return text.startswith(("STORING", "Storing voorbij"))
+
+
+def _acc(rows, key):
+    hit = sum(1 for r in rows if r[key] == r["ground_truth"])
+    return hit, len(rows)
+
+
+def _fmt(rows, key):
+    hit, n = _acc(rows, key)
+    return f"{hit}/{n} ({hit / n * 100:.1f}%)" if n else "n/a"
+
+
+def _example(results, item_id):
+    for r in results:
+        if r["id"] == item_id:
+            return r
+    return None
+
+
+def build_report(results):
+    n = len(results)
+    non_neutral = [r for r in results if r["ground_truth"] != "neutral"]
+    human = [r for r in results if not _is_alert(r["text"])]
+    alerts = [r for r in results if _is_alert(r["text"])]
+    n_neutral = n - len(non_neutral)
+    n_unreachable = sum(1 for r in results if r["ground_truth"] == "neutral")
+
+    lines = []
+    w = lines.append
+    w("# Model Evaluation & Benchmark Report\n")
+    w(f"Test set: **{n} items** from our own stream, labelled by hand (negative / neutral / positive). "
+      f"Models: RobBERT (`DTAI-KULeuven/robbert-v2-dutch-sentiment`), Cardiff RoBERTa "
+      f"(`cardiffnlp/twitter-roberta-base-sentiment-latest`) and a rule-based Dutch rail word list.\n")
+
+    w("## Accuracy, overall and by subset\n")
+    w("| Subset | Items | RobBERT | Cardiff RoBERTa | Word list |")
+    w("|:---|:---:|:---:|:---:|:---:|")
+    for name, rows in [
+        ("All items", results),
+        (f"Only items RobBERT *can* get right (label is not neutral)", non_neutral),
+        ("Human-written posts (not machine alerts)", human),
+        ("Machine-generated alerts (`STORING:` / `Storing voorbij:`)", alerts),
+    ]:
+        w(f"| {name} | {len(rows)} | {_fmt(rows, 'pred_robbert')} | {_fmt(rows, 'pred_roberta')} | {_fmt(rows, 'pred_lexicon')} |")
+    w("")
+
+    w("### How to read these numbers\n")
+    w(f"- **RobBERT has only two labels (positive / negative) and can never answer neutral.** "
+      f"{n_neutral} of our {n} labels are neutral, so those {n_unreachable} items are guaranteed misses. "
+      f"The headline accuracy therefore partly measures our label scheme, not the model. "
+      f"On the {len(non_neutral)} items where a correct answer was possible, RobBERT scores {_fmt(non_neutral, 'pred_robbert')}.")
+    w(f"- **{len(alerts)} of {n} items are near-identical machine alerts** from one kind of source, so the set is not very varied. "
+      f"The human-written posts are the more interesting test: RobBERT {_fmt(human, 'pred_robbert')}, "
+      f"word list {_fmt(human, 'pred_lexicon')}, Cardiff {_fmt(human, 'pred_roberta')}.")
+    cardiff_neutral = sum(1 for r in results if r["pred_roberta"] == "neutral")
+    w(f"- **Cardiff RoBERTa answers neutral for {cardiff_neutral} of {n} items.** It scores on the neutral labels and almost nowhere else "
+      f"({_fmt(non_neutral, 'pred_roberta')} on non-neutral items). It is an English model used on Dutch text.")
+    w("- **The word list looks strong on the alerts** because words like *storing* and *defect* are in the list, "
+      "so it is tuned to exactly this kind of text. It is much weaker on human-written posts, and it only knows words we wrote down.")
+    w(f"- Only {sum(1 for r in results if r['ground_truth'] == 'positive')} items are labelled positive, so a difference of one or two items is not meaningful.\n")
+
+    w("## Failure analysis\n")
+    w("Why-explanations below are our best reading of the model's behaviour, not something we proved.\n")
+
+    ex = _example(results, "masto_83728f4a0532")
+    if ex:
+        w("### 1. No neutral class: resolved incidents (systematic)")
+        w(f"- **Post**: `{ex['text']}`")
+        w(f"- **Human label**: `neutral` (the disruption is over) | **RobBERT**: `{ex['pred_robbert']}` ({ex['score_robbert']})")
+        w("- **Why**: RobBERT cannot say neutral, and the words *defecte trein* carry negative meaning. "
+          "The resolution marker *voorbij* (over) does not flip it. Every `Storing voorbij` item in the test set is wrong "
+          f"({_fmt([r for r in results if r['text'].startswith('Storing voorbij')], 'pred_robbert')} correct).\n")
+
+    ex = _example(results, "masto_d84be4e26ecb")
+    if ex:
+        alert_neg = [r for r in results if r["text"].startswith("STORING")]
+        wrong_pos = [r for r in alert_neg if r["pred_robbert"] == "positive"]
+        w("### 2. Factual alerts with no emotional words (systematic, and the dangerous direction)")
+        w(f"- **Post**: `{ex['text']}`")
+        w(f"- **Human label**: `negative` | **RobBERT**: `{ex['pred_robbert']}` ({ex['score_robbert']})")
+        w(f"- **Why**: the model was fine-tuned on book reviews, where sentiment is carried by adjectives. "
+          f"A bare alert has none, and compounds such as *overwegstoring* are probably rare in its training text. "
+          f"{len(wrong_pos)} of {len(alert_neg)} `STORING` alerts were read as **positive**. "
+          "For an early-warning tool, false calm is worse than a false alarm.\n")
+
+    ex = _example(results, "masto_fa0a8827f19c")
+    if ex:
+        w("### 3. Mixed message: polite surface, implicit complaint")
+        w(f"- **Post**: `{ex['text']}`")
+        w(f"- **Human label**: `negative` | **RobBERT**: `{ex['pred_robbert']}` ({ex['score_robbert']})")
+        w("- **Why**: the post opens with a friendly greeting (*Goedendag*) and contains no complaint word. "
+          "The negative part (*pas nu*, only now) is implicit and needs context.\n")
+
+    ex = _example(results, "masto_463b6da81e5d")
+    if ex:
+        w("### 4. Irony / silver-lining phrasing")
+        w(f"- **Post**: `{ex['text']}`")
+        w(f"- **Human label**: `neutral` | **RobBERT**: `{ex['pred_robbert']}` ({ex['score_robbert']})")
+        w("- **Why**: *geniet van de rust* (enjoy the quiet) reads as clearly positive on its own, "
+          "but here it is a light-hearted comment on a strike announcement. The model reads the words, not the situation. "
+          "(Our label is also debatable: some readers would call this post negative.)\n")
+
+    ex = _example(results, "masto_518dab44e3cd")
+    if ex:
+        w("### 5. Jargon and hashtag-only text")
+        w(f"- **Post**: `{ex['text']}`")
+        w(f"- **Human label**: `negative` | **RobBERT**: `{ex['pred_robbert']}` ({ex['score_robbert']})")
+        w("- **Why**: there is no sentence, only a list of hashtags around the word *Vertraging* (delay). "
+          "There is almost no context for a model trained on full book reviews.\n")
+
+    w("## Which model would we hand to the user?\n")
+    w("See section 7 of the README for the recommendation and its caveats.\n")
+    return "\n".join(lines)
+
+
+def write_report(results, path="data/test_evaluation_report.md"):
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(build_report(results))
+    print(f"Exported evaluation report to {path}")
+
+
+def load_results_from_csv(path="data/test_comparison_table.csv"):
+    """Rebuild the report from the saved CSV without re-running the models."""
+    with open(path, encoding="utf-8", newline="") as f:
+        return list(csv.DictReader(f))
+
+
 if __name__ == "__main__":
-    run_evaluation()
+    import sys
+    if "--report-only" in sys.argv:
+        write_report(load_results_from_csv())
+    else:
+        run_evaluation()

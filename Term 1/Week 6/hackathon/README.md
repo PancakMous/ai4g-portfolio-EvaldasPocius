@@ -44,22 +44,28 @@ The tool ingests continuously from live, public feeds:
 ## 4. Pre-trained Hugging Face Transformer
 
 ### Primary Model: RobBERT Dutch Sentiment
-- **Model Identifier**: `DTAI-KULeuven/robbert-v2-dutch-sentiment` (RoBERTa architecture pre-trained on large-scale Dutch corpora and fine-tuned for sentiment).
-- **Why this model**: Dutch railway discourse contains idiomatic phrasing, transit slang, and Dutch syntactic structure (e.g., compound words like *wisselstoring*, *vertraging*, *bovenleiding*) that generic English models fail to parse.
-- **Local Execution**: Loaded and run offline via Hugging Face `transformers` pipeline on local hardware (PyTorch backend).
+- **Model Identifier**: `DTAI-KULeuven/robbert-v2-dutch-sentiment` (RoBERTa architecture, Dutch).
+- **Why this model**: Dutch railway discourse contains compound words (*wisselstoring*, *vertraging*, *bovenleiding*) and Dutch sentence structure that English-only models handle badly.
+- **Local Execution**: Loaded and run by our own code (`src/models.py`) through the Hugging Face `transformers` pipeline (PyTorch backend). We did **not** fine-tune it.
 
 #### Model Card Summary
 
 | Detail | Value |
 |:---|:---|
-| **Trained on** | Dutch Wikipedia, news articles, books, and CommonCrawl web text (CCNet Dutch) |
+| **Trained on** | Two steps. (1) The base model, RobBERT v2, was pre-trained on the Dutch section of the OSCAR web-text corpus (about 39 GB). (2) The sentiment version was then fine-tuned on the **Dutch Book Reviews Dataset (DBRD)**: book reviews from hebban.nl labelled positive or negative. |
+| **Text type** | Long, opinionated book reviews. **Not** tweets, short social posts or service alerts. |
 | **Language** | Dutch (`nl`) only |
-| **Labels** | `positive`, `negative` |
+| **Labels** | `positive`, `negative` only. **There is no neutral label.** |
 | **Licence** | MIT |
 
-### Benchmark Comparison Models:
-- **Secondary Model**: `cardiffnlp/twitter-roberta-base-sentiment-latest` (multilingual RoBERTa).
-- **Rule-based Baseline**: Domain-specific Dutch railway lexicon matcher.
+**What this means for us:** a model fine-tuned on book reviews expects sentiment to be carried by adjectives in full sentences. Our stream is mostly short posts and factual outage alerts, and the model can never answer "neutral". Section 7 shows where this hurts.
+
+### Comparison Models
+- **Secondary Model**: `cardiffnlp/twitter-roberta-base-sentiment-latest`: a RoBERTa model trained on English tweets with three labels (negative / neutral / positive). We use it as a deliberately "wrong-language" comparison, so its low score on Dutch text is expected.
+- **Rule-based Baseline**: a Dutch railway word list (`DUTCH_POSITIVE_WORDS` / `DUTCH_NEGATIVE_WORDS` in `src/models.py`). It has three outputs, including neutral.
+
+### Language mix in the collected stream
+Not every collected post is Dutch: of the 582 stored items, 406 are tagged Dutch and 176 (about 30%) are tagged as another language (German, Polish, French, Romanian and others). These pass through a Dutch-only model, so their scores are less reliable.
 
 ---
 
@@ -107,34 +113,56 @@ python run.py --evaluate
 - **On-Demand Live Refresh**: Click the **"Refresh Live Feed Now"** button in the dashboard at any time to ingest and score the latest posts instantly.
 - **GitHub Pages / Cloud Automation (`.github/workflows/hourly_pulse.yml`)**: Includes an autonomous GitHub Actions cron job that runs every hour (`0 * * * *`) to fetch the latest transit posts and push fresh data directly to GitHub Pages.
 
+### Checking that the pipeline really ran continuously
+Every stored post has a `fetched_at` timestamp. To see how many items each hourly run added, run:
+
+```bash
+sqlite3 data/pulse.db "SELECT substr(fetched_at,1,13) AS hour, COUNT(*) FROM posts GROUP BY hour ORDER BY hour;"
+```
+
+A continuous pipeline shows one row per hour that had new posts. The first run (`python run.py --fetch`) collected a backlog, so it adds many items at once, and some of those posts were published long before the pipeline started (the `created_at` field shows when a post was written, `fetched_at` when we collected it). The GitHub Actions workflow only runs once the repository is pushed to GitHub.
+
 ---
 
 ## 7. Model Evaluation & Honest Failure Analysis
 
-A gold-standard test set of **52 real transit posts** was manually annotated and benchmarked against both transformer models and the baseline.
+We labelled **52 posts from our own stream** by hand (33 negative, 15 neutral, 4 positive) and compared three systems on exactly the same items. The labels are in `src/evaluate.py`; the full per-item table is `data/test_comparison_table.csv` and the full write-up is `data/test_evaluation_report.md`. Re-run with `python run.py --evaluate`.
 
-### Quantitative Benchmark:
-| Model / Pipeline | Correct / Total | Accuracy | Notes |
-| :--- | :---: | :---: | :--- |
-| **RobBERT Dutch (Primary)** | **31 / 52** | **59.6%** | High sensitivity to emotional and negative vocabulary. |
-| **Rule-based Lexicon Baseline** | 25 / 52 | 48.1% | Fast, but misses subtle context and implicit sentiment. |
-| **Cardiff RoBERTa (Secondary)** | 18 / 52 | 34.6% | Defaulted heavily to neutral on non-English text. |
+### 7.1 Results
 
-### Failure Analysis (3 Key Failure Archetypes):
-1. **Resolution vs. Incident Negation ('Storing voorbij')**:
-   - *Post*: *"Storing voorbij: defecte trein Utrecht - Amersfoort"*
-   - *Ground Truth*: `neutral` (service restored).
-   - *Model Prediction*: `negative` (0.994).
-   - *Root Cause*: The heavy negative weight of *"defecte trein"* overpowers the resolution marker *"voorbij"*.
-2. **Factual Alerts Lacking Subjective Sentiment**:
-   - *Post*: *"STORING: overwegstoring 's-Hertogenbosch - Oss #storing #ns"*
-   - *Ground Truth*: `negative` (disruption).
-   - *Model Prediction*: `positive` (0.992).
-   - *Root Cause*: Pre-trained review models expect emotional adjectives (*vreselijk*, *slecht*). In their absence, formal announcements get misclassified.
-3. **Irony & Empathy Nuances**:
-   - *Post*: *"morgen de hele dag geen openbaar vervoer 😟 Ze gaan staken, ik snap de woede maar reizigers zijn de dupe"*
-   - *Ground Truth*: `negative`.
-   - *Model Prediction*: Tendency to misweigh *"ik snap de woede"* (understanding/solidarity) against passenger frustration.
+| Subset | Items | RobBERT | Cardiff RoBERTa | Word list |
+|:---|:---:|:---:|:---:|:---:|
+| All items | 52 | **31/52 (59.6%)** | 18/52 (34.6%) | 25/52 (48.1%) |
+| Labels RobBERT *can* produce (non-neutral) | 37 | **31/37 (83.8%)** | 3/37 (8.1%) | 22/37 (59.5%) |
+| Human-written posts | 24 | **19/24 (79.2%)** | 6/24 (25.0%) | 9/24 (37.5%) |
+| Machine-generated alerts (`STORING:` / `Storing voorbij:`) | 28 | 12/28 (42.9%) | 12/28 (42.9%) | **16/28 (57.1%)** |
+
+### 7.2 How to read the numbers (caveats)
+- **RobBERT cannot say neutral.** 15 of the 52 labels are neutral, so those are guaranteed misses. The 59.6% headline number partly measures our label scheme, not the model. The fairer figure is 31/37 (83.8%) on items where a correct answer was possible.
+- **28 of the 52 items are near-identical machine alerts**, so the test set is not very varied. The human-written subset (24 items) says more about real commuter posts.
+- **Cardiff says "neutral" for 49 of 52 items.** It scores on the neutral labels and almost nowhere else. It is an English model on Dutch text.
+- **The word list is tuned to the alerts** (words like *storing* and *defect* are in the list), so its good score on alerts is optimistic. It is weak on human-written posts.
+- Only 4 items are positive, so differences of one or two items are not meaningful.
+
+### 7.3 Failure analysis
+Explanations are our best reading, not proven. More detail is in `data/test_evaluation_report.md`.
+
+1. **No neutral class (systematic).** `Storing voorbij: defecte trein Utrecht - Amersfoort #ns` is labelled *neutral* (the disruption is over) but RobBERT says `negative` (0.994). The words *defecte trein* carry negative meaning and *voorbij* does not flip them. All 12 `Storing voorbij` items are wrong.
+2. **Factual alerts without emotional words (systematic, dangerous direction).** `STORING: overwegstoring 's-Hertogenbosch - Oss #storing #ns` is labelled *negative* but RobBERT says `positive` (0.992). 4 of the 16 `STORING` alerts were read as positive. A model trained on book reviews looks for adjectives, and a bare alert has none.
+3. **Mixed message.** `Goedendag, u heeft contact met de virtuele AI assistent van de meldkamer NS. De melding komt nu pas bij mij binnen.` is labelled *negative* but RobBERT says `positive` (0.785). The friendly greeting hides an implicit complaint (*pas nu*, only now).
+4. **Irony / silver lining.** `Morgen staken de NS-medewerkers weer. Werk dus een dagje thuis of geniet van de rust` is labelled *neutral* but RobBERT says `positive` (0.995). *Geniet van de rust* is positive on its own but here it is a light comment on a strike. (Our label is debatable here.)
+5. **Jargon / hashtags only.** `Vertraging - #duitsland, #groningen, #trein, #vertraging` is labelled *negative* but RobBERT says `positive` (0.889). There is no sentence to read, only hashtags.
+
+### 7.4 Which model would we hand to the user?
+**RobBERT, with clear caveats.** Maaike's early-warning signal comes from what commuters write, and on the 24 human-written posts RobBERT scores 19/24 against 9/24 for the word list and 6/24 for Cardiff. Cardiff is not usable for Dutch (it calls almost everything neutral). The word list is excellent on official alerts, but only because it contains the words that appear in them, and it misses most human posts.
+
+What Maaike should know before relying on it:
+- **There is no neutral.** The "positive" share on the dashboard is overstated, because factual alerts and neutral news land in positive or negative. The negative share is the more meaningful signal.
+- **False calm.** 4 of 16 outage alerts were read as positive. For an early-warning tool this is the wrong direction to be wrong in.
+- **About 30% of stored items are not Dutch** and pass through a Dutch-only model.
+- **Small test set** (52 items, only 4 positive).
+
+**Suggested next steps (not tested yet):** treat the official alert format with a simple rule (or count those posts as incident volume instead of sentiment), and fine-tune RobBERT on a larger set of labelled rail posts with a neutral label.
 
 ---
 
@@ -170,6 +198,6 @@ This dashboard is an early-warning **decision-support tool only**. It must not b
 - `src/scheduler.py`: Continuous background daemon.
 - `src/app.py` & `src/static/index.html`: Non-technical interactive live dashboard.
 - `src/evaluate.py`: Benchmark evaluation suite.
-- `data/collected_posts.json`: **431 real posts** collected across the stream.
+- `data/collected_posts.json`: **582 real posts** collected across the stream (also stored in `data/pulse.db`).
 - `data/test_comparison_table.csv`: 52 manually labeled items with predictions from all models.
-- `data/test_evaluation_report.md`: Detailed failure analysis report.
+- `data/test_evaluation_report.md`: Subset accuracies and failure analysis (regenerate with `python -m src.evaluate --report-only`).
