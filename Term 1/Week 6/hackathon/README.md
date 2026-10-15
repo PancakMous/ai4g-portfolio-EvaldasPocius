@@ -6,8 +6,8 @@
 ---
 
 ## 1. Target Persona & Operational Decision
-- **Named Persona**: **Maaike van Dijk**, Lead Incident Response & Passenger Experience Manager at NS Customer Operations Desk.
-- **The Problem Today**: Commuter frustration with train delays, platform overcrowding, or rolling stock breakdowns typically bubbles up on social streams 30–60 minutes before escalating into formal press queries or major news headlines. By the time operations reads about it in the media, station halls are already overwhelmed.
+- **Named Persona (fictional)**: **Maaike van Dijk**, Lead Incident Response & Passenger Experience Manager at NS Customer Operations Desk. She is an invented persona representing this kind of operations role.
+- **The Problem Today**: Rail disruptions are frequent and costly for passengers. ProRail registered 586 high-impact disruptions in 2025, above the maximum of 520 it had agreed with the ministry (507 in 2024), and received a fine of EUR 2.75 million (source: [NOS](https://nos.nl/l/2615469)). Passengers react to disruptions online, but those reactions are spread over many posts and hard to follow as one signal. We assume this could give operations an extra early signal; **we have not measured** how much earlier social posts appear than press coverage, so we do not claim a lead time.
 - **The Operational Decision**: 
   - When the **Live Pulse Net Sentiment** drops below **-30.0** (or negative disruption posts spike on a specific corridor like *Utrecht–Amsterdam* or *Rotterdam–Eindhoven*), Maaike immediately:
     1. Triggers proactive push notifications in the NS App explaining the delay cause and rerouting advice.
@@ -36,8 +36,8 @@ The tool ingests continuously from live, public feeds:
 | **Reddit RSS** | No — public RSS feeds | ✅ Yes — Reddit's Terms of Service permit non-commercial automated RSS consumption; no scraping of private data |
 
 ### Privacy & Data Protection Compliance:
-- **Zero PII Stored**: User handles, screen names, profile URLs, avatars, and IDs are stripped immediately upon fetching.
-- **Data Minimization**: The pipeline stores only the sanitized post text, standard UTC timestamp, and sentiment classification.
+- **Pseudonymised, not fully anonymous**: usernames, display names, avatars and account IDs are not stored. However, each post keeps a `url` that links to the original post, and on Mastodon that link contains the author's public handle (for example `mastodon.nl/@handle/...`). The data is therefore pseudonymised, not fully anonymous.
+- **Data Minimization**: The pipeline stores the sanitized post text, a post ID, the source name, the post's creation time and our fetch time (UTC), the post `url`, a detected language tag, and the sentiment labels and scores. Nothing else.
 
 ---
 
@@ -47,15 +47,12 @@ The tool ingests continuously from live, public feeds:
 - **Model Identifier**: `DTAI-KULeuven/robbert-v2-dutch-sentiment` (RoBERTa architecture, Dutch).
 - **Why this model**: Dutch railway discourse contains compound words (*wisselstoring*, *vertraging*, *bovenleiding*) and Dutch sentence structure that English-only models handle badly.
 - **Local Execution**: Loaded and run by our own code (`src/models.py`) through the Hugging Face `transformers` pipeline (PyTorch backend). We did **not** fine-tune it.
-- **Important details from the model card**
-- Licence: MIT.
-- Dataset: The Dutch Book Reviews Dataset (DBRD), based on reviews from Hebban.nl.
-- How the labels are assigned: The original five-star ratings are grouped into three sentiment classes:
-  - Positive: 4- and 5-star reviews.
-  - Neutral: 3-star reviews.
-  - Negative: 1- and 2-star reviews.
-- Dataset split: Approximately 19,500 reviews for training, 528 for validation, and 2,224 for final accuracy evaluation.
-- Limitation: The model is trained on book reviews, so its performance on other kinds of text may be weaker.
+
+- **Details from the model card**:
+  - Licence: MIT.
+  - Fine-tuning data: the Dutch Book Reviews Dataset (DBRD), reviews from Hebban.nl. Roughly 19,500 reviews were used for training, 528 for validation and 2,224 for the final accuracy test.
+  - Limitation: the model is trained on book reviews, so it may work worse on other kinds of text, such as short social posts and service alerts.
+  - Labels: in every prediction we ran (the stored posts and the 52 test items) the model returned only `positive` or `negative`, never `neutral`.
 
 #### Model Card Summary
 
@@ -74,7 +71,7 @@ The tool ingests continuously from live, public feeds:
 - **Rule-based Baseline**: a Dutch railway word list (`DUTCH_POSITIVE_WORDS` / `DUTCH_NEGATIVE_WORDS` in `src/models.py`). It has three outputs, including neutral.
 
 ### Language mix in the collected stream
-Not every collected post is Dutch: of the 582 stored items, 406 are tagged Dutch and 176 (about 30%) are tagged as another language (German, Polish, French, Romanian and others). These pass through a Dutch-only model, so their scores are less reliable.
+Not every collected post is Dutch: of the first 582 stored items, 406 are tagged Dutch and 176 (about 30%) are tagged as another language (German, Polish, French, Romanian and others). These pass through a Dutch-only model, so their scores are less reliable.
 
 ---
 
@@ -130,6 +127,8 @@ sqlite3 data/pulse.db "SELECT substr(fetched_at,1,13) AS hour, COUNT(*) FROM pos
 ```
 
 A continuous pipeline shows one row per hour that had new posts. The first run (`python run.py --fetch`) collected a backlog, so it adds many items at once, and some of those posts were published long before the pipeline started (the `created_at` field shows when a post was written, `fetched_at` when we collected it). The GitHub Actions workflow only runs once the repository is pushed to GitHub.
+
+**Pipeline timeline (honest note).** Our first collection run was on 9 October 2026 (431 posts, a backlog from the hashtag timelines). Earlier runs were started by hand. The unattended hourly GitHub Actions job started on 15 October 2026, so continuous automatic collection only covers the time since then. The per-hour query above shows exactly which hours have data.
 
 ---
 
@@ -193,7 +192,7 @@ If NS Operations relies solely on automated sentiment alerts, rural routes with 
 This dashboard is an early-warning **decision-support tool only**. It must not be used to:
 
 1. **Make autonomous operational dispatch decisions** without a human operator reviewing the sentiment context and underlying posts first.
-2. **Identify, profile, or single out individual passengers or social media users** — no usernames, handles, or profile data are stored, and none should ever be added.
+2. **Identify, profile, or single out individual passengers or social media users** — no usernames or profile data are stored, and none should ever be added. The stored post `url` contains the author's handle on Mastodon, so it must not be used to look up or track individual accounts.
 3. **Represent the full passenger population**: the stream captures only tech-savvy, online, Dutch-posting commuters. It must not be treated as a statistically representative sample of all NS passengers.
 4. **Replace formal complaint channels or official passenger satisfaction surveys** — the tool is a fast-signal supplement, not a substitute for structured feedback.
 5. **Trigger punitive or disciplinary action against staff** based on a sentiment dip, since posts may reflect external factors (weather, infrastructure, third-party disruptions) entirely outside employee control.
@@ -207,6 +206,7 @@ This dashboard is an early-warning **decision-support tool only**. It must not b
 - `src/scheduler.py`: Continuous background daemon.
 - `src/app.py` & `src/static/index.html`: Non-technical interactive live dashboard.
 - `src/evaluate.py`: Benchmark evaluation suite.
-- `data/collected_posts.json`: **582 real posts** collected across the stream (also stored in `data/pulse.db`).
+- `data/collected_posts.json`: **600+ real posts** collected across the stream (582 when we analysed the language mix; the count grows every hour; also stored in `data/pulse.db`).
 - `data/test_comparison_table.csv`: 52 manually labeled items with predictions from all models.
 - `data/test_evaluation_report.md`: Subset accuracies and failure analysis (regenerate with `python -m src.evaluate --report-only`).
+g
