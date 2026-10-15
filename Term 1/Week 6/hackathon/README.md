@@ -47,6 +47,15 @@ The tool ingests continuously from live, public feeds:
 - **Model Identifier**: `DTAI-KULeuven/robbert-v2-dutch-sentiment` (RoBERTa architecture, Dutch).
 - **Why this model**: Dutch railway discourse contains compound words (*wisselstoring*, *vertraging*, *bovenleiding*) and Dutch sentence structure that English-only models handle badly.
 - **Local Execution**: Loaded and run by our own code (`src/models.py`) through the Hugging Face `transformers` pipeline (PyTorch backend). We did **not** fine-tune it.
+- **Important details from the model card**
+- Licence: MIT.
+- Dataset: The Dutch Book Reviews Dataset (DBRD), based on reviews from Hebban.nl.
+- How the labels are assigned: The original five-star ratings are grouped into three sentiment classes:
+  - Positive: 4- and 5-star reviews.
+  - Neutral: 3-star reviews.
+  - Negative: 1- and 2-star reviews.
+- Dataset split: Approximately 19,500 reviews for training, 528 for validation, and 2,224 for final accuracy evaluation.
+- Limitation: The model is trained on book reviews, so its performance on other kinds of text may be weaker.
 
 #### Model Card Summary
 
