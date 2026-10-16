@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 622,
-    "positive_count": 473,
+    "total_posts": 623,
+    "positive_count": 474,
     "neutral_count": 0,
     "negative_count": 149,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-15T23:33:35+00:00",
-    "net_sentiment": 52.1
+    "latest_post": "2026-10-15T23:43:11+00:00",
+    "net_sentiment": 52.2
   },
   "timeline": [
     {
@@ -3494,15 +3494,28 @@
     },
     {
       "time_bucket": "2026-10-15 23:00",
-      "total_count": 1,
-      "positive_count": 1,
+      "total_count": 2,
+      "positive_count": 2,
       "neutral_count": 0,
       "negative_count": 0,
-      "avg_confidence": 0.99,
+      "avg_confidence": 0.992,
       "net_sentiment": 100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_b291f3a5bd16",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-15T23:43:11+00:00",
+      "fetched_at": "2026-10-16T04:13:01.311856+00:00",
+      "text": "Floormanager Julia’s Groningen Bekijk hier de vacature: #vacature #groningen #ns",
+      "url": "https://vacatureforum.nl/@groningen/117447576245714631",
+      "primary_sentiment": "positive",
+      "primary_score": 0.994,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
     {
       "id": "masto_07e6dac55e0a",
       "source": "mastodon:mastodon.nl",
@@ -6739,20 +6752,7 @@
       "secondary_sentiment": "neutral",
       "secondary_score": 0.942,
       "language": "nl"
-    },
-    {
-      "id": "masto_90d69142c6e6",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-08T03:52:11.550000+00:00",
-      "fetched_at": "2026-10-09T10:36:47.505176Z",
-      "text": "STORING: gladde sporen Amersfoort - Ede-Wageningen #storing #keolis #rrreis",
-      "url": "https://mastodon.nl/@rijdendetreinen/117403256851507740",
-      "primary_sentiment": "positive",
-      "primary_score": 0.96,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-10-15T23:39:14.988315+00:00"
+  "updated_at": "2026-10-16T04:13:01.359833+00:00"
 }
