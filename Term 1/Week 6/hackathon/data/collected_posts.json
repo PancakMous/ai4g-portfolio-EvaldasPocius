@@ -1,5 +1,44 @@
 [
   {
+    "id": "masto_03ddff8a6896",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-10-16T09:01:15+00:00",
+    "fetched_at": "2026-10-16T09:38:53.450429+00:00",
+    "text": "📰 Luchtverkeer Italië verstoord door storing, ook op Schiphol vertraagde vluchten 🕚 10:59 | NOS Nieuws 🔸 #Storing #Sabotage #Schiphol #Hackers #Italie",
+    "url": "https://mastodon.social/@NieuwsJunkies/117449770628628113",
+    "primary_sentiment": "positive",
+    "primary_score": 0.996,
+    "secondary_sentiment": "negative",
+    "secondary_score": 0.7,
+    "language": "nl"
+  },
+  {
+    "id": "masto_93065ae19952",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-10-16T07:50:03+00:00",
+    "fetched_at": "2026-10-16T09:38:53.529844+00:00",
+    "text": "Migla Wins Riga Station Square Pavilion Contest #Architecture #CentralStation #city #Latvia #Origo #RailBaltica #Riga #station",
+    "url": "https://pubeurope.com/@dk/117449490646779932",
+    "primary_sentiment": "positive",
+    "primary_score": 0.998,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
+    "language": "en"
+  },
+  {
+    "id": "masto_7920ea8158bb",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-10-16T06:58:28+00:00",
+    "fetched_at": "2026-10-16T09:38:53.360760+00:00",
+    "text": "Verkoopmedewerker Kiosk Utrecht Centraal – NS – Breda Bekijk hier de vacature: #vacature #breda #ns",
+    "url": "https://vacatureforum.nl/@breda/117449287844614105",
+    "primary_sentiment": "positive",
+    "primary_score": 0.986,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
+    "language": "nl"
+  },
+  {
     "id": "masto_b291f3a5bd16",
     "source": "mastodon:mastodon.nl",
     "created_at": "2026-10-15T23:43:11+00:00",
