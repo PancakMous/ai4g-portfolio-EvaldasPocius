@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 737,
-    "positive_count": 554,
+    "total_posts": 739,
+    "positive_count": 556,
     "neutral_count": 0,
     "negative_count": 183,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-17T20:22:28+00:00",
-    "net_sentiment": 50.3
+    "latest_post": "2026-10-17T21:19:03+00:00",
+    "net_sentiment": 50.5
   },
   "timeline": [
     {
@@ -3806,9 +3806,44 @@
       "negative_count": 1,
       "avg_confidence": 0.921,
       "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-10-17 21:00",
+      "total_count": 2,
+      "positive_count": 2,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.998,
+      "net_sentiment": 100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_ace7fa781cb3",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-17T21:19:03+00:00",
+      "fetched_at": "2026-10-17T23:00:53.941401+00:00",
+      "text": "Le club d’Arsenal au coeur d’une vive polémique en Angleterre #BE #BEFr #belgaillustration #Belgique #Belgium #OpenbaarVervoer #Sports #TransportEnCommun",
+      "url": "https://pubeurope.com/@be_fr/117458334089019545",
+      "primary_sentiment": "positive",
+      "primary_score": 0.997,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "fr"
+    },
+    {
+      "id": "masto_4e8eacebd483",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-17T21:04:15.481000+00:00",
+      "fetched_at": "2026-10-17T23:00:53.838696+00:00",
+      "text": "[USER] brilliant. Applies to #NS as well",
+      "url": "https://mastodon.nl/@Hadewych/117458275891947562",
+      "primary_sentiment": "positive",
+      "primary_score": 0.999,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "en"
+    },
     {
       "id": "masto_4eee521b5b7c",
       "source": "mastodon:mastodon.nl",
@@ -7032,33 +7067,7 @@
       "secondary_sentiment": "neutral",
       "secondary_score": 0.5,
       "language": "nl"
-    },
-    {
-      "id": "masto_6a26be3b0f3f",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-13T14:35:07+00:00",
-      "fetched_at": "2026-10-15T11:12:17.211589+00:00",
-      "text": "POLREGIO zastąpi ŁKA na trasie z Łodzi do Radomia #Intercity #Kolej #KolejeMazowieckie #Linia17 #Linia22 #Linia25 #Łódź #ŁódzkaKolejAglomeracyjna #PKP #PL #Poland #Polish #polregio #Polska #Polski #PrzewozyRegionalne #RozkładyJazdyPKP #RynekKolejowy",
-      "url": "https://pubeurope.com/@pl/117434096516587279",
-      "primary_sentiment": "positive",
-      "primary_score": 0.997,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "pl"
-    },
-    {
-      "id": "masto_bd47d0232375",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-13T13:50:08+00:00",
-      "fetched_at": "2026-10-15T11:12:10.449729+00:00",
-      "text": "KORT NIEUWS: Woensdag rijden er geen RET-bussen Door een landelijke staking rijden er ook in Rotterdam geen RET-bussen. Trams en metro’s rijden wel. Onderwijs en toetsen gaan deze dag door, staat op intranetpagina Hint. ‘De staking kan gevolgen hebben voor studenten en medewerkers die naar de hogeschool willen reizen. Houd rekening met uitval van bussen en een langere reistijd’. Studenten en medewerkers die echt niet op school kunnen komen, wordt geadviseerd om contact op te nemen met resp. hun slc’er of leidinggevende. De vakbonden FNV en CNV eisen, schrijft het AD, onder meer afspraken ‘over het verlagen van de werkdruk, gezondere roosters, een ouderenregeling en een loonsverhoging. De werkgeversorganisatie vindt dat er al een ‘eerlijk voorstel’ ligt. Tekst: Redactie Profielen KORT NIEUWS: Woensdag rijden er geen RET-bussen13-10-2026 Door een landelijke staking rijden er ook in Rotterdam geen RET-bussen. Trams en metro’s rijden wel. Onderwijs en toetsen gaan deze dag door, staat op intranetpagina Hint. ‘De staking kan gevolgen hebben voor studenten en medewerkers die naar de hogeschool willen reizen. Houd rekening met uitval van bussen en een langere reistijd’. Studenten en medewerkers… Read more: KORT NIEUWS: Woensdag rijden er geen RET-bussen KORT NIEUWS: Deze week kun je volop aan de slag met je welzijn07-10-2026 Boksen, yoga, kunst, dansen, film: op allerlei manieren kun je van maandag 12 t/m vrijdag 16 oktober werken aan hoe je in je vel zit. In de workshops en talks die Studentenwelzijn op verschillende locaties organiseert, staan welzijn en veerkracht centraal. Zo kun je onder andere je naar de workshop creatief schrijven, zijn er yogalessen… Read more: KORT NIEUWS: Deze week kun je volop aan de slag met je welzijn KORT NIEUWS: Niets om aan te trekken op Paarse Vrijdag? Pak een polsbandje06-10-2026 Wil je meedoen met Paarse Vrijdag maar heb je geen paarse kleding? Geen paniek, dat probleem is opgelost. Included deelt de hele week paarse polsbandjes uit. Je kunt ze vinden bij de recepties op verschillende locaties. Het idee achter de bandjes is dat je op een laagdrempelige manier mee kan doen aan Paarse vrijdag en… Read more: KORT NIEUWS: Niets om aan te trekken op Paarse Vrijdag? Pak een polsbandje KORT NIEUWS: Meer mannen afgestudeerd aan de pabo05-10-2026 Vorig jaar haalden 858 mannen hun lesbevoegdheid voor het basisonderwijs, berichtte het AD vorige week. Dat is het hoogste aantal van de afgelopen jaren. Een op de vijf basisschoolleraren is nu man, tien jaar geleden was dat nog een op de zeven. Volgens het Lobo (Landelijk Overleg Lerarenopleiding Basisonderwijs), het samenwerkingsverband van de pabo’s in… Read more: KORT NIEUWS: Meer mannen afgestudeerd aan de pabo KORT NIEUWS: Rotterdams raadsleden vragen aandacht voor seksueel wangedrag in onderwijs05-10-2026 Drie fractieleden van PRO Rotterdam hebben schriftelijke vragen gesteld aan het Rotterdamse college van burgemeester en wethouders naar aanleiding van de spraakmakende zedenzaak aan de Amerikaanse Cornell University. Ze willen dat de gemeente meer doet aan preventie van seksueel wangedrag in het onderwijs en onder studenten, en adequaat reageert als het gebeurt. In de Cornell-zaak… Read more: KORT NIEUWS: Rotterdams raadsleden vragen aandacht voor seksueel wangedrag in onderwijs",
-      "url": "https://profielen.hr.nl/2026/kort-nieuws-woensdag-rijden-er-geen-ret-bussen/",
-      "primary_sentiment": "positive",
-      "primary_score": 0.999,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "en"
     }
   ],
-  "updated_at": "2026-10-17T20:27:13.057288+00:00"
+  "updated_at": "2026-10-17T23:00:53.988733+00:00"
 }
