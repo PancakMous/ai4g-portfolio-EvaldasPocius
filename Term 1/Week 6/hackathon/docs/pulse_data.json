@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 723,
-    "positive_count": 544,
+    "total_posts": 733,
+    "positive_count": 552,
     "neutral_count": 0,
-    "negative_count": 179,
+    "negative_count": 181,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-17T13:52:11.526000+00:00",
-    "net_sentiment": 50.5
+    "latest_post": "2026-10-17T17:41:11.237000+00:00",
+    "net_sentiment": 50.6
   },
   "timeline": [
     {
@@ -3752,9 +3752,175 @@
       "negative_count": 3,
       "avg_confidence": 0.9199999999999999,
       "net_sentiment": -20.0
+    },
+    {
+      "time_bucket": "2026-10-17 14:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.993,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-10-17 15:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.965,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-10-17 16:00",
+      "total_count": 6,
+      "positive_count": 4,
+      "neutral_count": 0,
+      "negative_count": 2,
+      "avg_confidence": 0.8383333333333334,
+      "net_sentiment": 33.3
+    },
+    {
+      "time_bucket": "2026-10-17 17:00",
+      "total_count": 2,
+      "positive_count": 2,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.658,
+      "net_sentiment": 100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_92b0a628e1f6",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-17T17:41:11.237000+00:00",
+      "fetched_at": "2026-10-17T17:50:48.130979+00:00",
+      "text": "Storing voorbij: inzet van hulpdiensten Nijmegen - 's-Hertogenbosch; Nijmegen - Wijchen #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117457477385191110",
+      "primary_sentiment": "positive",
+      "primary_score": 0.679,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_8bf7b85fdece",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-17T17:01:11.355000+00:00",
+      "fetched_at": "2026-10-17T17:50:48.176371+00:00",
+      "text": "Storing voorbij: inzet van hulpdiensten Arnhem - Nijmegen #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117457320106561841",
+      "primary_sentiment": "positive",
+      "primary_score": 0.637,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_cac2188a5304",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-17T16:56:11.689000+00:00",
+      "fetched_at": "2026-10-17T17:50:48.223417+00:00",
+      "text": "STORING: inzet van hulpdiensten Arnhem - Nijmegen #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117457300467614437",
+      "primary_sentiment": "positive",
+      "primary_score": 0.994,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_a270e37d045a",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-17T16:52:11.945000+00:00",
+      "fetched_at": "2026-10-17T17:50:48.270186+00:00",
+      "text": "Storing voorbij: seinstoring Utrecht - Hilversum; Utrecht - Baarn #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117457284755708837",
+      "primary_sentiment": "negative",
+      "primary_score": 0.905,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_aaeb452a323b",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-17T16:51:11.671000+00:00",
+      "fetched_at": "2026-10-17T17:50:48.316526+00:00",
+      "text": "Storing voorbij: inzet van hulpdiensten Nijmegen - 's-Hertogenbosch #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117457280805674132",
+      "primary_sentiment": "positive",
+      "primary_score": 0.56,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_fa16a255742b",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-17T16:44:11.890000+00:00",
+      "fetched_at": "2026-10-17T17:50:48.388181+00:00",
+      "text": "STORING: inzet van hulpdiensten Nijmegen - 's-Hertogenbosch #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117457253294833485",
+      "primary_sentiment": "positive",
+      "primary_score": 0.993,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_6936af8dc3a4",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-17T16:38:11.312000+00:00",
+      "fetched_at": "2026-10-17T17:50:48.433920+00:00",
+      "text": "Storing voorbij: seinstoring Sittard - Maastricht #ns #arriva",
+      "url": "https://mastodon.nl/@rijdendetreinen/117457229663918486",
+      "primary_sentiment": "negative",
+      "primary_score": 0.585,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_bfdefadd717a",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-17T16:36:12.221000+00:00",
+      "fetched_at": "2026-10-17T17:50:48.507061+00:00",
+      "text": "STORING: inzet van hulpdiensten Nijmegen - 's-Hertogenbosch #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117457221859233519",
+      "primary_sentiment": "positive",
+      "primary_score": 0.993,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_ecc9a4f8e56b",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-17T15:23:11.588000+00:00",
+      "fetched_at": "2026-10-17T17:50:48.559880+00:00",
+      "text": "STORING: seinstoring Utrecht - Amersfoort; Utrecht - Spoorwegmuseum #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117456934770054479",
+      "primary_sentiment": "positive",
+      "primary_score": 0.965,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_792caecce6c3",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-17T14:17:12.056000+00:00",
+      "fetched_at": "2026-10-17T17:50:48.633967+00:00",
+      "text": "STORING: spoorproblemen in het buitenland Groningen - Leer #storing #arriva",
+      "url": "https://mastodon.nl/@rijdendetreinen/117456675278261316",
+      "primary_sentiment": "positive",
+      "primary_score": 0.993,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "masto_a4974c34aa28",
       "source": "mastodon:mastodon.nl",
@@ -6874,137 +7040,7 @@
       "secondary_sentiment": "neutral",
       "secondary_score": 0.5,
       "language": "de"
-    },
-    {
-      "id": "masto_2388f9a341f0",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-13T06:36:06+00:00",
-      "fetched_at": "2026-10-15T11:12:06.398817+00:00",
-      "text": "Sloop van steenoude spoorbrug trekt veel bekijks: 'Dit maak je hierna niet meer mee' – Omroep West #afsluiting #ALPHENAANDENRIJN #BODEGRAVENREEUWIJK #brug #bus #Business #Commercial #Dutch #LEIDEN #Nederland #Nederlanden #Nederlands #Netherlands #NL #OPENBAARVERVOER #RAAKENVERBINDME #reizigers #Spoorbrug #trein #treinen #Zakelijk",
-      "url": "https://pubeurope.com/@nl/117432212962986581",
-      "primary_sentiment": "positive",
-      "primary_score": 0.999,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_fc827e1c533b",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-13T01:56:16+00:00",
-      "fetched_at": "2026-10-15T11:12:08.264528+00:00",
-      "text": "Technisch projectleider railtechniek/energievoorziening – ProRail – Hilversum Bekijk hier de vacature: #vacature #hilversum #prorail",
-      "url": "https://vacatureforum.nl/@hilversum/117431112610022512",
-      "primary_sentiment": "positive",
-      "primary_score": 0.988,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_ca976e0a8826",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-13T01:52:02+00:00",
-      "fetched_at": "2026-10-15T11:12:08.337997+00:00",
-      "text": "Productmanager generieke ICT – ProRail – Hilversum Bekijk hier de vacature: #vacature #hilversum #prorail",
-      "url": "https://vacatureforum.nl/@hilversum/117431095927225938",
-      "primary_sentiment": "positive",
-      "primary_score": 0.963,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_aeb4004d8409",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-13T01:47:15+00:00",
-      "fetched_at": "2026-10-15T11:12:08.407022+00:00",
-      "text": "Systeemspecialist civiele kunstwerken HSL – ProRail – Hilversum Bekijk hier de vacature: #vacature #hilversum #prorail",
-      "url": "https://vacatureforum.nl/@hilversum/117431077153172506",
-      "primary_sentiment": "positive",
-      "primary_score": 0.986,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_228716c3ce8e",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-13T01:42:15+00:00",
-      "fetched_at": "2026-10-15T11:12:08.484379+00:00",
-      "text": "Technisch projectleider railtechniek/treinbeveiliging – ProRail – Hilversum Bekijk hier de vacature: #vacature #hilversum #prorail",
-      "url": "https://vacatureforum.nl/@hilversum/117431057461667210",
-      "primary_sentiment": "positive",
-      "primary_score": 0.988,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_ad930102d68b",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-13T00:39:17+00:00",
-      "fetched_at": "2026-10-15T11:12:17.560872+00:00",
-      "text": "PKP Intercity: Pociągi jak metro. Od grudnia pojadą w cyklu #Biznes #Business #Intercity #Kolej #KolejeMazowieckie #NowyRozkładJazdy #PKP #PKPIntercity #PL #Poland #Polish #Polska #Polski #PrzewozyRegionalne #RozkładJazdy2026/2027 #RozkładyJazdyPKP #RynekKolejowy",
-      "url": "https://pubeurope.com/@pl/117430809891044138",
-      "primary_sentiment": "positive",
-      "primary_score": 0.996,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "pl"
-    },
-    {
-      "id": "masto_a0cb29a8ce7d",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-12T19:59:59+00:00",
-      "fetched_at": "2026-10-15T11:12:06.545714+00:00",
-      "text": "📰 Lies Visschedijk: bekendheid niet altijd fijn voor gezin 🕙 21:56 | RTL Nieuws 🔸 #Trein #Gezin #Vrouwen #Actrice",
-      "url": "https://mastodon.social/@NieuwsJunkies/117429711608609826",
-      "primary_sentiment": "positive",
-      "primary_score": 0.998,
-      "secondary_sentiment": "positive",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_d5e77269b073",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-12T17:04:39+00:00",
-      "fetched_at": "2026-10-15T11:12:08.589538+00:00",
-      "text": "📰 Spoormedewerkers vertellen over suïcide: '1,5 uur op haar in staan praten' 🕖 18:59 | NOS Nieuws 🔸 #Zelfmoord #Campagne #Machinist #Conducteur #ProRail",
-      "url": "https://mastodon.social/@NieuwsJunkies/117429022182585590",
-      "primary_sentiment": "positive",
-      "primary_score": 0.998,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_9e4dc547c555",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-12T08:15:30+00:00",
-      "fetched_at": "2026-10-15T11:12:06.770040+00:00",
-      "text": "📰 Staking België om bezuinigingen openbare diensten: minder treinen, ook VRT staakt 🕙 10:11 | NOS Nieuws 🔸 #Bezuinigingen #Staking #Trein #Belgie #Regering",
-      "url": "https://mastodon.social/@NieuwsJunkies/117426941503504426",
-      "primary_sentiment": "positive",
-      "primary_score": 0.999,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_d36b06d67fcf",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-12T06:47:55+00:00",
-      "fetched_at": "2026-10-15T11:12:07.069388+00:00",
-      "text": "📰 Stand.nl: 'Het Nederlandse spoor is te kwetsbaar' 🕣 08:38 | NPO Radio 1 🔸 #Brand #Acties #Vernieling #Trein #Rotterdam",
-      "url": "https://mastodon.social/@NieuwsJunkies/117426597073706792",
-      "primary_sentiment": "positive",
-      "primary_score": 0.999,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-10-17T14:09:39.493606+00:00"
+  "updated_at": "2026-10-17T17:50:48.672940+00:00"
 }
