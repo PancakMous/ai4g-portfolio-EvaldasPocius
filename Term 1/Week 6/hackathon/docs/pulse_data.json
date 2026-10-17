@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 662,
-    "positive_count": 496,
+    "total_posts": 665,
+    "positive_count": 499,
     "neutral_count": 0,
     "negative_count": 166,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-16T21:58:11.698000+00:00",
-    "net_sentiment": 49.8
+    "latest_post": "2026-10-16T23:20:58+00:00",
+    "net_sentiment": 50.1
   },
   "timeline": [
     {
@@ -3629,15 +3629,59 @@
     },
     {
       "time_bucket": "2026-10-16 21:00",
-      "total_count": 2,
-      "positive_count": 2,
+      "total_count": 3,
+      "positive_count": 3,
       "neutral_count": 0,
       "negative_count": 0,
-      "avg_confidence": 0.976,
+      "avg_confidence": 0.9836666666666667,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-10-16 22:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.93,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-10-16 23:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.985,
       "net_sentiment": 100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_42985ce3667f",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-16T23:20:58+00:00",
+      "fetched_at": "2026-10-17T00:23:12.325955+00:00",
+      "text": "Verkoopmedewerker Julia’s Groningen Bekijk hier de vacature: #vacature #groningen #ns",
+      "url": "https://vacatureforum.nl/@groningen/117453151175799097",
+      "primary_sentiment": "positive",
+      "primary_score": 0.985,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_9cd87586c98a",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-16T22:34:11.442000+00:00",
+      "fetched_at": "2026-10-17T00:23:12.385784+00:00",
+      "text": "Storing voorbij: dier op het spoor Amsterdam - Gouda #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117452967211162516",
+      "primary_sentiment": "positive",
+      "primary_score": 0.93,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "masto_94b20a6978b0",
       "source": "mastodon:mastodon.nl",
@@ -3649,6 +3693,19 @@
       "primary_score": 0.996,
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "reddit_a727bd395a25",
+      "source": "reddit:r/thenetherlands",
+      "created_at": "2026-10-16T21:27:29+00:00",
+      "fetched_at": "2026-10-17T00:23:12.940814+00:00",
+      "text": "Huurhuis beveiligen.. Hallo! Afgelopen weken is mijn buurman doorgedraaid. Hij heeft een vrouw weken lang opgesloten in zijn huis, nadat zij is \"gered\" door de buurman van een geweldadige ex. Deze vrouw is door hem zwanger geraakt en heftig mishandeld. De buurman is aardig sterk en houd iedereen verantwoordelijk voor de meldingen die tegen hem worden gedaan. Weken lang hebben de buren en ik 112 gebeld omdat de situatie echt uit de hand liep. Al een aantal keren heeft ze geprobeerd te ontsnappen maar hij nam haar elke keer weer mee naar binnen. Vandaag is zij eindelijk bevrijd, hij getaserd en gearresteerd. Zij durft geen aangifte te doen I.v.m wraakacties. Ik ken haar verder niet persoonlijk, maar ik kan heel goed begrijpen dat ze bang is. Ik heb beeld en geluid materiaal doorgestuurd naar de politie. Ook mijn 112 telefoontjes zouden anoniem blijven maar de politie is op de hoogte dat ik deze heb gemaakt. Nu ben ik bang dat mijn buurman hier achter gaat komen en hij ook bij mij langs komt. De politie gaf aan dat ze zonder aangifte, hem, na het weekend weer vrij laten. Met aangifte al na 10 dagen mits de burgermeester stelt dat hij een gevaar is en moet verhuizen. Hij heeft ook aardig wat op zijn naam staan zoals poging tot moord, diefstal, bedreiging, inbraak en drugsgebruik/handel. Mijn andere buurman is al meerdere keren bedreigd door hem, en alle buren zijn bang. Nu is mijn vraag, sinds ik in een huurwoning zit, hoe kan ik mijn woning beveiligen tegen mensen zoals mijn buurman. Mijn deuren zijn 80% van glas, waar je zo door heen komt. Ik woon op de 1e verdieping maar mijn voordeur is toegankelijk vanaf buiten begaande grond. Mijn achterdeur zit bij het balkon, waar je via de brandtrap makkelijk toegang hebt tot de woning. Als hij vrij komt, voel ik mij niet veilig. Ik heb een kleine hond en kat. Ik ben een dame alleen, dus ik kan moeilijk mijzelf beschermen tegen zo'n man. Ook als ik van huis ben wil ik er zeker van zijn dat mijn dieren veilig zijn. Ik heb een ring deurbel en verder geen beveiliging behalve standaard sloten. Alvast bedankt ❤️ submitted by /u/Bringthebass4 [link] [comments]",
+      "url": "https://www.reddit.com/r/thenetherlands/comments/1x7sjct/huurhuis_beveiligen/",
+      "primary_sentiment": "positive",
+      "primary_score": 0.999,
+      "secondary_sentiment": "positive",
+      "secondary_score": 0.85,
       "language": "nl"
     },
     {
@@ -6848,46 +6905,7 @@
       "secondary_sentiment": "neutral",
       "secondary_score": 0.949,
       "language": "nl"
-    },
-    {
-      "id": "masto_7beeeb7c90ee",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-08T17:50:34.742000+00:00",
-      "fetched_at": "2026-10-09T10:30:13.565873Z",
-      "text": "STORING: defecte trein Nijmegen - 's-Hertogenbosch #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117406553521510233",
-      "primary_sentiment": "negative",
-      "primary_score": 0.985,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.941,
-      "language": "nl"
-    },
-    {
-      "id": "masto_94007a0cff7e",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-08T17:50:24.447000+00:00",
-      "fetched_at": "2026-10-09T10:30:13.588459Z",
-      "text": "Storing voorbij: defecte trein Arnhem - Nijmegen #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117406552846814793",
-      "primary_sentiment": "negative",
-      "primary_score": 0.994,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.933,
-      "language": "nl"
-    },
-    {
-      "id": "masto_2fd3d567bf4e",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-08T17:50:15.141000+00:00",
-      "fetched_at": "2026-10-09T10:30:13.763827Z",
-      "text": "Storing voorbij: persoon op het spoor Utrecht - Hilversum #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117406552236923310",
-      "primary_sentiment": "negative",
-      "primary_score": 0.529,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.933,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-10-16T22:00:41.160786+00:00"
+  "updated_at": "2026-10-17T00:23:12.988736+00:00"
 }
