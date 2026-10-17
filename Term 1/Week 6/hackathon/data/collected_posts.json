@@ -1,5 +1,57 @@
 [
   {
+    "id": "masto_2f7bcff9d47e",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-10-17T05:00:55+00:00",
+    "fetched_at": "2026-10-17T05:28:57.191508+00:00",
+    "text": "📰 Podcast De Dag: treinpersoneel over suïcide op het spoor 🕖 06:51 | NOS Nieuws 🔸 #Zelfmoord #Campagne #Trein #Personeel #Podcast",
+    "url": "https://mastodon.social/@NieuwsJunkies/117454487931319395",
+    "primary_sentiment": "positive",
+    "primary_score": 0.998,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
+    "language": "nl"
+  },
+  {
+    "id": "masto_afd427032f40",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-10-17T03:44:11.867000+00:00",
+    "fetched_at": "2026-10-17T05:28:57.126146+00:00",
+    "text": "STORING: stroomstoring Utrecht - Den Haag; Rotterdam - Gouda; Alphen a/d Rijn - Gouda #storing #ns #rnet",
+    "url": "https://mastodon.nl/@rijdendetreinen/117454186208512607",
+    "primary_sentiment": "positive",
+    "primary_score": 0.985,
+    "secondary_sentiment": "negative",
+    "secondary_score": 0.7,
+    "language": "nl"
+  },
+  {
+    "id": "masto_801c8cd07f3b",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-10-17T02:52:06+00:00",
+    "fetched_at": "2026-10-17T05:28:57.478031+00:00",
+    "text": "PKP PLK o priorytetach: Poznań, Warszawa czy linia 203 i „Węglówka” #Intercity #Kolej #KolejeMazowieckie #Linia131 #Linia202 #Linia203 #Linia402 #Liniaśrednicowa #PKP #PKPPLK #PL #Poland #Polish #Polska #Polski #PoznańGłówny #PoznańskiWęzełKolejowy #PrzewozyRegionalne #RozkładyJazdyPKP #RynekKolejowy #warszawa #WrocławGłówny #WrocławskiWęzełKolejowy",
+    "url": "https://pubeurope.com/@pl/117453981391789446",
+    "primary_sentiment": "positive",
+    "primary_score": 0.998,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
+    "language": "pl"
+  },
+  {
+    "id": "masto_daa6119448ba",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-10-17T02:27:44+00:00",
+    "fetched_at": "2026-10-17T05:28:57.274918+00:00",
+    "text": "Rangierbahnhof in Rotterdam wird für längere Güterzüge ausgebaut #Bahninfrastruktur #Elektrifizierung #Gleisausbau #Güterverkehr #ProRail #Rotterdam #Schienengüterverkehr #VolkerRail #WaalhavenZuid",
+    "url": "https://mastodon.social/@Bahnblogstelle/117453885600707215",
+    "primary_sentiment": "positive",
+    "primary_score": 0.968,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
+    "language": "de"
+  },
+  {
     "id": "masto_42985ce3667f",
     "source": "mastodon:mastodon.nl",
     "created_at": "2026-10-16T23:20:58+00:00",

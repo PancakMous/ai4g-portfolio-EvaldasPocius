@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 665,
-    "positive_count": 499,
+    "total_posts": 669,
+    "positive_count": 503,
     "neutral_count": 0,
     "negative_count": 166,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-16T23:20:58+00:00",
-    "net_sentiment": 50.1
+    "latest_post": "2026-10-17T05:00:55+00:00",
+    "net_sentiment": 50.4
   },
   "timeline": [
     {
@@ -3653,9 +3653,88 @@
       "negative_count": 0,
       "avg_confidence": 0.985,
       "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-10-17 02:00",
+      "total_count": 2,
+      "positive_count": 2,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.983,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-10-17 03:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.985,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-10-17 05:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.998,
+      "net_sentiment": 100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_2f7bcff9d47e",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-17T05:00:55+00:00",
+      "fetched_at": "2026-10-17T05:28:57.191508+00:00",
+      "text": "📰 Podcast De Dag: treinpersoneel over suïcide op het spoor 🕖 06:51 | NOS Nieuws 🔸 #Zelfmoord #Campagne #Trein #Personeel #Podcast",
+      "url": "https://mastodon.social/@NieuwsJunkies/117454487931319395",
+      "primary_sentiment": "positive",
+      "primary_score": 0.998,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_afd427032f40",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-17T03:44:11.867000+00:00",
+      "fetched_at": "2026-10-17T05:28:57.126146+00:00",
+      "text": "STORING: stroomstoring Utrecht - Den Haag; Rotterdam - Gouda; Alphen a/d Rijn - Gouda #storing #ns #rnet",
+      "url": "https://mastodon.nl/@rijdendetreinen/117454186208512607",
+      "primary_sentiment": "positive",
+      "primary_score": 0.985,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_801c8cd07f3b",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-17T02:52:06+00:00",
+      "fetched_at": "2026-10-17T05:28:57.478031+00:00",
+      "text": "PKP PLK o priorytetach: Poznań, Warszawa czy linia 203 i „Węglówka” #Intercity #Kolej #KolejeMazowieckie #Linia131 #Linia202 #Linia203 #Linia402 #Liniaśrednicowa #PKP #PKPPLK #PL #Poland #Polish #Polska #Polski #PoznańGłówny #PoznańskiWęzełKolejowy #PrzewozyRegionalne #RozkładyJazdyPKP #RynekKolejowy #warszawa #WrocławGłówny #WrocławskiWęzełKolejowy",
+      "url": "https://pubeurope.com/@pl/117453981391789446",
+      "primary_sentiment": "positive",
+      "primary_score": 0.998,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "pl"
+    },
+    {
+      "id": "masto_daa6119448ba",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-17T02:27:44+00:00",
+      "fetched_at": "2026-10-17T05:28:57.274918+00:00",
+      "text": "Rangierbahnhof in Rotterdam wird für längere Güterzüge ausgebaut #Bahninfrastruktur #Elektrifizierung #Gleisausbau #Güterverkehr #ProRail #Rotterdam #Schienengüterverkehr #VolkerRail #WaalhavenZuid",
+      "url": "https://mastodon.social/@Bahnblogstelle/117453885600707215",
+      "primary_sentiment": "positive",
+      "primary_score": 0.968,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "de"
+    },
     {
       "id": "masto_42985ce3667f",
       "source": "mastodon:mastodon.nl",
@@ -6853,59 +6932,7 @@
       "secondary_sentiment": "neutral",
       "secondary_score": 0.5,
       "language": "nl"
-    },
-    {
-      "id": "masto_b0a599235ae7",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-08T18:53:25.577000+00:00",
-      "fetched_at": "2026-10-09T10:30:13.449755Z",
-      "text": "Storing voorbij: defecte trein Arnhem - Nijmegen #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117406800646953851",
-      "primary_sentiment": "negative",
-      "primary_score": 0.994,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.933,
-      "language": "nl"
-    },
-    {
-      "id": "masto_dc73ee5abbc0",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-08T18:53:12.692000+00:00",
-      "fetched_at": "2026-10-09T10:30:13.484519Z",
-      "text": "Storing voorbij: defecte trein Nijmegen - 's-Hertogenbosch #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117406799802425015",
-      "primary_sentiment": "negative",
-      "primary_score": 0.987,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.923,
-      "language": "nl"
-    },
-    {
-      "id": "masto_254c6b2e776e",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-08T18:52:11.417000+00:00",
-      "fetched_at": "2026-10-09T10:30:13.504744Z",
-      "text": "STORING: defecte trein Utrecht - Rhenen #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117406795786703469",
-      "primary_sentiment": "negative",
-      "primary_score": 0.992,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.949,
-      "language": "nl"
-    },
-    {
-      "id": "masto_2103f16e0c21",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-08T17:56:13.371000+00:00",
-      "fetched_at": "2026-10-09T10:30:13.525613Z",
-      "text": "STORING: defecte trein Arnhem - Nijmegen #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117406575713863017",
-      "primary_sentiment": "negative",
-      "primary_score": 0.991,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.949,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-10-17T00:23:12.988736+00:00"
+  "updated_at": "2026-10-17T05:28:57.509053+00:00"
 }
