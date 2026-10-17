@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 733,
-    "positive_count": 552,
+    "total_posts": 737,
+    "positive_count": 554,
     "neutral_count": 0,
-    "negative_count": 181,
+    "negative_count": 183,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-17T17:41:11.237000+00:00",
-    "net_sentiment": 50.6
+    "latest_post": "2026-10-17T20:22:28+00:00",
+    "net_sentiment": 50.3
   },
   "timeline": [
     {
@@ -3788,9 +3788,79 @@
       "negative_count": 0,
       "avg_confidence": 0.658,
       "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-10-17 18:00",
+      "total_count": 3,
+      "positive_count": 2,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.9266666666666666,
+      "net_sentiment": 33.3
+    },
+    {
+      "time_bucket": "2026-10-17 20:00",
+      "total_count": 1,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.921,
+      "net_sentiment": -100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_4eee521b5b7c",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-17T20:22:28+00:00",
+      "fetched_at": "2026-10-17T20:27:12.933208+00:00",
+      "text": "Am wirkungsvollsten für die #Sicherheit von #Fussgänger*innen und #Velofahrer*innen sind weniger #Autos auf den #Strassen. Das ist zugleich gut für das #Klima und die #Umwelt. Also #ÖV ausbauen und #Auto verteuern. Am besten mit einer #Stadtvignette, die umso mehr kostet, je schwerer das Auto ist.",
+      "url": "https://tooting.ch/@parat/117458111571821072",
+      "primary_sentiment": "negative",
+      "primary_score": 0.921,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "de"
+    },
+    {
+      "id": "masto_0e6cfd1b1fb7",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-17T18:56:48.609000+00:00",
+      "fetched_at": "2026-10-17T20:27:12.718423+00:00",
+      "text": "Maar die #lijnennetkaart #NS is volstrekt ongeschikt. (Voorzover ik elders info vind.)",
+      "url": "https://mastodon.nl/@JaapJdeVries/117457774746595728",
+      "primary_sentiment": "negative",
+      "primary_score": 1.0,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "sma"
+    },
+    {
+      "id": "masto_13615c2199bb",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-17T18:48:08.496000+00:00",
+      "fetched_at": "2026-10-17T20:27:12.776180+00:00",
+      "text": "Nieuwsbericht #NS over nieuwe #lijnennetkaart heeft bewegende beelden :-(",
+      "url": "https://mastodon.nl/@JaapJdeVries/117457740660317585",
+      "primary_sentiment": "positive",
+      "primary_score": 0.949,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "sma"
+    },
+    {
+      "id": "reddit_6ed1abff61dc",
+      "source": "reddit:r/thenetherlands",
+      "created_at": "2026-10-17T18:31:09+00:00",
+      "fetched_at": "2026-10-17T20:27:12.999810+00:00",
+      "text": "Steeds meer mensen slaan maaltijden over door hoge prijzen. submitted by /u/Quirkie [link] [comments]",
+      "url": "https://www.reddit.com/r/thenetherlands/comments/1x8hjcd/steeds_meer_mensen_slaan_maaltijden_over_door/",
+      "primary_sentiment": "positive",
+      "primary_score": 0.831,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
     {
       "id": "masto_92b0a628e1f6",
       "source": "mastodon:mastodon.nl",
@@ -6988,59 +7058,7 @@
       "secondary_sentiment": "neutral",
       "secondary_score": 0.5,
       "language": "en"
-    },
-    {
-      "id": "masto_661f18638324",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-13T12:00:28+00:00",
-      "fetched_at": "2026-10-15T11:12:13.894658+00:00",
-      "text": "NASA Science, Cargo Launch on 35th SpaceX Resupply Mission to Station <p>NASA’s SpaceX 35th commercial resupply mission lifted off at 6:33 a.m #resupply #station #mission #science",
-      "url": "https://mastodon.social/@3iatlas/117433488403006280",
-      "primary_sentiment": "positive",
-      "primary_score": 0.992,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "lt"
-    },
-    {
-      "id": "masto_b9aa7ef27481",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-13T11:47:07+00:00",
-      "fetched_at": "2026-10-15T11:12:14.084908+00:00",
-      "text": "Les Beatles : leur album culte « Rubber Soul » ressort avec des enregistrements inédits #actu #Actualités #Cinéma #DAB+ #Divertissement #ecoute #electro #Émission #Entertainment #equipe #FM #info #information #infos #InterviewsRock #journal #Music #Musique #MusiqueRock #NouveautésRock #PlaylistsRock #podcast #radio #RadioEnLigne #RadioRock #Rock #station #Suisse #virgin #VirginRadio #virginradio",
-      "url": "https://pubeurope.com/@ch_fr/117433435929018003",
-      "primary_sentiment": "positive",
-      "primary_score": 0.993,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "fr"
-    },
-    {
-      "id": "masto_b50bf5e982df",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-13T11:10:02+00:00",
-      "fetched_at": "2026-10-15T11:12:05.941458+00:00",
-      "text": "📰 Twaalf dagen geen treinen tussen Arnhem en Utrecht vanwege werkzaamheden 🕐 13:08 | NOS Nieuws 🔸 #NS #Trein #Utrecht #Arnhem #Werkzaamheden",
-      "url": "https://mastodon.social/@NieuwsJunkies/117433290069075524",
-      "primary_sentiment": "positive",
-      "primary_score": 0.997,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_5fdf8a65fb7f",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-13T08:46:33+00:00",
-      "fetched_at": "2026-10-15T11:12:17.372351+00:00",
-      "text": "Ab morgen können Zugreisende die Zugtickets für 2027 buchen. Das ändert sich durch den Fahrplanwechsel für Südwestfalen.#WDR #DeutscheBahn #Bahn #ICE #IC #Intercity #Soest #Lippstadt #München #NRW Comeback für abservierten Zug: Das bringt der Fahrplanwechsel fürs Sauerland und Siegerland",
-      "url": "https://squeet.me/display/962c3e10-bfe118e0-1e0699479e5bd7be",
-      "primary_sentiment": "positive",
-      "primary_score": 0.917,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "de"
     }
   ],
-  "updated_at": "2026-10-17T17:50:48.672940+00:00"
+  "updated_at": "2026-10-17T20:27:13.057288+00:00"
 }

@@ -1,5 +1,57 @@
 [
   {
+    "id": "masto_4eee521b5b7c",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-10-17T20:22:28+00:00",
+    "fetched_at": "2026-10-17T20:27:12.933208+00:00",
+    "text": "Am wirkungsvollsten für die #Sicherheit von #Fussgänger*innen und #Velofahrer*innen sind weniger #Autos auf den #Strassen. Das ist zugleich gut für das #Klima und die #Umwelt. Also #ÖV ausbauen und #Auto verteuern. Am besten mit einer #Stadtvignette, die umso mehr kostet, je schwerer das Auto ist.",
+    "url": "https://tooting.ch/@parat/117458111571821072",
+    "primary_sentiment": "negative",
+    "primary_score": 0.921,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
+    "language": "de"
+  },
+  {
+    "id": "masto_0e6cfd1b1fb7",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-10-17T18:56:48.609000+00:00",
+    "fetched_at": "2026-10-17T20:27:12.718423+00:00",
+    "text": "Maar die #lijnennetkaart #NS is volstrekt ongeschikt. (Voorzover ik elders info vind.)",
+    "url": "https://mastodon.nl/@JaapJdeVries/117457774746595728",
+    "primary_sentiment": "negative",
+    "primary_score": 1.0,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
+    "language": "sma"
+  },
+  {
+    "id": "masto_13615c2199bb",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-10-17T18:48:08.496000+00:00",
+    "fetched_at": "2026-10-17T20:27:12.776180+00:00",
+    "text": "Nieuwsbericht #NS over nieuwe #lijnennetkaart heeft bewegende beelden :-(",
+    "url": "https://mastodon.nl/@JaapJdeVries/117457740660317585",
+    "primary_sentiment": "positive",
+    "primary_score": 0.949,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
+    "language": "sma"
+  },
+  {
+    "id": "reddit_6ed1abff61dc",
+    "source": "reddit:r/thenetherlands",
+    "created_at": "2026-10-17T18:31:09+00:00",
+    "fetched_at": "2026-10-17T20:27:12.999810+00:00",
+    "text": "Steeds meer mensen slaan maaltijden over door hoge prijzen. submitted by /u/Quirkie [link] [comments]",
+    "url": "https://www.reddit.com/r/thenetherlands/comments/1x8hjcd/steeds_meer_mensen_slaan_maaltijden_over_door/",
+    "primary_sentiment": "positive",
+    "primary_score": 0.831,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
+    "language": "nl"
+  },
+  {
     "id": "masto_92b0a628e1f6",
     "source": "mastodon:mastodon.nl",
     "created_at": "2026-10-17T17:41:11.237000+00:00",
