@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 782,
-    "positive_count": 583,
+    "total_posts": 784,
+    "positive_count": 584,
     "neutral_count": 0,
-    "negative_count": 199,
+    "negative_count": 200,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-18T20:23:12.103000+00:00",
-    "net_sentiment": 49.1
+    "latest_post": "2026-10-18T20:59:12.062000+00:00",
+    "net_sentiment": 49.0
   },
   "timeline": [
     {
@@ -3944,15 +3944,41 @@
     },
     {
       "time_bucket": "2026-10-18 20:00",
-      "total_count": 3,
-      "positive_count": 2,
+      "total_count": 5,
+      "positive_count": 3,
       "neutral_count": 0,
-      "negative_count": 1,
-      "avg_confidence": 0.9916666666666667,
-      "net_sentiment": 33.3
+      "negative_count": 2,
+      "avg_confidence": 0.943,
+      "net_sentiment": 20.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_177fdada70f6",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-18T20:59:12.062000+00:00",
+      "fetched_at": "2026-10-18T22:58:24.652085+00:00",
+      "text": "Storing voorbij: object op het spoor Deventer - Enschede #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117463918317316102",
+      "primary_sentiment": "positive",
+      "primary_score": 0.748,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "reddit_a5b913561d81",
+      "source": "reddit:r/thenetherlands",
+      "created_at": "2026-10-18T20:38:53+00:00",
+      "fetched_at": "2026-10-18T22:58:24.852132+00:00",
+      "text": "Wat zijn nog meer voorbeelden van goede Nederlandse localisatie in Media?. Ik weet niet wiens idee het was om Huub van der Lubbe de liedjes van Randy Newman te laten vertolken, maar dat was een geïnspireerde keuze. De namen van de personages in Harry Potter. Controversie om JK Rowling daargelaten. Veel van de personages in Harry Potter hebben een woordspeling in hun naam die, wanneer je ze onvertaald laat, of wanneer je ze te letterlijk vertaalt, hun betekenis verliezen. Persoonlijk favoriet: 'Marcel Lubbermans' voor 'Neville Longbottom' submitted by /u/Arristocrat [link] [comments]",
+      "url": "https://www.reddit.com/r/thenetherlands/comments/1x9dr8x/wat_zijn_nog_meer_voorbeelden_van_goede/",
+      "primary_sentiment": "negative",
+      "primary_score": 0.992,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
     {
       "id": "masto_1e8864c5006b",
       "source": "mastodon:mastodon.nl",
@@ -7176,33 +7202,7 @@
       "secondary_sentiment": "neutral",
       "secondary_score": 0.5,
       "language": "nl"
-    },
-    {
-      "id": "masto_2d0dfc2e735f",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-14T15:24:11.952000+00:00",
-      "fetched_at": "2026-10-15T11:11:08.195062+00:00",
-      "text": "Storing voorbij: inzet van hulpdiensten Amsterdam - Almere; Amsterdam - Amersfoort #ns #nsinternational",
-      "url": "https://mastodon.nl/@rijdendetreinen/117439951794990057",
-      "primary_sentiment": "positive",
-      "primary_score": 0.875,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_9b413f3c197b",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-14T15:23:05+00:00",
-      "fetched_at": "2026-10-15T11:12:15.648586+00:00",
-      "text": "Nietsvermoedende mensen wachten tevergeefs op bus: ‘Ik wist niet van ov-staking’ #Business #Commercial #DELFT #Dutch #HELPMEMIJNMENINGTEVORMEN #Katwijk #LEIDEN #Nederland #Nederlanden #Nederlands #Netherlands #NL #OVStaking #Zakelijk",
-      "url": "https://pubeurope.com/@nl/117439947453054031",
-      "primary_sentiment": "positive",
-      "primary_score": 0.999,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-10-18T20:33:34.405882+00:00"
+  "updated_at": "2026-10-18T22:58:24.905571+00:00"
 }
