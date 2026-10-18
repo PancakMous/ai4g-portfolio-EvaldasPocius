@@ -1,5 +1,57 @@
 [
   {
+    "id": "masto_0f1b9c4def68",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-10-18T17:04:09+00:00",
+    "fetched_at": "2026-10-18T17:59:15.393363+00:00",
+    "text": "📰 Na veel zon en hoge temperaturen, lijkt de herfst komende week op toeren te komen 🕖 19:01 | NOS Nieuws 🔸 #Depressie #Zon #Trein #Herfst #Temperatuur",
+    "url": "https://mastodon.social/@NieuwsJunkies/117462994065046436",
+    "primary_sentiment": "positive",
+    "primary_score": 0.998,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
+    "language": "nl"
+  },
+  {
+    "id": "reddit_e1bf9e429bd5",
+    "source": "reddit:r/thenetherlands",
+    "created_at": "2026-10-18T16:52:59+00:00",
+    "fetched_at": "2026-10-18T17:59:16.185167+00:00",
+    "text": "Rechtszaak tegen slimme brillen: 'De inbreuk op privacy is ingebakken in dit product'. Slimme bril \"Het lijkt gewoon een hele normale bril\", stelt politiek verslaggever Hannah Warnar. Een slimme bril is een regulier brilmontuur waarin computertechnologie, zoals een camera of microfoon, is verwerkt. \"Er zit twee meter tussen ons. Ik zou hier niet zien dat dit geen gewone bril is\", aldus Warnar. \"Dat zie je ook niet\", stelt journalist Eric Smit. Hij legt uit dat er verschillende soorten slimme brillen zijn en dat bij sommige de camera zo gepositioneerd is dat hij totaal onzichtbaar is. \"Succes daarmee\", voegt hij toe. Privacy \"Dit gaat enorm over onze privacy\", stelt Smit. \"Er worden natuurlijk ook al meldingen gedaan bij Offlimits van mensen die slachtoffer zijn van stiekem filmen.\" En dat is volgens Smit een probleem, omdat het tegen de wet ingaat: \"In principe is gewoon de basis dat je toestemming moet geven om gefilmd te worden.\" Smit haalt een onderzoek uit De Telegraaf aan, waaruit bleek dat er een appgroep was waarin filmpjes gemaakt met slimme brillen werden gedeeld. \"Het waren vooral mannen die dit natuurlijk deden\", stelt Smit. \"Ze bespieden vrouwen op bepaalde plekken met die bril.\" \"Dit is het voorland voor misbruik op alle mogelijke terreinen\", stelt Smit. \"Het is niet iets wat alleen een beetje waarschijnlijk is, het gaat gebeuren. De inbreuk op privacy is ingebakken in dit product. Het is dus een ondeugdelijk product.\" Rechtszaak \"Het moet van de markt verdwijnen\", stelt Smit. \"En we eisen natuurlijk ook dat een aantal toepassingen ervan worden opgeheven. Bijvoorbeeld het continu doorsturen van de data op het moment dat die bril actief is.\" Smit legt uit dat op het moment dat je iets vraagt aan Meta, alles wat je ziet wordt doorgestuurd, zonder dat er op de bril een lampje gaat branden. Warnar ziet dat de Nederlandse politiek niet bezig is met deze ontwikkeling: \"In Den Haag kijken ze naar Europa, want daar komt dit najaar het European Data Protection Board met een rapport over slimme brillen. Het kabinet wacht even af met welke aanbevelingen zij komen.\" \"Het gaat allemaal zo traag\", vindt Smit. \"Je moet nu optreden. Als je dit nu niet tegenhoudt, dan krijg je een lawine van allerlei spy wearables.\" De rechtszaak tegen de slimme brillen van Meta vindt plaats op 26 november om 10.00 uur 's ochtends in de rechtbank in Amsterdam. \"Het is een openbare zitting\", vertelt Smit. \"Jullie kunnen er allemaal heen.\" submitted by /u/Chronicbias [link] [comments]",
+    "url": "https://www.reddit.com/r/thenetherlands/comments/1x982so/rechtszaak_tegen_slimme_brillen_de_inbreuk_op/",
+    "primary_sentiment": "negative",
+    "primary_score": 0.746,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
+    "language": "nl"
+  },
+  {
+    "id": "masto_a1ae742be4d9",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-10-18T16:35:11.725000+00:00",
+    "fetched_at": "2026-10-18T17:59:15.460174+00:00",
+    "text": "STORING: defecte trein Arnhem - Duisburg - Düsseldorf #storing #nsinternational #db #viasrail",
+    "url": "https://mastodon.nl/@rijdendetreinen/117462880204811044",
+    "primary_sentiment": "negative",
+    "primary_score": 0.601,
+    "secondary_sentiment": "negative",
+    "secondary_score": 0.7,
+    "language": "nl"
+  },
+  {
+    "id": "masto_0f199f10f6f3",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-10-18T16:23:09+00:00",
+    "fetched_at": "2026-10-18T17:59:15.587872+00:00",
+    "text": "Storing elektronische paspoortcontrole op Schiphol verholpen #BreakingNews #BreakingNews #Dutch #FeaturedNews #FeaturedNews #Headlines #Hoofdpunten #LatestNews #LatestNews #Nederland #Nederlanden #Nederlands #Netherlands #News #Nieuws #NL #Schiphol #Storing #TopStories #TopStories #Voorpaginanieuws",
+    "url": "https://pubeurope.com/@nl/117462832862480463",
+    "primary_sentiment": "positive",
+    "primary_score": 0.999,
+    "secondary_sentiment": "negative",
+    "secondary_score": 0.7,
+    "language": "nl"
+  },
+  {
     "id": "masto_08ff5c5cf3ac",
     "source": "mastodon:mastodon.nl",
     "created_at": "2026-10-18T14:21:12.235000+00:00",

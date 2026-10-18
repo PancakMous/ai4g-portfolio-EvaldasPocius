@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 773,
-    "positive_count": 577,
+    "total_posts": 777,
+    "positive_count": 579,
     "neutral_count": 0,
-    "negative_count": 196,
+    "negative_count": 198,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-18T14:21:12.235000+00:00",
-    "net_sentiment": 49.3
+    "latest_post": "2026-10-18T17:04:09+00:00",
+    "net_sentiment": 49.0
   },
   "timeline": [
     {
@@ -3914,9 +3914,79 @@
       "negative_count": 1,
       "avg_confidence": 0.9924999999999999,
       "net_sentiment": 0.0
+    },
+    {
+      "time_bucket": "2026-10-18 16:00",
+      "total_count": 3,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 2,
+      "avg_confidence": 0.782,
+      "net_sentiment": -33.3
+    },
+    {
+      "time_bucket": "2026-10-18 17:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.998,
+      "net_sentiment": 100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_0f1b9c4def68",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-18T17:04:09+00:00",
+      "fetched_at": "2026-10-18T17:59:15.393363+00:00",
+      "text": "📰 Na veel zon en hoge temperaturen, lijkt de herfst komende week op toeren te komen 🕖 19:01 | NOS Nieuws 🔸 #Depressie #Zon #Trein #Herfst #Temperatuur",
+      "url": "https://mastodon.social/@NieuwsJunkies/117462994065046436",
+      "primary_sentiment": "positive",
+      "primary_score": 0.998,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "reddit_e1bf9e429bd5",
+      "source": "reddit:r/thenetherlands",
+      "created_at": "2026-10-18T16:52:59+00:00",
+      "fetched_at": "2026-10-18T17:59:16.185167+00:00",
+      "text": "Rechtszaak tegen slimme brillen: 'De inbreuk op privacy is ingebakken in dit product'. Slimme bril \"Het lijkt gewoon een hele normale bril\", stelt politiek verslaggever Hannah Warnar. Een slimme bril is een regulier brilmontuur waarin computertechnologie, zoals een camera of microfoon, is verwerkt. \"Er zit twee meter tussen ons. Ik zou hier niet zien dat dit geen gewone bril is\", aldus Warnar. \"Dat zie je ook niet\", stelt journalist Eric Smit. Hij legt uit dat er verschillende soorten slimme brillen zijn en dat bij sommige de camera zo gepositioneerd is dat hij totaal onzichtbaar is. \"Succes daarmee\", voegt hij toe. Privacy \"Dit gaat enorm over onze privacy\", stelt Smit. \"Er worden natuurlijk ook al meldingen gedaan bij Offlimits van mensen die slachtoffer zijn van stiekem filmen.\" En dat is volgens Smit een probleem, omdat het tegen de wet ingaat: \"In principe is gewoon de basis dat je toestemming moet geven om gefilmd te worden.\" Smit haalt een onderzoek uit De Telegraaf aan, waaruit bleek dat er een appgroep was waarin filmpjes gemaakt met slimme brillen werden gedeeld. \"Het waren vooral mannen die dit natuurlijk deden\", stelt Smit. \"Ze bespieden vrouwen op bepaalde plekken met die bril.\" \"Dit is het voorland voor misbruik op alle mogelijke terreinen\", stelt Smit. \"Het is niet iets wat alleen een beetje waarschijnlijk is, het gaat gebeuren. De inbreuk op privacy is ingebakken in dit product. Het is dus een ondeugdelijk product.\" Rechtszaak \"Het moet van de markt verdwijnen\", stelt Smit. \"En we eisen natuurlijk ook dat een aantal toepassingen ervan worden opgeheven. Bijvoorbeeld het continu doorsturen van de data op het moment dat die bril actief is.\" Smit legt uit dat op het moment dat je iets vraagt aan Meta, alles wat je ziet wordt doorgestuurd, zonder dat er op de bril een lampje gaat branden. Warnar ziet dat de Nederlandse politiek niet bezig is met deze ontwikkeling: \"In Den Haag kijken ze naar Europa, want daar komt dit najaar het European Data Protection Board met een rapport over slimme brillen. Het kabinet wacht even af met welke aanbevelingen zij komen.\" \"Het gaat allemaal zo traag\", vindt Smit. \"Je moet nu optreden. Als je dit nu niet tegenhoudt, dan krijg je een lawine van allerlei spy wearables.\" De rechtszaak tegen de slimme brillen van Meta vindt plaats op 26 november om 10.00 uur 's ochtends in de rechtbank in Amsterdam. \"Het is een openbare zitting\", vertelt Smit. \"Jullie kunnen er allemaal heen.\" submitted by /u/Chronicbias [link] [comments]",
+      "url": "https://www.reddit.com/r/thenetherlands/comments/1x982so/rechtszaak_tegen_slimme_brillen_de_inbreuk_op/",
+      "primary_sentiment": "negative",
+      "primary_score": 0.746,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_a1ae742be4d9",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-18T16:35:11.725000+00:00",
+      "fetched_at": "2026-10-18T17:59:15.460174+00:00",
+      "text": "STORING: defecte trein Arnhem - Duisburg - Düsseldorf #storing #nsinternational #db #viasrail",
+      "url": "https://mastodon.nl/@rijdendetreinen/117462880204811044",
+      "primary_sentiment": "negative",
+      "primary_score": 0.601,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_0f199f10f6f3",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-18T16:23:09+00:00",
+      "fetched_at": "2026-10-18T17:59:15.587872+00:00",
+      "text": "Storing elektronische paspoortcontrole op Schiphol verholpen #BreakingNews #BreakingNews #Dutch #FeaturedNews #FeaturedNews #Headlines #Hoofdpunten #LatestNews #LatestNews #Nederland #Nederlanden #Nederlands #Netherlands #News #Nieuws #NL #Schiphol #Storing #TopStories #TopStories #Voorpaginanieuws",
+      "url": "https://pubeurope.com/@nl/117462832862480463",
+      "primary_sentiment": "positive",
+      "primary_score": 0.999,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "masto_08ff5c5cf3ac",
       "source": "mastodon:mastodon.nl",
@@ -7114,59 +7184,7 @@
       "secondary_sentiment": "neutral",
       "secondary_score": 0.5,
       "language": "nl"
-    },
-    {
-      "id": "masto_9d4e6e36c933",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-14T13:36:11.784000+00:00",
-      "fetched_at": "2026-10-15T11:11:08.446352+00:00",
-      "text": "STORING: defecte trein Apeldoorn - Deventer #storing #ns #nsinternational",
-      "url": "https://mastodon.nl/@rijdendetreinen/117439527110533732",
-      "primary_sentiment": "negative",
-      "primary_score": 0.987,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_fd8a5ecb248e",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-14T13:32:12.002000+00:00",
-      "fetched_at": "2026-10-15T11:12:11.277402+00:00",
-      "text": "STORING: wisselstoring Almelo - Hardenberg #storing #arriva #blauwnet",
-      "url": "https://mastodon.nl/@rijdendetreinen/117439511396191706",
-      "primary_sentiment": "positive",
-      "primary_score": 0.958,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_fbfbba99785e",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-14T13:02:11.396000+00:00",
-      "fetched_at": "2026-10-15T11:12:11.342973+00:00",
-      "text": "STORING: technisch onderzoek Amsterdam - Haarlem #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117439393391789223",
-      "primary_sentiment": "positive",
-      "primary_score": 0.954,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "reddit_3b17ee02f06d",
-      "source": "reddit:r/thenetherlands",
-      "created_at": "2026-10-14T12:47:36+00:00",
-      "fetched_at": "2026-10-15T11:12:20.575795+00:00",
-      "text": "De ‘opstandige’ boeren willen wel praten, maar de minister mag alleen luisteren. Een ‘alliantie’ van boeren wil dat er opnieuw naar de plannen voor het terugdringen van stikstof wordt gekeken. Want het zou lang niet zo slecht gaan met de natuur als de minister vertelt. De boeren kwamen dit keer niet met de trekker naar Den Haag, maar met een stapeltje papier. Een ‘alliantie’ van boerenorganisaties schreef haar ideeën over de stikstofcrisis op en presenteerde het geschrift dinsdag in Nieuwspoort, naast de Tweede Kamer. De hoop van de organisaties is dat de politiek luistert. Voorafgaand aan de bijeenkomst vertelt Erik Luiten, voorzitter van Agractie, dat hij ’s ochtends al een app-bericht ontving van minister van Landbouw Jaimi van Essen. “‘Succes’, schreef hij. We hebben ook al een afspraak met de minister om over ons plan te praten.” Eind juni kwam het kabinet met een brief aan de Tweede Kamer, met daarin voorstellen voor het verminderen van de stikstof-emissies. Van Essen wil dat de boeren de uitstoot vóór 2035 verminderen met 42 tot 46 procent ten opzichte van 2019. Ook komen er zones van 500 tot 1000 meter rond kwetsbare natuur, waarin niet of nauwelijks landbouw kan plaatsvinden. Hij wil ook het aantal koeien van boeren in evenwicht brengen met de hoeveelheid grond die zij hebben: maximaal 2,6 koeien per hectare. Door het ministerie wordt nog gewerkt aan de praktische invulling van de plannen. De boeren worden Nederland uit ‘geregeld’ Over dat voorstel van de minister willen de boeren niet praten, zegt Jeroen van Maanen, bestuurslid van de Nederlandse Melkveehouders Vakbond (NVM) tijdens de persconferentie. De brief van Van Essen moet van tafel, vinden de ‘opstandige boeren’, zoals Van Maanen het samenwerkingsverband van boerenorganisaties noemt. “Wij praten alleen over ons voorstel.” Dat de minister slechts mag luisteren en niks terug kan zeggen, vindt Van Maanen toch zinvol, want ‘het plan van de minister leidt er slechts toe dat alle boeren Nederland uit worden geregeld’. Eerder dit jaar was er al wrijving tussen deze groepen boeren en de minister. Van Essen liet weten dat de organisaties desinformatie verstrekken op avonden voor hun achterban. Hij zei ook dat de organisaties een computerprogramma gebruiken dat onjuiste en negatieve uitkomsten geeft, om de gevolgen van zijn plannen te berekenen. Desinformatie, zei de minister NRC onthulde dat bij de informatiebijeenkomsten voor boeren veevoerconcern De Heus als sponsor optreedt. Het bedrijf erkent dat. De minister zei daarover dat van bedrijven verwacht mag worden dat zij boeren op de juiste manier ondersteunen en geen bijeenkomsten mede financieren waar onjuiste informatie wordt gedeeld. In de alliantie zitten behalve Agractie en de NMV nog een aantal kleinere boerenorganisaties. Farmers Defence Force zit er niet bij. LTO, de grootste boerenorganisatie van Nederland, is ook niet van de partij. Die overlegt al regelmatig, samen met de organisatie van jonge boeren, met de minister over zijn voorstellen. LTO hoopt de plannen bij te stellen en wijst ze niet categorisch af. Alhoewel de commissie van Johan Remkes in 2022 al concludeerde dat de natuur in Nederland er door stikstof slecht voorstaat en verder achteruit holt, ziet de alliantie dat anders. Volgens deze boeren is er geen stikstofprobleem. “Als dat er zou zijn, was er in de afgelopen zeven jaar wel een oplossing gevonden”, zegt Van Maanen. Het kan zijn dat de natuur hier en daar niet op orde is, maar dat kan ook komen door droogte, stellen de boeren. Rode boerenzakdoek als pochet Remkes schreef dat ‘sommige natuur die Nederland verplicht moet beschermen, er niet goed aan toe is en dat er sprake is van een negatieve trend’. De afgelopen jaren is door de Ecologische Autoriteit in kaart gebracht hoe iedere regio van Nederland ervoor staat. In vervolg daarop is Van Essen ook niet van plan in iedere Nederlandse regio dezelfde regels te laten gelden, zoals ook de alliantie graag wil. Maar voor de boeren in Nieuwspoort is dat niet genoeg. Die willen opnieuw in kaart brengen hoe de natuur erbij ligt en ondertussen alvast de regels voor natuurvergunningen versoepelen. “Kijk opnieuw”, stellen zij voor. Zij willen ook dat de minister op een rij zet wat de maatregelen sociaal-economisch betekenen. Bij de persconferentie zijn journalisten van radio, televisie, kranten en websites. Ondertussen probeert de rechtse oppositie van de Tweede Kamer de show te stelen. Caroline van der Plas (BBB) zit bijna vooraan, Mona Keijzer (Lid Keijzer) kan niet wachten om het woord te voeren. Zij vertellen hoe blij ze zijn dat de boerenorganisaties een pijl naar het kabinet-Jetten schieten. De vertegenwoordiger van Forum voor Democratie heeft een rode boerenzakdoek als pochet in zijn colbertje. Gaan de boeren weer met trekkers in een lange stoet de weg op als het overleg met Van Essen niks oplevert? “Ja”, zegt Van Maanen. submitted by /u/Chaimasala [link] [comments]",
-      "url": "https://www.reddit.com/r/thenetherlands/comments/1x5qbcl/de_opstandige_boeren_willen_wel_praten_maar_de/",
-      "primary_sentiment": "positive",
-      "primary_score": 0.926,
-      "secondary_sentiment": "positive",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-10-18T14:28:21.431410+00:00"
+  "updated_at": "2026-10-18T17:59:17.310763+00:00"
 }
