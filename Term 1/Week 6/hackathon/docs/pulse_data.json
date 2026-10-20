@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 908,
-    "positive_count": 649,
+    "total_posts": 912,
+    "positive_count": 650,
     "neutral_count": 0,
-    "negative_count": 259,
+    "negative_count": 262,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-20T20:20:11.555000+00:00",
-    "net_sentiment": 43.0
+    "latest_post": "2026-10-20T22:25:10.500000+00:00",
+    "net_sentiment": 42.5
   },
   "timeline": [
     {
@@ -4268,15 +4268,76 @@
     },
     {
       "time_bucket": "2026-10-20 20:00",
-      "total_count": 2,
+      "total_count": 3,
       "positive_count": 1,
       "neutral_count": 0,
-      "negative_count": 1,
-      "avg_confidence": 0.7935,
-      "net_sentiment": 0.0
+      "negative_count": 2,
+      "avg_confidence": 0.86,
+      "net_sentiment": -33.3
+    },
+    {
+      "time_bucket": "2026-10-20 22:00",
+      "total_count": 3,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 2,
+      "avg_confidence": 0.9966666666666667,
+      "net_sentiment": -33.3
     }
   ],
   "posts": [
+    {
+      "id": "masto_08ed70c00b39",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-20T22:25:10.500000+00:00",
+      "fetched_at": "2026-10-20T23:46:14.521746+00:00",
+      "text": "[USER] wanbestuur, amateurs, misschien moet het in #nederland ook eerst erg mis gaan . #openbaarvervoer",
+      "url": "https://mastodon.nl/@muzicofiel/117475581001589637",
+      "primary_sentiment": "negative",
+      "primary_score": 0.999,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_7b925af94bd7",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-20T22:16:02+00:00",
+      "fetched_at": "2026-10-20T23:46:14.656759+00:00",
+      "text": "Oregon Adds 5,800 Jobs | Z100 Portland #hit #john #JohnJay #johnjay #JohnjayAndRich #jon #jonjay #kyle #maui #morning #oregon #Portland #radio #rich #romeo #ryan #RyanSeacrest #seacrest #show #station #Top40 #z100",
+      "url": "https://pubeurope.com/@us/117475545056292378",
+      "primary_sentiment": "positive",
+      "primary_score": 0.998,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "en"
+    },
+    {
+      "id": "masto_7fc750b1472f",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-20T22:11:11.641000+00:00",
+      "fetched_at": "2026-10-20T23:46:14.393906+00:00",
+      "text": "Storing voorbij: aanrijding Roermond - Sittard #ns #arriva",
+      "url": "https://mastodon.nl/@rijdendetreinen/117475526025738863",
+      "primary_sentiment": "negative",
+      "primary_score": 0.993,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_ef89ad90fd0b",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-20T20:35:11.859000+00:00",
+      "fetched_at": "2026-10-20T23:46:14.447880+00:00",
+      "text": "Storing voorbij: defecte trein Arnhem - Zutphen #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117475148552962807",
+      "primary_sentiment": "negative",
+      "primary_score": 0.993,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "masto_abc5a848c0ad",
       "source": "mastodon:mastodon.nl",
@@ -7474,59 +7535,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "reddit_a727bd395a25",
-      "source": "reddit:r/thenetherlands",
-      "created_at": "2026-10-16T21:27:29+00:00",
-      "fetched_at": "2026-10-17T00:23:12.940814+00:00",
-      "text": "Huurhuis beveiligen.. Hallo! Afgelopen weken is mijn buurman doorgedraaid. Hij heeft een vrouw weken lang opgesloten in zijn huis, nadat zij is \"gered\" door de buurman van een geweldadige ex. Deze vrouw is door hem zwanger geraakt en heftig mishandeld. De buurman is aardig sterk en houd iedereen verantwoordelijk voor de meldingen die tegen hem worden gedaan. Weken lang hebben de buren en ik 112 gebeld omdat de situatie echt uit de hand liep. Al een aantal keren heeft ze geprobeerd te ontsnappen maar hij nam haar elke keer weer mee naar binnen. Vandaag is zij eindelijk bevrijd, hij getaserd en gearresteerd. Zij durft geen aangifte te doen I.v.m wraakacties. Ik ken haar verder niet persoonlijk, maar ik kan heel goed begrijpen dat ze bang is. Ik heb beeld en geluid materiaal doorgestuurd naar de politie. Ook mijn 112 telefoontjes zouden anoniem blijven maar de politie is op de hoogte dat ik deze heb gemaakt. Nu ben ik bang dat mijn buurman hier achter gaat komen en hij ook bij mij langs komt. De politie gaf aan dat ze zonder aangifte, hem, na het weekend weer vrij laten. Met aangifte al na 10 dagen mits de burgermeester stelt dat hij een gevaar is en moet verhuizen. Hij heeft ook aardig wat op zijn naam staan zoals poging tot moord, diefstal, bedreiging, inbraak en drugsgebruik/handel. Mijn andere buurman is al meerdere keren bedreigd door hem, en alle buren zijn bang. Nu is mijn vraag, sinds ik in een huurwoning zit, hoe kan ik mijn woning beveiligen tegen mensen zoals mijn buurman. Mijn deuren zijn 80% van glas, waar je zo door heen komt. Ik woon op de 1e verdieping maar mijn voordeur is toegankelijk vanaf buiten begaande grond. Mijn achterdeur zit bij het balkon, waar je via de brandtrap makkelijk toegang hebt tot de woning. Als hij vrij komt, voel ik mij niet veilig. Ik heb een kleine hond en kat. Ik ben een dame alleen, dus ik kan moeilijk mijzelf beschermen tegen zo'n man. Ook als ik van huis ben wil ik er zeker van zijn dat mijn dieren veilig zijn. Ik heb een ring deurbel en verder geen beveiliging behalve standaard sloten. Alvast bedankt ❤️ submitted by /u/Bringthebass4 [link] [comments]",
-      "url": "https://www.reddit.com/r/thenetherlands/comments/1x7sjct/huurhuis_beveiligen/",
-      "primary_sentiment": "positive",
-      "primary_score": 0.999,
-      "secondary_sentiment": "positive",
-      "secondary_score": 0.85,
-      "language": "nl"
-    },
-    {
-      "id": "masto_bc5dbf2e05bb",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-16T21:11:11.509000+00:00",
-      "fetched_at": "2026-10-16T22:00:40.623963+00:00",
-      "text": "STORING: defecte trein Utrecht - Arnhem; Amersfoort - Ede-Wageningen #storing #ns #nsinternational #keolis #rrreis",
-      "url": "https://mastodon.nl/@rijdendetreinen/117452640845905928",
-      "primary_sentiment": "positive",
-      "primary_score": 0.956,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_3a5dca21d2e3",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-16T20:16:29.233000+00:00",
-      "fetched_at": "2026-10-16T22:00:40.663553+00:00",
-      "text": "Storing voorbij: tekort aan verkeersleiders Utrecht - Amersfoort #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117452425738810550",
-      "primary_sentiment": "negative",
-      "primary_score": 0.83,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_ef292330eca0",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-16T20:16:20.799000+00:00",
-      "fetched_at": "2026-10-16T22:00:40.702713+00:00",
-      "text": "Storing voorbij: tekort aan verkeersleiders Utrecht - Leiden #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117452425186267663",
-      "primary_sentiment": "negative",
-      "primary_score": 0.944,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-10-20T20:25:42.606753+00:00"
+  "updated_at": "2026-10-20T23:46:14.713497+00:00"
 }
