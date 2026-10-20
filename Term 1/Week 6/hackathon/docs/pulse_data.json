@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 856,
-    "positive_count": 619,
+    "total_posts": 864,
+    "positive_count": 622,
     "neutral_count": 0,
-    "negative_count": 237,
+    "negative_count": 242,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-19T20:07:11.560000+00:00",
-    "net_sentiment": 44.6
+    "latest_post": "2026-10-19T23:51:25.186000+00:00",
+    "net_sentiment": 44.0
   },
   "timeline": [
     {
@@ -4097,15 +4097,146 @@
     },
     {
       "time_bucket": "2026-10-19 20:00",
+      "total_count": 4,
+      "positive_count": 2,
+      "neutral_count": 0,
+      "negative_count": 2,
+      "avg_confidence": 0.989,
+      "net_sentiment": 0.0
+    },
+    {
+      "time_bucket": "2026-10-19 21:00",
+      "total_count": 2,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.971,
+      "net_sentiment": 0.0
+    },
+    {
+      "time_bucket": "2026-10-19 22:00",
       "total_count": 3,
       "positive_count": 1,
       "neutral_count": 0,
       "negative_count": 2,
-      "avg_confidence": 0.9860000000000001,
+      "avg_confidence": 0.8673333333333333,
       "net_sentiment": -33.3
+    },
+    {
+      "time_bucket": "2026-10-19 23:00",
+      "total_count": 2,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 2,
+      "avg_confidence": 0.7905,
+      "net_sentiment": -100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_353491eb637b",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-19T23:51:25.186000+00:00",
+      "fetched_at": "2026-10-20T00:15:46.662396+00:00",
+      "text": "Storing voorbij: brandmelding Rotterdam - Dordrecht #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117470257819207606",
+      "primary_sentiment": "negative",
+      "primary_score": 0.682,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_fe9bdc6137e3",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-19T23:51:11.727000+00:00",
+      "fetched_at": "2026-10-20T00:15:46.720215+00:00",
+      "text": "Storing voorbij: brandmelding Den Haag - Rotterdam; Leiden - Rotterdam #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117470256937282870",
+      "primary_sentiment": "negative",
+      "primary_score": 0.899,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_a3149c5d81dc",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-19T22:39:11.392000+00:00",
+      "fetched_at": "2026-10-20T00:15:46.758249+00:00",
+      "text": "Storing voorbij: aanrijding Zwolle - Groningen; Zwolle - Leeuwarden #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117469973799922145",
+      "primary_sentiment": "negative",
+      "primary_score": 0.669,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_0adb412d7dbc",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-19T22:04:11.873000+00:00",
+      "fetched_at": "2026-10-20T00:15:46.796316+00:00",
+      "text": "Storing voorbij: gestrande trein Amersfoort - Deventer #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117469836205756310",
+      "primary_sentiment": "negative",
+      "primary_score": 0.981,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_cf157efae610",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-19T22:03:11.494000+00:00",
+      "fetched_at": "2026-10-20T00:15:46.831445+00:00",
+      "text": "STORING: brandmelding Rotterdam - Dordrecht #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117469832248701476",
+      "primary_sentiment": "positive",
+      "primary_score": 0.952,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_e07aacfc5785",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-19T21:52:11.551000+00:00",
+      "fetched_at": "2026-10-20T00:15:46.871771+00:00",
+      "text": "STORING: gestrande trein Amersfoort - Deventer #storing #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117469788998759228",
+      "primary_sentiment": "negative",
+      "primary_score": 0.954,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_e5456a8f5b38",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-19T21:49:11.691000+00:00",
+      "fetched_at": "2026-10-20T00:15:46.907654+00:00",
+      "text": "STORING: brandmelding Den Haag - Rotterdam #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117469777211409583",
+      "primary_sentiment": "positive",
+      "primary_score": 0.988,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_d280b83b5ab0",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-19T20:13:02+00:00",
+      "fetched_at": "2026-10-20T00:15:47.002032+00:00",
+      "text": "Oregon Adds 5,800 Jobs | Z100 Portland #hit #john #JohnJay #johnjay #JohnjayAndRich #jon #jonjay #kyle #maui #morning #oregon #Portland #radio #rich #romeo #ryan #RyanSeacrest #seacrest #show #station #Top40 #z100",
+      "url": "https://pubeurope.com/@us/117469399133652657",
+      "primary_sentiment": "positive",
+      "primary_score": 0.998,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "en"
+    },
     {
       "id": "masto_e17bce081e22",
       "source": "mastodon:mastodon.nl",
@@ -7251,111 +7382,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "masto_5f20690cdf5e",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-15T18:55:05+00:00",
-      "fetched_at": "2026-10-15T21:03:10.918770+00:00",
-      "text": "Nedersaksenlijn komt er, champagne bijna ontkurkt: ‘Dit is een beloning voor de hele regio’ #Business #Commercial #Dutch #GEMEENTECOEVORDEN #GEMEENTEEMMEN #MARCELLAENSEL #Nederland #Nederlanden #Nederlands #NEDERSAKSENLIJN #Netherlands #NL #trein #VNONCWMKBNOORD #Zakelijk",
-      "url": "https://pubeurope.com/@nl/117446443397072439",
-      "primary_sentiment": "positive",
-      "primary_score": 0.999,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_54eb9b154699",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-15T18:50:28+00:00",
-      "fetched_at": "2026-10-15T21:03:11.614050+00:00",
-      "text": "Goede marketeers ook weer op de blogs van #cnv en #fnv. \"Het is al weer 3.5 jaar geleden dat medewerkers staakten voor hun eigen cao\". Vergeet bewust de overige overlastgevende stakingen te vermelden. Goede leerschool over hoe je klimaatmaatregelen verder verpaupert door meer mensen massaal het #ov uit te jagen. Omdat een salaris van 4000 bruto plus inflatiecorrectie, en een maximum van 4600 niet genoeg is. Werkdruk staat pas als 5e punt in de agenda... Het wordt tijd dat stakingen, en helemaal kort van te voren, in de publieke infrastructuur aan banden wordt gelegd.",
-      "url": "https://ieji.de/@martijn/117446425206828616",
-      "primary_sentiment": "positive",
-      "primary_score": 0.981,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_ebf33b44b714",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-15T18:40:11.474000+00:00",
-      "fetched_at": "2026-10-15T21:03:11.123878+00:00",
-      "text": "STORING: spoorproblemen in het buitenland Heerlen - Aachen Hbf #storing #arriva",
-      "url": "https://mastodon.nl/@rijdendetreinen/117446384777418914",
-      "primary_sentiment": "negative",
-      "primary_score": 0.742,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_16163380e391",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-15T18:38:12.041000+00:00",
-      "fetched_at": "2026-10-15T21:03:11.187650+00:00",
-      "text": "STORING: defecte bovenleiding Arnhem - Duisburg - Düsseldorf #storing #nsinternational #db #viasrail",
-      "url": "https://mastodon.nl/@rijdendetreinen/117446376950030671",
-      "primary_sentiment": "positive",
-      "primary_score": 0.697,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_6d65389b3544",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-15T18:37:11.504000+00:00",
-      "fetched_at": "2026-10-15T21:03:09.277467+00:00",
-      "text": "Storing voorbij: aanrijding Roosendaal - Vlissingen #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117446372982862124",
-      "primary_sentiment": "negative",
-      "primary_score": 0.935,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_97efae63e576",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-15T18:16:11.369000+00:00",
-      "fetched_at": "2026-10-15T21:03:09.345653+00:00",
-      "text": "STORING: aanrijding Roosendaal - Vlissingen #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117446290398618556",
-      "primary_sentiment": "negative",
-      "primary_score": 0.708,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_25ab38d411b4",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-15T18:06:11.491000+00:00",
-      "fetched_at": "2026-10-15T21:03:09.417582+00:00",
-      "text": "STORING: aanrijding Breda - Roosendaal #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117446251085048262",
-      "primary_sentiment": "negative",
-      "primary_score": 0.915,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_8dafa5aae128",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-15T17:57:05+00:00",
-      "fetched_at": "2026-10-15T21:03:11.297150+00:00",
-      "text": "Polish police detain man after threat to PM – Dubai Eye 103.8 #1038 #1038 #Business #Dubai #Eye #FM #News #poland #PolandDefence #PolandDefense #PolishDefence #PolishDefense #radio #Sport #station #talk",
-      "url": "https://pubeurope.com/@conflicts/117446215301361663",
-      "primary_sentiment": "positive",
-      "primary_score": 0.997,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "en"
     }
   ],
-  "updated_at": "2026-10-19T20:59:34.881691+00:00"
+  "updated_at": "2026-10-20T00:15:47.033287+00:00"
 }
