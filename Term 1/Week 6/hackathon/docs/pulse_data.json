@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 864,
-    "positive_count": 622,
+    "total_posts": 874,
+    "positive_count": 626,
     "neutral_count": 0,
-    "negative_count": 242,
+    "negative_count": 248,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-19T23:51:25.186000+00:00",
-    "net_sentiment": 44.0
+    "latest_post": "2026-10-20T05:48:11.283000+00:00",
+    "net_sentiment": 43.2
   },
   "timeline": [
     {
@@ -4130,9 +4130,175 @@
       "negative_count": 2,
       "avg_confidence": 0.7905,
       "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-10-20 01:00",
+      "total_count": 2,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.8534999999999999,
+      "net_sentiment": 0.0
+    },
+    {
+      "time_bucket": "2026-10-20 02:00",
+      "total_count": 1,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.835,
+      "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-10-20 04:00",
+      "total_count": 2,
+      "positive_count": 2,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.9944999999999999,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-10-20 05:00",
+      "total_count": 5,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 4,
+      "avg_confidence": 0.9955999999999999,
+      "net_sentiment": -60.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_d566b41a650b",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-20T05:48:11.283000+00:00",
+      "fetched_at": "2026-10-20T05:52:02.807987+00:00",
+      "text": "Storing voorbij: defecte trein Hilversum - Amersfoort Schothorst #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117471660689260442",
+      "primary_sentiment": "negative",
+      "primary_score": 0.997,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_e9a647145fcb",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-20T05:31:03+00:00",
+      "fetched_at": "2026-10-20T05:52:03.598331+00:00",
+      "text": "Impressionen vom klassischen InterCity. Donnerstag erscheint die Podcastfolge zum IC-Abschiedsevent. #intercity",
+      "url": "https://podcasts.social/@langsamfahrt/117471593344397835",
+      "primary_sentiment": "negative",
+      "primary_score": 0.997,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "de"
+    },
+    {
+      "id": "masto_bab18363b55c",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-20T05:28:11.507000+00:00",
+      "fetched_at": "2026-10-20T05:52:02.870273+00:00",
+      "text": "STORING: defecte trein Hilversum - Amersfoort Schothorst #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117471582060867799",
+      "primary_sentiment": "negative",
+      "primary_score": 0.996,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_41d4ba6cef0c",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-20T05:11:04+00:00",
+      "fetched_at": "2026-10-20T05:52:03.137681+00:00",
+      "text": "Grote storing op vliegveld Schiphol: ‘Ons vliegtuig is al weg’ #Business #Commercial #cyber #Dutch #Nederland #Nederlanden #Nederlands #Netherlands #NL #paspoorten #Schiphol #Storing #Zakelijk",
+      "url": "https://pubeurope.com/@nl/117471514755101360",
+      "primary_sentiment": "positive",
+      "primary_score": 0.998,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_d48c20bd1c15",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-20T05:05:11.907000+00:00",
+      "fetched_at": "2026-10-20T05:52:03.197631+00:00",
+      "text": "STORING: gestrande trein Zwolle - Enschede #storing #keolis #blauwnet",
+      "url": "https://mastodon.nl/@rijdendetreinen/117471491647224012",
+      "primary_sentiment": "negative",
+      "primary_score": 0.99,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_34ca853f57a3",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-20T04:48:11.749000+00:00",
+      "fetched_at": "2026-10-20T05:52:02.930528+00:00",
+      "text": "STORING: inzet van hulpdiensten Hoofddorp - Schiphol - Hoorn #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117471424790283444",
+      "primary_sentiment": "positive",
+      "primary_score": 0.99,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_0435262c3714",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-20T04:19:05+00:00",
+      "fetched_at": "2026-10-20T05:52:03.322108+00:00",
+      "text": "Bomb threat forces Austrian Tel Aviv-Vienna flight to land in Bulgaria – Dubai Eye 103.8 #1038 #1038 #bulgaria #business #Dubai #eye #FM #News #radio #Sport #station #Talk #България #новини",
+      "url": "https://pubeurope.com/@europesays/117471310354557180",
+      "primary_sentiment": "positive",
+      "primary_score": 0.999,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "en"
+    },
+    {
+      "id": "masto_00f410dbd9c3",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-20T02:30:11.281000+00:00",
+      "fetched_at": "2026-10-20T05:52:02.988861+00:00",
+      "text": "Storing voorbij: defecte bovenleiding Nijmegen - 's-Hertogenbosch #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117470882121438320",
+      "primary_sentiment": "negative",
+      "primary_score": 0.835,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_08cede66ac88",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-20T01:40:15+00:00",
+      "fetched_at": "2026-10-20T05:52:03.520958+00:00",
+      "text": "Cattle station ‘crown jewels’ in Gulf and Cape York to become national parks Almost 400,000 hectares of land will be turned into new national parks in Queensland, but the state government… #Australia #AU #Austrlia #burkeshire #CapeYork #carpentariangrasswrens #cattle #cliffdale #cliffdalestation #erniecamp #former #gulfcountry #kendallriver #kendallriverstation #nationalpark #parkrangers #parksandwildlife #pricklyacacia #station #westmoreland #westmorelandstation",
+      "url": "https://pubeurope.com/@australia/117470685809543790",
+      "primary_sentiment": "positive",
+      "primary_score": 0.997,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "en"
+    },
+    {
+      "id": "masto_19425fdf4574",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-20T01:16:11.394000+00:00",
+      "fetched_at": "2026-10-20T05:52:03.047821+00:00",
+      "text": "Storing voorbij: aanrijding Hoofddorp - Schiphol - Hoorn; Amsterdam - Enkhuizen #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117470591149085290",
+      "primary_sentiment": "negative",
+      "primary_score": 0.71,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "masto_353491eb637b",
       "source": "mastodon:mastodon.nl",
@@ -7252,137 +7418,7 @@
       "secondary_sentiment": "neutral",
       "secondary_score": 0.5,
       "language": "en"
-    },
-    {
-      "id": "masto_7920ea8158bb",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-16T06:58:28+00:00",
-      "fetched_at": "2026-10-16T09:38:53.360760+00:00",
-      "text": "Verkoopmedewerker Kiosk Utrecht Centraal – NS – Breda Bekijk hier de vacature: #vacature #breda #ns",
-      "url": "https://vacatureforum.nl/@breda/117449287844614105",
-      "primary_sentiment": "positive",
-      "primary_score": 0.986,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_b291f3a5bd16",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-15T23:43:11+00:00",
-      "fetched_at": "2026-10-16T04:13:01.311856+00:00",
-      "text": "Floormanager Julia’s Groningen Bekijk hier de vacature: #vacature #groningen #ns",
-      "url": "https://vacatureforum.nl/@groningen/117447576245714631",
-      "primary_sentiment": "positive",
-      "primary_score": 0.994,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_07e6dac55e0a",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-15T23:33:35+00:00",
-      "fetched_at": "2026-10-15T23:39:14.891604+00:00",
-      "text": "Verkoopmedewerker AH to go Eindhoven Airport (avond) – NS – Eindhoven Bekijk hier de vacature: #vacature #eindhoven #NS",
-      "url": "https://vacatureforum.nl/@eindhoven/117447538494059656",
-      "primary_sentiment": "positive",
-      "primary_score": 0.99,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_9dcfd9675055",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-15T21:57:12.133000+00:00",
-      "fetched_at": "2026-10-15T23:39:14.944507+00:00",
-      "text": "Storing voorbij: aanrijding Breda - Roosendaal #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117447159456022785",
-      "primary_sentiment": "negative",
-      "primary_score": 0.915,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_1abda447191e",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-15T20:19:11.398000+00:00",
-      "fetched_at": "2026-10-15T21:03:09.027464+00:00",
-      "text": "Storing voorbij: gestrande trein Sittard - Heerlen #ns #arriva",
-      "url": "https://mastodon.nl/@rijdendetreinen/117446774056168238",
-      "primary_sentiment": "negative",
-      "primary_score": 0.996,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_61b79a57bbab",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-15T19:58:11.250000+00:00",
-      "fetched_at": "2026-10-15T21:03:09.089561+00:00",
-      "text": "Storing voorbij: defecte trein Schiphol - Rotterdam #ns #nsinternational #thalys #eurostar",
-      "url": "https://mastodon.nl/@rijdendetreinen/117446691471211465",
-      "primary_sentiment": "negative",
-      "primary_score": 0.994,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_82195df157d5",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-15T19:57:11+00:00",
-      "fetched_at": "2026-10-15T21:03:10.705853+00:00",
-      "text": "📰 Busje met vrachtwagenchauffeurs botst op goederentrein bij Kanaaltunnel, meerdere gewonden 🕙 21:50 | NOS Nieuws 🔸 #Levensgevaar #Vrachtwagen #Busje #Trein #Tunnel",
-      "url": "https://mastodon.social/@NieuwsJunkies/117446687538978738",
-      "primary_sentiment": "positive",
-      "primary_score": 0.996,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_c923785e0a34",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-15T19:49:54+00:00",
-      "fetched_at": "2026-10-15T21:03:10.784749+00:00",
-      "text": "📰 19 gewonden na zwaar treinongeluk voor ingang Kanaaltunnel 🕙 21:47 | RTL Nieuws 🔸 #Vrachtwagen #Trein #Tunnel #Frankrijk #UK",
-      "url": "https://mastodon.social/@NieuwsJunkies/117446658919001640",
-      "primary_sentiment": "positive",
-      "primary_score": 0.997,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_35852304ead7",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-15T19:33:11.479000+00:00",
-      "fetched_at": "2026-10-15T21:03:09.154415+00:00",
-      "text": "STORING: defecte trein Schiphol - Rotterdam #storing #ns #nsinternational #thalys #eurostar",
-      "url": "https://mastodon.nl/@rijdendetreinen/117446593182043711",
-      "primary_sentiment": "negative",
-      "primary_score": 0.915,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_67c5683df583",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-15T19:11:11.994000+00:00",
-      "fetched_at": "2026-10-15T21:03:09.217446+00:00",
-      "text": "STORING: gestrande trein Sittard - Heerlen #storing #ns #arriva",
-      "url": "https://mastodon.nl/@rijdendetreinen/117446506708357052",
-      "primary_sentiment": "negative",
-      "primary_score": 0.997,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-10-20T00:15:47.033287+00:00"
+  "updated_at": "2026-10-20T05:52:03.653287+00:00"
 }
