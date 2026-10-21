@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 912,
-    "positive_count": 650,
+    "total_posts": 914,
+    "positive_count": 652,
     "neutral_count": 0,
     "negative_count": 262,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-20T22:25:10.500000+00:00",
-    "net_sentiment": 42.5
+    "latest_post": "2026-10-21T04:01:11.252000+00:00",
+    "net_sentiment": 42.7
   },
   "timeline": [
     {
@@ -4283,9 +4283,53 @@
       "negative_count": 2,
       "avg_confidence": 0.9966666666666667,
       "net_sentiment": -33.3
+    },
+    {
+      "time_bucket": "2026-10-21 01:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.977,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-10-21 04:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.864,
+      "net_sentiment": 100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_9f7aaffca519",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-21T04:01:11.252000+00:00",
+      "fetched_at": "2026-10-21T04:22:32.902284+00:00",
+      "text": "STORING: seinstoring Groningen - Eemshaven #storing #arriva",
+      "url": "https://mastodon.nl/@rijdendetreinen/117476902256606374",
+      "primary_sentiment": "positive",
+      "primary_score": 0.864,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_18cea4eb06b1",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-21T01:35:12+00:00",
+      "fetched_at": "2026-10-21T04:22:32.827073+00:00",
+      "text": "Afstudeerstage Risico Snelheid wegverkeer bij overwegen – ProRail – Hilversum Bekijk hier de vacature: #vacature #hilversum #prorail",
+      "url": "https://vacatureforum.nl/@hilversum/117476328214382901",
+      "primary_sentiment": "positive",
+      "primary_score": 0.977,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
     {
       "id": "masto_08ed70c00b39",
       "source": "mastodon:mastodon.nl",
@@ -7509,33 +7553,7 @@
       "secondary_sentiment": "neutral",
       "secondary_score": 0.5,
       "language": "nl"
-    },
-    {
-      "id": "masto_9cd87586c98a",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-16T22:34:11.442000+00:00",
-      "fetched_at": "2026-10-17T00:23:12.385784+00:00",
-      "text": "Storing voorbij: dier op het spoor Amsterdam - Gouda #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117452967211162516",
-      "primary_sentiment": "positive",
-      "primary_score": 0.93,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_94b20a6978b0",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-16T21:58:11.698000+00:00",
-      "fetched_at": "2026-10-16T22:00:40.561771+00:00",
-      "text": "STORING: dier op het spoor Amsterdam - Gouda #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117452825670086340",
-      "primary_sentiment": "positive",
-      "primary_score": 0.996,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-10-20T23:46:14.713497+00:00"
+  "updated_at": "2026-10-21T04:22:32.961717+00:00"
 }
