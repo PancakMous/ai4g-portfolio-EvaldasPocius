@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 971,
-    "positive_count": 684,
+    "total_posts": 974,
+    "positive_count": 687,
     "neutral_count": 0,
     "negative_count": 287,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-21T19:43:57+00:00",
-    "net_sentiment": 40.9
+    "latest_post": "2026-10-21T21:06:11+00:00",
+    "net_sentiment": 41.1
   },
   "timeline": [
     {
@@ -4436,9 +4436,66 @@
       "negative_count": 1,
       "avg_confidence": 0.826,
       "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-10-21 20:00",
+      "total_count": 2,
+      "positive_count": 2,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.9975,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-10-21 21:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.999,
+      "net_sentiment": 100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_fb62de854428",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-21T21:06:11+00:00",
+      "fetched_at": "2026-10-21T23:58:26.640023+00:00",
+      "text": "Ov-staking van morgen afgeblazen – RTV Utrecht #BUSCHAOSUTRECHT #Business #Commercial #Dutch #NBHOUMEOPDEHOOGTE #Nederland #Nederlanden #Nederlands #Netherlands #NL #NS #OPENBAARVERVOER #PROVINCIEUTRECHT #Transdev #VERKEER #Zakelijk",
+      "url": "https://pubeurope.com/@nl/117480932738797954",
+      "primary_sentiment": "positive",
+      "primary_score": 0.999,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_3a0cce34be52",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-21T20:24:11+00:00",
+      "fetched_at": "2026-10-21T23:58:27.095252+00:00",
+      "text": "Beperkte groep vaste klanten kan na cyberaanval weer bestelling plaatsen bij AH #AlbertHeijn #bestellen #Business #Commercial #Dutch #Nederland #Nederlanden #Nederlands #Netherlands #NL #Storing #Zakelijk",
+      "url": "https://pubeurope.com/@nl/117480767582174659",
+      "primary_sentiment": "positive",
+      "primary_score": 0.997,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_3d57dedef681",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-21T20:13:02+00:00",
+      "fetched_at": "2026-10-21T23:58:26.834661+00:00",
+      "text": "📰 Guido Weijers schrikt Irene van de Laar af met 'lelijke kant' tijdens geldruzie in Race Across The World 🕙 22:06 | RTL Nieuws 🔸 #Trein",
+      "url": "https://mastodon.social/@NieuwsJunkies/117480723773513754",
+      "primary_sentiment": "positive",
+      "primary_score": 0.998,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
     {
       "id": "reddit_22abdac62158",
       "source": "reddit:r/netherlands",
@@ -7649,46 +7706,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "masto_792caecce6c3",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-17T14:17:12.056000+00:00",
-      "fetched_at": "2026-10-17T17:50:48.633967+00:00",
-      "text": "STORING: spoorproblemen in het buitenland Groningen - Leer #storing #arriva",
-      "url": "https://mastodon.nl/@rijdendetreinen/117456675278261316",
-      "primary_sentiment": "positive",
-      "primary_score": 0.993,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_a4974c34aa28",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-17T13:52:11.526000+00:00",
-      "fetched_at": "2026-10-17T14:09:38.573090+00:00",
-      "text": "STORING: seinstoring Sittard - Maastricht; Heerlen - Maastricht #storing #ns #arriva",
-      "url": "https://mastodon.nl/@rijdendetreinen/117456576939485868",
-      "primary_sentiment": "positive",
-      "primary_score": 0.94,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_18c4467d1067",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-17T13:39:11.451000+00:00",
-      "fetched_at": "2026-10-17T14:09:38.618240+00:00",
-      "text": "Storing voorbij: technisch onderzoek Utrecht - Hilversum #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117456525816493446",
-      "primary_sentiment": "negative",
-      "primary_score": 0.999,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-10-21T20:03:06.761509+00:00"
+  "updated_at": "2026-10-21T23:58:27.131624+00:00"
 }
