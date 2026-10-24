@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 1119,
-    "positive_count": 757,
+    "total_posts": 1129,
+    "positive_count": 762,
     "neutral_count": 0,
-    "negative_count": 362,
+    "negative_count": 367,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-24T13:47:11.722000+00:00",
-    "net_sentiment": 35.3
+    "latest_post": "2026-10-24T17:10:11.256000+00:00",
+    "net_sentiment": 35.0
   },
   "timeline": [
     {
@@ -4799,12 +4799,12 @@
     },
     {
       "time_bucket": "2026-10-24 12:00",
-      "total_count": 1,
+      "total_count": 2,
       "positive_count": 1,
       "neutral_count": 0,
-      "negative_count": 0,
-      "avg_confidence": 0.944,
-      "net_sentiment": 100.0
+      "negative_count": 1,
+      "avg_confidence": 0.875,
+      "net_sentiment": 0.0
     },
     {
       "time_bucket": "2026-10-24 13:00",
@@ -4814,9 +4814,162 @@
       "negative_count": 2,
       "avg_confidence": 0.9736666666666666,
       "net_sentiment": -33.3
+    },
+    {
+      "time_bucket": "2026-10-24 14:00",
+      "total_count": 3,
+      "positive_count": 2,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.8673333333333333,
+      "net_sentiment": 33.3
+    },
+    {
+      "time_bucket": "2026-10-24 15:00",
+      "total_count": 2,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.989,
+      "net_sentiment": 0.0
+    },
+    {
+      "time_bucket": "2026-10-24 16:00",
+      "total_count": 2,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.8554999999999999,
+      "net_sentiment": 0.0
+    },
+    {
+      "time_bucket": "2026-10-24 17:00",
+      "total_count": 2,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.9964999999999999,
+      "net_sentiment": 0.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_9745b85ad94e",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-24T17:10:11.256000+00:00",
+      "fetched_at": "2026-10-24T17:21:07.758033+00:00",
+      "text": "Storing voorbij: defecte trein Breda - Tilburg #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117496991662312752",
+      "primary_sentiment": "negative",
+      "primary_score": 0.995,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_1054bc4422df",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-24T17:00:20+00:00",
+      "fetched_at": "2026-10-24T17:21:08.462164+00:00",
+      "text": "Extra staff and extended opening hours among plans as Lancaster hospital prepares for winter The Royal Lancaster Infirmary The trust in charge of the Royal Lancaster Infirmary says it will be strengthening… #NewsBeep #News #Healthcare #103.5fm #107.5fm #beyond #beyondradio #carnforth #Health #healthcare #Lancashire #Lancaster #Local #localnews #morecambe #MorecambeBay #Music #northlancashire #Radio #southcumbria #station #UK #UnitedKingdom",
+      "url": "https://newsbeep.org/@uk/117496952947783954",
+      "primary_sentiment": "positive",
+      "primary_score": 0.998,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "en"
+    },
+    {
+      "id": "masto_c8ebe8a235b4",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-24T16:24:11.393000+00:00",
+      "fetched_at": "2026-10-24T17:21:07.817403+00:00",
+      "text": "Storing voorbij: object op het spoor Rotterdam - Breda #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117496810791785880",
+      "primary_sentiment": "positive",
+      "primary_score": 0.723,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_2a5e99a0f05f",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-24T16:22:11.681000+00:00",
+      "fetched_at": "2026-10-24T17:21:07.870456+00:00",
+      "text": "STORING: defecte trein Breda - Tilburg #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117496802946150728",
+      "primary_sentiment": "negative",
+      "primary_score": 0.988,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_1aaf45b256bc",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-24T15:46:11.227000+00:00",
+      "fetched_at": "2026-10-24T17:21:08.256258+00:00",
+      "text": "STORING: spoorproblemen in het buitenland Enschede - Gronau - Dortmund #storing #db",
+      "url": "https://mastodon.nl/@rijdendetreinen/117496661358898045",
+      "primary_sentiment": "negative",
+      "primary_score": 0.984,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_64a53012d335",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-24T15:17:11.805000+00:00",
+      "fetched_at": "2026-10-24T17:21:07.937578+00:00",
+      "text": "STORING: object op het spoor Rotterdam - Breda; Rotterdam - Breda - Brussel #storing #ns #nsinternational #nmbs",
+      "url": "https://mastodon.nl/@rijdendetreinen/117496547364128878",
+      "primary_sentiment": "positive",
+      "primary_score": 0.994,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_176d91e1237b",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-24T14:56:11.491000+00:00",
+      "fetched_at": "2026-10-24T17:21:07.991609+00:00",
+      "text": "Storing voorbij: aanrijding Utrecht - 's-Hertogenbosch #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117496464768217887",
+      "primary_sentiment": "negative",
+      "primary_score": 0.608,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_d37a5fe2fa16",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-24T14:54:04+00:00",
+      "fetched_at": "2026-10-24T17:21:08.617090+00:00",
+      "text": "Extra staff and extended opening hours among plans as Lancaster hospital prepares for winter #1035fm #1075fm #Beyond #BeyondRadio #carnforth #Health #Healthcare #Lancashire #lancaster #local #LocalNews #morecambe #MorecambeBay #music #NorthLancashire #radio #SouthCumbria #station #UK #UnitedKingdom",
+      "url": "https://pubeurope.com/@uk/117496456430225870",
+      "primary_sentiment": "positive",
+      "primary_score": 0.998,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "en"
+    },
+    {
+      "id": "masto_1608b10f6f8f",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-24T14:14:21.348000+00:00",
+      "fetched_at": "2026-10-24T17:21:08.045738+00:00",
+      "text": "STORING: aanrijding Utrecht - 's-Hertogenbosch #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117496300263494618",
+      "primary_sentiment": "positive",
+      "primary_score": 0.996,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "masto_023e2f305613",
       "source": "mastodon:mastodon.nl",
@@ -4868,6 +5021,19 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
+    },
+    {
+      "id": "masto_2fc4a6d530bb",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-24T12:19:43+00:00",
+      "fetched_at": "2026-10-24T17:21:08.198687+00:00",
+      "text": "Doch, liebe #CSU dort kann man sehr wohl eine Ruine stehen lassen - und daneben neutrale Räumlichkeiten für Restaurant & Ausstellung schaffen nebst zahlreicher Fotos. Das #Kehlsteinhaus an sich ist nichts, das ich im selben Stil wieder aufbauen würde. Und ich komm' aus der Gegend. #Hitler #NS #NieWiederIstJetzt",
+      "url": "https://troet.cafe/@englram/117495849535723266",
+      "primary_sentiment": "negative",
+      "primary_score": 0.806,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "de"
     },
     {
       "id": "masto_e5726264566d",
@@ -7936,137 +8102,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "masto_97ee613ccdda",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-20T07:21:06+00:00",
-      "fetched_at": "2026-10-20T11:20:50.852448+00:00",
-      "text": "Kraków – Katowice: Więcej pociągów KMŁ i KŚ, mniej POLREGIO #Intercity #Kolej #KolejeMałopolskie #KolejeMazowieckie #KOLEJEŚLĄSKIE #krakow #Linia133 #Linia136 #Linia138 #ŁukaszSmółka #PKP #PL #Poland #Polish #polregio #Polska #Polski #PrzewozyRegionalne #RozkładyJazdyPKP #RynekKolejowy #UrządMarszałkowskiWojewództwaMałopolskiego",
-      "url": "https://pubeurope.com/@pl/117472026083909169",
-      "primary_sentiment": "positive",
-      "primary_score": 0.998,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "pl"
-    },
-    {
-      "id": "reddit_5c3dab7894d4",
-      "source": "reddit:r/thenetherlands",
-      "created_at": "2026-10-20T07:15:17+00:00",
-      "fetched_at": "2026-10-20T11:20:51.208187+00:00",
-      "text": "Tientallen miljoenen jeugdzorggeld naar extreme behandelmethode in Spanje. Nederlandse organisaties stuurden jarenlang jongeren met gedragsproblemen naar een Nederlands 'gezinshuis' in Spanje. Daar kregen ze te maken met extreme behandelmethodes. Experts spreken van \"structurele mishandeling en kindermarteling\". Grote jeugdhulpaanbieders, gemeenten én jeugdbeschermingsorganisaties wisten van de aanpak in het huis, dat in een periode van twintig jaar tientallen miljoenen euro's aan Nederlands zorggeld ontving. Dat blijkt uit maandenlang onderzoek van Nieuwsuur. Voor straf achter stroomdraad worden opgesloten. Dagenlang geen eten. In je ondergoed in de winter buitengesloten worden. Het zijn maar een paar voorbeelden van de praktijken die plaatsvonden in Huize Soria. Nieuwsuur sprak met zestien oud-cliënten over hun ervaringen bij dit gezinshuis, dat jarenlang onderdeel was van de grote zorgorganisatie Driestroom. De kinderen kwamen er terecht via jeugdzorg of de jeugdreclassering, vaak na een lange geschiedenis bij verschillende pleeggezinnen en instellingen. Het is voor het eerst dat de oud-cliënten hun verhaal doen in de media. Paardenpoep over jongen In het huis was steeds plaats voor zo'n tien jongeren, opgevangen door een Nederlands stel. In hun aanpak maakten zij gebruik van verboden vrijheidsbeperkende maatregelen. Vrijheidsbeperkingen mogen alleen in de gesloten jeugdzorg in daarvoor aangewezen locaties in Nederland worden opgelegd, onder strenge wettelijke voorwaarden. In het buitenland mag dat nooit. Contact met de buitenwereld werd beperkt en streng gecontroleerd door het stel. De jongeren vertellen over fysieke en emotionele mishandeling, zoals het onthouden van eten, slaap of wc-bezoek als straf. Ook werden jongeren geïsoleerd en moesten zij langdurig staan of zitten. Soms dagenlang in de brandende zon, met brandblaren tot gevolg. Alle jongeren vertellen dat er zondebokken werden aangewezen in de groep. Het stel zette de rest van de groep aan om mee te doen met mishandeling of vernedering. Eén van de jongeren vertelt over het gooien van paardenpoep over een jonge jongen: \"Je hebt geen keuze. Als je niet meedoet, word je een van de zondebokken. Dat moet voor alle kinderen heel traumatiserend zijn geweest\", zegt traumadeskundige Leony Coppens. De verhalen van de jongeren vertonen veel kenmerken van wat in de internationale literatuur 'kindermarteling' heet, zegt ze. De Behandelmethoden Veel van wat de jongeren vertellen komt overeen met de eigen \"behandelvisie\" en \"behandelmethodiek\" van Huize Soria, blijkt uit documenten in handen van Nieuwsuur. Die methode beschrijft het toepassen van \"fysieke begrenzing\" en ook het beperken van contact met het thuisfront. Beeldbellen met thuis mocht soms maanden niet, of alleen in het bijzijn van de gezinsouders. Zij lazen ook alle e-mails. In de methode staat ook het continu cameratoezicht op jongeren beschreven, in gezamenlijke ruimten en op het landgoed. \"Voor hen zetten we de camera's pedagogisch in om te zien hoe ze zich in welke situatie gedragen, wat hun tactieken zijn om mensen voor hun karretje te spannen.\" Onderzoeker jeugdrecht en kinderrechter Bart Tromp (Universiteit van Groningen) zegt daarover: \"Het kan nooit zo zijn dat je onder het mom van jeugdbescherming, of door de toevoeging van het woord 'pedagogisch', stelselmatig alle jongeren filmt.\" Onderwijs kregen de kinderen in Soria alleen wanneer de gezinsouders dat een goed idee vonden. \"Onderwijs is een heel fundamenteel recht\", zegt Tromp. \"Het onthouden van onderwijs mag niet worden ingezet als een vorm van straf.\" Instanties die de jongeren plaatsten, en jeugdzorginstellingen als Driestroom en ook Levvel, wisten van de aanpak en de vergaande vrijheidsbeperkende maatregelen. Ook jeugdbeschermingsorganisaties waren op de hoogte. Toch bleven ze er jongeren plaatsen. Een woordvoerder van Driestroom zegt dat het een \"uitdaging is binnen de wettelijke kaders steeds een zorgvuldige balans te vinden tussen vrijheid, bescherming, behandeling en veiligheid\". Ook benadrukt hij dat het ging om jongeren met complexe hulpvragen. Volgens kinderrechter Tromp vergoelijkt dat niet de inzet van verboden behandelmethoden. \"In een rechtsstaat is iedereen gelijk. Als lastige jongere heb je recht op dezelfde bescherming als een makkelijke jongere.\" Eerdere signalen Vanaf 2016 kreeg de Inspectie Gezondheidszorg en Jeugd (IGJ) meldingen over de instelling. Cliënten zeggen dat ze hun ervaringen bij terugkomst hebben gemeld bij zorgorganisaties. Eén jongen deed in 2019 bij de politie aangifte van mishandeling. Maar ondanks die meldingen, een onderzoek van de Kinderombudsman Amsterdam en meerdere onderzoeken door jeugdbeschermers en zorginstellingen bleven verschillende organisaties er tóch jongeren plaatsen. De Inspectie zegt dat het geen toezicht kan houden in het buitenland. Huize Soria moest eind september per direct stoppen van de Spaanse Inspectie, nadat berichtgeving van Nieuwsuur hen bereikte. De vergunningen van de instelling bleken niet op orde. submitted by /u/ALollef [link] [comments]",
-      "url": "https://www.reddit.com/r/thenetherlands/comments/1xalh8h/tientallen_miljoenen_jeugdzorggeld_naar_extreme/",
-      "primary_sentiment": "negative",
-      "primary_score": 0.689,
-      "secondary_sentiment": "positive",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_10dd4f6a6e6e",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-20T06:47:12.085000+00:00",
-      "fetched_at": "2026-10-20T11:20:50.404748+00:00",
-      "text": "STORING: seinstoring Zwolle - Emmen #storing #arriva #blauwnet",
-      "url": "https://mastodon.nl/@rijdendetreinen/117471892739356434",
-      "primary_sentiment": "positive",
-      "primary_score": 0.953,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_d6fcc18c7149",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-20T06:40:17+00:00",
-      "fetched_at": "2026-10-20T11:20:50.274232+00:00",
-      "text": "📰 Stand.nl: 'Asociaal gedrag in het ov moet sneller beboet worden' 🕣 08:32 | NPO Radio 1 🔸 #Geluidsoverlast #Vapen #OV #Trein #BOA",
-      "url": "https://mastodon.social/@NieuwsJunkies/117471865600051927",
-      "primary_sentiment": "positive",
-      "primary_score": 0.998,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_8ac04eac6ba7",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-20T05:57:11.523000+00:00",
-      "fetched_at": "2026-10-20T11:20:50.229355+00:00",
-      "text": "Storing voorbij: inzet van hulpdiensten Hoofddorp - Schiphol - Hoorn; Amsterdam - Enkhuizen #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117471696094502268",
-      "primary_sentiment": "positive",
-      "primary_score": 0.941,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_d566b41a650b",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-20T05:48:11.283000+00:00",
-      "fetched_at": "2026-10-20T05:52:02.807987+00:00",
-      "text": "Storing voorbij: defecte trein Hilversum - Amersfoort Schothorst #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117471660689260442",
-      "primary_sentiment": "negative",
-      "primary_score": 0.997,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_e9a647145fcb",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-20T05:31:03+00:00",
-      "fetched_at": "2026-10-20T05:52:03.598331+00:00",
-      "text": "Impressionen vom klassischen InterCity. Donnerstag erscheint die Podcastfolge zum IC-Abschiedsevent. #intercity",
-      "url": "https://podcasts.social/@langsamfahrt/117471593344397835",
-      "primary_sentiment": "negative",
-      "primary_score": 0.997,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "de"
-    },
-    {
-      "id": "masto_bab18363b55c",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-20T05:28:11.507000+00:00",
-      "fetched_at": "2026-10-20T05:52:02.870273+00:00",
-      "text": "STORING: defecte trein Hilversum - Amersfoort Schothorst #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117471582060867799",
-      "primary_sentiment": "negative",
-      "primary_score": 0.996,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_41d4ba6cef0c",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-20T05:11:04+00:00",
-      "fetched_at": "2026-10-20T05:52:03.137681+00:00",
-      "text": "Grote storing op vliegveld Schiphol: ‘Ons vliegtuig is al weg’ #Business #Commercial #cyber #Dutch #Nederland #Nederlanden #Nederlands #Netherlands #NL #paspoorten #Schiphol #Storing #Zakelijk",
-      "url": "https://pubeurope.com/@nl/117471514755101360",
-      "primary_sentiment": "positive",
-      "primary_score": 0.998,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_d48c20bd1c15",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-20T05:05:11.907000+00:00",
-      "fetched_at": "2026-10-20T05:52:03.197631+00:00",
-      "text": "STORING: gestrande trein Zwolle - Enschede #storing #keolis #blauwnet",
-      "url": "https://mastodon.nl/@rijdendetreinen/117471491647224012",
-      "primary_sentiment": "negative",
-      "primary_score": 0.99,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-10-24T13:56:47.981818+00:00"
+  "updated_at": "2026-10-24T17:21:08.681454+00:00"
 }
