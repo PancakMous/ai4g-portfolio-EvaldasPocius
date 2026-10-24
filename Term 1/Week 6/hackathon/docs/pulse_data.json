@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 1129,
-    "positive_count": 762,
+    "total_posts": 1138,
+    "positive_count": 769,
     "neutral_count": 0,
-    "negative_count": 367,
+    "negative_count": 369,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-24T17:10:11.256000+00:00",
-    "net_sentiment": 35.0
+    "latest_post": "2026-10-24T19:55:11.608000+00:00",
+    "net_sentiment": 35.1
   },
   "timeline": [
     {
@@ -4844,15 +4844,150 @@
     },
     {
       "time_bucket": "2026-10-24 17:00",
-      "total_count": 2,
-      "positive_count": 1,
+      "total_count": 3,
+      "positive_count": 2,
       "neutral_count": 0,
       "negative_count": 1,
-      "avg_confidence": 0.9964999999999999,
-      "net_sentiment": 0.0
+      "avg_confidence": 0.9899999999999999,
+      "net_sentiment": 33.3
+    },
+    {
+      "time_bucket": "2026-10-24 18:00",
+      "total_count": 3,
+      "positive_count": 2,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.8769999999999999,
+      "net_sentiment": 33.3
+    },
+    {
+      "time_bucket": "2026-10-24 19:00",
+      "total_count": 5,
+      "positive_count": 4,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.9410000000000001,
+      "net_sentiment": 60.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_894d7a92592d",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-24T19:55:11.608000+00:00",
+      "fetched_at": "2026-10-24T20:35:49.778746+00:00",
+      "text": "Storing voorbij: brandmelding Almere - Lelystad #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117497640491771204",
+      "primary_sentiment": "negative",
+      "primary_score": 0.881,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_35bff808410d",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-24T19:53:11.863000+00:00",
+      "fetched_at": "2026-10-24T20:35:49.822184+00:00",
+      "text": "Storing voorbij: wisselstoring Hilversum - Amersfoort; Utrecht - Hilversum #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117497632644235960",
+      "primary_sentiment": "positive",
+      "primary_score": 0.888,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_74a3a27efe80",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-24T19:44:23.948000+00:00",
+      "fetched_at": "2026-10-24T20:35:49.858198+00:00",
+      "text": "STORING: brandmelding Almere - Lelystad #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117497598046708289",
+      "primary_sentiment": "positive",
+      "primary_score": 0.941,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_62e7333427dc",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-24T19:44:11.554000+00:00",
+      "fetched_at": "2026-10-24T20:35:49.900292+00:00",
+      "text": "STORING: wisselstoring Hilversum - Amersfoort; Utrecht - Hilversum #storing #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117497597234482927",
+      "primary_sentiment": "positive",
+      "primary_score": 0.996,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_339b3340183e",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-24T19:24:03+00:00",
+      "fetched_at": "2026-10-24T20:35:49.948034+00:00",
+      "text": "Still I kind of love #NS. When it works it really gives me some mmmmm vibes :*",
+      "url": "https://mastodon.social/@grayrattus/117497518065789849",
+      "primary_sentiment": "positive",
+      "primary_score": 0.999,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "en"
+    },
+    {
+      "id": "masto_98f3fcd8d7fe",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-24T18:45:11.222000+00:00",
+      "fetched_at": "2026-10-24T20:35:49.986915+00:00",
+      "text": "STORING: defecte trein Heerlen - Kerkrade #storing #arriva",
+      "url": "https://mastodon.nl/@rijdendetreinen/117497365215201997",
+      "primary_sentiment": "negative",
+      "primary_score": 0.997,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "reddit_bac26d822c1b",
+      "source": "reddit:r/thenetherlands",
+      "created_at": "2026-10-24T18:36:52+00:00",
+      "fetched_at": "2026-10-24T20:35:50.281751+00:00",
+      "text": "Dit zijn de 24 steden die op de website holland.com worden gepromoot als toeristische bestemmingen. Mee eens?. Holland.com is de website van het NBTC, de organisatie die verantwoordelijk is voor het promoten van Nederland aan buitenlandse toeristen. Ik was wel benieuwd een tijdje terug welke steden populair zijn als toerisme-bestemming in het buitenland. En toen vond ik deze website wat een inkijkje is in wat de toerisme-branch zelf wil promoten. Als het om steden gaat staan hieronder de steden die een eigen pagina hebben. Ik denk dat veel mensen Almere de meest onverwachte keuze vinden, maar ik vind het niet gek dat ze ook een paar modernere steden willen opnemen. En ik heb ooit een Belg ontmoet die niet helemaal dol was van Almere en het regelmatig als toerist bezocht. Enschede zou ik zelf er niet op hebben gezet, maar ik ben er nooit geweest, en ik heb begrepen dat het best een leuke stad is als je van modernere steden houdt. Maar grotendeels begrijp ik de keuzes wel. Welke 24 steden zouden jullie uitkiezen? Hier dus de steden in alfabetische volgorde. Alkmaar Almere Amersfoort Amsterdam Arnhem Breda Delft Den Bosch Den Haag Deventer Dordrecht Eindhoven Enschede Gouda Groningen Haarlem Leeuwarden Leiden Maastricht Middelburg Nijmegen Rotterdam Utrecht Zwolle submitted by /u/merijn2 [link] [comments]",
+      "url": "https://www.reddit.com/r/thenetherlands/comments/1xeg95w/dit_zijn_de_24_steden_die_op_de_website/",
+      "primary_sentiment": "positive",
+      "primary_score": 0.688,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_790d0ac26057",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-24T18:06:43+00:00",
+      "fetched_at": "2026-10-24T20:35:50.086500+00:00",
+      "text": "#Pristina 🇽🇰 to #Skopje 🇲🇰 by #InterCity train in June 2010. Passengers could benefit from generous dwell times at intermediate stops. This is why this photo exists. I probably took it at #Ferizaj, if I remember well. The train, hauled by an ex-#NSB 🇳🇴 #Di3 diesel, was composed of former #SJ 🇸🇪 cars.",
+      "url": "https://rail.chat/@andreaswiedenhoff/117497213984058659",
+      "primary_sentiment": "positive",
+      "primary_score": 0.946,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "en"
+    },
+    {
+      "id": "reddit_68dfcb495eb3",
+      "source": "reddit:r/thenetherlands",
+      "created_at": "2026-10-24T17:40:47+00:00",
+      "fetched_at": "2026-10-24T20:35:50.343899+00:00",
+      "text": "Elf jongens aangehouden na geweldsincidenten bij cruiseplek De Oeverlanden: \"Rust is terug\". submitted by /u/welcomeyearzer0 [link] [comments]",
+      "url": "https://www.reddit.com/r/thenetherlands/comments/1xeeu83/elf_jongens_aangehouden_na_geweldsincidenten_bij/",
+      "primary_sentiment": "positive",
+      "primary_score": 0.977,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
     {
       "id": "masto_9745b85ad94e",
       "source": "mastodon:mastodon.nl",
@@ -7985,124 +8120,7 @@
       "secondary_sentiment": "neutral",
       "secondary_score": 0.5,
       "language": "nl"
-    },
-    {
-      "id": "masto_618257325df3",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-20T09:16:36+00:00",
-      "fetched_at": "2026-10-20T11:20:50.642662+00:00",
-      "text": "[USER] ja maar de #spoorwegen moeten winst maken, snap dat dan. « #VVD is de #autopartij, vroem, vroem!» aldus Mark #Rutte #Rail21 had zo mooi geweest",
-      "url": "https://toot.community/@feike/117472480223429530",
-      "primary_sentiment": "positive",
-      "primary_score": 0.971,
-      "secondary_sentiment": "positive",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_67d7c68e8086",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-20T09:16:03+00:00",
-      "fetched_at": "2026-10-20T11:20:50.742335+00:00",
-      "text": "Pociągi Warszawa – Koszyce – Budapeszt ruszą już za rok? #Intercity #Kolej #KolejeMazowieckie #Linia105 #Linia96 #MinisterstwoInfrastruktury #PKP #PKPIntercity #PL #PociągiMiędzynarodowe #Poland #Polish #Polska #Polski #PołączeniaMiędzynarodowe #PrzewozyRegionalne #RozkładyJazdyPKP #RynekKolejowy #warszawa",
-      "url": "https://pubeurope.com/@pl/117472478071560151",
-      "primary_sentiment": "positive",
-      "primary_score": 0.998,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "pl"
-    },
-    {
-      "id": "masto_e38c1aa7f605",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-20T09:06:53+00:00",
-      "fetched_at": "2026-10-20T11:20:50.044798+00:00",
-      "text": "𝗡𝗦 𝗺𝗮𝗮𝗸𝘁 𝘁𝗿𝗲𝗶𝗻𝗸𝗮𝗮𝗿𝘁𝗷𝗲𝘀 𝘃𝗼𝗹𝗴𝗲𝗻𝗱 𝗷𝗮𝗮𝗿 𝗯𝗶𝗷𝗻𝗮 5 𝗽𝗿𝗼𝗰𝗲𝗻𝘁 𝗱𝘂𝘂𝗿𝗱𝗲𝗿 De prijs van een treinkaartje en de meeste abonnementen stijgt begin volgend jaar met gemiddeld 4,7 procent. Dat heeft spoorbedrijf NS vanochtend bekend gemaakt. Daarmee stijgt de prijs van reizen met de trein harder dan de inflatie. #NS #treinkaartjes #duurder",
-      "url": "https://mastodon.social/@rtlnieuws/117472442042031536",
-      "primary_sentiment": "positive",
-      "primary_score": 0.99,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_749acf7096f5",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-20T09:04:40+00:00",
-      "fetched_at": "2026-10-20T11:20:50.089663+00:00",
-      "text": "📰 NS maakt treinkaartjes volgend jaar bijna 5 procent duurder 🕚 11:03 | RTL Nieuws 🔸 #Inflatie #NS #Trein #Duurder",
-      "url": "https://mastodon.social/@NieuwsJunkies/117472433325166512",
-      "primary_sentiment": "positive",
-      "primary_score": 0.998,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_ed1603a21d65",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-20T09:04:13+00:00",
-      "fetched_at": "2026-10-20T11:20:50.130975+00:00",
-      "text": "📰 Treinkaartjes NS opnieuw stuk duurder, stijging van gemiddeld 4,7 procent 🕚 11:02 | NOS Nieuws 🔸 #NS #Trein #Duurder",
-      "url": "https://mastodon.social/@NieuwsJunkies/117472431545510013",
-      "primary_sentiment": "positive",
-      "primary_score": 0.998,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_4802eb403a7f",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-20T08:41:11.546000+00:00",
-      "fetched_at": "2026-10-20T11:20:50.167610+00:00",
-      "text": "Storing voorbij: defecte spoorbrug Amsterdam - Haarlem #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117472340970060302",
-      "primary_sentiment": "negative",
-      "primary_score": 0.993,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_bd577e7fafd4",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-20T08:29:11.713000+00:00",
-      "fetched_at": "2026-10-20T11:20:50.373918+00:00",
-      "text": "STORING: defecte spoorbrug Leeuwarden - Stavoren #storing #arriva",
-      "url": "https://mastodon.nl/@rijdendetreinen/117472293795282724",
-      "primary_sentiment": "negative",
-      "primary_score": 0.987,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_1674697d7d4c",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-20T08:17:22+00:00",
-      "fetched_at": "2026-10-20T11:20:50.533967+00:00",
-      "text": "Kungsträdgården #Stockholm #Metro #Station Blue Line #sweden 🚇🇸🇪 #nikon #hiddenlondonhangouts #fisheye #Kungstradgarden #snap_community_member #snap_challenge #snap_artgallary #snap_world #snap_community #snap_colorsplash #snap_nordic #snap_vip_gold_member #snap_architecture #snap_depthoffield #snap_process #snap_communityarts #snap_POTD #snap_abstract #snap_colours #snap_cityscape #snap_Scandi #snap_flatlays #snap_textures #snap_transports #snap_newartist #photography_hub #snap_symmetry",
-      "url": "https://mastodonapp.uk/@nickharrison/117472247295602190",
-      "primary_sentiment": "positive",
-      "primary_score": 0.995,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "en"
-    },
-    {
-      "id": "masto_9843555d63e4",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-20T07:21:11.650000+00:00",
-      "fetched_at": "2026-10-20T11:20:50.197906+00:00",
-      "text": "STORING: defecte spoorbrug Amsterdam - Haarlem #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117472026404264320",
-      "primary_sentiment": "negative",
-      "primary_score": 0.981,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-10-24T17:21:08.681454+00:00"
+  "updated_at": "2026-10-24T20:35:50.405149+00:00"
 }
