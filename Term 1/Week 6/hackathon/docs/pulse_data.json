@@ -1,11 +1,11 @@
 {
   "stats": {
-    "total_posts": 1138,
-    "positive_count": 769,
+    "total_posts": 1140,
+    "positive_count": 770,
     "neutral_count": 0,
-    "negative_count": 369,
+    "negative_count": 370,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-24T19:55:11.608000+00:00",
+    "latest_post": "2026-10-24T22:55:12.070000+00:00",
     "net_sentiment": 35.1
   },
   "timeline": [
@@ -4868,9 +4868,44 @@
       "negative_count": 1,
       "avg_confidence": 0.9410000000000001,
       "net_sentiment": 60.0
+    },
+    {
+      "time_bucket": "2026-10-24 22:00",
+      "total_count": 2,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.9484999999999999,
+      "net_sentiment": 0.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_94caf5304cb3",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-24T22:55:12.070000+00:00",
+      "fetched_at": "2026-10-24T23:04:32.670198+00:00",
+      "text": "STORING: gestrande trein Amersfoort - Deventer #storing #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117498348310766629",
+      "primary_sentiment": "negative",
+      "primary_score": 0.954,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_12d54a162a6c",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-24T22:54:12.054000+00:00",
+      "fetched_at": "2026-10-24T23:04:32.731408+00:00",
+      "text": "STORING: object op het spoor Groningen - Delfzijl #storing #arriva",
+      "url": "https://mastodon.nl/@rijdendetreinen/117498344377576154",
+      "primary_sentiment": "positive",
+      "primary_score": 0.943,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "masto_894d7a92592d",
       "source": "mastodon:mastodon.nl",
@@ -8094,33 +8129,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "reddit_9a95fa9edf7a",
-      "source": "reddit:r/thenetherlands",
-      "created_at": "2026-10-20T09:24:59+00:00",
-      "fetched_at": "2026-10-20T11:20:50.892284+00:00",
-      "text": "Treinkaartjes NS opnieuw stuk duurder, stijging van gemiddeld 4,7 procent. submitted by /u/Christhesickpro62 [link] [comments]",
-      "url": "https://www.reddit.com/r/thenetherlands/comments/1xanh7o/treinkaartjes_ns_opnieuw_stuk_duurder_stijging/",
-      "primary_sentiment": "positive",
-      "primary_score": 0.962,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_5c4f16ea76f7",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-20T09:20:30+00:00",
-      "fetched_at": "2026-10-20T11:20:50.598201+00:00",
-      "text": "[USER] ze mogen van mij de belastingen omhoog gooien, als dat zorgt dat de #spoorwegen de lijn van Lelystad naar Groningen aanleggen, Noord-Nederland #elektrificeren, overal #ETCS niveau 1 of 2 FS neerleggen en het ov gratis maken. (Ik woon overigens in Noord-Holland, dus ik zeg dit niet uit eigenbelang; hetgeen mijn mening trouwens niet minder valide zou maken)",
-      "url": "https://toot.community/@feike/117472495595836594",
-      "primary_sentiment": "positive",
-      "primary_score": 0.993,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-10-24T20:35:50.405149+00:00"
+  "updated_at": "2026-10-24T23:04:32.800729+00:00"
 }
