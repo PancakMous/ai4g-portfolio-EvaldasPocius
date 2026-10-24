@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 1103,
-    "positive_count": 748,
+    "total_posts": 1113,
+    "positive_count": 754,
     "neutral_count": 0,
-    "negative_count": 355,
+    "negative_count": 359,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-23T23:57:20.496000+00:00",
-    "net_sentiment": 35.6
+    "latest_post": "2026-10-24T06:31:07+00:00",
+    "net_sentiment": 35.5
   },
   "timeline": [
     {
@@ -4736,12 +4736,12 @@
     },
     {
       "time_bucket": "2026-10-23 21:00",
-      "total_count": 5,
+      "total_count": 6,
       "positive_count": 2,
       "neutral_count": 0,
-      "negative_count": 3,
-      "avg_confidence": 0.9938,
-      "net_sentiment": -20.0
+      "negative_count": 4,
+      "avg_confidence": 0.9703333333333334,
+      "net_sentiment": -33.3
     },
     {
       "time_bucket": "2026-10-23 23:00",
@@ -4751,9 +4751,153 @@
       "negative_count": 2,
       "avg_confidence": 0.9163333333333332,
       "net_sentiment": -33.3
+    },
+    {
+      "time_bucket": "2026-10-24 04:00",
+      "total_count": 2,
+      "positive_count": 2,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.9815,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-10-24 05:00",
+      "total_count": 6,
+      "positive_count": 3,
+      "neutral_count": 0,
+      "negative_count": 3,
+      "avg_confidence": 0.9136666666666667,
+      "net_sentiment": 0.0
+    },
+    {
+      "time_bucket": "2026-10-24 06:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.917,
+      "net_sentiment": 100.0
     }
   ],
   "posts": [
+    {
+      "id": "reddit_471b7add8570",
+      "source": "reddit:r/thenetherlands",
+      "created_at": "2026-10-24T06:31:07+00:00",
+      "fetched_at": "2026-10-24T09:24:36.263890+00:00",
+      "text": "Je hebt recht op ouders, niet op een kind: 'Belang donorkind vaak onderschat'. submitted by /u/cpuinside [link] [comments]",
+      "url": "https://www.reddit.com/r/thenetherlands/comments/1xe1cwe/je_hebt_recht_op_ouders_niet_op_een_kind_belang/",
+      "primary_sentiment": "positive",
+      "primary_score": 0.917,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_ca29bb9e22a0",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-24T05:58:11.789000+00:00",
+      "fetched_at": "2026-10-24T09:24:35.420973+00:00",
+      "text": "STORING: spoorproblemen in het buitenland Amsterdam - Köln - Frankfurt; Amsterdam - Hannover - Berlin; Amsterdam - Mannheim - München Hbf #storing #ns #nsinternational #db #keolis #blauwnet #obb #nightjet #viasrail",
+      "url": "https://mastodon.nl/@rijdendetreinen/117494349284133645",
+      "primary_sentiment": "positive",
+      "primary_score": 0.763,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_9f78206977f9",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-24T05:32:11.221000+00:00",
+      "fetched_at": "2026-10-24T09:24:35.945616+00:00",
+      "text": "STORING: tekort aan personeel Amersfoort - Barneveld #storing #keolis #rrreis",
+      "url": "https://mastodon.nl/@rijdendetreinen/117494247010965710",
+      "primary_sentiment": "negative",
+      "primary_score": 0.993,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_295c6d7282d2",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-24T05:25:11.972000+00:00",
+      "fetched_at": "2026-10-24T09:24:36.063420+00:00",
+      "text": "STORING: beperkingen in de materieelinzet Venlo - Mönchengladbach - Düsseldorf #storing #eurobahn",
+      "url": "https://mastodon.nl/@rijdendetreinen/117494219536455607",
+      "primary_sentiment": "negative",
+      "primary_score": 0.796,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_9abb5b4cc7d5",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-24T05:13:12.206000+00:00",
+      "fetched_at": "2026-10-24T09:24:36.113964+00:00",
+      "text": "STORING: defecte trein Arnhem - Winterswijk #storing #arriva #breng",
+      "url": "https://mastodon.nl/@rijdendetreinen/117494172364605350",
+      "primary_sentiment": "negative",
+      "primary_score": 0.995,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_004e927e9505",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-24T05:11:11.298000+00:00",
+      "fetched_at": "2026-10-24T09:24:36.157422+00:00",
+      "text": "STORING: boom op het spoor Heerlen - Maastricht #storing #arriva",
+      "url": "https://mastodon.nl/@rijdendetreinen/117494164441999008",
+      "primary_sentiment": "positive",
+      "primary_score": 0.995,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_4ef50ae47332",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-24T05:10:11.282000+00:00",
+      "fetched_at": "2026-10-24T09:24:35.705963+00:00",
+      "text": "STORING: spoorproblemen in het buitenland Amsterdam - Köln - Frankfurt #storing #ns #nsinternational #db #viasrail",
+      "url": "https://mastodon.nl/@rijdendetreinen/117494160508496735",
+      "primary_sentiment": "positive",
+      "primary_score": 0.94,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_b73eb0302528",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-24T04:54:11.404000+00:00",
+      "fetched_at": "2026-10-24T09:24:36.205451+00:00",
+      "text": "STORING: boom op het spoor Alphen a/d Rijn - Gouda #storing #rnet",
+      "url": "https://mastodon.nl/@rijdendetreinen/117494097602219269",
+      "primary_sentiment": "positive",
+      "primary_score": 0.964,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "reddit_352910d88da3",
+      "source": "reddit:r/thenetherlands",
+      "created_at": "2026-10-24T04:17:25+00:00",
+      "fetched_at": "2026-10-24T09:24:36.563748+00:00",
+      "text": "Zaterdagse Wat Kijk Je draad: Welke films, televisieshows, of YouTubeseries heb je (recent) gekeken? Wat is jouw mening over recente afleveringen? Heb je nog aanraders?. Welkom bij de Zaterdagse \"Wat Doe Je?\"-Draad, waar we wekelijks willen weten wat jou bezig houdt. Elke week rouleren we tussen \"kijken\" (films, televisieshows, en YouTube-videos), \"luisteren\" (podcasts, radioshows, en andere muziek), \"lezen\" (boeken, tijdschriften, en websites), en \"doen\" (games, sport, en andere hobbies). Deze week is het de beurt aan filmseries, televisieshows, en YouTube-videos. Wat ben je gaan volgen, wat heb je gekeken, en wat vond je ervan? Zou je het aanraden aan je mede-redditors? Actualiteit is niet verplicht, en ook als je juist je favoriete jaren 80 film even wil prijzen kan dat absoluut hier. Of ben je juist op zoek naar een spannende serie, een leuke film, of een interessant YouTube kanaal? Heb je iets gehoord over die éne Netflix serie en vraag je je af of het echt zo goed is als je hoopt dat het is? Dit is je kans. Denk eraan om spoilers te taggen met een spoiler! submitted by /u/Austrel [link] [comments]",
+      "url": "https://www.reddit.com/r/thenetherlands/comments/1xdz0sw/zaterdagse_wat_kijk_je_draad_welke_films/",
+      "primary_sentiment": "positive",
+      "primary_score": 0.999,
+      "secondary_sentiment": "positive",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "masto_347b2828ad23",
       "source": "mastodon:mastodon.nl",
@@ -4843,6 +4987,19 @@
       "primary_score": 0.994,
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "reddit_8a113e9ec05b",
+      "source": "reddit:r/thenetherlands",
+      "created_at": "2026-10-23T21:28:09+00:00",
+      "fetched_at": "2026-10-24T09:24:36.794088+00:00",
+      "text": "Zijn vividgreen keuken apparaten zonder pfas goed of tiktok troep? Ik kan geen verificatie vinden van een derde partij rondom de pfas vrije marketing. Weet iemand toevallig of vividgreen's pfas vrije claims onderbouwt zijn met data zoals testen? Ik kan nergens een logo van certificatie van een derde partij vinden op hun website Het is zo enorm moeilijk om iets te vinden zonder echt pfas te hebben. Ik ben ziek en zoek een broodmaker omdat ik bijna niks kan eten qua allergenen en geen energie heb om te koken dus ik zou graag horen als iemand hier informatie over heeft of mischien een alternatief heeft die geen zeker weten geen pfas heeft edit: ik heb een website gevonden die lijkt producten te [vergelijken]( dus ik ga mischien voor fornello omdat keramiek veiliger lijkt Maar ik zou nog steeds graag willen horen hoe jullie dat nou verifieren. Helemaal na het hele dupont drama in nederland lijken mensen steeds meer bekend te zijn met de gevaren van pfas submitted by /u/jason2306 [link] [comments]",
+      "url": "https://www.reddit.com/r/thenetherlands/comments/1xdqm5n/zijn_vividgreen_keuken_apparaten_zonder_pfas_goed/",
+      "primary_sentiment": "negative",
+      "primary_score": 0.853,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
       "language": "nl"
     },
     {
@@ -7873,137 +8030,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "masto_fe9bdc6137e3",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-19T23:51:11.727000+00:00",
-      "fetched_at": "2026-10-20T00:15:46.720215+00:00",
-      "text": "Storing voorbij: brandmelding Den Haag - Rotterdam; Leiden - Rotterdam #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117470256937282870",
-      "primary_sentiment": "negative",
-      "primary_score": 0.899,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_a3149c5d81dc",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-19T22:39:11.392000+00:00",
-      "fetched_at": "2026-10-20T00:15:46.758249+00:00",
-      "text": "Storing voorbij: aanrijding Zwolle - Groningen; Zwolle - Leeuwarden #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117469973799922145",
-      "primary_sentiment": "negative",
-      "primary_score": 0.669,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_0adb412d7dbc",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-19T22:04:11.873000+00:00",
-      "fetched_at": "2026-10-20T00:15:46.796316+00:00",
-      "text": "Storing voorbij: gestrande trein Amersfoort - Deventer #ns #nsinternational",
-      "url": "https://mastodon.nl/@rijdendetreinen/117469836205756310",
-      "primary_sentiment": "negative",
-      "primary_score": 0.981,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_cf157efae610",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-19T22:03:11.494000+00:00",
-      "fetched_at": "2026-10-20T00:15:46.831445+00:00",
-      "text": "STORING: brandmelding Rotterdam - Dordrecht #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117469832248701476",
-      "primary_sentiment": "positive",
-      "primary_score": 0.952,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_e07aacfc5785",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-19T21:52:11.551000+00:00",
-      "fetched_at": "2026-10-20T00:15:46.871771+00:00",
-      "text": "STORING: gestrande trein Amersfoort - Deventer #storing #ns #nsinternational",
-      "url": "https://mastodon.nl/@rijdendetreinen/117469788998759228",
-      "primary_sentiment": "negative",
-      "primary_score": 0.954,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_e5456a8f5b38",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-19T21:49:11.691000+00:00",
-      "fetched_at": "2026-10-20T00:15:46.907654+00:00",
-      "text": "STORING: brandmelding Den Haag - Rotterdam #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117469777211409583",
-      "primary_sentiment": "positive",
-      "primary_score": 0.988,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_d280b83b5ab0",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-19T20:13:02+00:00",
-      "fetched_at": "2026-10-20T00:15:47.002032+00:00",
-      "text": "Oregon Adds 5,800 Jobs | Z100 Portland #hit #john #JohnJay #johnjay #JohnjayAndRich #jon #jonjay #kyle #maui #morning #oregon #Portland #radio #rich #romeo #ryan #RyanSeacrest #seacrest #show #station #Top40 #z100",
-      "url": "https://pubeurope.com/@us/117469399133652657",
-      "primary_sentiment": "positive",
-      "primary_score": 0.998,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "en"
-    },
-    {
-      "id": "masto_e17bce081e22",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-19T20:07:11.560000+00:00",
-      "fetched_at": "2026-10-19T20:59:34.136190+00:00",
-      "text": "STORING: gestrande trein Hoofddorp - Schiphol - Hoorn #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117469376122578121",
-      "primary_sentiment": "negative",
-      "primary_score": 0.98,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_30867ae8ff50",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-19T20:06:11.565000+00:00",
-      "fetched_at": "2026-10-19T20:59:34.196537+00:00",
-      "text": "Storing voorbij: gestrande trein Deventer - Enschede #ns #nsinternational",
-      "url": "https://mastodon.nl/@rijdendetreinen/117469372190622409",
-      "primary_sentiment": "negative",
-      "primary_score": 0.992,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "reddit_8ed6949429bc",
-      "source": "reddit:r/thenetherlands",
-      "created_at": "2026-10-19T20:03:37+00:00",
-      "fetched_at": "2026-10-19T20:59:34.794337+00:00",
-      "text": "Bregje Smits (32) wilde eerder dit jaar nog stoppen met marathons, maar liep in Amsterdam de race van haar leven. submitted by /u/LiveAusGermany [link] [comments]",
-      "url": "https://www.reddit.com/r/thenetherlands/comments/1xa7fuh/bregje_smits_32_wilde_eerder_dit_jaar_nog_stoppen/",
-      "primary_sentiment": "positive",
-      "primary_score": 0.986,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-10-24T04:16:39.748394+00:00"
+  "updated_at": "2026-10-24T09:24:36.835982+00:00"
 }
