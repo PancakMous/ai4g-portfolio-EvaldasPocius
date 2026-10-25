@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 1141,
-    "positive_count": 770,
+    "total_posts": 1153,
+    "positive_count": 774,
     "neutral_count": 0,
-    "negative_count": 371,
+    "negative_count": 379,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-24T23:12:11.342000+00:00",
-    "net_sentiment": 35.0
+    "latest_post": "2026-10-25T09:36:11.574000+00:00",
+    "net_sentiment": 34.3
   },
   "timeline": [
     {
@@ -4870,6 +4870,15 @@
       "net_sentiment": 60.0
     },
     {
+      "time_bucket": "2026-10-24 20:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.988,
+      "net_sentiment": 100.0
+    },
+    {
       "time_bucket": "2026-10-24 22:00",
       "total_count": 2,
       "positive_count": 1,
@@ -4886,9 +4895,188 @@
       "negative_count": 1,
       "avg_confidence": 0.981,
       "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-10-25 06:00",
+      "total_count": 2,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.9904999999999999,
+      "net_sentiment": 0.0
+    },
+    {
+      "time_bucket": "2026-10-25 07:00",
+      "total_count": 2,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.993,
+      "net_sentiment": 0.0
+    },
+    {
+      "time_bucket": "2026-10-25 08:00",
+      "total_count": 3,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 2,
+      "avg_confidence": 0.9873333333333333,
+      "net_sentiment": -33.3
+    },
+    {
+      "time_bucket": "2026-10-25 09:00",
+      "total_count": 4,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 4,
+      "avg_confidence": 0.97725,
+      "net_sentiment": -100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_6f35a70b77e2",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-25T09:36:11.574000+00:00",
+      "fetched_at": "2026-10-25T09:43:04.540313+00:00",
+      "text": "Storing voorbij: gestrande trein Zwolle - Leeuwarden #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117500868792996636",
+      "primary_sentiment": "negative",
+      "primary_score": 0.982,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_348f85d08efe",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-25T09:35:11.596000+00:00",
+      "fetched_at": "2026-10-25T09:43:04.639186+00:00",
+      "text": "STORING: gestrande trein Rotterdam - Breda #storing #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117500864861992015",
+      "primary_sentiment": "negative",
+      "primary_score": 0.944,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "reddit_672b1dfa0665",
+      "source": "reddit:r/thenetherlands",
+      "created_at": "2026-10-25T09:24:56+00:00",
+      "fetched_at": "2026-10-25T09:43:05.466815+00:00",
+      "text": "Opnieuw ongeregeldheden tijdens Walibi Fright Nights. submitted by /u/Cubelock [link] [comments]",
+      "url": "https://www.reddit.com/r/thenetherlands/comments/1xexv24/opnieuw_ongeregeldheden_tijdens_walibi_fright/",
+      "primary_sentiment": "negative",
+      "primary_score": 0.995,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_4eac21468dd9",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-25T09:06:11.263000+00:00",
+      "fetched_at": "2026-10-25T09:43:04.696681+00:00",
+      "text": "STORING: gestrande trein Zwolle - Leeuwarden #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117500750807712160",
+      "primary_sentiment": "negative",
+      "primary_score": 0.988,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_17ebea4803d0",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-25T08:50:12.238000+00:00",
+      "fetched_at": "2026-10-25T09:43:05.117176+00:00",
+      "text": "STORING: tekort aan personeel Venlo - Mönchengladbach - Düsseldorf #storing #eurobahn",
+      "url": "https://mastodon.nl/@rijdendetreinen/117500687957052379",
+      "primary_sentiment": "negative",
+      "primary_score": 0.985,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_7d4ac3b3f12b",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-25T08:42:19.639000+00:00",
+      "fetched_at": "2026-10-25T09:43:05.168263+00:00",
+      "text": "STORING: seinstoring Zutphen - Hengelo #storing #arriva #blauwnet",
+      "url": "https://mastodon.nl/@rijdendetreinen/117500656984813326",
+      "primary_sentiment": "positive",
+      "primary_score": 0.98,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_4f7d77bf9b67",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-25T08:17:11.951000+00:00",
+      "fetched_at": "2026-10-25T09:43:05.215617+00:00",
+      "text": "STORING: defecte trein Heerlen - Maastricht #storing #arriva",
+      "url": "https://mastodon.nl/@rijdendetreinen/117500558176982818",
+      "primary_sentiment": "negative",
+      "primary_score": 0.997,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_e6966179fcb4",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-25T07:31:19+00:00",
+      "fetched_at": "2026-10-25T09:43:04.887633+00:00",
+      "text": "Oude trein in Veghel #SilentSunday #photography #hobbyphotography #treinen #nostalgie",
+      "url": "https://mastodon.social/@Francien63/117500377777896863",
+      "primary_sentiment": "positive",
+      "primary_score": 0.999,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_f048a5a1bee3",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-25T07:13:11.490000+00:00",
+      "fetched_at": "2026-10-25T09:43:04.746085+00:00",
+      "text": "Storing voorbij: defecte trein Nijmegen - 's-Hertogenbosch #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117500306488457840",
+      "primary_sentiment": "negative",
+      "primary_score": 0.987,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_6dfb29be5763",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-25T06:47:11.827000+00:00",
+      "fetched_at": "2026-10-25T09:43:05.277073+00:00",
+      "text": "STORING: boom op het spoor Zutphen - Hengelo #storing #arriva #blauwnet",
+      "url": "https://mastodon.nl/@rijdendetreinen/117500204274373066",
+      "primary_sentiment": "positive",
+      "primary_score": 0.996,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_f730b751f5cd",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-25T06:45:12.389000+00:00",
+      "fetched_at": "2026-10-25T09:43:04.827800+00:00",
+      "text": "STORING: defecte trein Nijmegen - 's-Hertogenbosch #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117500196446917902",
+      "primary_sentiment": "negative",
+      "primary_score": 0.985,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "masto_cf80d96415f2",
       "source": "mastodon:mastodon.nl",
@@ -4926,6 +5114,19 @@
       "primary_score": 0.943,
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_616abf438c8a",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-24T20:47:17+00:00",
+      "fetched_at": "2026-10-25T09:43:05.404779+00:00",
+      "text": "Fotowalk Hannover - Central Station starlets #streetphotography #street #blackandwhite #blackandwhitephotography #noiretblanc #biancoenero #schwarzweiß #monochrome #architecture #architecturephotography #urban #urbanphotography #hannover #railwaystation #trainstation #station #centralstation #tramway #darktable",
+      "url": "https://pixelfed.de/p/SilverFern/1019710955771017051",
+      "primary_sentiment": "positive",
+      "primary_score": 0.988,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
       "language": "nl"
     },
     {
@@ -7982,163 +8183,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "masto_0712bb365a2e",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-20T17:26:27+00:00",
-      "fetched_at": "2026-10-20T20:25:42.515568+00:00",
-      "text": "#NS maakt zwartrijden bijna 5 procent aantrekkelijker #nieuwspaal",
-      "url": "https://mas.to/@farlukar/117474406375946776",
-      "primary_sentiment": "positive",
-      "primary_score": 0.98,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_4912243c895e",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-20T17:18:11.355000+00:00",
-      "fetched_at": "2026-10-20T20:25:42.562434+00:00",
-      "text": "STORING: defecte trein Hoofddorp - Schiphol - Hilversum #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117474373884461568",
-      "primary_sentiment": "negative",
-      "primary_score": 0.994,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "reddit_d39e4ebf7ca3",
-      "source": "reddit:r/thenetherlands",
-      "created_at": "2026-10-20T16:28:02+00:00",
-      "fetched_at": "2026-10-20T16:45:43.809029+00:00",
-      "text": "Minister wil plaatsing jongeren in Spaans huis met 'martelmethode' niet onderzoeken. submitted by /u/ALollef [link] [comments]",
-      "url": "https://www.reddit.com/r/thenetherlands/comments/1xawsnv/minister_wil_plaatsing_jongeren_in_spaans_huis/",
-      "primary_sentiment": "positive",
-      "primary_score": 0.862,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_18d2c9642ff1",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-20T16:10:11.270000+00:00",
-      "fetched_at": "2026-10-20T16:45:43.199293+00:00",
-      "text": "STORING: aanrijding Eindhoven - Heerlen #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117474106492116675",
-      "primary_sentiment": "negative",
-      "primary_score": 0.774,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_b4f52f5c3056",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-20T14:54:31+00:00",
-      "fetched_at": "2026-10-20T16:45:43.271917+00:00",
-      "text": "📰 NS verhoogt prijzen treinkaartjes: 'Bizar, het leven is al duur genoeg' 🕔 16:48 | RTL Nieuws 🔸 #Inflatie #NS #Trein #Bizar #Reizigers",
-      "url": "https://mastodon.social/@NieuwsJunkies/117473808967397894",
-      "primary_sentiment": "positive",
-      "primary_score": 0.994,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_e03657de97b4",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-20T14:52:00+00:00",
-      "fetched_at": "2026-10-20T16:45:43.590961+00:00",
-      "text": "𝗡𝗦 𝘃𝗲𝗿𝗵𝗼𝗼𝗴𝘁 𝗽𝗿𝗶𝗷𝘇𝗲𝗻 𝘁𝗿𝗲𝗶𝗻𝗸𝗮𝗮𝗿𝘁𝗷𝗲𝘀: '𝗕𝗶𝘇𝗮𝗿, 𝗵𝗲𝘁 𝗹𝗲𝘃𝗲𝗻 𝗶𝘀 𝗮𝗹 𝗱𝘂𝘂𝗿 𝗴𝗲𝗻𝗼𝗲𝗴' De prijzen van treinkaartjes en de meeste abonnementen van de NS stijgen begin volgend jaar met gemiddeld 4,7 procent. Daarmee stijgt de prijs van reizen met de trein harder dan de inflatie. Reizigers zijn er niet blij mee: 'Het leven is al duur genoeg.' #NS #prijzen #treinkaartjes",
-      "url": "https://mastodon.social/@rtlnieuws/117473799084423638",
-      "primary_sentiment": "positive",
-      "primary_score": 0.998,
-      "secondary_sentiment": "positive",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_f0c7dd007a23",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-20T14:50:11.905000+00:00",
-      "fetched_at": "2026-10-20T16:45:43.746782+00:00",
-      "text": "STORING: wisselstoring Zwolle - Enschede #storing #keolis #blauwnet",
-      "url": "https://mastodon.nl/@rijdendetreinen/117473791960869207",
-      "primary_sentiment": "positive",
-      "primary_score": 0.943,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_9905f45a4664",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-20T14:39:26+00:00",
-      "fetched_at": "2026-10-21T15:07:50.677128+00:00",
-      "text": "Zwei! Fahrradpanne? Zu wenig Luft? Schräubchen locker? ... ZWEI Karten mit den weit über 1.000(!) stillen Helferlein! Doppelt geht besser: Hash's #Langenhagen #Beiträge #Themen #FahrradClub #Fahrradstraße #Fahrradfahren #seo #FahrradReparaturStation #Fahrradtouren #Langenhagen #fahrradfahren #Fahrradtour #Fahrrad ADFC #Liebhaber #FahrradklimaTest #GEOChat #GPT #CoPilot #OpenStreetMap #Station #Kommentare",
-      "url": "https://mastodon.social/@adfclangenhagen/117473749686945127",
-      "primary_sentiment": "positive",
-      "primary_score": 0.997,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "de"
-    },
-    {
-      "id": "masto_9fb34343c531",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-20T14:16:11.971000+00:00",
-      "fetched_at": "2026-10-20T16:45:43.635041+00:00",
-      "text": "Storing voorbij: hinder op het spoor Deventer - Enschede #ns #nsinternational",
-      "url": "https://mastodon.nl/@rijdendetreinen/117473658271700869",
-      "primary_sentiment": "positive",
-      "primary_score": 0.59,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "reddit_c46232e093e1",
-      "source": "reddit:r/thenetherlands",
-      "created_at": "2026-10-20T13:18:17+00:00",
-      "fetched_at": "2026-10-20T16:45:43.897237+00:00",
-      "text": "On this day in 1568, the Battle of Geldenaken took place, where Willem van Oranje’s first invasion ran into the Duke of Alba. The image shows a historic print of the battle submitted by /u/WarHeritageInstitute [link] [comments]",
-      "url": "https://www.reddit.com/r/thenetherlands/comments/1xarx95/on_this_day_in_1568_the_battle_of_geldenaken_took/",
-      "primary_sentiment": "positive",
-      "primary_score": 0.96,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "reddit_eebbf90682bf",
-      "source": "reddit:r/thenetherlands",
-      "created_at": "2026-10-20T12:50:09+00:00",
-      "fetched_at": "2026-10-20T16:45:44.422707+00:00",
-      "text": "Het polarisatieverwijt is een wapen van extreemrechts dat het begrip presenteert als een toonkwestie. Ik heb er ook geen zin in, maar we moeten het toch weer hebben over de Nederlandse talkshows. Extreemrechts, dat ooit beweerde moslims te haten omdat ze aan ‘onze homo’s zaten’, maakte deze week maar weer eens een punt van de regenboogvlag. SGP-voorman Chris Stoffer beweerde bij Café Kockelmann dat die vlag ‘polariserend’ zou zijn; bij Renze zei de directeur van de FVD-school hetzelfde en sprak hij van ‘propaganda’. Die school heeft vier leerlingen en zou aanleiding moeten zijn om een serieus gesprek te voeren over de afschaffing van artikel 23 van de Grondwet, maar talkshowredacteuren zijn verwikkeld in een tragische doodsstrijd om kijkers en weten overigens ook niet wat een grondwet is. Dus werd de totale clown Filz, een soort Thierry Baudet met plaksnor, opgevoerd en belaagd door de rest van de tafel. Een fragment waarin presentator Nicolaas Veul krachtig weerwoord biedt, werd 50.000 keer geliket. Varkentje gewassen, toch? Nee dus. Voor marginale figuren als Filz is een optreden in een landelijke talkshow een godsgeschenk; het verschaft hem geloofwaardigheid en normaliseert zijn denkbeelden. De contentmachine die FVD is, zal zijn optreden behendig herverpakken tot een AI-gedrocht voor sociale media, waarin Filz opeens een heel redelijke underdog lijkt tegenover een vuurpeloton van linkse deugers. Een eerder herverpakt optreden van Filz bij WNL over het koloniale verleden ging al viral. Het ging de afgelopen weken vaker over de normalisering van extreemrechts, mede door een onderzoek naar ‘nativistische’ uitspraken op televisie. Door die normalisering verweren neonazi’s zich tegenwoordig bij de rechter door te verwijzen naar wat Wierd Duk allemaal zegt op tv. Hoewel rechters dat verweer natuurlijk verwerpen, is het volgens onderzoeker Nel Ruigrok bewijs dat extremisten het mainstream-mediadebat als legitimatie gebruiken. Toen Ruigrok te gast was in mijn podcast, bleek tot mijn verbijstering dat ook zij ten prooi was gevallen aan de valse balans die ze zegt te bestrijden. Ze begon onverwacht over polarisatie en haar bezwaren tegen de media die altijd ‘de flanken’ tegenover elkaar zetten. ‘Het is altijd de PVV tegen D66 als het over migratie gaat’. De grootste partij in een centrumrechts kabinet de ‘andere flank’ noemen ten opzichte van de PVV, omdat men zou ‘polariseren’: ontluisterend. Ruigrok zou moeten weten dat juist het polarisatieverwijt cruciaal is bij de normalisering van extreemrechts. Het polarisatieverwijt is immers dé manier om tegenstanders als ‘het andere extreem’ te presenteren. Daarmee betekent dat woord ‘extreem’ niets meer en wordt de eigen radicalisering genormaliseerd. De ene pool kiest er niet voor de andere pool af te stoten, is het niet? En horen we niet bij elke uit de hand gelopen fascistenrally dat ‘dit nu eenmaal gebeurt als je de mensen vertelt hoe ze moeten denken’? De fascist als weerloos rechts magneetje dat wordt afgestoten door al die linkse magneetjes in de media: hardnekkige kletskoek. Het polarisatieverwijt is een wapen van extreemrechts dat het begrip presenteert als een toonkwestie. Extreemrechts wordt immers met scherpe bewoordingen aangevallen. Maar een polariserende toon is helemaal geen probleem; dat heet polemiek. Polarisatie op de inhoud is óók geen probleem, zolang er een democratische rechtsstaat is, waarin mensen wat te kiezen hebben. Maar juist die staat onder druk door de radicalisering van extreemrechts, dat van haar antidemocratische ideeën en corruptie geen enkel geheim meer maakt. Het verband tussen normalisering, polarisatie en radicalisering blijkt ingewikkeld, zelfs voor mediaprofessionals en wetenschappers. Daarbij zijn de eigen behoefte aan redelijkheid en een bijna religieuze behoefte aan ‘verbinding’ een enorme achilleshiel. Niet polarisatie, maar extreemrechtse radicalisering is ons probleem. submitted by /u/Chaimasala [link] [comments]",
-      "url": "https://www.reddit.com/r/thenetherlands/comments/1xar9uz/het_polarisatieverwijt_is_een_wapen_van/",
-      "primary_sentiment": "negative",
-      "primary_score": 0.764,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_d54be473809e",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-20T12:17:11.774000+00:00",
-      "fetched_at": "2026-10-20T16:45:43.694481+00:00",
-      "text": "STORING: hinder op het spoor Deventer - Enschede #storing #ns #nsinternational",
-      "url": "https://mastodon.nl/@rijdendetreinen/117473190331799948",
-      "primary_sentiment": "negative",
-      "primary_score": 0.834,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-10-25T04:19:50.570390+00:00"
+  "updated_at": "2026-10-25T09:43:05.519813+00:00"
 }
