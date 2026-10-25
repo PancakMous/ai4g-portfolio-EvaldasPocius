@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 1140,
+    "total_posts": 1141,
     "positive_count": 770,
     "neutral_count": 0,
-    "negative_count": 370,
+    "negative_count": 371,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-24T22:55:12.070000+00:00",
-    "net_sentiment": 35.1
+    "latest_post": "2026-10-24T23:12:11.342000+00:00",
+    "net_sentiment": 35.0
   },
   "timeline": [
     {
@@ -4877,9 +4877,31 @@
       "negative_count": 1,
       "avg_confidence": 0.9484999999999999,
       "net_sentiment": 0.0
+    },
+    {
+      "time_bucket": "2026-10-24 23:00",
+      "total_count": 1,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.981,
+      "net_sentiment": -100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_cf80d96415f2",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-24T23:12:11.342000+00:00",
+      "fetched_at": "2026-10-25T04:19:50.504595+00:00",
+      "text": "Storing voorbij: gestrande trein Amersfoort - Deventer #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117498415109855256",
+      "primary_sentiment": "negative",
+      "primary_score": 0.981,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "masto_94caf5304cb3",
       "source": "mastodon:mastodon.nl",
@@ -8116,20 +8138,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "masto_a4cd1b16a091",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-20T10:37:06+00:00",
-      "fetched_at": "2026-10-20T11:20:50.344397+00:00",
-      "text": "Zwembad onverwacht dicht tijdens herfstvakantie – Omroep West #BreakingNews #BreakingNews #Dutch #FeaturedNews #FeaturedNews #Headlines #Hoofdpunten #HOUMEOPDEHOOGTE #LatestNews #LatestNews #LEIDEN #Nederland #Nederlanden #Nederlands #Netherlands #News #Nieuws #NL #Storing #TopStories #TopStories #Voorpaginanieuws #zwembad",
-      "url": "https://pubeurope.com/@nl/117472796788309146",
-      "primary_sentiment": "positive",
-      "primary_score": 0.998,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-10-24T23:04:32.800729+00:00"
+  "updated_at": "2026-10-25T04:19:50.570390+00:00"
 }
