@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 1183,
-    "positive_count": 784,
+    "total_posts": 1194,
+    "positive_count": 789,
     "neutral_count": 0,
-    "negative_count": 399,
+    "negative_count": 405,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-25T18:12:11.906000+00:00",
-    "net_sentiment": 32.5
+    "latest_post": "2026-10-25T21:29:59+00:00",
+    "net_sentiment": 32.2
   },
   "timeline": [
     {
@@ -4997,24 +4997,181 @@
     },
     {
       "time_bucket": "2026-10-25 17:00",
-      "total_count": 3,
-      "positive_count": 2,
+      "total_count": 4,
+      "positive_count": 3,
       "neutral_count": 0,
       "negative_count": 1,
-      "avg_confidence": 0.9186666666666667,
-      "net_sentiment": 33.3
+      "avg_confidence": 0.9390000000000001,
+      "net_sentiment": 50.0
     },
     {
       "time_bucket": "2026-10-25 18:00",
-      "total_count": 5,
-      "positive_count": 1,
+      "total_count": 7,
+      "positive_count": 3,
       "neutral_count": 0,
       "negative_count": 4,
-      "avg_confidence": 0.9911999999999999,
-      "net_sentiment": -60.0
+      "avg_confidence": 0.9855714285714285,
+      "net_sentiment": -14.3
+    },
+    {
+      "time_bucket": "2026-10-25 19:00",
+      "total_count": 2,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 2,
+      "avg_confidence": 0.9915,
+      "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-10-25 20:00",
+      "total_count": 3,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 2,
+      "avg_confidence": 0.9943333333333334,
+      "net_sentiment": -33.3
+    },
+    {
+      "time_bucket": "2026-10-25 21:00",
+      "total_count": 3,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 2,
+      "avg_confidence": 0.9896666666666666,
+      "net_sentiment": -33.3
     }
   ],
   "posts": [
+    {
+      "id": "masto_55eb903293cf",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-25T21:29:59+00:00",
+      "fetched_at": "2026-10-25T21:38:22.664716+00:00",
+      "text": "📰 Stembureaus Brazilië twee uur langer open na ingrijpen Hooggerechtshof 🕥 22:26 | NOS Nieuws 🔸 #OV #Hooggerechtshof #Brazilie",
+      "url": "https://mastodon.social/@NieuwsJunkies/117503675560003092",
+      "primary_sentiment": "positive",
+      "primary_score": 0.997,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_36af2db6be41",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-25T21:28:11.439000+00:00",
+      "fetched_at": "2026-10-25T21:38:22.233815+00:00",
+      "text": "Storing voorbij: defecte trein Nijmegen - 's-Hertogenbosch #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117503668482041950",
+      "primary_sentiment": "negative",
+      "primary_score": 0.987,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_6a91379f0edc",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-25T21:20:11.928000+00:00",
+      "fetched_at": "2026-10-25T21:38:22.291299+00:00",
+      "text": "STORING: defecte trein Nijmegen - 's-Hertogenbosch #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117503637056653009",
+      "primary_sentiment": "negative",
+      "primary_score": 0.985,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_eb3afcbb9ddc",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-25T20:56:19.705000+00:00",
+      "fetched_at": "2026-10-25T21:38:22.339730+00:00",
+      "text": "Storing voorbij: defecte trein Roermond - Sittard #ns #arriva",
+      "url": "https://mastodon.nl/@rijdendetreinen/117503543194604827",
+      "primary_sentiment": "negative",
+      "primary_score": 0.998,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_cd9a367b7b71",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-25T20:56:11.229000+00:00",
+      "fetched_at": "2026-10-25T21:38:22.392860+00:00",
+      "text": "Storing voorbij: defecte trein Rotterdam - Breda #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117503542639081147",
+      "primary_sentiment": "negative",
+      "primary_score": 0.989,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_5aa660d9c92c",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-25T20:12:35+00:00",
+      "fetched_at": "2026-10-25T21:38:22.589865+00:00",
+      "text": "📰 Bomen op het spoor, dode in Amsterdam, vermissing op zee en veel stormschade in het land 🕣 20:34 | RTL Nieuws 🔸 #Vermist #Trein #Amsterdam #DenHaag #Dood",
+      "url": "https://mastodon.social/@NieuwsJunkies/117503371214146476",
+      "primary_sentiment": "positive",
+      "primary_score": 0.996,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_ed5a3692fa9b",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-25T19:49:11.308000+00:00",
+      "fetched_at": "2026-10-25T21:38:22.448640+00:00",
+      "text": "STORING: defecte trein Roermond - Sittard #storing #ns #arriva",
+      "url": "https://mastodon.nl/@rijdendetreinen/117503279189506795",
+      "primary_sentiment": "negative",
+      "primary_score": 0.998,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_a4d3218969e9",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-25T19:39:11.611000+00:00",
+      "fetched_at": "2026-10-25T21:38:22.501513+00:00",
+      "text": "STORING: defecte trein Rotterdam - Breda #storing #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117503239887812953",
+      "primary_sentiment": "negative",
+      "primary_score": 0.985,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_89f48e82d9c9",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-25T18:49:13+00:00",
+      "fetched_at": "2026-10-25T21:38:22.742003+00:00",
+      "text": "Use it like a S-Bahn. #Villach, #Kärnten #Austria #ÖBB #InterCity #Nightjet",
+      "url": "https://troet.cafe/@serac/117503043395987029",
+      "primary_sentiment": "positive",
+      "primary_score": 0.999,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "de"
+    },
+    {
+      "id": "reddit_0f739327c9b7",
+      "source": "reddit:r/thenetherlands",
+      "created_at": "2026-10-25T18:43:14+00:00",
+      "fetched_at": "2026-10-25T21:38:22.813456+00:00",
+      "text": "Leftlaser over de Defend Demonstratie in Delft. submitted by /u/RooieVoss [link] [comments]",
+      "url": "https://www.reddit.com/r/thenetherlands/comments/1xfa8ey/leftlaser_over_de_defend_demonstratie_in_delft/",
+      "primary_sentiment": "positive",
+      "primary_score": 0.944,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
     {
       "id": "masto_64821774b72a",
       "source": "mastodon:mastodon.nl",
@@ -5091,6 +5248,19 @@
       "primary_score": 0.996,
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "reddit_bb33894c15de",
+      "source": "reddit:r/thenetherlands",
+      "created_at": "2026-10-25T17:50:12+00:00",
+      "fetched_at": "2026-10-25T21:38:22.897575+00:00",
+      "text": "Bijna 1,6 miljoen stukjes later: Nederlanders winnen kampioenschap 24 uur puzzelen, voor Team Belgium. Nou, chapeau! submitted by /u/BanMeOwnAccountDibbl [link] [comments]",
+      "url": "https://www.reddit.com/r/thenetherlands/comments/1xf8wbm/bijna_16_miljoen_stukjes_later_nederlanders/",
+      "primary_sentiment": "positive",
+      "primary_score": 1.0,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
       "language": "nl"
     },
     {
@@ -8121,150 +8291,7 @@
       "secondary_sentiment": "neutral",
       "secondary_score": 0.5,
       "language": "nl"
-    },
-    {
-      "id": "masto_5fe0e2653b4e",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-21T12:31:12.077000+00:00",
-      "fetched_at": "2026-10-21T15:07:49.500275+00:00",
-      "text": "STORING: brandmelding Zwolle - Groningen #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117478907712274259",
-      "primary_sentiment": "positive",
-      "primary_score": 0.817,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_4244ff495995",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-21T12:21:12.014000+00:00",
-      "fetched_at": "2026-10-21T15:07:49.569613+00:00",
-      "text": "STORING: aanrijding Apeldoorn - Deventer #storing #ns #nsinternational",
-      "url": "https://mastodon.nl/@rijdendetreinen/117478868386483787",
-      "primary_sentiment": "positive",
-      "primary_score": 0.993,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_8db8fc83744a",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-21T11:47:11.302000+00:00",
-      "fetched_at": "2026-10-21T15:07:49.631100+00:00",
-      "text": "Storing voorbij: seinstoring 's-Hertogenbosch - Eindhoven #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117478734646457780",
-      "primary_sentiment": "positive",
-      "primary_score": 0.772,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_19c47c5cdb50",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-21T11:41:11.501000+00:00",
-      "fetched_at": "2026-10-21T15:07:49.682502+00:00",
-      "text": "Storing voorbij: defecte trein Eindhoven - Venlo #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117478711066433400",
-      "primary_sentiment": "negative",
-      "primary_score": 0.964,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_147e78613e2d",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-21T11:37:11.613000+00:00",
-      "fetched_at": "2026-10-21T15:07:49.734518+00:00",
-      "text": "STORING: defecte trein Eindhoven - Venlo #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117478695345239409",
-      "primary_sentiment": "negative",
-      "primary_score": 0.985,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_2a8ec33ab6c5",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-21T11:32:11.902000+00:00",
-      "fetched_at": "2026-10-21T15:07:49.784803+00:00",
-      "text": "STORING: defecte trein Schiphol - Lelystad #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117478675703339185",
-      "primary_sentiment": "negative",
-      "primary_score": 0.984,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_505ca479d3f8",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-21T10:58:11.348000+00:00",
-      "fetched_at": "2026-10-21T15:07:49.839925+00:00",
-      "text": "Storing voorbij: gestrande trein Rotterdam - Breda #ns #nsinternational",
-      "url": "https://mastodon.nl/@rijdendetreinen/117478541973544306",
-      "primary_sentiment": "negative",
-      "primary_score": 0.986,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "reddit_abf23ceb6b80",
-      "source": "reddit:r/netherlands",
-      "created_at": "2026-10-21T10:56:45+00:00",
-      "fetched_at": "2026-10-21T20:03:05.978373+00:00",
-      "text": "Moved to the Netherlands, have years of experience, built my own app, and still struggling to find a job. Is anyone else going through this?. I came across a post here about someone sending nearly 400 applications and having no luck. Reading through the comments, I realized I'm definitely not the only one struggling. I moved to the Netherlands a few months ago, and finding a job here has been much harder than I expected. My background is in product design and UX. I've worked with different companies, designed enterprise software, worked on AI-related products, and even built and launched my own iOS app from scratch. I genuinely thought having a decent amount of experience, a portfolio, and actual shipped products would make things a little easier. Apparently not. I've lost count of how many applications I've sent where I didn't even get a response. What really gets to me is how unpredictable the whole process is. Another says my experience is great, but they need someone who speaks Dutch. Sometimes everything seems to be going well, you have a great conversation with the hiring manager, and then suddenly you're rejected or ghosted. I've also noticed quite a few roles advertised in English, only to find out later that Dutch is actually required. I completely understand that some jobs need Dutch speakers, but I wish companies were clearer about it upfront. I've tried changing my CV, tailoring applications, improving my portfolio, reaching out to recruiters, and networking. I even started questioning whether there's something fundamentally wrong with how I'm presenting myself. And after a while, you start wondering whether it's actually your skills or just the market. I'm not expecting anyone to hand me a job, and I know there are probably things I could improve. But it's frustrating when you're genuinely willing to work, learn, and contribute, yet can't seem to get across the finish line. I'm based in Amsterdam and mostly applying for Product Designer, UX Designer, and related roles. For those who've been job hunting in the Netherlands recently, especially internationals: Has it been this difficult for you too? Did you eventually find something? Was there anything you changed that actually made a difference? Would genuinely appreciate hearing other people's experiences because right now I'm running out of ideas. submitted by /u/New_Olive_504 [link] [comments]",
-      "url": "https://www.reddit.com/r/Netherlands/comments/1xbjzzu/moved_to_the_netherlands_have_years_of_experience/",
-      "primary_sentiment": "positive",
-      "primary_score": 0.835,
-      "secondary_sentiment": "positive",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "reddit_9b78856f1eb1",
-      "source": "reddit:r/netherlands",
-      "created_at": "2026-10-21T10:55:24+00:00",
-      "fetched_at": "2026-10-21T20:03:06.146084+00:00",
-      "text": "PRO, Volt, SP en de PvdD komen met een gezamenlijk initiatief. Volt, SP, PvdD and PRO, together with FNV, FNV Young & United, LSVB, Tax Justice NL, De Goede Zaak, Oxfam Novib, De Linkse Kerk and De Collectieve Beweging, are launching a joint initiative. They advocate for fair taxation, calling for the Quote 500 to be taxed rather than ordinary people. You can find more information here: Fair Taxation: tax the Quote 500, not ordinary people submitted by /u/Big_Insect_3707 [link] [comments]",
-      "url": "https://www.reddit.com/r/Netherlands/comments/1xbjz3o/pro_volt_sp_en_de_pvdd_komen_met_een_gezamenlijk/",
-      "primary_sentiment": "positive",
-      "primary_score": 0.913,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_e9ddcde05184",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-21T10:35:12.148000+00:00",
-      "fetched_at": "2026-10-21T15:07:49.898527+00:00",
-      "text": "STORING: gestrande trein Rotterdam - Breda #storing #ns #nsinternational",
-      "url": "https://mastodon.nl/@rijdendetreinen/117478451586390348",
-      "primary_sentiment": "negative",
-      "primary_score": 0.944,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_317139c10c4d",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-21T10:33:24+00:00",
-      "fetched_at": "2026-10-21T15:07:50.110391+00:00",
-      "text": "Tabu in der DDR: Gedenkstätte Buchenwald zeigt vergessene Geschichte sowjetischer Speziallager #Buchenwald. Nach Ende des Zweiten Weltkriegs waren in der Sowjetischen Besatzungszone tausende Menschen in sogenannten sowjetischen Speziallagern gefangen, unter ihnen ehemalige NSDAP-Mitglieder und Polizisten. #Ahnenforschung #MDR #Weimar #Speziallager #DDR #sowjetischeBesatzungszone #JuliaLandau #NS #Nationalsozialismus #Audio #Podcast",
-      "url": "https://genealogie.social/@GenealogieNews/117478444556150250",
-      "primary_sentiment": "positive",
-      "primary_score": 0.934,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "de"
     }
   ],
-  "updated_at": "2026-10-25T18:20:12.490573+00:00"
+  "updated_at": "2026-10-25T21:38:22.963375+00:00"
 }
