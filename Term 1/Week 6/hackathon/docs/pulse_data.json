@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 1194,
-    "positive_count": 789,
+    "total_posts": 1196,
+    "positive_count": 791,
     "neutral_count": 0,
     "negative_count": 405,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-25T21:29:59+00:00",
-    "net_sentiment": 32.2
+    "latest_post": "2026-10-25T23:00:23.140000+00:00",
+    "net_sentiment": 32.3
   },
   "timeline": [
     {
@@ -5039,9 +5039,44 @@
       "negative_count": 2,
       "avg_confidence": 0.9896666666666666,
       "net_sentiment": -33.3
+    },
+    {
+      "time_bucket": "2026-10-25 23:00",
+      "total_count": 2,
+      "positive_count": 2,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.8685,
+      "net_sentiment": 100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_adde1ad93df2",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-25T23:00:23.140000+00:00",
+      "fetched_at": "2026-10-26T00:04:14.560766+00:00",
+      "text": "Storing voorbij: boom op het spoor Amsterdam - Zandvoort aan Zee #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117504031007615673",
+      "primary_sentiment": "positive",
+      "primary_score": 0.822,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_dabc77e7cc2c",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-25T23:00:12.758000+00:00",
+      "fetched_at": "2026-10-26T00:04:14.620203+00:00",
+      "text": "Storing voorbij: boom op het spoor Haarlem - Zandvoort #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117504030327132584",
+      "primary_sentiment": "positive",
+      "primary_score": 0.915,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "masto_55eb903293cf",
       "source": "mastodon:mastodon.nl",
@@ -8265,33 +8300,7 @@
       "secondary_sentiment": "neutral",
       "secondary_score": 0.5,
       "language": "nl"
-    },
-    {
-      "id": "masto_3448953e758c",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-21T12:36:12.259000+00:00",
-      "fetched_at": "2026-10-21T15:07:49.450045+00:00",
-      "text": "STORING: defecte trein Eindhoven - Venlo #storing #ns #arriva",
-      "url": "https://mastodon.nl/@rijdendetreinen/117478927385029853",
-      "primary_sentiment": "negative",
-      "primary_score": 0.996,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "reddit_3bd6ae8ca42a",
-      "source": "reddit:r/netherlands",
-      "created_at": "2026-10-21T12:31:23+00:00",
-      "fetched_at": "2026-10-21T20:03:05.434036+00:00",
-      "text": "I am interviewing for a Process analyst position at bol and would appreciate if someone has some insights about this. submitted by /u/Lost-Employment-9587 [link] [comments]",
-      "url": "https://www.reddit.com/r/Netherlands/comments/1xblvcm/i_am_interviewing_for_a_process_analyst_position/",
-      "primary_sentiment": "positive",
-      "primary_score": 0.788,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-10-25T21:38:22.963375+00:00"
+  "updated_at": "2026-10-26T00:04:14.688943+00:00"
 }
