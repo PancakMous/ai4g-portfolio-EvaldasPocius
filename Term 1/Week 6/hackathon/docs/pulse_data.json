@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 1196,
-    "positive_count": 791,
+    "total_posts": 1201,
+    "positive_count": 795,
     "neutral_count": 0,
-    "negative_count": 405,
+    "negative_count": 406,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-25T23:00:23.140000+00:00",
-    "net_sentiment": 32.3
+    "latest_post": "2026-10-26T05:20:11.874000+00:00",
+    "net_sentiment": 32.4
   },
   "timeline": [
     {
@@ -5048,9 +5048,101 @@
       "negative_count": 0,
       "avg_confidence": 0.8685,
       "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-10-26 01:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.996,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-10-26 02:00",
+      "total_count": 3,
+      "positive_count": 2,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.9216666666666667,
+      "net_sentiment": 33.3
+    },
+    {
+      "time_bucket": "2026-10-26 05:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.966,
+      "net_sentiment": 100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_8b1ce7e68bc6",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-26T05:20:11.874000+00:00",
+      "fetched_at": "2026-10-26T05:57:26.043294+00:00",
+      "text": "STORING: spoorproblemen in het buitenland Hengelo - Bielefeld #storing #nsinternational #db #eurobahn #keolis #blauwnet",
+      "url": "https://mastodon.nl/@rijdendetreinen/117505524489896263",
+      "primary_sentiment": "positive",
+      "primary_score": 0.966,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_4b656254134a",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-26T02:33:17+00:00",
+      "fetched_at": "2026-10-26T05:57:25.906544+00:00",
+      "text": "Front-end developer – ProRail – Hilversum Bekijk hier de vacature: #vacature #hilversum #prorail",
+      "url": "https://vacatureforum.nl/@hilversum/117504868160746465",
+      "primary_sentiment": "positive",
+      "primary_score": 0.984,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_4ba40cffb794",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-26T02:28:20+00:00",
+      "fetched_at": "2026-10-26T05:57:25.970761+00:00",
+      "text": "Senior data engineer – ProRail – Hilversum Bekijk hier de vacature: #vacature #hilversum #prorail",
+      "url": "https://vacatureforum.nl/@hilversum/117504848715916430",
+      "primary_sentiment": "positive",
+      "primary_score": 0.99,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_0700088101cd",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-26T02:18:11.329000+00:00",
+      "fetched_at": "2026-10-26T05:57:25.759234+00:00",
+      "text": "Storing voorbij: stroomstoring Amsterdam - Schiphol #ns #nsinternational #thalys #eurostar",
+      "url": "https://mastodon.nl/@rijdendetreinen/117504808801010001",
+      "primary_sentiment": "negative",
+      "primary_score": 0.791,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_a57b50ee7d71",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-26T01:25:11.529000+00:00",
+      "fetched_at": "2026-10-26T05:57:25.841340+00:00",
+      "text": "STORING: stroomstoring Amsterdam - Alkmaar; Amsterdam - Schiphol; Amsterdam - Haarlem #storing #ns #nsinternational #thalys #eurostar",
+      "url": "https://mastodon.nl/@rijdendetreinen/117504600409786624",
+      "primary_sentiment": "positive",
+      "primary_score": 0.996,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "masto_adde1ad93df2",
       "source": "mastodon:mastodon.nl",
@@ -8235,72 +8327,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "masto_7cb28b64926b",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-21T13:16:11.584000+00:00",
-      "fetched_at": "2026-10-21T15:07:49.271778+00:00",
-      "text": "Storing voorbij: defecte trein Eindhoven - Venlo #ns #arriva",
-      "url": "https://mastodon.nl/@rijdendetreinen/117479084627186646",
-      "primary_sentiment": "negative",
-      "primary_score": 0.993,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_7a73a4063ff9",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-21T12:46:11.755000+00:00",
-      "fetched_at": "2026-10-21T15:07:49.330628+00:00",
-      "text": "Storing voorbij: gestrande trein Apeldoorn - Deventer #ns #nsinternational",
-      "url": "https://mastodon.nl/@rijdendetreinen/117478966673526391",
-      "primary_sentiment": "negative",
-      "primary_score": 0.985,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_bad23d0d1ed1",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-21T12:44:11.966000+00:00",
-      "fetched_at": "2026-10-21T15:07:50.442427+00:00",
-      "text": "STORING: defecte trein Amersfoort - Ede-Wageningen #storing #keolis #rrreis",
-      "url": "https://mastodon.nl/@rijdendetreinen/117478958823030381",
-      "primary_sentiment": "negative",
-      "primary_score": 0.987,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_74f18fedffdf",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-21T12:40:12.601000+00:00",
-      "fetched_at": "2026-10-21T15:07:49.389501+00:00",
-      "text": "Storing voorbij: brandmelding Zwolle - Groningen #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117478943136043082",
-      "primary_sentiment": "negative",
-      "primary_score": 0.821,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "reddit_39b8c96c47dc",
-      "source": "reddit:r/netherlands",
-      "created_at": "2026-10-21T12:36:16+00:00",
-      "fetched_at": "2026-10-21T20:03:05.354335+00:00",
-      "text": "Finding a rental as a couple in the Netherlands. Hi everyone! My boyfriend and I are planning to move to the Netherlands in January 2027 ( I will be starting my MSc in Tilburg University) We're looking for a private studio or apartment for two, with registration, and our budget is €1,300–€1,400 incl. per month. We're open to almost every area that is in the middle. Utrecht, Rotterdam, Breda etc etc. We've already sent dozens of applications through RentSlam and other platforms but haven't managed to get a single viewing. We're still living in Greece, which makes things a bit more difficult. Does anyone have advice on which websites or rental agencies actually work? Is our budget realistic, and is it possible to find a place before arriving? Any tips or personal experiences would be really appreciated. Thank you so much submitted by /u/polyxenib [link] [comments]",
-      "url": "https://www.reddit.com/r/Netherlands/comments/1xblz4f/finding_a_rental_as_a_couple_in_the_netherlands/",
-      "primary_sentiment": "positive",
-      "primary_score": 0.999,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-10-26T00:04:14.688943+00:00"
+  "updated_at": "2026-10-26T05:57:26.113400+00:00"
 }
