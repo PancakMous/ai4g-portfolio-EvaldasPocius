@@ -1,11 +1,11 @@
 {
   "stats": {
-    "total_posts": 1238,
-    "positive_count": 812,
+    "total_posts": 1244,
+    "positive_count": 816,
     "neutral_count": 0,
-    "negative_count": 426,
+    "negative_count": 428,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-26T19:06:30.800000+00:00",
+    "latest_post": "2026-10-26T23:43:11.457000+00:00",
     "net_sentiment": 31.2
   },
   "timeline": [
@@ -5201,9 +5201,114 @@
       "negative_count": 3,
       "avg_confidence": 0.9896666666666666,
       "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-10-26 21:00",
+      "total_count": 2,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.9924999999999999,
+      "net_sentiment": 0.0
+    },
+    {
+      "time_bucket": "2026-10-26 22:00",
+      "total_count": 2,
+      "positive_count": 2,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.997,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-10-26 23:00",
+      "total_count": 2,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.834,
+      "net_sentiment": 0.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_c9c8897fd19d",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-26T23:43:11.457000+00:00",
+      "fetched_at": "2026-10-26T23:43:33.907236+00:00",
+      "text": "STORING: defecte trein Venlo - Mönchengladbach - Düsseldorf #storing #eurobahn",
+      "url": "https://mastodon.nl/@rijdendetreinen/117509861635141600",
+      "primary_sentiment": "negative",
+      "primary_score": 0.978,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_f1327d64a9d8",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-26T23:18:11.738000+00:00",
+      "fetched_at": "2026-10-26T23:43:33.599319+00:00",
+      "text": "Storing voorbij: persoon op het spoor Breda - Tilburg; Rotterdam - Breda #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117509763349597763",
+      "primary_sentiment": "positive",
+      "primary_score": 0.69,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_80f73c77317d",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-26T22:55:11.367000+00:00",
+      "fetched_at": "2026-10-26T23:43:33.670143+00:00",
+      "text": "STORING: persoon op het spoor Rotterdam - Breda #storing #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117509672885473733",
+      "primary_sentiment": "positive",
+      "primary_score": 0.996,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_49e6a337c8f3",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-26T22:41:44+00:00",
+      "fetched_at": "2026-10-26T23:43:33.843369+00:00",
+      "text": "Afgelopen weekend reed Lijn 7 voor het laatst - de proef met de autonoom rijdende bus langs verblijfsaccommodaties. De bus staat nu op Eftepedia - gaan we hem irl nog terugzien? #Efteling #openbaarvervoer #ov #selfdriving",
+      "url": "https://opencoaster.net/@Eftepedia/117509620024607448",
+      "primary_sentiment": "positive",
+      "primary_score": 0.998,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_7544d7291455",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-26T21:53:53+00:00",
+      "fetched_at": "2026-10-26T23:43:33.747078+00:00",
+      "text": "📰 Man in België verliest been nadat rugzak blijft hangen aan vertrekkende trein 🕚 22:47 | NOS Nieuws 🔸 #Levensgevaar #Trein #Belgie",
+      "url": "https://mastodon.social/@NieuwsJunkies/117509431868198796",
+      "primary_sentiment": "positive",
+      "primary_score": 0.997,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_97bf737f1225",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-26T21:32:12.101000+00:00",
+      "fetched_at": "2026-10-26T23:43:33.965180+00:00",
+      "text": "STORING: defecte trein Roosendaal - Antwerpen #storing #nsinternational #nmbs",
+      "url": "https://mastodon.nl/@rijdendetreinen/117509346564331449",
+      "primary_sentiment": "negative",
+      "primary_score": 0.988,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "masto_07831e6bdca8",
       "source": "mastodon:mastodon.nl",
@@ -8375,85 +8480,7 @@
       "secondary_sentiment": "neutral",
       "secondary_score": 0.5,
       "language": "ro"
-    },
-    {
-      "id": "masto_5e01a44dafdf",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-22T15:36:26.376000+00:00",
-      "fetched_at": "2026-10-22T19:56:40.311068+00:00",
-      "text": "#CONFORMITY #GATE aepiot.ro/search.html?... MY #LIFE IN #THE #BUSH OF #GHOSTS #ALBUM primal.net/search/MY%20... #MALEBOLGE headlines-world.com/related-sear... #UNION #STATION #TORONTO www.sheetmusicplus.com/en/explore?a... #aePiot - aepiot.ro MultiSearch Tag Explorer",
-      "url": "https://fed.brid.gy/r/https://bsky.app/profile/did:plc:wjc3z3gtiq3oquai3hnz5rjz/post/3myhykb34us2r",
-      "primary_sentiment": "positive",
-      "primary_score": 0.999,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "ro"
-    },
-    {
-      "id": "masto_306d96813e01",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-22T15:15:11.737000+00:00",
-      "fetched_at": "2026-10-22T19:56:39.457228+00:00",
-      "text": "STORING: eerdere verstoring Zwolle - Emmen #storing #arriva #blauwnet",
-      "url": "https://mastodon.nl/@rijdendetreinen/117485214874627838",
-      "primary_sentiment": "negative",
-      "primary_score": 0.966,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_f5af568788ff",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-22T15:03:17.037000+00:00",
-      "fetched_at": "2026-10-22T15:08:42.134095+00:00",
-      "text": "#GOLDEN #ROCK #RAILWAY #STATION allgraph.ro/related-sear... #aePiot - aepiot.com Search Related Reports",
-      "url": "https://fed.brid.gy/r/https://bsky.app/profile/did:plc:wjc3z3gtiq3oquai3hnz5rjz/post/3myhwoxvcz22u",
-      "primary_sentiment": "positive",
-      "primary_score": 0.999,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "ro"
-    },
-    {
-      "id": "masto_d1ae9071fefe",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-22T14:40:12+00:00",
-      "fetched_at": "2026-10-22T19:56:40.619962+00:00",
-      "text": "Prezydent Łomży apeluje o pociągi do Warszawy Zachodniej #Intercity #Kolej #KolejDoŁomży #KolejeMazowieckie #Linia49 #PKP #PKPIntercity #PKPPLK #PL #Poland #Polish #Polska #Polski #PrzewozyRegionalne #RozkładJazdy2026/2027 #RozkładyJazdyPKP #RynekKolejowy #warszawa #WarszawaGdańska #WarszawaWschodnia #WarszawaZachodnia",
-      "url": "https://pubeurope.com/@pl/117485077299961553",
-      "primary_sentiment": "positive",
-      "primary_score": 0.997,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "pl"
-    },
-    {
-      "id": "masto_6e2cd1943b39",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-22T13:48:11.525000+00:00",
-      "fetched_at": "2026-10-22T15:08:42.051191+00:00",
-      "text": "STORING: spoorproblemen in het buitenland Arnhem - Duisburg - Düsseldorf #storing #nsinternational #db #viasrail",
-      "url": "https://mastodon.nl/@rijdendetreinen/117484872762698685",
-      "primary_sentiment": "positive",
-      "primary_score": 0.934,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_703f71973b83",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-22T10:49:11.518000+00:00",
-      "fetched_at": "2026-10-22T15:08:41.860201+00:00",
-      "text": "Storing voorbij: defecte trein Amsterdam - Schiphol #ns #nsinternational #thalys #eurostar",
-      "url": "https://mastodon.nl/@rijdendetreinen/117484168905714471",
-      "primary_sentiment": "negative",
-      "primary_score": 0.996,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-10-26T19:08:54.664676+00:00"
+  "updated_at": "2026-10-26T23:43:34.033077+00:00"
 }
