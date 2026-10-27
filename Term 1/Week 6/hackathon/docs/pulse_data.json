@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 1244,
-    "positive_count": 816,
+    "total_posts": 1247,
+    "positive_count": 819,
     "neutral_count": 0,
     "negative_count": 428,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-26T23:43:11.457000+00:00",
-    "net_sentiment": 31.2
+    "latest_post": "2026-10-27T02:20:13+00:00",
+    "net_sentiment": 31.4
   },
   "timeline": [
     {
@@ -5228,9 +5228,66 @@
       "negative_count": 1,
       "avg_confidence": 0.834,
       "net_sentiment": 0.0
+    },
+    {
+      "time_bucket": "2026-10-27 01:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.997,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-10-27 02:00",
+      "total_count": 2,
+      "positive_count": 2,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.991,
+      "net_sentiment": 100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_cbecb9e6d5c8",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-27T02:20:13+00:00",
+      "fetched_at": "2026-10-27T04:42:45.190547+00:00",
+      "text": "Afstudeerstage Data-analyse en procesverbetering – ProRail – Hilversum Bekijk hier de vacature: #vacature #hilversum #prorail",
+      "url": "https://vacatureforum.nl/@hilversum/117510479108745633",
+      "primary_sentiment": "positive",
+      "primary_score": 0.984,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_98e82581280b",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-27T02:14:53+00:00",
+      "fetched_at": "2026-10-27T04:42:45.113580+00:00",
+      "text": "📰 Man verliest been nadat hij vast komt te zitten aan trein België 🕒 03:02 | RTL Nieuws 🔸 #Trein #Belgie #Onvrede",
+      "url": "https://mastodon.social/@NieuwsJunkies/117510458129164783",
+      "primary_sentiment": "positive",
+      "primary_score": 0.998,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_333b4fdd320d",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-27T01:58:10+00:00",
+      "fetched_at": "2026-10-27T04:42:45.429414+00:00",
+      "text": "CPK (Port Polska): Zielone światło dla najbardziej potrzebnej linii kolejowej w Polsce #cpk #Decyzjaśrodowiskowa #Intercity #kdp #KDPWPolsce #KDPY #Kolej #KolejeMazowieckie #Linia86 #LiniaY #PKP #PL #Poland #Polish #Polska #Polski #PortPolska #PrzewozyRegionalne #RozkładyJazdyPKP #RynekKolejowy #Ygrek",
+      "url": "https://pubeurope.com/@pl/117510392430901402",
+      "primary_sentiment": "positive",
+      "primary_score": 0.997,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "pl"
+    },
     {
       "id": "masto_c9c8897fd19d",
       "source": "mastodon:mastodon.nl",
@@ -8441,46 +8498,7 @@
       "secondary_sentiment": "neutral",
       "secondary_score": 0.5,
       "language": "nl"
-    },
-    {
-      "id": "masto_9ea716e83664",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-22T15:54:58+00:00",
-      "fetched_at": "2026-10-22T19:56:40.386965+00:00",
-      "text": "Meedenken over burgerzaken vind ik belangrijk, omdat mensen binnen een organisatie vaak dingen bedenken vanuit een bepaalde rol. Maar de mensen die er gebruik van moeten maken, beleven en ervaren die dingen soms heel anders. Translation button below site 👇 #OV #blog #transportation #inclusiviteit",
-      "url": "https://mastodon.social/@metkcom/117485371284371226",
-      "primary_sentiment": "positive",
-      "primary_score": 0.997,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_4d4908741edb",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-22T15:50:11.426000+00:00",
-      "fetched_at": "2026-10-22T19:56:39.088081+00:00",
-      "text": "STORING: persoon op het spoor Leiden - Den Haag HS; Den Haag - Rotterdam #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117485352479830852",
-      "primary_sentiment": "positive",
-      "primary_score": 0.967,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_407749fe2513",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-22T15:44:32.161000+00:00",
-      "fetched_at": "2026-10-22T19:56:40.185628+00:00",
-      "text": "#UKCA #MARKING aepiot.com/related-sear... #PHYTOLACCA #AMERICANA aepiot.ro/related-sear... #EXTREME #MAKEOVER #HOME #EDITION www.sheetmusicplus.com/en/explore?a... #SEAGATE #BUS #STATION primal.net/search/SEAGA... #aePiot - aepiot.com Search Related Reports",
-      "url": "https://fed.brid.gy/r/https://bsky.app/profile/did:plc:wjc3z3gtiq3oquai3hnz5rjz/post/3myhyyqe5bc2a",
-      "primary_sentiment": "positive",
-      "primary_score": 0.998,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "ro"
     }
   ],
-  "updated_at": "2026-10-26T23:43:34.033077+00:00"
+  "updated_at": "2026-10-27T04:42:45.501389+00:00"
 }
