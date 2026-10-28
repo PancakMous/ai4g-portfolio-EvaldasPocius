@@ -1,5 +1,44 @@
 [
   {
+    "id": "masto_9e1d6e919b55",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-10-27T22:57:11.306000+00:00",
+    "fetched_at": "2026-10-28T01:07:51.527841+00:00",
+    "text": "Storing voorbij: gestrande trein 's-Hertogenbosch - Eindhoven #ns",
+    "url": "https://mastodon.nl/@rijdendetreinen/117515343056321506",
+    "primary_sentiment": "negative",
+    "primary_score": 0.972,
+    "secondary_sentiment": "negative",
+    "secondary_score": 0.7,
+    "language": "nl"
+  },
+  {
+    "id": "masto_aca01987edc5",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-10-27T22:25:11.251000+00:00",
+    "fetched_at": "2026-10-28T01:07:51.589176+00:00",
+    "text": "STORING: gestrande trein 's-Hertogenbosch - Eindhoven #storing #ns",
+    "url": "https://mastodon.nl/@rijdendetreinen/117515217223648154",
+    "primary_sentiment": "negative",
+    "primary_score": 0.962,
+    "secondary_sentiment": "negative",
+    "secondary_score": 0.7,
+    "language": "nl"
+  },
+  {
+    "id": "reddit_9da0197ccba8",
+    "source": "reddit:r/thenetherlands",
+    "created_at": "2026-10-27T20:28:51+00:00",
+    "fetched_at": "2026-10-28T01:07:51.924949+00:00",
+    "text": "6 jaar later: Hoe gaan julie om met discussie, polarisatie en irritatie in het dagelijks leven?. Zes jaar geleden plaatste ik hier een post over de toenemende polarisatie en irritatie die ik in het dagelijks leven ervoer. Ik merkte destijds dat ik steeds vaker maatschappelijke en politieke onderwerpen vermeed, omdat gesprekken al snel vijandig werden of mensen elkaar een mening toedichtten. Wat ik toen vooral jammer vond, was dat er steeds minder ruimte leek om oprecht van gedachten te wisselen. Niet om de ander te overtuigen, maar juist om andere perspectieven te begrijpen en mijn eigen ideeën en wereldbeeld ter discussie te stellen. De post leverde destijds een hoop interessante en herkenbare reacties op. Al deze jaren later merk ik echter op dat ik veel minder maatschappelijke of politieke gesprekken heb. Eigenlijk alleen maar in mijn eigen vriendengroep waar het helaas vaak een echokamer is van ''verschillende meningen'' binnen hetzelfde spectrum. Ik merk tevens dat ik mij steeds minder interesseer in politieke opvattingen of maatschappelijke thema's. Een soort afstomping, wat ergens jammer voelt omdat ik mijn wereldbeeld wat vaker zou willen toetsen aan anderen. In mijn werk hoor ik incidenteel extremen die mensen terloops uiten. Deze negeer ik maar, omdat een maatschappelijk geëngageerd gesprek met collega's al helemaal een mijnenveld is. Hoe ervaren jullie dit? submitted by /u/isofluraan [link] [comments]",
+    "url": "https://www.reddit.com/r/thenetherlands/comments/1xh3tdt/6_jaar_later_hoe_gaan_julie_om_met_discussie/",
+    "primary_sentiment": "positive",
+    "primary_score": 0.993,
+    "secondary_sentiment": "positive",
+    "secondary_score": 0.7,
+    "language": "nl"
+  },
+  {
     "id": "masto_56c9365e7249",
     "source": "mastodon:mastodon.nl",
     "created_at": "2026-10-27T20:07:02+00:00",
