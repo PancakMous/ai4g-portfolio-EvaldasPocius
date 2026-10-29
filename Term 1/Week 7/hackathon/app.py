@@ -6,6 +6,7 @@ MODEL_ID = "hakis-workspace-y3j23/hackathon-civ4a-1-rfdetr-small-t1"
 
 client = InferenceHTTPClient(
     api_url="https://serverless.roboflow.com",
+    api_key=st.secrets["ROBOFLOW_API_KEY"],
 )
 
 st.title("StreetScan")
