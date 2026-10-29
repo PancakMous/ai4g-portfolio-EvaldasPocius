@@ -9,7 +9,7 @@ client = InferenceHTTPClient(
 )
 
 st.title("StreetScan")
-st.write("Upload a photo and the model will detect ... (fill in what you detect)")
+st.write("Upload a photo and the model will detect cigarette butts.")
 
 conf = st.slider("Minimum confidence", 0.1, 0.9, 0.4)
 file = st.file_uploader("Upload a photo", type=["jpg", "jpeg", "png"])
