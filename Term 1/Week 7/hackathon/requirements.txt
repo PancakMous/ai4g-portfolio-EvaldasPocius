@@ -1,3 +1,0 @@
-streamlit
-inference-sdk
-pillow
