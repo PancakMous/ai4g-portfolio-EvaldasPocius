@@ -1,11 +1,11 @@
 {
   "stats": {
-    "total_posts": 1379,
-    "positive_count": 883,
+    "total_posts": 1386,
+    "positive_count": 888,
     "neutral_count": 0,
-    "negative_count": 496,
+    "negative_count": 498,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-28T19:47:11.332000+00:00",
+    "latest_post": "2026-10-28T23:47:12.157000+00:00",
     "net_sentiment": 28.1
   },
   "timeline": [
@@ -5492,12 +5492,12 @@
     },
     {
       "time_bucket": "2026-10-28 14:00",
-      "total_count": 7,
-      "positive_count": 6,
+      "total_count": 8,
+      "positive_count": 7,
       "neutral_count": 0,
       "negative_count": 1,
-      "avg_confidence": 0.8921428571428571,
-      "net_sentiment": 71.4
+      "avg_confidence": 0.905375,
+      "net_sentiment": 75.0
     },
     {
       "time_bucket": "2026-10-28 15:00",
@@ -5543,9 +5543,114 @@
       "negative_count": 1,
       "avg_confidence": 0.994,
       "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-10-28 21:00",
+      "total_count": 2,
+      "positive_count": 2,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.9975,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-10-28 22:00",
+      "total_count": 2,
+      "positive_count": 2,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.8945000000000001,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-10-28 23:00",
+      "total_count": 2,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 2,
+      "avg_confidence": 0.9295,
+      "net_sentiment": -100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_553641fec4bb",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-28T23:47:12.157000+00:00",
+      "fetched_at": "2026-10-29T00:45:28.603866+00:00",
+      "text": "Storing voorbij: defecte bovenleiding Leiden - Rotterdam #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117521202030467024",
+      "primary_sentiment": "negative",
+      "primary_score": 0.952,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_096376b4864c",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-28T23:29:12.177000+00:00",
+      "fetched_at": "2026-10-29T00:45:28.669852+00:00",
+      "text": "Storing voorbij: aanrijding Haarlem - Leiden #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117521131252888095",
+      "primary_sentiment": "negative",
+      "primary_score": 0.907,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_a933853c4304",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-28T22:52:54+00:00",
+      "fetched_at": "2026-10-29T00:45:28.785846+00:00",
+      "text": "RE: #NovaScotia Premier's office has attacked a professor who, asked for comment on a proposed #AI #DataCenter in #NS, gave it. That is actually part of their job description. M Houston attacked an academic for doing their job. Yes, that definitely qualifies as #nasty, imo.",
+      "url": "https://mamot.fr/@Amgine/117520988558304757",
+      "primary_sentiment": "positive",
+      "primary_score": 0.793,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "en"
+    },
+    {
+      "id": "masto_6fde20310471",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-28T22:19:11.932000+00:00",
+      "fetched_at": "2026-10-29T00:45:28.834593+00:00",
+      "text": "STORING: inzet van hulpdiensten Haarlem - Leiden #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117520855985454793",
+      "primary_sentiment": "positive",
+      "primary_score": 0.996,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_26a6185dc892",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-28T21:40:14+00:00",
+      "fetched_at": "2026-10-29T00:45:28.976087+00:00",
+      "text": "N.S. premier’s office scolds professor over AI data centre comments The office of Nova Scotia Premier Tim Houston has complained to a university professor in Toronto for weighing… #NewsBeep #News #Artificialintelligence #AI #Anthropic #ArtificialIntelligence #Atlantic #CA #Canada #CapeBreton #Centre #data #Everwind #novascotia #NS #Politics #Science #Social #Technology",
+      "url": "https://newsbeep.org/@ca/117520702795693491",
+      "primary_sentiment": "positive",
+      "primary_score": 0.996,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "en"
+    },
+    {
+      "id": "masto_daa0cbf99716",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-28T21:02:18.186000+00:00",
+      "fetched_at": "2026-10-29T00:45:29.067041+00:00",
+      "text": "Stel dat je de Spaanse treinverkeersleider bent die heeft gezegd dat de trein wel door kon rijden… vreselijk toch! Ik vraag me af of dit in Nederland ook zou kunnen of dat ze hier dan zouden zeggen: alle treinen blijven stilstaan tot de storing aan het veiligheidssysteem is verholpen #nieuws #trein #openbaarvervoer",
+      "url": "https://mastodon.nl/@lalage/117520553619206192",
+      "primary_sentiment": "positive",
+      "primary_score": 0.999,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.85,
+      "language": "nl"
+    },
     {
       "id": "masto_7ef639d0011b",
       "source": "mastodon:mastodon.nl",
@@ -5870,6 +5975,19 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
+    },
+    {
+      "id": "masto_76ed54279548",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-28T14:03:08+00:00",
+      "fetched_at": "2026-10-29T00:45:29.236813+00:00",
+      "text": "Łódź: Nieco więcej połączeń nocnych #Intercity #Kolej #KolejeMazowieckie #Linia131 #Linia14 #Linia146 #Linia17 #Łódź #MinisterstwoInfrastruktury #PKP #PKPIntercity #PL #PociągiNocne #Poland #Polish #Polska #Polski #PrzewozyRegionalne #RozkładyJazdyPKP #RynekKolejowy",
+      "url": "https://pubeurope.com/@pl/117518905391387157",
+      "primary_sentiment": "positive",
+      "primary_score": 0.998,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "pl"
     },
     {
       "id": "masto_f55c8906d022",
@@ -8704,98 +8822,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "masto_74a3a27efe80",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-24T19:44:23.948000+00:00",
-      "fetched_at": "2026-10-24T20:35:49.858198+00:00",
-      "text": "STORING: brandmelding Almere - Lelystad #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117497598046708289",
-      "primary_sentiment": "positive",
-      "primary_score": 0.941,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_62e7333427dc",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-24T19:44:11.554000+00:00",
-      "fetched_at": "2026-10-24T20:35:49.900292+00:00",
-      "text": "STORING: wisselstoring Hilversum - Amersfoort; Utrecht - Hilversum #storing #ns #nsinternational",
-      "url": "https://mastodon.nl/@rijdendetreinen/117497597234482927",
-      "primary_sentiment": "positive",
-      "primary_score": 0.996,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_339b3340183e",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-24T19:24:03+00:00",
-      "fetched_at": "2026-10-24T20:35:49.948034+00:00",
-      "text": "Still I kind of love #NS. When it works it really gives me some mmmmm vibes :*",
-      "url": "https://mastodon.social/@grayrattus/117497518065789849",
-      "primary_sentiment": "positive",
-      "primary_score": 0.999,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "en"
-    },
-    {
-      "id": "masto_98f3fcd8d7fe",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-24T18:45:11.222000+00:00",
-      "fetched_at": "2026-10-24T20:35:49.986915+00:00",
-      "text": "STORING: defecte trein Heerlen - Kerkrade #storing #arriva",
-      "url": "https://mastodon.nl/@rijdendetreinen/117497365215201997",
-      "primary_sentiment": "negative",
-      "primary_score": 0.997,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "reddit_bac26d822c1b",
-      "source": "reddit:r/thenetherlands",
-      "created_at": "2026-10-24T18:36:52+00:00",
-      "fetched_at": "2026-10-24T20:35:50.281751+00:00",
-      "text": "Dit zijn de 24 steden die op de website holland.com worden gepromoot als toeristische bestemmingen. Mee eens?. Holland.com is de website van het NBTC, de organisatie die verantwoordelijk is voor het promoten van Nederland aan buitenlandse toeristen. Ik was wel benieuwd een tijdje terug welke steden populair zijn als toerisme-bestemming in het buitenland. En toen vond ik deze website wat een inkijkje is in wat de toerisme-branch zelf wil promoten. Als het om steden gaat staan hieronder de steden die een eigen pagina hebben. Ik denk dat veel mensen Almere de meest onverwachte keuze vinden, maar ik vind het niet gek dat ze ook een paar modernere steden willen opnemen. En ik heb ooit een Belg ontmoet die niet helemaal dol was van Almere en het regelmatig als toerist bezocht. Enschede zou ik zelf er niet op hebben gezet, maar ik ben er nooit geweest, en ik heb begrepen dat het best een leuke stad is als je van modernere steden houdt. Maar grotendeels begrijp ik de keuzes wel. Welke 24 steden zouden jullie uitkiezen? Hier dus de steden in alfabetische volgorde. Alkmaar Almere Amersfoort Amsterdam Arnhem Breda Delft Den Bosch Den Haag Deventer Dordrecht Eindhoven Enschede Gouda Groningen Haarlem Leeuwarden Leiden Maastricht Middelburg Nijmegen Rotterdam Utrecht Zwolle submitted by /u/merijn2 [link] [comments]",
-      "url": "https://www.reddit.com/r/thenetherlands/comments/1xeg95w/dit_zijn_de_24_steden_die_op_de_website/",
-      "primary_sentiment": "positive",
-      "primary_score": 0.688,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_790d0ac26057",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-24T18:06:43+00:00",
-      "fetched_at": "2026-10-24T20:35:50.086500+00:00",
-      "text": "#Pristina 🇽🇰 to #Skopje 🇲🇰 by #InterCity train in June 2010. Passengers could benefit from generous dwell times at intermediate stops. This is why this photo exists. I probably took it at #Ferizaj, if I remember well. The train, hauled by an ex-#NSB 🇳🇴 #Di3 diesel, was composed of former #SJ 🇸🇪 cars.",
-      "url": "https://rail.chat/@andreaswiedenhoff/117497213984058659",
-      "primary_sentiment": "positive",
-      "primary_score": 0.946,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "en"
-    },
-    {
-      "id": "reddit_68dfcb495eb3",
-      "source": "reddit:r/thenetherlands",
-      "created_at": "2026-10-24T17:40:47+00:00",
-      "fetched_at": "2026-10-24T20:35:50.343899+00:00",
-      "text": "Elf jongens aangehouden na geweldsincidenten bij cruiseplek De Oeverlanden: \"Rust is terug\". submitted by /u/welcomeyearzer0 [link] [comments]",
-      "url": "https://www.reddit.com/r/thenetherlands/comments/1xeeu83/elf_jongens_aangehouden_na_geweldsincidenten_bij/",
-      "primary_sentiment": "positive",
-      "primary_score": 0.977,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-10-28T20:56:23.202948+00:00"
+  "updated_at": "2026-10-29T00:45:29.336007+00:00"
 }
