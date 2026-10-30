@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 1483,
-    "positive_count": 941,
+    "total_posts": 1494,
+    "positive_count": 947,
     "neutral_count": 0,
-    "negative_count": 542,
+    "negative_count": 547,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-30T13:54:47+00:00",
-    "net_sentiment": 26.9
+    "latest_post": "2026-10-30T19:15:11.814000+00:00",
+    "net_sentiment": 26.8
   },
   "timeline": [
     {
@@ -5744,12 +5744,12 @@
     },
     {
       "time_bucket": "2026-10-30 00:00",
-      "total_count": 1,
-      "positive_count": 0,
+      "total_count": 2,
+      "positive_count": 1,
       "neutral_count": 0,
       "negative_count": 1,
-      "avg_confidence": 0.994,
-      "net_sentiment": -100.0
+      "avg_confidence": 0.9964999999999999,
+      "net_sentiment": 0.0
     },
     {
       "time_bucket": "2026-10-30 02:00",
@@ -5825,12 +5825,12 @@
     },
     {
       "time_bucket": "2026-10-30 11:00",
-      "total_count": 4,
+      "total_count": 5,
       "positive_count": 2,
       "neutral_count": 0,
-      "negative_count": 2,
-      "avg_confidence": 0.86125,
-      "net_sentiment": 0.0
+      "negative_count": 3,
+      "avg_confidence": 0.889,
+      "net_sentiment": -20.0
     },
     {
       "time_bucket": "2026-10-30 12:00",
@@ -5843,15 +5843,164 @@
     },
     {
       "time_bucket": "2026-10-30 13:00",
-      "total_count": 4,
-      "positive_count": 3,
+      "total_count": 5,
+      "positive_count": 4,
       "neutral_count": 0,
       "negative_count": 1,
-      "avg_confidence": 0.8465,
-      "net_sentiment": 50.0
+      "avg_confidence": 0.8661999999999999,
+      "net_sentiment": 60.0
+    },
+    {
+      "time_bucket": "2026-10-30 14:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.99,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-10-30 15:00",
+      "total_count": 2,
+      "positive_count": 2,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.78,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-10-30 16:00",
+      "total_count": 2,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 2,
+      "avg_confidence": 0.957,
+      "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-10-30 18:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.999,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-10-30 19:00",
+      "total_count": 2,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 2,
+      "avg_confidence": 0.992,
+      "net_sentiment": -100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_34d44ce5aa68",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-30T19:15:11.814000+00:00",
+      "fetched_at": "2026-10-30T19:15:40.081989+00:00",
+      "text": "STORING: defecte trein Zwolle - Deventer #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117531457081272046",
+      "primary_sentiment": "negative",
+      "primary_score": 0.99,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_ff19c6faee04",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-30T19:07:11.542000+00:00",
+      "fetched_at": "2026-10-30T19:15:40.141294+00:00",
+      "text": "STORING: defecte trein Hoofddorp - Schiphol - Hilversum #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117531425606245897",
+      "primary_sentiment": "negative",
+      "primary_score": 0.994,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_3af5715a9a82",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-30T18:36:06+00:00",
+      "fetched_at": "2026-10-30T19:15:40.624820+00:00",
+      "text": "📰 Verhuizing van 13 meter in 9 uur tijd: stationsgebouw Vught staat op nieuwe plek 🕢 19:30 | NOS Nieuws 🔸 #Vught #Verhuizing #Station",
+      "url": "https://mastodon.social/@NieuwsJunkies/117531303381102043",
+      "primary_sentiment": "positive",
+      "primary_score": 0.999,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_c27be114d012",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-30T16:49:12.165000+00:00",
+      "fetched_at": "2026-10-30T19:15:40.191687+00:00",
+      "text": "Storing voorbij: gestrande trein Rotterdam - Dordrecht #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117530883008914176",
+      "primary_sentiment": "negative",
+      "primary_score": 0.948,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_28b98e650393",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-30T16:39:36.691000+00:00",
+      "fetched_at": "2026-10-30T19:15:40.244349+00:00",
+      "text": "STORING: gestrande trein Rotterdam - Dordrecht #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117530845294675544",
+      "primary_sentiment": "negative",
+      "primary_score": 0.966,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_06b2a3fcb865",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-30T15:24:13+00:00",
+      "fetched_at": "2026-10-30T19:15:40.516827+00:00",
+      "text": "Heeft Arriva nieuwe bussen? #bussen #openbaarvervoer",
+      "url": "https://mastodon.social/@ryanvher/117530548860594455",
+      "primary_sentiment": "positive",
+      "primary_score": 0.894,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_6548fc7559c3",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-30T15:02:12+00:00",
+      "fetched_at": "2026-10-30T19:15:40.369376+00:00",
+      "text": "[USER] [USER] Mir kam noch in den Sinn, dass die Bildersprache Anleihen an NS-Motive nimmt: bedrohlicher (fremder/dunkler) Mann beugt sich über weiße Frau. #ns #nazi #nationalsozialismus #bildersprache #bildn #motiv #frau",
+      "url": "https://freiburg.social/@breakdownthewalls/117530462319064337",
+      "primary_sentiment": "positive",
+      "primary_score": 0.666,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "de"
+    },
+    {
+      "id": "masto_fe14d0202dbd",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-30T14:43:17+00:00",
+      "fetched_at": "2026-10-30T19:15:40.459545+00:00",
+      "text": "📰 Poolse politie arresteert Rus die duizenden foto's van treinknooppunten in bezit had 🕞 15:42 | RTL Nieuws 🔸 #Spionage #Spoorwegen #Arrestatie #Infrastructuur #Trein",
+      "url": "https://mastodon.social/@NieuwsJunkies/117530387888484792",
+      "primary_sentiment": "positive",
+      "primary_score": 0.99,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
     {
       "id": "masto_57c5374cbdd9",
       "source": "mastodon:mastodon.nl",
@@ -5889,6 +6038,19 @@
       "primary_score": 0.628,
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "reddit_fc5d2ec3c854",
+      "source": "reddit:r/thenetherlands",
+      "created_at": "2026-10-30T13:25:57+00:00",
+      "fetched_at": "2026-10-30T19:15:40.885077+00:00",
+      "text": "Schaatsen werd een miljoenensport dankzij de publieke omroep. Archive: submitted by /u/Personal-Proposal-79 [link] [comments]",
+      "url": "https://www.reddit.com/r/thenetherlands/comments/1xjfc0y/schaatsen_werd_een_miljoenensport_dankzij_de/",
+      "primary_sentiment": "positive",
+      "primary_score": 0.945,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
       "language": "nl"
     },
     {
@@ -5941,6 +6103,19 @@
       "primary_score": 0.969,
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "reddit_2b735e52fade",
+      "source": "reddit:r/thenetherlands",
+      "created_at": "2026-10-30T11:29:02+00:00",
+      "fetched_at": "2026-10-30T19:15:41.143032+00:00",
+      "text": "In 1 dag je rijtheorie halen realistisch of niet?. Oprechte vraag. Ik wil graag mijn rijbewijs halen en daarbij ook mijn theorie. Ik leer bar slecht uit boeken en werk al, en heb het eerder geprobeerd met een anwb online cursus. Dit werkte to-taal niet voor mij omdat de cursus meer vragen opriep dan beantwoordde, en de rijinstructeur die ik toen had er niet echt iets zinnigs op te zeggen had. Nu zie ik overal van die eendaagse cursussen aangepijsd worden. Het idee van leren met een docent spreekt mij heel erg aan. Maar is het wel mogelijk om met een niet al te beste voorkennis je rijbewijs te halen? Zijn er plekken in Noord-Holland waar ik een fysieke cursus met een docent kan volgen? Ik ben ook niet te beroerd om twee of drie keer te betalen, ik krijg dat stampen in mijn eentje gewoon niet voor elkaar. Daarvoor ben ik al te lang van school. 😅 submitted by /u/zijde [link] [comments]",
+      "url": "https://www.reddit.com/r/thenetherlands/comments/1xjct5n/in_1_dag_je_rijtheorie_halen_realistisch_of_niet/",
+      "primary_sentiment": "negative",
+      "primary_score": 1.0,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
       "language": "nl"
     },
     {
@@ -6280,6 +6455,19 @@
       "secondary_sentiment": "neutral",
       "secondary_score": 0.5,
       "language": "nl"
+    },
+    {
+      "id": "masto_d580b936861a",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-30T00:25:05+00:00",
+      "fetched_at": "2026-10-30T19:15:40.811771+00:00",
+      "text": "‘Horrific’ Russian drone strike kills 14 at Ukraine train station #14 #action #allies #at #attack #busy #called #city #demands #Dnipro #drone #DroneAttacks #Horrific #into #killing #kills #kyivs #least #overnight #people #Platform #president #railway #Russian #slammed #station #Strike #that #train #Ukraine #UkraineDroneAttacks #Ukrainian #Volodymyr #what #Zelenskyy",
+      "url": "https://pubeurope.com/@conflicts/117527013314759762",
+      "primary_sentiment": "positive",
+      "primary_score": 0.999,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "en"
     },
     {
       "id": "masto_df20b5ffaa08",
@@ -8958,150 +9146,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "masto_f1327d64a9d8",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-26T23:18:11.738000+00:00",
-      "fetched_at": "2026-10-26T23:43:33.599319+00:00",
-      "text": "Storing voorbij: persoon op het spoor Breda - Tilburg; Rotterdam - Breda #ns #nsinternational",
-      "url": "https://mastodon.nl/@rijdendetreinen/117509763349597763",
-      "primary_sentiment": "positive",
-      "primary_score": 0.69,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_80f73c77317d",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-26T22:55:11.367000+00:00",
-      "fetched_at": "2026-10-26T23:43:33.670143+00:00",
-      "text": "STORING: persoon op het spoor Rotterdam - Breda #storing #ns #nsinternational",
-      "url": "https://mastodon.nl/@rijdendetreinen/117509672885473733",
-      "primary_sentiment": "positive",
-      "primary_score": 0.996,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_49e6a337c8f3",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-26T22:41:44+00:00",
-      "fetched_at": "2026-10-26T23:43:33.843369+00:00",
-      "text": "Afgelopen weekend reed Lijn 7 voor het laatst - de proef met de autonoom rijdende bus langs verblijfsaccommodaties. De bus staat nu op Eftepedia - gaan we hem irl nog terugzien? #Efteling #openbaarvervoer #ov #selfdriving",
-      "url": "https://opencoaster.net/@Eftepedia/117509620024607448",
-      "primary_sentiment": "positive",
-      "primary_score": 0.998,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_7544d7291455",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-26T21:53:53+00:00",
-      "fetched_at": "2026-10-26T23:43:33.747078+00:00",
-      "text": "📰 Man in België verliest been nadat rugzak blijft hangen aan vertrekkende trein 🕚 22:47 | NOS Nieuws 🔸 #Levensgevaar #Trein #Belgie",
-      "url": "https://mastodon.social/@NieuwsJunkies/117509431868198796",
-      "primary_sentiment": "positive",
-      "primary_score": 0.997,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_97bf737f1225",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-26T21:32:12.101000+00:00",
-      "fetched_at": "2026-10-26T23:43:33.965180+00:00",
-      "text": "STORING: defecte trein Roosendaal - Antwerpen #storing #nsinternational #nmbs",
-      "url": "https://mastodon.nl/@rijdendetreinen/117509346564331449",
-      "primary_sentiment": "negative",
-      "primary_score": 0.988,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_dca6718a7158",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-26T20:21:12+00:00",
-      "fetched_at": "2026-10-27T10:21:24.032654+00:00",
-      "text": "#Audi war im #Nationalsozialismus ein zentraler Rüstungszulieferer der Wehrmacht und profitierte massiv vom #NS-System. Das liegt es doch in der Tradition dieses \"ehrenwerten Hauses\", auch jetzt wieder Freundschaft mit (pädokriminellen) #Faschisten zu suchen.",
-      "url": "https://social.tchncs.de/@Ysann/117509067437125670",
-      "primary_sentiment": "negative",
-      "primary_score": 0.908,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "de"
-    },
-    {
-      "id": "masto_07831e6bdca8",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-26T19:06:30.800000+00:00",
-      "fetched_at": "2026-10-26T19:08:53.100386+00:00",
-      "text": "Storing voorbij: defecte trein Hoofddorp - Schiphol - Lelystad #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117508773694499200",
-      "primary_sentiment": "negative",
-      "primary_score": 0.986,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_f57694b3f3e2",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-26T19:06:21.811000+00:00",
-      "fetched_at": "2026-10-26T19:08:53.172160+00:00",
-      "text": "Storing voorbij: defecte trein Schiphol - Rotterdam #ns #nsinternational #thalys #eurostar",
-      "url": "https://mastodon.nl/@rijdendetreinen/117508773105395657",
-      "primary_sentiment": "negative",
-      "primary_score": 0.994,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_cfaa870fb63e",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-26T19:06:12.734000+00:00",
-      "fetched_at": "2026-10-26T19:08:53.230163+00:00",
-      "text": "Storing voorbij: defecte trein Rotterdam - Breda #ns #nsinternational",
-      "url": "https://mastodon.nl/@rijdendetreinen/117508772510538986",
-      "primary_sentiment": "negative",
-      "primary_score": 0.989,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_c0f2083b8575",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-26T18:28:10+00:00",
-      "fetched_at": "2026-10-26T19:08:53.450867+00:00",
-      "text": "Das Wuppertaler Polizeipräsidium war Sitz der Gestapo. Schon lange wird diese Geschichte aufgearbeitet. Ab heute auf neue Weise. Das Wuppertaler Polizeipräsidium war Sitz der Gestapo . Schon lange wird diese Geschichte aufgearbeitet. Ab heute auf neue Weise.#WDR #26102026 #Polizei #Polizeipräsidium #NS #Geschichte #NS-Vergangenheit #Nazi #Planung-IA #NRW Nazi-Vergangenheit: Wuppertaler Polizei will aktiv auf eigene Täter-Rolle im NS hinweisen",
-      "url": "https://squeet.me/display/962c3e10-718775cf-20ada3c2577fee5d",
-      "primary_sentiment": "positive",
-      "primary_score": 0.964,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "de"
-    },
-    {
-      "id": "masto_83c092a50d07",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-26T18:15:12.079000+00:00",
-      "fetched_at": "2026-10-26T19:08:53.517793+00:00",
-      "text": "STORING: defecte trein Hoofddorp - Schiphol - Lelystad #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117508571927466976",
-      "primary_sentiment": "negative",
-      "primary_score": 0.987,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-10-30T14:01:13.584446+00:00"
+  "updated_at": "2026-10-30T19:15:41.217350+00:00"
 }

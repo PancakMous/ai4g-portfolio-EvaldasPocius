@@ -1,5 +1,109 @@
 [
   {
+    "id": "masto_34d44ce5aa68",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-10-30T19:15:11.814000+00:00",
+    "fetched_at": "2026-10-30T19:15:40.081989+00:00",
+    "text": "STORING: defecte trein Zwolle - Deventer #storing #ns",
+    "url": "https://mastodon.nl/@rijdendetreinen/117531457081272046",
+    "primary_sentiment": "negative",
+    "primary_score": 0.99,
+    "secondary_sentiment": "negative",
+    "secondary_score": 0.7,
+    "language": "nl"
+  },
+  {
+    "id": "masto_ff19c6faee04",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-10-30T19:07:11.542000+00:00",
+    "fetched_at": "2026-10-30T19:15:40.141294+00:00",
+    "text": "STORING: defecte trein Hoofddorp - Schiphol - Hilversum #storing #ns",
+    "url": "https://mastodon.nl/@rijdendetreinen/117531425606245897",
+    "primary_sentiment": "negative",
+    "primary_score": 0.994,
+    "secondary_sentiment": "negative",
+    "secondary_score": 0.7,
+    "language": "nl"
+  },
+  {
+    "id": "masto_3af5715a9a82",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-10-30T18:36:06+00:00",
+    "fetched_at": "2026-10-30T19:15:40.624820+00:00",
+    "text": "📰 Verhuizing van 13 meter in 9 uur tijd: stationsgebouw Vught staat op nieuwe plek 🕢 19:30 | NOS Nieuws 🔸 #Vught #Verhuizing #Station",
+    "url": "https://mastodon.social/@NieuwsJunkies/117531303381102043",
+    "primary_sentiment": "positive",
+    "primary_score": 0.999,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
+    "language": "nl"
+  },
+  {
+    "id": "masto_c27be114d012",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-10-30T16:49:12.165000+00:00",
+    "fetched_at": "2026-10-30T19:15:40.191687+00:00",
+    "text": "Storing voorbij: gestrande trein Rotterdam - Dordrecht #ns",
+    "url": "https://mastodon.nl/@rijdendetreinen/117530883008914176",
+    "primary_sentiment": "negative",
+    "primary_score": 0.948,
+    "secondary_sentiment": "negative",
+    "secondary_score": 0.7,
+    "language": "nl"
+  },
+  {
+    "id": "masto_28b98e650393",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-10-30T16:39:36.691000+00:00",
+    "fetched_at": "2026-10-30T19:15:40.244349+00:00",
+    "text": "STORING: gestrande trein Rotterdam - Dordrecht #storing #ns",
+    "url": "https://mastodon.nl/@rijdendetreinen/117530845294675544",
+    "primary_sentiment": "negative",
+    "primary_score": 0.966,
+    "secondary_sentiment": "negative",
+    "secondary_score": 0.7,
+    "language": "nl"
+  },
+  {
+    "id": "masto_06b2a3fcb865",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-10-30T15:24:13+00:00",
+    "fetched_at": "2026-10-30T19:15:40.516827+00:00",
+    "text": "Heeft Arriva nieuwe bussen? #bussen #openbaarvervoer",
+    "url": "https://mastodon.social/@ryanvher/117530548860594455",
+    "primary_sentiment": "positive",
+    "primary_score": 0.894,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
+    "language": "nl"
+  },
+  {
+    "id": "masto_6548fc7559c3",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-10-30T15:02:12+00:00",
+    "fetched_at": "2026-10-30T19:15:40.369376+00:00",
+    "text": "[USER] [USER] Mir kam noch in den Sinn, dass die Bildersprache Anleihen an NS-Motive nimmt: bedrohlicher (fremder/dunkler) Mann beugt sich über weiße Frau. #ns #nazi #nationalsozialismus #bildersprache #bildn #motiv #frau",
+    "url": "https://freiburg.social/@breakdownthewalls/117530462319064337",
+    "primary_sentiment": "positive",
+    "primary_score": 0.666,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
+    "language": "de"
+  },
+  {
+    "id": "masto_fe14d0202dbd",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-10-30T14:43:17+00:00",
+    "fetched_at": "2026-10-30T19:15:40.459545+00:00",
+    "text": "📰 Poolse politie arresteert Rus die duizenden foto's van treinknooppunten in bezit had 🕞 15:42 | RTL Nieuws 🔸 #Spionage #Spoorwegen #Arrestatie #Infrastructuur #Trein",
+    "url": "https://mastodon.social/@NieuwsJunkies/117530387888484792",
+    "primary_sentiment": "positive",
+    "primary_score": 0.99,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
+    "language": "nl"
+  },
+  {
     "id": "masto_57c5374cbdd9",
     "source": "mastodon:mastodon.nl",
     "created_at": "2026-10-30T13:54:47+00:00",
@@ -36,6 +140,19 @@
     "primary_score": 0.628,
     "secondary_sentiment": "negative",
     "secondary_score": 0.7,
+    "language": "nl"
+  },
+  {
+    "id": "reddit_fc5d2ec3c854",
+    "source": "reddit:r/thenetherlands",
+    "created_at": "2026-10-30T13:25:57+00:00",
+    "fetched_at": "2026-10-30T19:15:40.885077+00:00",
+    "text": "Schaatsen werd een miljoenensport dankzij de publieke omroep. Archive: submitted by /u/Personal-Proposal-79 [link] [comments]",
+    "url": "https://www.reddit.com/r/thenetherlands/comments/1xjfc0y/schaatsen_werd_een_miljoenensport_dankzij_de/",
+    "primary_sentiment": "positive",
+    "primary_score": 0.945,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
     "language": "nl"
   },
   {
@@ -88,6 +205,19 @@
     "primary_score": 0.969,
     "secondary_sentiment": "negative",
     "secondary_score": 0.7,
+    "language": "nl"
+  },
+  {
+    "id": "reddit_2b735e52fade",
+    "source": "reddit:r/thenetherlands",
+    "created_at": "2026-10-30T11:29:02+00:00",
+    "fetched_at": "2026-10-30T19:15:41.143032+00:00",
+    "text": "In 1 dag je rijtheorie halen realistisch of niet?. Oprechte vraag. Ik wil graag mijn rijbewijs halen en daarbij ook mijn theorie. Ik leer bar slecht uit boeken en werk al, en heb het eerder geprobeerd met een anwb online cursus. Dit werkte to-taal niet voor mij omdat de cursus meer vragen opriep dan beantwoordde, en de rijinstructeur die ik toen had er niet echt iets zinnigs op te zeggen had. Nu zie ik overal van die eendaagse cursussen aangepijsd worden. Het idee van leren met een docent spreekt mij heel erg aan. Maar is het wel mogelijk om met een niet al te beste voorkennis je rijbewijs te halen? Zijn er plekken in Noord-Holland waar ik een fysieke cursus met een docent kan volgen? Ik ben ook niet te beroerd om twee of drie keer te betalen, ik krijg dat stampen in mijn eentje gewoon niet voor elkaar. Daarvoor ben ik al te lang van school. 😅 submitted by /u/zijde [link] [comments]",
+    "url": "https://www.reddit.com/r/thenetherlands/comments/1xjct5n/in_1_dag_je_rijtheorie_halen_realistisch_of_niet/",
+    "primary_sentiment": "negative",
+    "primary_score": 1.0,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
     "language": "nl"
   },
   {
@@ -427,6 +557,19 @@
     "secondary_sentiment": "neutral",
     "secondary_score": 0.5,
     "language": "nl"
+  },
+  {
+    "id": "masto_d580b936861a",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-10-30T00:25:05+00:00",
+    "fetched_at": "2026-10-30T19:15:40.811771+00:00",
+    "text": "‘Horrific’ Russian drone strike kills 14 at Ukraine train station #14 #action #allies #at #attack #busy #called #city #demands #Dnipro #drone #DroneAttacks #Horrific #into #killing #kills #kyivs #least #overnight #people #Platform #president #railway #Russian #slammed #station #Strike #that #train #Ukraine #UkraineDroneAttacks #Ukrainian #Volodymyr #what #Zelenskyy",
+    "url": "https://pubeurope.com/@conflicts/117527013314759762",
+    "primary_sentiment": "positive",
+    "primary_score": 0.999,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
+    "language": "en"
   },
   {
     "id": "masto_df20b5ffaa08",
