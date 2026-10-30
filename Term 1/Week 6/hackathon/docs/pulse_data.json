@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 1494,
-    "positive_count": 947,
+    "total_posts": 1502,
+    "positive_count": 948,
     "neutral_count": 0,
-    "negative_count": 547,
+    "negative_count": 554,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-30T19:15:11.814000+00:00",
-    "net_sentiment": 26.8
+    "latest_post": "2026-10-30T22:33:11.279000+00:00",
+    "net_sentiment": 26.2
   },
   "timeline": [
     {
@@ -5888,15 +5888,137 @@
     },
     {
       "time_bucket": "2026-10-30 19:00",
+      "total_count": 7,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 6,
+      "avg_confidence": 0.9708571428571429,
+      "net_sentiment": -71.4
+    },
+    {
+      "time_bucket": "2026-10-30 20:00",
       "total_count": 2,
       "positive_count": 0,
       "neutral_count": 0,
       "negative_count": 2,
-      "avg_confidence": 0.992,
+      "avg_confidence": 0.987,
+      "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-10-30 22:00",
+      "total_count": 1,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.996,
       "net_sentiment": -100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_710147f64333",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-30T22:33:11.279000+00:00",
+      "fetched_at": "2026-10-30T23:36:29.969786+00:00",
+      "text": "Storing voorbij: defecte trein Zwolle - Deventer #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117532235613885543",
+      "primary_sentiment": "negative",
+      "primary_score": 0.996,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_7a4aa317eeea",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-30T20:37:11.256000+00:00",
+      "fetched_at": "2026-10-30T23:36:30.030617+00:00",
+      "text": "Storing voorbij: defecte trein Rotterdam - Breda #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117531779481840456",
+      "primary_sentiment": "negative",
+      "primary_score": 0.989,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_7bdc36ee7a6e",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-30T20:36:11.376000+00:00",
+      "fetched_at": "2026-10-30T23:36:30.080954+00:00",
+      "text": "STORING: defecte trein Rotterdam - Breda #storing #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117531775557515629",
+      "primary_sentiment": "negative",
+      "primary_score": 0.985,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_6252b8452e5e",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-30T19:40:27+00:00",
+      "fetched_at": "2026-10-30T23:36:30.341108+00:00",
+      "text": "Ihr #Opa tötete im #KZ... 😳 In der 26. Folge des #Marcant #Podcasts ist Jennifer Teege bei mir zu Gast. Jennifer ist die Enkelin des #NS- #Kriegsverbrechers #Amon_Göth, der durch den Film „ #Schindlers #Liste“ bekannt wurde. Erst mit 38 Jahren erfuhr sie durch einen Zufall von ihrer erschütternden Familiengeschichte. Wir sprechen darüber, wie diese Entdeckung ihr Leben verändert hat, über die Verbrechen ihres Großvaters und die Frage, welche Verantwortung die Nachkommen von #NS- #Tätern tragen. Außerdem diskutieren wir über den Rechtsruck in Deutschland, die #AfD und den Umgang unserer #Gesellschaft mit #Rechtsextremismus. Jennifer erzählt von ihrer Zeit in Israel, ihren Begegnungen mit #Holocaust-Überlebenden und ihrer Sicht auf den Krieg in Gaza und den Nahostkonflikt. Am Ende geht es um die Frage, wie wir aus der Geschichte lernen können und warum Jennifer trotz allem den Glauben an das Gute im Menschen nicht verloren hat. #MarcantPodcast",
+      "url": "https://troet.cafe/@Verfassungklage/117531556392727841",
+      "primary_sentiment": "negative",
+      "primary_score": 0.833,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "de"
+    },
+    {
+      "id": "masto_2577b0ffa593",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-30T19:37:39+00:00",
+      "fetched_at": "2026-10-30T23:36:30.554244+00:00",
+      "text": "📰 13,6 meter in 9 uur: zo ging de verplaatsing van het stationsgebouw in Vught 🕣 20:33 | NOS Video 🔸 #Monument #Vught #Trein",
+      "url": "https://mastodon.social/@NieuwsJunkies/117531545370972252",
+      "primary_sentiment": "positive",
+      "primary_score": 0.999,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_6723880e41ec",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-30T19:37:20.915000+00:00",
+      "fetched_at": "2026-10-30T23:36:30.385631+00:00",
+      "text": "STORING: defecte trein Zwolle - Deventer #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117531544185277463",
+      "primary_sentiment": "negative",
+      "primary_score": 0.99,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_bb23ae0cbe76",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-30T19:37:11.999000+00:00",
+      "fetched_at": "2026-10-30T23:36:30.438649+00:00",
+      "text": "Storing voorbij: defecte trein Zwolle - Deventer #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117531543600897954",
+      "primary_sentiment": "negative",
+      "primary_score": 0.996,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_003cf08fce86",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-30T19:27:12.150000+00:00",
+      "fetched_at": "2026-10-30T23:36:30.493105+00:00",
+      "text": "Storing voorbij: defecte trein Hoofddorp - Schiphol - Hilversum #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117531504289225630",
+      "primary_sentiment": "negative",
+      "primary_score": 0.994,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "masto_34d44ce5aa68",
       "source": "mastodon:mastodon.nl",
@@ -9042,111 +9164,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "masto_7045e542a787",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-27T06:11:11.639000+00:00",
-      "fetched_at": "2026-10-27T10:21:24.179607+00:00",
-      "text": "STORING: defecte trein Groningen Europapark - Leeuwarden #storing #arriva",
-      "url": "https://mastodon.nl/@rijdendetreinen/117511387325152885",
-      "primary_sentiment": "negative",
-      "primary_score": 0.998,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_f9e070ab04cf",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-27T05:55:11.882000+00:00",
-      "fetched_at": "2026-10-27T10:21:23.914939+00:00",
-      "text": "STORING: defecte trein Utrecht - Baarn #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117511324426438776",
-      "primary_sentiment": "negative",
-      "primary_score": 0.992,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_326c885e7e36",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-27T05:10:12.212000+00:00",
-      "fetched_at": "2026-10-27T10:21:24.238283+00:00",
-      "text": "STORING: spoorproblemen in het buitenland Arnhem - Duisburg - Düsseldorf #storing #nsinternational #db #viasrail",
-      "url": "https://mastodon.nl/@rijdendetreinen/117511147500829813",
-      "primary_sentiment": "positive",
-      "primary_score": 0.934,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_aa956777edc2",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-27T04:06:03+00:00",
-      "fetched_at": "2026-10-27T10:21:24.323803+00:00",
-      "text": "Syria closes main border crossing with Jordan after airstrikes in south – Dubai Eye 103.8 #1038 #1038 #Airstrikes #Business #Dubai #Eye #FM #News #radio #Sport #station #talk",
-      "url": "https://pubeurope.com/@conflicts/117510895272890799",
-      "primary_sentiment": "positive",
-      "primary_score": 0.997,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "en"
-    },
-    {
-      "id": "masto_cbecb9e6d5c8",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-27T02:20:13+00:00",
-      "fetched_at": "2026-10-27T04:42:45.190547+00:00",
-      "text": "Afstudeerstage Data-analyse en procesverbetering – ProRail – Hilversum Bekijk hier de vacature: #vacature #hilversum #prorail",
-      "url": "https://vacatureforum.nl/@hilversum/117510479108745633",
-      "primary_sentiment": "positive",
-      "primary_score": 0.984,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_98e82581280b",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-27T02:14:53+00:00",
-      "fetched_at": "2026-10-27T04:42:45.113580+00:00",
-      "text": "📰 Man verliest been nadat hij vast komt te zitten aan trein België 🕒 03:02 | RTL Nieuws 🔸 #Trein #Belgie #Onvrede",
-      "url": "https://mastodon.social/@NieuwsJunkies/117510458129164783",
-      "primary_sentiment": "positive",
-      "primary_score": 0.998,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_333b4fdd320d",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-27T01:58:10+00:00",
-      "fetched_at": "2026-10-27T04:42:45.429414+00:00",
-      "text": "CPK (Port Polska): Zielone światło dla najbardziej potrzebnej linii kolejowej w Polsce #cpk #Decyzjaśrodowiskowa #Intercity #kdp #KDPWPolsce #KDPY #Kolej #KolejeMazowieckie #Linia86 #LiniaY #PKP #PL #Poland #Polish #Polska #Polski #PortPolska #PrzewozyRegionalne #RozkładyJazdyPKP #RynekKolejowy #Ygrek",
-      "url": "https://pubeurope.com/@pl/117510392430901402",
-      "primary_sentiment": "positive",
-      "primary_score": 0.997,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "pl"
-    },
-    {
-      "id": "masto_c9c8897fd19d",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-26T23:43:11.457000+00:00",
-      "fetched_at": "2026-10-26T23:43:33.907236+00:00",
-      "text": "STORING: defecte trein Venlo - Mönchengladbach - Düsseldorf #storing #eurobahn",
-      "url": "https://mastodon.nl/@rijdendetreinen/117509861635141600",
-      "primary_sentiment": "negative",
-      "primary_score": 0.978,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-10-30T19:15:41.217350+00:00"
+  "updated_at": "2026-10-30T23:36:30.628875+00:00"
 }
