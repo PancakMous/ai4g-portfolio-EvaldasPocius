@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 1445,
+    "total_posts": 1449,
     "positive_count": 920,
     "neutral_count": 0,
-    "negative_count": 525,
+    "negative_count": 529,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-29T20:00:12.202000+00:00",
-    "net_sentiment": 27.3
+    "latest_post": "2026-10-30T00:17:11.327000+00:00",
+    "net_sentiment": 27.0
   },
   "timeline": [
     {
@@ -5723,9 +5723,88 @@
       "negative_count": 0,
       "avg_confidence": 0.906,
       "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-10-29 22:00",
+      "total_count": 2,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 2,
+      "avg_confidence": 0.992,
+      "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-10-29 23:00",
+      "total_count": 1,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.559,
+      "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-10-30 00:00",
+      "total_count": 1,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.994,
+      "net_sentiment": -100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_df20b5ffaa08",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-30T00:17:11.327000+00:00",
+      "fetched_at": "2026-10-30T00:46:26.174280+00:00",
+      "text": "Storing voorbij: defect spoor Utrecht - Den Haag #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117526982251372012",
+      "primary_sentiment": "negative",
+      "primary_score": 0.994,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.85,
+      "language": "nl"
+    },
+    {
+      "id": "masto_d29619535306",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-29T23:12:11.259000+00:00",
+      "fetched_at": "2026-10-30T00:46:26.294622+00:00",
+      "text": "STORING: beperkingen in de materieelinzet Amersfoort - Barneveld #storing #keolis #rrreis",
+      "url": "https://mastodon.nl/@rijdendetreinen/117526726656412673",
+      "primary_sentiment": "negative",
+      "primary_score": 0.559,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_4469892bb2d5",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-29T22:47:12.047000+00:00",
+      "fetched_at": "2026-10-30T00:46:26.231771+00:00",
+      "text": "Storing voorbij: defecte bovenleiding Zwolle - Leeuwarden #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117526628404142208",
+      "primary_sentiment": "negative",
+      "primary_score": 0.985,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "reddit_ba169b9b0186",
+      "source": "reddit:r/thenetherlands",
+      "created_at": "2026-10-29T22:34:35+00:00",
+      "fetched_at": "2026-10-30T00:46:26.561816+00:00",
+      "text": "Verkeersvraag snelheid snelweg, na 'einde 90' mag je.... Ik rijd de afgelopen tijd vaak van Groningen via de A7 richting Winschoten en hier valt me iets op. Na de ring Groningen staat duidelijk een bord met '100 tussen 06 en 19' Daarna volgen af en aan borden met '90' en 'einde 90' Na de borden 'einde 90' staat geen herhaling van '100 tussen 06 en 19' Uiteraard snap ik dat de bedoeling is dat je na 'einde 90' gewoon weer 100 mag. Echter ben ik daar nu een paar keer langsgereden met een auto met verkeersbord herkenning, deze geeft dan aan dat je 130 mag. (en met adaptive cruisecontrol doet ie dat dan ook) Verkeersregel-technisch klopt dat volgens mij ook; na 'einde 90' ga je terug naar de default snelheid en die is 130. Hoe zit dit, klopt deze redenering? Zit die software gewoon fout? Is Rijkswaterstaat de borden vergeten? submitted by /u/dejager_mc [link] [comments]",
+      "url": "https://www.reddit.com/r/thenetherlands/comments/1xiyg1i/verkeersvraag_snelheid_snelweg_na_einde_90_mag_je/",
+      "primary_sentiment": "negative",
+      "primary_score": 0.999,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
     {
       "id": "masto_cc3b3f6a7d73",
       "source": "mastodon:mastodon.nl",
@@ -8923,59 +9002,7 @@
       "secondary_sentiment": "neutral",
       "secondary_score": 0.5,
       "language": "nl"
-    },
-    {
-      "id": "masto_4ba40cffb794",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-26T02:28:20+00:00",
-      "fetched_at": "2026-10-26T05:57:25.970761+00:00",
-      "text": "Senior data engineer – ProRail – Hilversum Bekijk hier de vacature: #vacature #hilversum #prorail",
-      "url": "https://vacatureforum.nl/@hilversum/117504848715916430",
-      "primary_sentiment": "positive",
-      "primary_score": 0.99,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_0700088101cd",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-26T02:18:11.329000+00:00",
-      "fetched_at": "2026-10-26T05:57:25.759234+00:00",
-      "text": "Storing voorbij: stroomstoring Amsterdam - Schiphol #ns #nsinternational #thalys #eurostar",
-      "url": "https://mastodon.nl/@rijdendetreinen/117504808801010001",
-      "primary_sentiment": "negative",
-      "primary_score": 0.791,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_a57b50ee7d71",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-26T01:25:11.529000+00:00",
-      "fetched_at": "2026-10-26T05:57:25.841340+00:00",
-      "text": "STORING: stroomstoring Amsterdam - Alkmaar; Amsterdam - Schiphol; Amsterdam - Haarlem #storing #ns #nsinternational #thalys #eurostar",
-      "url": "https://mastodon.nl/@rijdendetreinen/117504600409786624",
-      "primary_sentiment": "positive",
-      "primary_score": 0.996,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_adde1ad93df2",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-25T23:00:23.140000+00:00",
-      "fetched_at": "2026-10-26T00:04:14.560766+00:00",
-      "text": "Storing voorbij: boom op het spoor Amsterdam - Zandvoort aan Zee #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117504031007615673",
-      "primary_sentiment": "positive",
-      "primary_score": 0.822,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-10-29T20:10:32.952702+00:00"
+  "updated_at": "2026-10-30T00:46:26.639238+00:00"
 }

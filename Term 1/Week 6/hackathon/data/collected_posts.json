@@ -1,5 +1,57 @@
 [
   {
+    "id": "masto_df20b5ffaa08",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-10-30T00:17:11.327000+00:00",
+    "fetched_at": "2026-10-30T00:46:26.174280+00:00",
+    "text": "Storing voorbij: defect spoor Utrecht - Den Haag #ns",
+    "url": "https://mastodon.nl/@rijdendetreinen/117526982251372012",
+    "primary_sentiment": "negative",
+    "primary_score": 0.994,
+    "secondary_sentiment": "negative",
+    "secondary_score": 0.85,
+    "language": "nl"
+  },
+  {
+    "id": "masto_d29619535306",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-10-29T23:12:11.259000+00:00",
+    "fetched_at": "2026-10-30T00:46:26.294622+00:00",
+    "text": "STORING: beperkingen in de materieelinzet Amersfoort - Barneveld #storing #keolis #rrreis",
+    "url": "https://mastodon.nl/@rijdendetreinen/117526726656412673",
+    "primary_sentiment": "negative",
+    "primary_score": 0.559,
+    "secondary_sentiment": "negative",
+    "secondary_score": 0.7,
+    "language": "nl"
+  },
+  {
+    "id": "masto_4469892bb2d5",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-10-29T22:47:12.047000+00:00",
+    "fetched_at": "2026-10-30T00:46:26.231771+00:00",
+    "text": "Storing voorbij: defecte bovenleiding Zwolle - Leeuwarden #ns",
+    "url": "https://mastodon.nl/@rijdendetreinen/117526628404142208",
+    "primary_sentiment": "negative",
+    "primary_score": 0.985,
+    "secondary_sentiment": "negative",
+    "secondary_score": 0.7,
+    "language": "nl"
+  },
+  {
+    "id": "reddit_ba169b9b0186",
+    "source": "reddit:r/thenetherlands",
+    "created_at": "2026-10-29T22:34:35+00:00",
+    "fetched_at": "2026-10-30T00:46:26.561816+00:00",
+    "text": "Verkeersvraag snelheid snelweg, na 'einde 90' mag je.... Ik rijd de afgelopen tijd vaak van Groningen via de A7 richting Winschoten en hier valt me iets op. Na de ring Groningen staat duidelijk een bord met '100 tussen 06 en 19' Daarna volgen af en aan borden met '90' en 'einde 90' Na de borden 'einde 90' staat geen herhaling van '100 tussen 06 en 19' Uiteraard snap ik dat de bedoeling is dat je na 'einde 90' gewoon weer 100 mag. Echter ben ik daar nu een paar keer langsgereden met een auto met verkeersbord herkenning, deze geeft dan aan dat je 130 mag. (en met adaptive cruisecontrol doet ie dat dan ook) Verkeersregel-technisch klopt dat volgens mij ook; na 'einde 90' ga je terug naar de default snelheid en die is 130. Hoe zit dit, klopt deze redenering? Zit die software gewoon fout? Is Rijkswaterstaat de borden vergeten? submitted by /u/dejager_mc [link] [comments]",
+    "url": "https://www.reddit.com/r/thenetherlands/comments/1xiyg1i/verkeersvraag_snelheid_snelweg_na_einde_90_mag_je/",
+    "primary_sentiment": "negative",
+    "primary_score": 0.999,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
+    "language": "nl"
+  },
+  {
     "id": "masto_cc3b3f6a7d73",
     "source": "mastodon:mastodon.nl",
     "created_at": "2026-10-29T20:00:12.202000+00:00",
