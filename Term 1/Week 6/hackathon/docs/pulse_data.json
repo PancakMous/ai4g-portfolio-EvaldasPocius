@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 1449,
-    "positive_count": 920,
+    "total_posts": 1458,
+    "positive_count": 924,
     "neutral_count": 0,
-    "negative_count": 529,
+    "negative_count": 534,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-30T00:17:11.327000+00:00",
-    "net_sentiment": 27.0
+    "latest_post": "2026-10-30T06:10:13+00:00",
+    "net_sentiment": 26.7
   },
   "timeline": [
     {
@@ -5681,12 +5681,12 @@
     },
     {
       "time_bucket": "2026-10-29 15:00",
-      "total_count": 3,
-      "positive_count": 1,
+      "total_count": 4,
+      "positive_count": 2,
       "neutral_count": 0,
       "negative_count": 2,
-      "avg_confidence": 0.9423333333333334,
-      "net_sentiment": -33.3
+      "avg_confidence": 0.95575,
+      "net_sentiment": 0.0
     },
     {
       "time_bucket": "2026-10-29 17:00",
@@ -5750,9 +5750,149 @@
       "negative_count": 1,
       "avg_confidence": 0.994,
       "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-10-30 02:00",
+      "total_count": 2,
+      "positive_count": 2,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.989,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-10-30 04:00",
+      "total_count": 3,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 3,
+      "avg_confidence": 0.765,
+      "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-10-30 05:00",
+      "total_count": 2,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 2,
+      "avg_confidence": 0.962,
+      "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-10-30 06:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.999,
+      "net_sentiment": 100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_9c597e2191df",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-30T06:10:13+00:00",
+      "fetched_at": "2026-10-30T06:59:04.602497+00:00",
+      "text": "📰 Oud-minister, atlete en machinisten: dit weten we van slachtoffers treinramp 🕖 07:02 | RTL Nieuws 🔸 #Verspringen #Werkgelegenheid #Machinist #Agenten #Trein",
+      "url": "https://mastodon.social/@NieuwsJunkies/117528370440417786",
+      "primary_sentiment": "positive",
+      "primary_score": 0.999,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_bb3a8821b3f9",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-30T05:48:12.195000+00:00",
+      "fetched_at": "2026-10-30T06:59:04.388052+00:00",
+      "text": "STORING: defecte trein Rotterdam - Breda #storing #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117528283853134634",
+      "primary_sentiment": "negative",
+      "primary_score": 0.985,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_7d9c600a8807",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-30T05:16:11.878000+00:00",
+      "fetched_at": "2026-10-30T06:59:04.787209+00:00",
+      "text": "STORING: defecte trein Zutphen - Hengelo #storing #arriva #blauwnet",
+      "url": "https://mastodon.nl/@rijdendetreinen/117528158003174536",
+      "primary_sentiment": "negative",
+      "primary_score": 0.939,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_db2f9510e84c",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-30T04:49:11.381000+00:00",
+      "fetched_at": "2026-10-30T06:59:04.442038+00:00",
+      "text": "Storing voorbij: uitloop van werkzaamheden Rotterdam - Dordrecht #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117528051802370601",
+      "primary_sentiment": "negative",
+      "primary_score": 0.686,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_f007ed0c964a",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-30T04:47:11.480000+00:00",
+      "fetched_at": "2026-10-30T06:59:04.849393+00:00",
+      "text": "STORING: tekort aan personeel Venlo - Mönchengladbach - Düsseldorf #storing #eurobahn",
+      "url": "https://mastodon.nl/@rijdendetreinen/117528043944530222",
+      "primary_sentiment": "negative",
+      "primary_score": 0.985,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_6a2c15790300",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-30T04:16:11.247000+00:00",
+      "fetched_at": "2026-10-30T06:59:04.502972+00:00",
+      "text": "STORING: uitloop van werkzaamheden Rotterdam - Dordrecht #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117527922032244254",
+      "primary_sentiment": "negative",
+      "primary_score": 0.624,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_ae22ab05c70d",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-30T02:18:19+00:00",
+      "fetched_at": "2026-10-30T06:59:04.668691+00:00",
+      "text": "Medewerker meldkamer spoor – ProRail – Hilversum Bekijk hier de vacature: #vacature #hilversum #prorail",
+      "url": "https://vacatureforum.nl/@hilversum/117527458552026506",
+      "primary_sentiment": "positive",
+      "primary_score": 0.986,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_58e3d2199d30",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-30T02:13:30+00:00",
+      "fetched_at": "2026-10-30T06:59:04.732584+00:00",
+      "text": "Senior platform engineer – ProRail – Hilversum Bekijk hier de vacature: #vacature #hilversum #prorail",
+      "url": "https://vacatureforum.nl/@hilversum/117527439659600637",
+      "primary_sentiment": "positive",
+      "primary_score": 0.992,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
     {
       "id": "masto_df20b5ffaa08",
       "source": "mastodon:mastodon.nl",
@@ -5895,6 +6035,19 @@
       "secondary_sentiment": "neutral",
       "secondary_score": 0.5,
       "language": "nl"
+    },
+    {
+      "id": "masto_3fbacc3a55b1",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-29T15:47:07+00:00",
+      "fetched_at": "2026-10-30T06:59:05.035878+00:00",
+      "text": "PLK naprawi peron Warszawa Powiśle. Szybkie działanie #Intercity #Kolej #KolejeMazowieckie #Linia448 #perony #PKP #PKPPolskieLinieKolejowe #PL #Poland #Polish #Polska #Polski #PrzewozyRegionalne #PrzystanekKolejowy #RozkładyJazdyPKP #RynekKolejowy #SKMWarszawa #warszawa #WarszawaPowiśle",
+      "url": "https://pubeurope.com/@pl/117524976629718088",
+      "primary_sentiment": "positive",
+      "primary_score": 0.996,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "pl"
     },
     {
       "id": "masto_a953d418ef9a",
@@ -8885,124 +9038,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "masto_c989e0760425",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-26T08:53:11.398000+00:00",
-      "fetched_at": "2026-10-26T12:47:23.245717+00:00",
-      "text": "STORING: defecte trein Hilversum - Amersfoort Schothorst #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117506362008837486",
-      "primary_sentiment": "negative",
-      "primary_score": 0.996,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_8722cde53cfa",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-26T07:04:52.260000+00:00",
-      "fetched_at": "2026-10-26T12:47:23.574904+00:00",
-      "text": "Locomodief - #daluren, #prijsverhoging, #trein, #treinkaartjes #gerritdejager",
-      "url": "https://fed.brid.gy/r/https://bsky.app/profile/did:plc:6we2gevqfh3ziuceujndo6lx/post/3myr5t6qsbx2b",
-      "primary_sentiment": "positive",
-      "primary_score": 0.975,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl-NL"
-    },
-    {
-      "id": "masto_8860eaf4b894",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-26T07:04:51+00:00",
-      "fetched_at": "2026-10-26T12:47:23.643220+00:00",
-      "text": "Locomodief - #daluren, #prijsverhoging, #trein, #treinkaartjes #gerritdejager",
-      "url": "https://c.im/@johannes/117505936030738470",
-      "primary_sentiment": "positive",
-      "primary_score": 0.975,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_89fccc5ff94b",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-26T06:59:11.627000+00:00",
-      "fetched_at": "2026-10-26T12:47:23.304212+00:00",
-      "text": "STORING: inzet van hulpdiensten Schiphol - Utrecht #storing #ns #nsinternational",
-      "url": "https://mastodon.nl/@rijdendetreinen/117505913757694308",
-      "primary_sentiment": "positive",
-      "primary_score": 0.996,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_57a5cefa4b17",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-26T06:35:12.065000+00:00",
-      "fetched_at": "2026-10-26T12:47:23.371108+00:00",
-      "text": "STORING: verstoring elders Utrecht - Driebergen-Zeist; Utrecht - Eindhoven #storing #ns #nsinternational",
-      "url": "https://mastodon.nl/@rijdendetreinen/117505819414485555",
-      "primary_sentiment": "negative",
-      "primary_score": 0.893,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_58adccd770ec",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-26T06:17:11.392000+00:00",
-      "fetched_at": "2026-10-26T12:47:23.429081+00:00",
-      "text": "STORING: gestrande trein Amsterdam - Utrecht #storing #ns #nsinternational",
-      "url": "https://mastodon.nl/@rijdendetreinen/117505748591414162",
-      "primary_sentiment": "negative",
-      "primary_score": 0.985,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_d06935c06137",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-26T06:08:11.837000+00:00",
-      "fetched_at": "2026-10-26T12:47:23.762821+00:00",
-      "text": "STORING: spoorproblemen in het buitenland Groningen - Leer #storing #arriva",
-      "url": "https://mastodon.nl/@rijdendetreinen/117505713231226251",
-      "primary_sentiment": "positive",
-      "primary_score": 0.993,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_8b1ce7e68bc6",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-26T05:20:11.874000+00:00",
-      "fetched_at": "2026-10-26T05:57:26.043294+00:00",
-      "text": "STORING: spoorproblemen in het buitenland Hengelo - Bielefeld #storing #nsinternational #db #eurobahn #keolis #blauwnet",
-      "url": "https://mastodon.nl/@rijdendetreinen/117505524489896263",
-      "primary_sentiment": "positive",
-      "primary_score": 0.966,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_4b656254134a",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-26T02:33:17+00:00",
-      "fetched_at": "2026-10-26T05:57:25.906544+00:00",
-      "text": "Front-end developer – ProRail – Hilversum Bekijk hier de vacature: #vacature #hilversum #prorail",
-      "url": "https://vacatureforum.nl/@hilversum/117504868160746465",
-      "primary_sentiment": "positive",
-      "primary_score": 0.984,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-10-30T00:46:26.639238+00:00"
+  "updated_at": "2026-10-30T06:59:05.110866+00:00"
 }
