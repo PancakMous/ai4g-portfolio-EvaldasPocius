@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 1502,
-    "positive_count": 948,
+    "total_posts": 1506,
+    "positive_count": 949,
     "neutral_count": 0,
-    "negative_count": 554,
+    "negative_count": 557,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-10-30T22:33:11.279000+00:00",
-    "net_sentiment": 26.2
+    "latest_post": "2026-10-31T03:40:11.536000+00:00",
+    "net_sentiment": 26.0
   },
   "timeline": [
     {
@@ -5816,11 +5816,11 @@
     },
     {
       "time_bucket": "2026-10-30 10:00",
-      "total_count": 8,
-      "positive_count": 8,
+      "total_count": 9,
+      "positive_count": 9,
       "neutral_count": 0,
       "negative_count": 0,
-      "avg_confidence": 0.9685,
+      "avg_confidence": 0.9717777777777779,
       "net_sentiment": 100.0
     },
     {
@@ -5912,9 +5912,75 @@
       "negative_count": 1,
       "avg_confidence": 0.996,
       "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-10-30 23:00",
+      "total_count": 1,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.943,
+      "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-10-31 00:00",
+      "total_count": 1,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.977,
+      "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-10-31 03:00",
+      "total_count": 1,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.985,
+      "net_sentiment": -100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_88116e8101b4",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-31T03:40:11.536000+00:00",
+      "fetched_at": "2026-10-31T05:11:45.938311+00:00",
+      "text": "STORING: tekort aan personeel Venlo - Mönchengladbach - Düsseldorf #storing #eurobahn",
+      "url": "https://mastodon.nl/@rijdendetreinen/117533442803862804",
+      "primary_sentiment": "negative",
+      "primary_score": 0.985,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_f593df923bb9",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-31T00:49:12.121000+00:00",
+      "fetched_at": "2026-10-31T05:11:45.799404+00:00",
+      "text": "Storing voorbij: gestrande trein Amsterdam - Utrecht; Amsterdam - Gouda #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117532770442912899",
+      "primary_sentiment": "negative",
+      "primary_score": 0.977,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_47bb3e274b18",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-30T23:47:11.455000+00:00",
+      "fetched_at": "2026-10-31T05:11:45.877786+00:00",
+      "text": "STORING: gestrande trein Amsterdam - Utrecht; Amsterdam - Gouda #storing #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117532526605261884",
+      "primary_sentiment": "negative",
+      "primary_score": 0.943,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "masto_710147f64333",
       "source": "mastodon:mastodon.nl",
@@ -6356,6 +6422,19 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
+    },
+    {
+      "id": "masto_697b71da504d",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-30T10:33:03+00:00",
+      "fetched_at": "2026-10-31T05:11:46.151523+00:00",
+      "text": "Będą 4 pary sprinterów PKP Intercity z Bydgoszczy do Warszawy #Bydgoszcz #ED161 #ICBrda #ICŁuczniczka #ICMoniuszko #ICOgiński #Intercity #Kolej #KolejeMazowieckie #Linia18 #Linia3 #PKP #PKPIntercity #PL #PociągPrzyspieszony #Poland #Polish #Polska #Polski #PrzewozyRegionalne #RozkładJazdy2026/2027 #RozkładyJazdyPKP #RynekKolejowy",
+      "url": "https://pubeurope.com/@pl/117529403969397583",
+      "primary_sentiment": "positive",
+      "primary_score": 0.998,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "pl"
     },
     {
       "id": "masto_8d464a8973f1",
@@ -9112,59 +9191,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "masto_1a832e330899",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-27T08:30:12.028000+00:00",
-      "fetched_at": "2026-10-27T10:21:23.779278+00:00",
-      "text": "STORING: aanrijding Eindhoven - Sittard #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117511933920919129",
-      "primary_sentiment": "negative",
-      "primary_score": 0.981,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_c925329881b7",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-27T08:10:11.972000+00:00",
-      "fetched_at": "2026-10-27T10:21:23.826938+00:00",
-      "text": "STORING: defecte trein Rotterdam - Breda #storing #ns #nsinternational",
-      "url": "https://mastodon.nl/@rijdendetreinen/117511855273429196",
-      "primary_sentiment": "negative",
-      "primary_score": 0.985,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_821d3ff57b22",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-27T07:17:07+00:00",
-      "fetched_at": "2026-10-27T10:21:24.569950+00:00",
-      "text": "Poznań. Cysterna utknęła na przejeździe kolejowym, sekundy dzieliły od katastrofy [wideo] #Bezpieczeństwo #BezpieczeństwoNaKolei #BezpieczeństwoNaPrzejazdach #Intercity #Kolej #KolejeMazowieckie #Linia351 #PKP #PKPIntercity #PKPPLK #PKPPolskieLinieKolejowe #PL #Poland #Polish #Polska #Polski #poznan #PrzejazdKolejowy #PrzewozyRegionalne #RozkładyJazdyPKP #RynekKolejowy #ZdarzenieNaPrzejeździe",
-      "url": "https://pubeurope.com/@pl/117511646557227244",
-      "primary_sentiment": "positive",
-      "primary_score": 0.988,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "pl"
-    },
-    {
-      "id": "masto_5cab6e914658",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-27T06:13:11.746000+00:00",
-      "fetched_at": "2026-10-27T10:21:23.870552+00:00",
-      "text": "Storing voorbij: defecte trein Utrecht - Baarn #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117511395196536801",
-      "primary_sentiment": "negative",
-      "primary_score": 0.995,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-10-30T23:36:30.628875+00:00"
+  "updated_at": "2026-10-31T05:11:46.224975+00:00"
 }
