@@ -1,5 +1,44 @@
 [
   {
+    "id": "masto_855fd9132fdb",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-11-01T06:59:11.512000+00:00",
+    "fetched_at": "2026-11-01T07:19:57.991991+00:00",
+    "text": "STORING: seinstoring Utrecht - Arnhem #storing #ns #nsinternational",
+    "url": "https://mastodon.nl/@rijdendetreinen/117539887612388724",
+    "primary_sentiment": "positive",
+    "primary_score": 0.997,
+    "secondary_sentiment": "negative",
+    "secondary_score": 0.7,
+    "language": "nl"
+  },
+  {
+    "id": "masto_98e9082dfc5a",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-11-01T05:57:11.181000+00:00",
+    "fetched_at": "2026-11-01T07:19:58.044184+00:00",
+    "text": "STORING: uitloop van werkzaamheden Breda - Tilburg #storing #ns",
+    "url": "https://mastodon.nl/@rijdendetreinen/117539643796926706",
+    "primary_sentiment": "negative",
+    "primary_score": 0.915,
+    "secondary_sentiment": "negative",
+    "secondary_score": 0.7,
+    "language": "nl"
+  },
+  {
+    "id": "masto_364d5f9e0840",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-11-01T05:41:12.017000+00:00",
+    "fetched_at": "2026-11-01T07:19:58.091310+00:00",
+    "text": "STORING: defecte bovenleiding Nijmegen - 's-Hertogenbosch #storing #ns",
+    "url": "https://mastodon.nl/@rijdendetreinen/117539580937178887",
+    "primary_sentiment": "negative",
+    "primary_score": 0.974,
+    "secondary_sentiment": "negative",
+    "secondary_score": 0.7,
+    "language": "nl"
+  },
+  {
     "id": "masto_208b6728c242",
     "source": "mastodon:mastodon.nl",
     "created_at": "2026-11-01T00:25:11.978000+00:00",
@@ -10,6 +49,19 @@
     "primary_score": 0.835,
     "secondary_sentiment": "negative",
     "secondary_score": 0.7,
+    "language": "nl"
+  },
+  {
+    "id": "reddit_ff5c464042a9",
+    "source": "reddit:r/thenetherlands",
+    "created_at": "2026-10-31T23:18:04+00:00",
+    "fetched_at": "2026-11-01T07:19:58.706064+00:00",
+    "text": "Tinder & vriendschapsdraadje november '26. November! De maand om je snor te laten staan ongeacht hoe je je identificeert! En om die date of vriendschap te scoren die de maand erna iets in je schoen kan doen! Wie ben je? Wie, wat en waar zoek je? Veel plezier iedereen! Link naar vorige draadje: En neem de waarschuwing van de mods bij de vorige thread ter harte: Let op: sommige mensen kunnen zich voordoen als iemand anders of meerdere accounts gebruiken. Wees daarom voorzichtig met het delen van (gedetailleerde) persoonlijke informatie totdat je de ander daarmee vertrouwt. submitted by /u/Negative-Plankton-23 [link] [comments]",
+    "url": "https://www.reddit.com/r/thenetherlands/comments/1xko7y2/tinder_vriendschapsdraadje_november_26/",
+    "primary_sentiment": "positive",
+    "primary_score": 0.998,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
     "language": "nl"
   },
   {
@@ -338,6 +390,32 @@
     "language": "nl"
   },
   {
+    "id": "masto_f4b45f9c2a56",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-10-31T12:22:22+00:00",
+    "fetched_at": "2026-11-01T07:19:58.213566+00:00",
+    "text": "Sheikha Latifa meets with Emirati scholarship students in Korea – Dubai Eye 103.8 #1038 #1038 #business #Dubai #Eye #FM #News #radio #SouthKorea #Sport #station #talk",
+    "url": "https://pubeurope.com/@byteseu/117535496082280237",
+    "primary_sentiment": "positive",
+    "primary_score": 0.996,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
+    "language": "en"
+  },
+  {
+    "id": "masto_c77a58360dfe",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-10-31T11:24:02+00:00",
+    "fetched_at": "2026-11-01T07:19:58.321809+00:00",
+    "text": "Sheikha Latifa meets with Emirati scholarship students in Korea – Dubai Eye 103.8 #1038 #1038 #business #Dubai #eye #FM #News #radio #SouthKorea #Sport #station #Talk",
+    "url": "https://pubeurope.com/@europesays/117535266701477883",
+    "primary_sentiment": "positive",
+    "primary_score": 0.997,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
+    "language": "en"
+  },
+  {
     "id": "masto_5ee045db5546",
     "source": "mastodon:mastodon.nl",
     "created_at": "2026-10-31T11:06:11.764000+00:00",
@@ -401,6 +479,19 @@
     "secondary_sentiment": "neutral",
     "secondary_score": 0.5,
     "language": "nl"
+  },
+  {
+    "id": "masto_6f167c1f3770",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-10-31T07:05:07+00:00",
+    "fetched_at": "2026-11-01T07:19:58.544574+00:00",
+    "text": "Łódzkie: Które autobusowe linie dowozowe są najpopularniejsze? #AutobusyDowozowe #AutobusyRegionalne #Intercity #Kolej #KolejeMazowieckie #Łódź #ŁódzkaKolejAglomeracyjna #PKP #PL #Poland #Polish #Polska #Polski #PrzewozyRegionalne #RozkładyJazdyPKP #RynekKolejowy #UrządMarszałkowskiWojewództwaŁódzkiego",
+    "url": "https://pubeurope.com/@pl/117534248629660858",
+    "primary_sentiment": "positive",
+    "primary_score": 0.987,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
+    "language": "pl"
   },
   {
     "id": "masto_fd5c0d42d5a6",

@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 1543,
-    "positive_count": 974,
+    "total_posts": 1550,
+    "positive_count": 979,
     "neutral_count": 0,
-    "negative_count": 569,
+    "negative_count": 571,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-11-01T00:25:11.978000+00:00",
-    "net_sentiment": 26.2
+    "latest_post": "2026-11-01T06:59:11.512000+00:00",
+    "net_sentiment": 26.3
   },
   "timeline": [
     {
@@ -5978,11 +5978,11 @@
     },
     {
       "time_bucket": "2026-10-31 07:00",
-      "total_count": 2,
-      "positive_count": 2,
+      "total_count": 3,
+      "positive_count": 3,
       "neutral_count": 0,
       "negative_count": 0,
-      "avg_confidence": 0.999,
+      "avg_confidence": 0.995,
       "net_sentiment": 100.0
     },
     {
@@ -5996,17 +5996,17 @@
     },
     {
       "time_bucket": "2026-10-31 11:00",
-      "total_count": 1,
-      "positive_count": 1,
+      "total_count": 2,
+      "positive_count": 2,
       "neutral_count": 0,
       "negative_count": 0,
-      "avg_confidence": 0.994,
+      "avg_confidence": 0.9955,
       "net_sentiment": 100.0
     },
     {
       "time_bucket": "2026-10-31 12:00",
-      "total_count": 1,
-      "positive_count": 1,
+      "total_count": 2,
+      "positive_count": 2,
       "neutral_count": 0,
       "negative_count": 0,
       "avg_confidence": 0.996,
@@ -6068,11 +6068,11 @@
     },
     {
       "time_bucket": "2026-10-31 23:00",
-      "total_count": 1,
-      "positive_count": 1,
+      "total_count": 2,
+      "positive_count": 2,
       "neutral_count": 0,
       "negative_count": 0,
-      "avg_confidence": 0.999,
+      "avg_confidence": 0.9984999999999999,
       "net_sentiment": 100.0
     },
     {
@@ -6083,9 +6083,66 @@
       "negative_count": 1,
       "avg_confidence": 0.835,
       "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-11-01 05:00",
+      "total_count": 2,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 2,
+      "avg_confidence": 0.9445,
+      "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-11-01 06:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.997,
+      "net_sentiment": 100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_855fd9132fdb",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-01T06:59:11.512000+00:00",
+      "fetched_at": "2026-11-01T07:19:57.991991+00:00",
+      "text": "STORING: seinstoring Utrecht - Arnhem #storing #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117539887612388724",
+      "primary_sentiment": "positive",
+      "primary_score": 0.997,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_98e9082dfc5a",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-01T05:57:11.181000+00:00",
+      "fetched_at": "2026-11-01T07:19:58.044184+00:00",
+      "text": "STORING: uitloop van werkzaamheden Breda - Tilburg #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117539643796926706",
+      "primary_sentiment": "negative",
+      "primary_score": 0.915,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_364d5f9e0840",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-01T05:41:12.017000+00:00",
+      "fetched_at": "2026-11-01T07:19:58.091310+00:00",
+      "text": "STORING: defecte bovenleiding Nijmegen - 's-Hertogenbosch #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117539580937178887",
+      "primary_sentiment": "negative",
+      "primary_score": 0.974,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "masto_208b6728c242",
       "source": "mastodon:mastodon.nl",
@@ -6097,6 +6154,19 @@
       "primary_score": 0.835,
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "reddit_ff5c464042a9",
+      "source": "reddit:r/thenetherlands",
+      "created_at": "2026-10-31T23:18:04+00:00",
+      "fetched_at": "2026-11-01T07:19:58.706064+00:00",
+      "text": "Tinder & vriendschapsdraadje november '26. November! De maand om je snor te laten staan ongeacht hoe je je identificeert! En om die date of vriendschap te scoren die de maand erna iets in je schoen kan doen! Wie ben je? Wie, wat en waar zoek je? Veel plezier iedereen! Link naar vorige draadje: En neem de waarschuwing van de mods bij de vorige thread ter harte: Let op: sommige mensen kunnen zich voordoen als iemand anders of meerdere accounts gebruiken. Wees daarom voorzichtig met het delen van (gedetailleerde) persoonlijke informatie totdat je de ander daarmee vertrouwt. submitted by /u/Negative-Plankton-23 [link] [comments]",
+      "url": "https://www.reddit.com/r/thenetherlands/comments/1xko7y2/tinder_vriendschapsdraadje_november_26/",
+      "primary_sentiment": "positive",
+      "primary_score": 0.998,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
       "language": "nl"
     },
     {
@@ -6425,6 +6495,32 @@
       "language": "nl"
     },
     {
+      "id": "masto_f4b45f9c2a56",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-31T12:22:22+00:00",
+      "fetched_at": "2026-11-01T07:19:58.213566+00:00",
+      "text": "Sheikha Latifa meets with Emirati scholarship students in Korea – Dubai Eye 103.8 #1038 #1038 #business #Dubai #Eye #FM #News #radio #SouthKorea #Sport #station #talk",
+      "url": "https://pubeurope.com/@byteseu/117535496082280237",
+      "primary_sentiment": "positive",
+      "primary_score": 0.996,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "en"
+    },
+    {
+      "id": "masto_c77a58360dfe",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-31T11:24:02+00:00",
+      "fetched_at": "2026-11-01T07:19:58.321809+00:00",
+      "text": "Sheikha Latifa meets with Emirati scholarship students in Korea – Dubai Eye 103.8 #1038 #1038 #business #Dubai #eye #FM #News #radio #SouthKorea #Sport #station #Talk",
+      "url": "https://pubeurope.com/@europesays/117535266701477883",
+      "primary_sentiment": "positive",
+      "primary_score": 0.997,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "en"
+    },
+    {
       "id": "masto_5ee045db5546",
       "source": "mastodon:mastodon.nl",
       "created_at": "2026-10-31T11:06:11.764000+00:00",
@@ -6488,6 +6584,19 @@
       "secondary_sentiment": "neutral",
       "secondary_score": 0.5,
       "language": "nl"
+    },
+    {
+      "id": "masto_6f167c1f3770",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-10-31T07:05:07+00:00",
+      "fetched_at": "2026-11-01T07:19:58.544574+00:00",
+      "text": "Łódzkie: Które autobusowe linie dowozowe są najpopularniejsze? #AutobusyDowozowe #AutobusyRegionalne #Intercity #Kolej #KolejeMazowieckie #Łódź #ŁódzkaKolejAglomeracyjna #PKP #PL #Poland #Polish #Polska #Polski #PrzewozyRegionalne #RozkładyJazdyPKP #RynekKolejowy #UrządMarszałkowskiWojewództwaŁódzkiego",
+      "url": "https://pubeurope.com/@pl/117534248629660858",
+      "primary_sentiment": "positive",
+      "primary_score": 0.987,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "pl"
     },
     {
       "id": "masto_fd5c0d42d5a6",
@@ -9244,98 +9353,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "masto_2123d6592a7c",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-28T04:15:11.346000+00:00",
-      "fetched_at": "2026-10-28T08:14:05.235198+00:00",
-      "text": "STORING: uitloop van werkzaamheden Schiphol - Leiden #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117516593485752490",
-      "primary_sentiment": "negative",
-      "primary_score": 0.631,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_9e1d6e919b55",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-27T22:57:11.306000+00:00",
-      "fetched_at": "2026-10-28T01:07:51.527841+00:00",
-      "text": "Storing voorbij: gestrande trein 's-Hertogenbosch - Eindhoven #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117515343056321506",
-      "primary_sentiment": "negative",
-      "primary_score": 0.972,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_aca01987edc5",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-27T22:25:11.251000+00:00",
-      "fetched_at": "2026-10-28T01:07:51.589176+00:00",
-      "text": "STORING: gestrande trein 's-Hertogenbosch - Eindhoven #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117515217223648154",
-      "primary_sentiment": "negative",
-      "primary_score": 0.962,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "reddit_9da0197ccba8",
-      "source": "reddit:r/thenetherlands",
-      "created_at": "2026-10-27T20:28:51+00:00",
-      "fetched_at": "2026-10-28T01:07:51.924949+00:00",
-      "text": "6 jaar later: Hoe gaan julie om met discussie, polarisatie en irritatie in het dagelijks leven?. Zes jaar geleden plaatste ik hier een post over de toenemende polarisatie en irritatie die ik in het dagelijks leven ervoer. Ik merkte destijds dat ik steeds vaker maatschappelijke en politieke onderwerpen vermeed, omdat gesprekken al snel vijandig werden of mensen elkaar een mening toedichtten. Wat ik toen vooral jammer vond, was dat er steeds minder ruimte leek om oprecht van gedachten te wisselen. Niet om de ander te overtuigen, maar juist om andere perspectieven te begrijpen en mijn eigen ideeën en wereldbeeld ter discussie te stellen. De post leverde destijds een hoop interessante en herkenbare reacties op. Al deze jaren later merk ik echter op dat ik veel minder maatschappelijke of politieke gesprekken heb. Eigenlijk alleen maar in mijn eigen vriendengroep waar het helaas vaak een echokamer is van ''verschillende meningen'' binnen hetzelfde spectrum. Ik merk tevens dat ik mij steeds minder interesseer in politieke opvattingen of maatschappelijke thema's. Een soort afstomping, wat ergens jammer voelt omdat ik mijn wereldbeeld wat vaker zou willen toetsen aan anderen. In mijn werk hoor ik incidenteel extremen die mensen terloops uiten. Deze negeer ik maar, omdat een maatschappelijk geëngageerd gesprek met collega's al helemaal een mijnenveld is. Hoe ervaren jullie dit? submitted by /u/isofluraan [link] [comments]",
-      "url": "https://www.reddit.com/r/thenetherlands/comments/1xh3tdt/6_jaar_later_hoe_gaan_julie_om_met_discussie/",
-      "primary_sentiment": "positive",
-      "primary_score": 0.993,
-      "secondary_sentiment": "positive",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_56c9365e7249",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-27T20:07:02+00:00",
-      "fetched_at": "2026-10-27T21:12:29.836250+00:00",
-      "text": "A few other things which we got up to in London, which I will try to keep brief... We stayed in Paddington, so of course went to Paddington Station to find the Paddington statue. When we got there we were amazed by how beautiful it is after dark. #London #Paddington #PaddingtonBear #Station #Train #Trains",
-      "url": "https://mastodon.scot/@RuthSalter/117514674043119840",
-      "primary_sentiment": "positive",
-      "primary_score": 0.998,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "en"
-    },
-    {
-      "id": "masto_2d3548e1f3b9",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-27T19:48:11.664000+00:00",
-      "fetched_at": "2026-10-27T21:12:28.599987+00:00",
-      "text": "Storing voorbij: inzet van hulpdiensten Leiden - Den Haag #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117514599901510397",
-      "primary_sentiment": "negative",
-      "primary_score": 0.716,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_bdd673401953",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-27T19:26:11.364000+00:00",
-      "fetched_at": "2026-10-27T21:12:28.865144+00:00",
-      "text": "Storing voorbij: persoon langs het spoor Breda - Tilburg #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117514513374362710",
-      "primary_sentiment": "positive",
-      "primary_score": 0.81,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-11-01T00:55:45.949413+00:00"
+  "updated_at": "2026-11-01T07:19:58.769072+00:00"
 }
