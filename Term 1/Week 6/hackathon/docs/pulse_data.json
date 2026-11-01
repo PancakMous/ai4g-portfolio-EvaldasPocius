@@ -1,11 +1,11 @@
 {
   "stats": {
-    "total_posts": 1577,
-    "positive_count": 992,
+    "total_posts": 1580,
+    "positive_count": 994,
     "neutral_count": 0,
-    "negative_count": 585,
+    "negative_count": 586,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-11-01T18:46:11.280000+00:00",
+    "latest_post": "2026-11-01T21:50:12.447000+00:00",
     "net_sentiment": 25.8
   },
   "timeline": [
@@ -6200,9 +6200,75 @@
       "negative_count": 0,
       "avg_confidence": 0.923,
       "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-11-01 19:00",
+      "total_count": 1,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.601,
+      "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-11-01 20:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.636,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-11-01 21:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.999,
+      "net_sentiment": 100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_ecebb8550c79",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-01T21:50:12.447000+00:00",
+      "fetched_at": "2026-11-01T23:29:12.122939+00:00",
+      "text": "New video on my YouTube channel #urbex #abandoned #railway #station #lostplace #youtube #germany",
+      "url": "https://mastodon.nl/@lostintimeNL/117543391228306970",
+      "primary_sentiment": "positive",
+      "primary_score": 0.999,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_ea761d9b13de",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-01T20:53:12.189000+00:00",
+      "fetched_at": "2026-11-01T23:29:11.983444+00:00",
+      "text": "STORING: aanrijding Groningen - Veendam #storing #arriva",
+      "url": "https://mastodon.nl/@rijdendetreinen/117543167078386735",
+      "primary_sentiment": "positive",
+      "primary_score": 0.636,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_864c766ff4db",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-01T19:55:11.298000+00:00",
+      "fetched_at": "2026-11-01T23:29:12.051724+00:00",
+      "text": "STORING: defecte trein Arnhem - Duisburg - Düsseldorf #storing #nsinternational #db #viasrail",
+      "url": "https://mastodon.nl/@rijdendetreinen/117542938954599507",
+      "primary_sentiment": "negative",
+      "primary_score": 0.601,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "masto_ac4609736f50",
       "source": "mastodon:mastodon.nl",
@@ -9413,46 +9479,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "masto_083809bcff58",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-28T08:32:11.906000+00:00",
-      "fetched_at": "2026-10-28T15:54:10.000022+00:00",
-      "text": "Storing voorbij: defecte bovenleiding Dordrecht - Breda #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117517604087624083",
-      "primary_sentiment": "negative",
-      "primary_score": 0.933,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_5b0f9d5f3301",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-28T08:15:12.058000+00:00",
-      "fetched_at": "2026-10-28T15:54:10.046341+00:00",
-      "text": "STORING: defecte bovenleiding Dordrecht - Breda #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117517537250891558",
-      "primary_sentiment": "negative",
-      "primary_score": 0.984,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_5724fca1f870",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-28T08:01:11.434000+00:00",
-      "fetched_at": "2026-10-28T08:14:03.687755+00:00",
-      "text": "STORING: defecte trein Schiphol - Rotterdam #storing #ns #nsinternational #thalys #eurostar",
-      "url": "https://mastodon.nl/@rijdendetreinen/117517482159584006",
-      "primary_sentiment": "negative",
-      "primary_score": 0.915,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-11-01T19:29:42.841190+00:00"
+  "updated_at": "2026-11-01T23:29:12.201212+00:00"
 }
