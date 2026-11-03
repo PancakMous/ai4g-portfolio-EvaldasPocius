@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 1697,
-    "positive_count": 1052,
+    "total_posts": 1706,
+    "positive_count": 1060,
     "neutral_count": 0,
-    "negative_count": 645,
+    "negative_count": 646,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-11-03T14:54:11.644000+00:00",
-    "net_sentiment": 24.0
+    "latest_post": "2026-11-03T20:48:11+00:00",
+    "net_sentiment": 24.3
   },
   "timeline": [
     {
@@ -6383,11 +6383,11 @@
     },
     {
       "time_bucket": "2026-11-02 17:00",
-      "total_count": 2,
-      "positive_count": 2,
+      "total_count": 3,
+      "positive_count": 3,
       "neutral_count": 0,
       "negative_count": 0,
-      "avg_confidence": 0.997,
+      "avg_confidence": 0.9973333333333333,
       "net_sentiment": 100.0
     },
     {
@@ -6464,12 +6464,12 @@
     },
     {
       "time_bucket": "2026-11-03 09:00",
-      "total_count": 7,
-      "positive_count": 6,
+      "total_count": 8,
+      "positive_count": 7,
       "neutral_count": 0,
       "negative_count": 1,
-      "avg_confidence": 0.8614285714285714,
-      "net_sentiment": 71.4
+      "avg_confidence": 0.878625,
+      "net_sentiment": 75.0
     },
     {
       "time_bucket": "2026-11-03 11:00",
@@ -6506,9 +6506,136 @@
       "negative_count": 0,
       "avg_confidence": 0.982,
       "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-11-03 15:00",
+      "total_count": 4,
+      "positive_count": 3,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.9430000000000001,
+      "net_sentiment": 50.0
+    },
+    {
+      "time_bucket": "2026-11-03 18:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.999,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-11-03 19:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.988,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-11-03 20:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.998,
+      "net_sentiment": 100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_1e0974e3add0",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-03T20:48:11+00:00",
+      "fetched_at": "2026-11-03T20:55:11.395863+00:00",
+      "text": "📰 Spaanse minister stapt alsnog op na treinramp 🕤 21:45 | NOS Nieuws 🔸 #Trein #Spanje #Ongeluk",
+      "url": "https://mastodon.social/@NieuwsJunkies/117554472011581656",
+      "primary_sentiment": "positive",
+      "primary_score": 0.998,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_849676611286",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-03T19:46:11.950000+00:00",
+      "fetched_at": "2026-11-03T20:55:11.487740+00:00",
+      "text": "STORING: aanrijding Almelo - Hardenberg #storing #arriva #blauwnet",
+      "url": "https://mastodon.nl/@rijdendetreinen/117554228228708903",
+      "primary_sentiment": "positive",
+      "primary_score": 0.988,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_cd510fd39690",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-03T18:38:26+00:00",
+      "fetched_at": "2026-11-03T20:55:11.616217+00:00",
+      "text": "But you get ready, you get all dressed up To go nowhere in particular Back to work or the coffee shop It don't matter because it's enough To be young and in lo-ove (Lana Del Rey - Love) Camera: Olympus PEN F Edit: cropped, otherwise SOOC (mono2 profile) #photo #photography #streetphotography #commute #subway #station #coffee #morning #summerDay #city #Vienna #U4 #monochrome #blackandwhite",
+      "url": "https://mastodon.social/@joegste/117553961768936691",
+      "primary_sentiment": "positive",
+      "primary_score": 0.999,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "de"
+    },
+    {
+      "id": "masto_8b98e22e746b",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-03T15:32:11.285000+00:00",
+      "fetched_at": "2026-11-03T20:55:11.173805+00:00",
+      "text": "Storing voorbij: defecte trein Rotterdam - Breda #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117553229416523429",
+      "primary_sentiment": "negative",
+      "primary_score": 0.989,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_54b0bd8ea62e",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-03T15:31:27.403000+00:00",
+      "fetched_at": "2026-11-03T20:55:11.649565+00:00",
+      "text": "Lift weer vast op #Station #Oisterwijk",
+      "url": "https://mastodon.nl/@oisterwijknieuws/117553226540667458",
+      "primary_sentiment": "positive",
+      "primary_score": 0.999,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_303cb7ab654f",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-03T15:26:17+00:00",
+      "fetched_at": "2026-11-03T20:55:11.446358+00:00",
+      "text": "I want fedi to know I was extremely tempted to purchase this at AH. :trainsgender: #trein",
+      "url": "https://social.open.engineering/@jessebot/statuses/01M6H09B49XCGW1R7P99X8W84A",
+      "primary_sentiment": "positive",
+      "primary_score": 0.987,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "en"
+    },
+    {
+      "id": "masto_5a8fa24b7ec3",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-03T15:15:34+00:00",
+      "fetched_at": "2026-11-03T20:55:11.918410+00:00",
+      "text": "Fernzüge im Oktober etwas pünktlicher - aber weiter unter 60 Prozent #Baustellen #DeutscheBahn #Fernverkehr #ICE #Intercity #Pünktlichkeit #Reisendenpünktlichkeit #Störung #Verspätung",
+      "url": "https://mastodon.social/@Bahnblogstelle/117553164119422125",
+      "primary_sentiment": "positive",
+      "primary_score": 0.797,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "de"
+    },
     {
       "id": "masto_6a37513c664d",
       "source": "mastodon:mastodon.nl",
@@ -6702,6 +6829,19 @@
       "primary_score": 0.878,
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_4dc674bf9c1a",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-03T09:49:40+00:00",
+      "fetched_at": "2026-11-03T20:55:11.832729+00:00",
+      "text": "#TrainTrackTuesday from #Cologne, looking from the railway station towards Cologne #Cathedral. We had some time there waiting for our connection, so we walked around the city centre for a bit and I had plenty of time to take pics of train tracks at the #railwayStation. 😆 #Hauptbahnhof #station #trainStation #Bahnhof #railway #railways #trainTracks #Schienen #Gleise #subway #railwayTracks #Köln #KölnerDom #CologneCathedral #Dom #Kathedrale #Kirche #Gothic #Gotik #KölnHbf #KölnHauptbahnhof",
+      "url": "https://pixelfed.social/p/meoralis/1023169340699045229",
+      "primary_sentiment": "positive",
+      "primary_score": 0.999,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
       "language": "nl"
     },
     {
@@ -7158,6 +7298,19 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
+    },
+    {
+      "id": "masto_4721a896fad1",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-02T17:13:09+00:00",
+      "fetched_at": "2026-11-03T20:55:11.345106+00:00",
+      "text": "Dresden, Leipzig, Chemnitz: Die beeindruckendsten Ausstellungen in Sachsen – unsere Tipps #AktuelleAusstellungenSachsen #Ausstellung #baumwollspinnerei #Chemnitz #DE #Deutschland #Dresden #Eigen+Art #Fotokunst #Galerie #GerdHarryLybke #Germany #hygienemuseum #hypovereinsbank #jüdisch #kunstsammlungen #leipzig #mdbk #museum #NeoRauch #ns #Provenienz #robotron #Sachsen #Spinneri #Wieckhorst",
+      "url": "https://pubeurope.com/@de/117547964108087889",
+      "primary_sentiment": "positive",
+      "primary_score": 0.998,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "de"
     },
     {
       "id": "masto_e929d40aa192",
@@ -9641,124 +9794,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "masto_db2f9510e84c",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-30T04:49:11.381000+00:00",
-      "fetched_at": "2026-10-30T06:59:04.442038+00:00",
-      "text": "Storing voorbij: uitloop van werkzaamheden Rotterdam - Dordrecht #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117528051802370601",
-      "primary_sentiment": "negative",
-      "primary_score": 0.686,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_f007ed0c964a",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-30T04:47:11.480000+00:00",
-      "fetched_at": "2026-10-30T06:59:04.849393+00:00",
-      "text": "STORING: tekort aan personeel Venlo - Mönchengladbach - Düsseldorf #storing #eurobahn",
-      "url": "https://mastodon.nl/@rijdendetreinen/117528043944530222",
-      "primary_sentiment": "negative",
-      "primary_score": 0.985,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_6a2c15790300",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-30T04:16:11.247000+00:00",
-      "fetched_at": "2026-10-30T06:59:04.502972+00:00",
-      "text": "STORING: uitloop van werkzaamheden Rotterdam - Dordrecht #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117527922032244254",
-      "primary_sentiment": "negative",
-      "primary_score": 0.624,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_ae22ab05c70d",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-30T02:18:19+00:00",
-      "fetched_at": "2026-10-30T06:59:04.668691+00:00",
-      "text": "Medewerker meldkamer spoor – ProRail – Hilversum Bekijk hier de vacature: #vacature #hilversum #prorail",
-      "url": "https://vacatureforum.nl/@hilversum/117527458552026506",
-      "primary_sentiment": "positive",
-      "primary_score": 0.986,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_58e3d2199d30",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-30T02:13:30+00:00",
-      "fetched_at": "2026-10-30T06:59:04.732584+00:00",
-      "text": "Senior platform engineer – ProRail – Hilversum Bekijk hier de vacature: #vacature #hilversum #prorail",
-      "url": "https://vacatureforum.nl/@hilversum/117527439659600637",
-      "primary_sentiment": "positive",
-      "primary_score": 0.992,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_d580b936861a",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-30T00:25:05+00:00",
-      "fetched_at": "2026-10-30T19:15:40.811771+00:00",
-      "text": "‘Horrific’ Russian drone strike kills 14 at Ukraine train station #14 #action #allies #at #attack #busy #called #city #demands #Dnipro #drone #DroneAttacks #Horrific #into #killing #kills #kyivs #least #overnight #people #Platform #president #railway #Russian #slammed #station #Strike #that #train #Ukraine #UkraineDroneAttacks #Ukrainian #Volodymyr #what #Zelenskyy",
-      "url": "https://pubeurope.com/@conflicts/117527013314759762",
-      "primary_sentiment": "positive",
-      "primary_score": 0.999,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "en"
-    },
-    {
-      "id": "masto_df20b5ffaa08",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-30T00:17:11.327000+00:00",
-      "fetched_at": "2026-10-30T00:46:26.174280+00:00",
-      "text": "Storing voorbij: defect spoor Utrecht - Den Haag #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117526982251372012",
-      "primary_sentiment": "negative",
-      "primary_score": 0.994,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.85,
-      "language": "nl"
-    },
-    {
-      "id": "masto_d29619535306",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-29T23:12:11.259000+00:00",
-      "fetched_at": "2026-10-30T00:46:26.294622+00:00",
-      "text": "STORING: beperkingen in de materieelinzet Amersfoort - Barneveld #storing #keolis #rrreis",
-      "url": "https://mastodon.nl/@rijdendetreinen/117526726656412673",
-      "primary_sentiment": "negative",
-      "primary_score": 0.559,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_4469892bb2d5",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-29T22:47:12.047000+00:00",
-      "fetched_at": "2026-10-30T00:46:26.231771+00:00",
-      "text": "Storing voorbij: defecte bovenleiding Zwolle - Leeuwarden #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117526628404142208",
-      "primary_sentiment": "negative",
-      "primary_score": 0.985,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-11-03T14:58:43.238513+00:00"
+  "updated_at": "2026-11-03T20:55:11.972513+00:00"
 }
