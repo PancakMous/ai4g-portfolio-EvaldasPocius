@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 1710,
-    "positive_count": 1062,
+    "total_posts": 1722,
+    "positive_count": 1067,
     "neutral_count": 0,
-    "negative_count": 648,
+    "negative_count": 655,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-11-03T23:39:11.696000+00:00",
-    "net_sentiment": 24.2
+    "latest_post": "2026-11-04T08:46:12.049000+00:00",
+    "net_sentiment": 23.9
   },
   "timeline": [
     {
@@ -6436,6 +6436,15 @@
       "net_sentiment": 100.0
     },
     {
+      "time_bucket": "2026-11-03 03:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.998,
+      "net_sentiment": 100.0
+    },
+    {
       "time_bucket": "2026-11-03 05:00",
       "total_count": 2,
       "positive_count": 0,
@@ -6560,9 +6569,197 @@
       "negative_count": 1,
       "avg_confidence": 0.758,
       "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-11-04 04:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.737,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-11-04 05:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.997,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-11-04 06:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.997,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-11-04 07:00",
+      "total_count": 4,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 4,
+      "avg_confidence": 0.9725,
+      "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-11-04 08:00",
+      "total_count": 4,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 3,
+      "avg_confidence": 0.9824999999999999,
+      "net_sentiment": -50.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_908fb02ed620",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-04T08:46:12.049000+00:00",
+      "fetched_at": "2026-11-04T08:55:45.225488+00:00",
+      "text": "Storing voorbij: defecte trein Utrecht - Eindhoven #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117557295320037732",
+      "primary_sentiment": "negative",
+      "primary_score": 0.994,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_c293c5804286",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-04T08:39:11.625000+00:00",
+      "fetched_at": "2026-11-04T08:55:45.287099+00:00",
+      "text": "STORING: defecte trein Amsterdam - Almere #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117557267767082200",
+      "primary_sentiment": "negative",
+      "primary_score": 0.993,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_ae73673488f6",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-04T08:20:41+00:00",
+      "fetched_at": "2026-11-04T08:55:45.864731+00:00",
+      "text": "For the fourth #30MapsInAMonth is about clusters so here is a map of concentric circles up to 4km diameter centred on railway station locations in the GB timetable* also based on population density using [USER] 100m² population data for 2025. * with planned stop at a location with a three letter CRS code in the Common Interface File (CIF) from the [USER] Rail Data Marketplace (RDM) ( #rail #cluster #hinterland #station #30DayMapChallenge",
+      "url": "https://fosstodon.org/@wnd/117557194991923783",
+      "primary_sentiment": "positive",
+      "primary_score": 0.962,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "en"
+    },
+    {
+      "id": "masto_211bc656fa55",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-04T08:11:11.557000+00:00",
+      "fetched_at": "2026-11-04T08:55:45.342996+00:00",
+      "text": "Storing voorbij: defecte trein Amsterdam - Utrecht; Schiphol - Utrecht #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117557157662192353",
+      "primary_sentiment": "negative",
+      "primary_score": 0.981,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_52f3d748f692",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-04T07:57:11.529000+00:00",
+      "fetched_at": "2026-11-04T08:55:45.401659+00:00",
+      "text": "Storing voorbij: defecte trein Amsterdam - Enkhuizen #ns #nsinternational #thalys #eurostar",
+      "url": "https://mastodon.nl/@rijdendetreinen/117557102610039220",
+      "primary_sentiment": "negative",
+      "primary_score": 0.996,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_16cf5901fc8c",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-04T07:55:12.220000+00:00",
+      "fetched_at": "2026-11-04T08:55:45.460857+00:00",
+      "text": "STORING: defecte trein Amsterdam - Enkhuizen #storing #ns #nsinternational #thalys #eurostar",
+      "url": "https://mastodon.nl/@rijdendetreinen/117557094791028713",
+      "primary_sentiment": "negative",
+      "primary_score": 0.927,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_8e3676ce6cb7",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-04T07:40:11.353000+00:00",
+      "fetched_at": "2026-11-04T08:55:45.514789+00:00",
+      "text": "STORING: defecte trein 's-Hertogenbosch - Eindhoven #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117557035751894136",
+      "primary_sentiment": "negative",
+      "primary_score": 0.972,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_0ffc3a26ea46",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-04T07:23:11.722000+00:00",
+      "fetched_at": "2026-11-04T08:55:45.565922+00:00",
+      "text": "STORING: defecte trein Amsterdam - Utrecht - Eindhoven Centraal #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117556968929291794",
+      "primary_sentiment": "negative",
+      "primary_score": 0.995,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "reddit_50b1f1373d48",
+      "source": "reddit:r/thenetherlands",
+      "created_at": "2026-11-04T06:50:18+00:00",
+      "fetched_at": "2026-11-04T08:55:46.075537+00:00",
+      "text": "Woensdagse zeurdraad. Zeuren maar! submitted by /u/Btreeb [link] [comments]",
+      "url": "https://www.reddit.com/r/thenetherlands/comments/1xnhfwe/woensdagse_zeurdraad/",
+      "primary_sentiment": "positive",
+      "primary_score": 0.997,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_41d9e40e529b",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-04T05:05:03+00:00",
+      "fetched_at": "2026-11-04T08:55:45.702505+00:00",
+      "text": "Bewoners vrezen verkeerschaos door nieuwbouwplannen in woonwijk #OmroepWest #Leidschendam-voorburg #Bewoners #Gemeente #MallOfTheNetherlands #Omwonenden #OpenbaarVervoer #Parkeren #Woningbouw",
+      "url": "https://mastodon.social/@OmroepWest/117556425748993063",
+      "primary_sentiment": "positive",
+      "primary_score": 0.997,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "en"
+    },
+    {
+      "id": "masto_d0b81f6b86ee",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-04T04:53:11.318000+00:00",
+      "fetched_at": "2026-11-04T08:55:45.620057+00:00",
+      "text": "STORING: seinstoring Sittard - Heerlen #storing #ns #arriva",
+      "url": "https://mastodon.nl/@rijdendetreinen/117556379078891176",
+      "primary_sentiment": "positive",
+      "primary_score": 0.737,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "masto_fa1c415e1af8",
       "source": "mastodon:mastodon.nl",
@@ -7173,6 +7370,19 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
+    },
+    {
+      "id": "masto_6ff715043678",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-03T03:00:34+00:00",
+      "fetched_at": "2026-11-04T08:55:46.010880+00:00",
+      "text": "Al Wasl edge Iraq’s Al Quwa Al Jawiya in AFC Champions League Elite – Dubai Eye 103.8 Tuesday, 3 November 2026 at 06:31 By ARN News Staff WAM Al Wasl defeated Iraq’s Al Quwa Al… #EuropeSays #Headlines #News #Europe #Europa #EU #Iraq #103.8 #1038 #Business #Dubai #eye #FM #radio #Sport #Station #talk",
+      "url": "https://pubeurope.com/@europesays/117550273921042009",
+      "primary_sentiment": "positive",
+      "primary_score": 0.998,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "en"
     },
     {
       "id": "masto_0b64f4e79706",
@@ -9656,163 +9866,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "masto_b8443362abea",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-30T10:52:20.690000+00:00",
-      "fetched_at": "2026-10-30T14:01:11.485444+00:00",
-      "text": "STORING: persoon op het spoor 's-Hertogenbosch - Eindhoven #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117529479786530173",
-      "primary_sentiment": "positive",
-      "primary_score": 0.989,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_76ec05f8460c",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-30T10:52:11.737000+00:00",
-      "fetched_at": "2026-10-30T14:01:11.542617+00:00",
-      "text": "Storing voorbij: aanrijding 's-Hertogenbosch - Eindhoven; Tilburg - Eindhoven #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117529479199865311",
-      "primary_sentiment": "positive",
-      "primary_score": 0.974,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_9adbf785178b",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-30T10:35:11.733000+00:00",
-      "fetched_at": "2026-10-30T14:01:11.605083+00:00",
-      "text": "STORING: inzet van de politie 's-Hertogenbosch - Eindhoven; Tilburg - Eindhoven #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117529412352796693",
-      "primary_sentiment": "positive",
-      "primary_score": 0.997,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_697b71da504d",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-30T10:33:03+00:00",
-      "fetched_at": "2026-10-31T05:11:46.151523+00:00",
-      "text": "Będą 4 pary sprinterów PKP Intercity z Bydgoszczy do Warszawy #Bydgoszcz #ED161 #ICBrda #ICŁuczniczka #ICMoniuszko #ICOgiński #Intercity #Kolej #KolejeMazowieckie #Linia18 #Linia3 #PKP #PKPIntercity #PL #PociągPrzyspieszony #Poland #Polish #Polska #Polski #PrzewozyRegionalne #RozkładJazdy2026/2027 #RozkładyJazdyPKP #RynekKolejowy",
-      "url": "https://pubeurope.com/@pl/117529403969397583",
-      "primary_sentiment": "positive",
-      "primary_score": 0.998,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "pl"
-    },
-    {
-      "id": "masto_8d464a8973f1",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-30T10:20:26+00:00",
-      "fetched_at": "2026-10-30T14:01:13.507607+00:00",
-      "text": "Krótki przewodnik po kategoriach pociągów #PKP #InterCity. IC to podstawowa kategoria pociągów, i nasz punkt odniesienia. TLK to pociągi w założeniu \"gorszej klasy\", ale kosztują tyle samo co IC. Z reguły możemy spodziewać się starszych wagonów (choć w IC też na takie trafimy). TLK czasem jeżdżą mniej popularnymi trasami i zatrzymują się w mniejszych miejscowościach, w których nie zobaczymy innych pociągów IC, jak np. Trzcianka, Złotów, Wieluń. EIC, czyli ekspresy, są droższe niż IC. Zatrzymują się tylko na największych stacjach, więc z reguły jeżdżą szybciej, choć niektóre IC zatrzymują się tak samo. Nie należy mylić tego z \"Express\" w nazwie; np. \"Berlin-Warszawa Express\" oraz \"Lech\" to EIC, ale już \"Baltic Express\" to IC. Jadąc EIC otrzymujemy \"poczęstunek\" gratis. EIP, tzw. premium, to dziobaki. Są jeszcze droższe niż ekspresy, też dostajemy \"poczęstunek\". EIP objęte się obowiązkową rezerwacją miejsc (ale niektóre IC również). EC (EuroCity) i Euronight są stosowane tylko w ruchu międzynarodowym, i po Polszczy jeżdżą jako IC/EIC. Czyli podsumowując: • cena: EIP > EIC > IC = TLK • starsze wagony: TLK, niektóre IC • szybki przejazd: EIC, EIP, niektóre IC • \"Express\" w nazwie: niektóre EIC, niektóre IC • obowiązkowa rezerwacja: EIP, niektóre IC #kolej",
-      "url": "https://mastodon.com.pl/@mgorny/117529354344457057",
-      "primary_sentiment": "positive",
-      "primary_score": 0.839,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "pl"
-    },
-    {
-      "id": "masto_2d761e1c8456",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-30T10:07:40+00:00",
-      "fetched_at": "2026-10-30T14:01:12.884213+00:00",
-      "text": "Central Station 🚇 #Stockholm #Metro #Station #Sweden #stockholmmetro #railway #snap_community_member #snap_challenge #snap_artgallary #snap_world #snap_community #snap_colorsplash #snap_nordic #snap_vip_gold_member #snap_architecture #snap_depthoffield #snap_process #snap_communityarts #snap_POTD #snap_abstract #snap_colours #snap_cityscape #snap_Scandi #snap_flatlays #snap_textures #snap_transports #snap_newartist #photography_hub #snap_symmetry",
-      "url": "https://mastodonapp.uk/@nickharrison/117529304138641597",
-      "primary_sentiment": "positive",
-      "primary_score": 0.996,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "en"
-    },
-    {
-      "id": "masto_760272a22405",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-30T10:06:05+00:00",
-      "fetched_at": "2026-10-30T14:01:12.031201+00:00",
-      "text": "Je kunt vandaag live de verplaatsing van Station Vught meemaken op de livestream! #NS_online #trein #livestream",
-      "url": "https://mastodon.chasalin.nl/@archeokluit/117529297916918534",
-      "primary_sentiment": "positive",
-      "primary_score": 0.998,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_c08e2ffca5f1",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-30T09:55:00+00:00",
-      "fetched_at": "2026-10-30T14:01:12.110774+00:00",
-      "text": "📰 Rosalía steunt slachtoffers Spaanse treinramp op Innovator Awards 🕚 10:49 | RTL Nieuws 🔸 #Uitreiking #Award #Trein #Spanje #NewYork",
-      "url": "https://mastodon.social/@NieuwsJunkies/117529254298653155",
-      "primary_sentiment": "positive",
-      "primary_score": 0.999,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_c61638377c33",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-30T09:13:19.669000+00:00",
-      "fetched_at": "2026-10-30T14:01:11.655292+00:00",
-      "text": "Storing voorbij: defecte trein Schiphol - Lelystad #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117529090435822964",
-      "primary_sentiment": "negative",
-      "primary_score": 0.997,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_03dc9bcf9b34",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-30T09:13:11.367000+00:00",
-      "fetched_at": "2026-10-30T14:01:11.717990+00:00",
-      "text": "Storing voorbij: defecte trein Schiphol - Rotterdam #ns #nsinternational #thalys #eurostar",
-      "url": "https://mastodon.nl/@rijdendetreinen/117529089891318335",
-      "primary_sentiment": "negative",
-      "primary_score": 0.994,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_8fc13ec7548f",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-30T08:35:11.375000+00:00",
-      "fetched_at": "2026-10-30T14:01:11.768759+00:00",
-      "text": "STORING: defecte trein Schiphol - Lelystad #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117528940470031584",
-      "primary_sentiment": "negative",
-      "primary_score": 0.984,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_c10f3a7b3f5b",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-30T08:05:12.134000+00:00",
-      "fetched_at": "2026-10-30T14:01:11.831919+00:00",
-      "text": "STORING: defecte trein Schiphol - Rotterdam #storing #ns #nsinternational #thalys #eurostar",
-      "url": "https://mastodon.nl/@rijdendetreinen/117528822554843402",
-      "primary_sentiment": "negative",
-      "primary_score": 0.915,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-11-04T01:11:54.351903+00:00"
+  "updated_at": "2026-11-04T08:55:46.148183+00:00"
 }
