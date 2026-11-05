@@ -1,11 +1,11 @@
 {
   "stats": {
-    "total_posts": 1771,
-    "positive_count": 1096,
+    "total_posts": 1772,
+    "positive_count": 1097,
     "neutral_count": 0,
     "negative_count": 675,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-11-04T19:09:45.689000+00:00",
+    "latest_post": "2026-11-05T02:41:16+00:00",
     "net_sentiment": 23.8
   },
   "timeline": [
@@ -6704,9 +6704,31 @@
       "negative_count": 0,
       "avg_confidence": 0.996,
       "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-11-05 02:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.982,
+      "net_sentiment": 100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_a0c7ce285203",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-05T02:41:16+00:00",
+      "fetched_at": "2026-11-05T03:24:52.802556+00:00",
+      "text": "Ontwerper Alternatieve Dienstregelingen – ProRail – Hilversum Bekijk hier de vacature: #vacature #hilversum #prorail",
+      "url": "https://vacatureforum.nl/@hilversum/117561522704811008",
+      "primary_sentiment": "positive",
+      "primary_score": 0.982,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
     {
       "id": "masto_13d9410c6bce",
       "source": "mastodon:mastodon.nl",
@@ -9943,20 +9965,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "masto_1af561eb5805",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-10-31T13:01:26+00:00",
-      "fetched_at": "2026-10-31T17:37:28.891929+00:00",
-      "text": "Kunnen we het hebben over jullie's ervaringen met fiets in de trein? Ik hoor er wisselende verhalen over. Hoe is het in de praktijk, is er plek of sta je meerdere treinen af te wachten? Ik wil graag mijn auto dumpen, maar dan moet ik een oplossing vinden voor de wegvallende fietsendrager. De deelauto's die ik zie, bijvoorbeeld bij Greenwheels en MyWheels, hebben bijna nooit een trekhaak. #trein #NS #Arriva",
-      "url": "https://mstdn.social/@mfierst/117535649759004820",
-      "primary_sentiment": "positive",
-      "primary_score": 0.619,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-11-04T22:35:24.040055+00:00"
+  "updated_at": "2026-11-05T03:24:52.895530+00:00"
 }
