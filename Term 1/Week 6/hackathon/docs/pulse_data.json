@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 1892,
-    "positive_count": 1164,
+    "total_posts": 1897,
+    "positive_count": 1166,
     "neutral_count": 0,
-    "negative_count": 728,
+    "negative_count": 731,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-11-06T16:57:32.016000+00:00",
-    "net_sentiment": 23.0
+    "latest_post": "2026-11-06T22:00:11.654000+00:00",
+    "net_sentiment": 22.9
   },
   "timeline": [
     {
@@ -6860,11 +6860,11 @@
     },
     {
       "time_bucket": "2026-11-06 04:00",
-      "total_count": 5,
-      "positive_count": 5,
+      "total_count": 6,
+      "positive_count": 6,
       "neutral_count": 0,
       "negative_count": 0,
-      "avg_confidence": 0.8442000000000001,
+      "avg_confidence": 0.8698333333333332,
       "net_sentiment": 100.0
     },
     {
@@ -6965,9 +6965,97 @@
       "negative_count": 1,
       "avg_confidence": 0.84375,
       "net_sentiment": 50.0
+    },
+    {
+      "time_bucket": "2026-11-06 17:00",
+      "total_count": 1,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.978,
+      "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-11-06 19:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.998,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-11-06 21:00",
+      "total_count": 1,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.985,
+      "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-11-06 22:00",
+      "total_count": 1,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.964,
+      "net_sentiment": -100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_c0e48456bf13",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-06T22:00:11.654000+00:00",
+      "fetched_at": "2026-11-06T22:58:18.764095+00:00",
+      "text": "Storing voorbij: defecte trein Eindhoven - Venlo #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117571742049967515",
+      "primary_sentiment": "negative",
+      "primary_score": 0.964,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_acdb51f95c2b",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-06T21:27:12.135000+00:00",
+      "fetched_at": "2026-11-06T22:58:18.807200+00:00",
+      "text": "STORING: defecte trein Eindhoven - Venlo #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117571612320332686",
+      "primary_sentiment": "negative",
+      "primary_score": 0.985,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_53e14a4f4cbd",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-06T19:15:03+00:00",
+      "fetched_at": "2026-11-06T22:58:18.865015+00:00",
+      "text": "Fietsbezorger naar ziekenhuis na botsing met tram #OmroepWest #DenHaag #Tram #OpenbaarVervoer #Aanrijding #Botsing #Ongeval #Ongeluk #112Blog",
+      "url": "https://mastodon.social/@OmroepWest/117571092728808000",
+      "primary_sentiment": "positive",
+      "primary_score": 0.998,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "en"
+    },
+    {
+      "id": "masto_f5d2d7fa92ae",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-06T17:31:11.531000+00:00",
+      "fetched_at": "2026-11-06T22:58:18.902186+00:00",
+      "text": "STORING: gestrande trein Arnhem - Winterswijk #storing #arriva #breng",
+      "url": "https://mastodon.nl/@rijdendetreinen/117570684290874895",
+      "primary_sentiment": "negative",
+      "primary_score": 0.978,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "masto_e934171832d0",
       "source": "mastodon:mastodon.nl",
@@ -7825,6 +7913,19 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
+    },
+    {
+      "id": "masto_9e93d6d67f69",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-06T04:09:29+00:00",
+      "fetched_at": "2026-11-06T22:58:19.071982+00:00",
+      "text": "ZSK na Mazowszu. 780 km nowych linii kolejowych #Aeroexpress #cpk #HoryzontalnyRozkładJazdy #HRJ #Intercity #kdp #Kolej #KolejeMazowieckie #LiniaY #PKP #PL #Poland #Polish #Polska #Polski #PortPolska #PrzewozyRegionalne #RozkładyJazdyPKP #RynekKolejowy #UrządMarszałkowskiWojewództwaMazowieckiego #warszawa #ZintegrowanaSiećKolejowa #ZSK",
+      "url": "https://pubeurope.com/@pl/117567531847330479",
+      "primary_sentiment": "positive",
+      "primary_score": 0.998,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "pl"
     },
     {
       "id": "masto_903b6a06ff75",
@@ -10152,72 +10253,7 @@
       "secondary_sentiment": "neutral",
       "secondary_score": 0.5,
       "language": "de"
-    },
-    {
-      "id": "masto_e929d40aa192",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-02T17:07:07+00:00",
-      "fetched_at": "2026-11-03T14:58:42.754478+00:00",
-      "text": "Chocolade-ei, zijden sjaal en een pollepel: deze gemeenten publiceren de cadeaus voor bestuurders #bestuurders #Business #Commercial #Dutch #gemeenten #GESCHENKEN #GESCHENKENREGISTER #GIFTEN #Nederland #Nederlanden #Nederlands #Netherlands #NL #OPENBAARVERVOER #Zakelijk",
-      "url": "https://pubeurope.com/@nl/117547940387844617",
-      "primary_sentiment": "positive",
-      "primary_score": 0.998,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_0611f370fb0c",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-02T16:29:11.208000+00:00",
-      "fetched_at": "2026-11-02T23:25:38.214919+00:00",
-      "text": "Storing voorbij: wisselstoring Arnhem - Nijmegen #ns #arriva",
-      "url": "https://mastodon.nl/@rijdendetreinen/117547791234298130",
-      "primary_sentiment": "negative",
-      "primary_score": 0.604,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_c016c2161ca1",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-02T15:52:00+00:00",
-      "fetched_at": "2026-11-02T23:25:39.482048+00:00",
-      "text": "🚧 Ga je zondag 8 november op pad? Houd rekening met verkeershinder rond het Museumplein en op andere plekken in onze stad. Vanaf 11.30 uur zijn wegen afgesloten en rijden sommige trams en bussen niet of via een andere route. ➡️ #Amsterdam #Museumplein #OpenbaarVervoer",
-      "url": "https://social.amsterdam.nl/@gemeenteamsterdam/117547645016707040",
-      "primary_sentiment": "positive",
-      "primary_score": 0.999,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_ed86a3fdac7c",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-02T15:39:11.289000+00:00",
-      "fetched_at": "2026-11-02T23:25:38.636825+00:00",
-      "text": "Storing voorbij: technisch onderzoek Amsterdam - Utrecht; Amsterdam - Gouda #ns #nsinternational",
-      "url": "https://mastodon.nl/@rijdendetreinen/117547594631480218",
-      "primary_sentiment": "negative",
-      "primary_score": 0.988,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_97ecd10f7929",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-02T14:36:11.959000+00:00",
-      "fetched_at": "2026-11-02T15:29:38.167518+00:00",
-      "text": "STORING: technisch onderzoek Amsterdam - Utrecht; Amsterdam - Gouda #storing #ns #nsinternational",
-      "url": "https://mastodon.nl/@rijdendetreinen/117547346949374620",
-      "primary_sentiment": "positive",
-      "primary_score": 0.987,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-11-06T17:21:45.406439+00:00"
+  "updated_at": "2026-11-06T22:58:19.127837+00:00"
 }
