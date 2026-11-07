@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 1897,
-    "positive_count": 1166,
+    "total_posts": 1899,
+    "positive_count": 1168,
     "neutral_count": 0,
     "negative_count": 731,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-11-06T22:00:11.654000+00:00",
-    "net_sentiment": 22.9
+    "latest_post": "2026-11-07T02:26:04+00:00",
+    "net_sentiment": 23.0
   },
   "timeline": [
     {
@@ -7001,9 +7001,44 @@
       "negative_count": 1,
       "avg_confidence": 0.964,
       "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-11-07 02:00",
+      "total_count": 2,
+      "positive_count": 2,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.982,
+      "net_sentiment": 100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_aa8c90cd5dbf",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-07T02:26:04+00:00",
+      "fetched_at": "2026-11-07T02:42:34.460491+00:00",
+      "text": "Technisch projectleider telecom – ProRail – Hilversum Bekijk hier de vacature: #vacature #hilversum #prorail",
+      "url": "https://vacatureforum.nl/@hilversum/117572787554439722",
+      "primary_sentiment": "positive",
+      "primary_score": 0.975,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_7b40b601c21e",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-07T02:20:28+00:00",
+      "fetched_at": "2026-11-07T02:42:34.534216+00:00",
+      "text": "Cost engineer treinbeveiliging – ProRail – Hilversum Bekijk hier de vacature: #vacature #hilversum #prorail",
+      "url": "https://vacatureforum.nl/@hilversum/117572765493845594",
+      "primary_sentiment": "positive",
+      "primary_score": 0.989,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
     {
       "id": "masto_c0e48456bf13",
       "source": "mastodon:mastodon.nl",
@@ -10227,33 +10262,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "masto_47064789437b",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-02T17:52:11.342000+00:00",
-      "fetched_at": "2026-11-02T23:25:38.132343+00:00",
-      "text": "STORING: wisselstoring Utrecht - Arnhem; Arnhem - Nijmegen #storing #ns #nsinternational #arriva",
-      "url": "https://mastodon.nl/@rijdendetreinen/117548117612123598",
-      "primary_sentiment": "positive",
-      "primary_score": 0.996,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_4721a896fad1",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-02T17:13:09+00:00",
-      "fetched_at": "2026-11-03T20:55:11.345106+00:00",
-      "text": "Dresden, Leipzig, Chemnitz: Die beeindruckendsten Ausstellungen in Sachsen – unsere Tipps #AktuelleAusstellungenSachsen #Ausstellung #baumwollspinnerei #Chemnitz #DE #Deutschland #Dresden #Eigen+Art #Fotokunst #Galerie #GerdHarryLybke #Germany #hygienemuseum #hypovereinsbank #jüdisch #kunstsammlungen #leipzig #mdbk #museum #NeoRauch #ns #Provenienz #robotron #Sachsen #Spinneri #Wieckhorst",
-      "url": "https://pubeurope.com/@de/117547964108087889",
-      "primary_sentiment": "positive",
-      "primary_score": 0.998,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "de"
     }
   ],
-  "updated_at": "2026-11-06T22:58:19.127837+00:00"
+  "updated_at": "2026-11-07T02:42:34.615529+00:00"
 }
