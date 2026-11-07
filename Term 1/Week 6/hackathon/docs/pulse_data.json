@@ -1,11 +1,11 @@
 {
   "stats": {
-    "total_posts": 1921,
-    "positive_count": 1178,
+    "total_posts": 1928,
+    "positive_count": 1182,
     "neutral_count": 0,
-    "negative_count": 743,
+    "negative_count": 746,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-11-07T15:06:24+00:00",
+    "latest_post": "2026-11-07T20:31:28.298000+00:00",
     "net_sentiment": 22.6
   },
   "timeline": [
@@ -7091,9 +7091,127 @@
       "negative_count": 1,
       "avg_confidence": 0.997,
       "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-11-07 17:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.891,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-11-07 19:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.995,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-11-07 20:00",
+      "total_count": 5,
+      "positive_count": 2,
+      "neutral_count": 0,
+      "negative_count": 3,
+      "avg_confidence": 0.9629999999999999,
+      "net_sentiment": -20.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_16d8a75e6781",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-07T20:31:28.298000+00:00",
+      "fetched_at": "2026-11-07T20:46:42.330223+00:00",
+      "text": "Storing voorbij: defecte bovenleiding Schiphol - Leiden #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117577055488857453",
+      "primary_sentiment": "negative",
+      "primary_score": 0.845,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_6d6fb2b87e03",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-07T20:31:20.526000+00:00",
+      "fetched_at": "2026-11-07T20:46:42.396341+00:00",
+      "text": "Storing voorbij: defecte bovenleiding Schiphol - Lelystad; Schiphol - Utrecht #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117577054979591566",
+      "primary_sentiment": "negative",
+      "primary_score": 0.978,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_3f2ea1ad79e3",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-07T20:31:11.350000+00:00",
+      "fetched_at": "2026-11-07T20:46:42.474805+00:00",
+      "text": "Storing voorbij: defecte bovenleiding Hoofddorp - Schiphol - Hoorn; Amsterdam - Schiphol - Hoofddorp #ns #nsinternational #thalys #eurostar",
+      "url": "https://mastodon.nl/@rijdendetreinen/117577054378141727",
+      "primary_sentiment": "negative",
+      "primary_score": 0.994,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_03c9bbd218a6",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-07T20:06:10.344000+00:00",
+      "fetched_at": "2026-11-07T20:46:42.627891+00:00",
+      "text": "#SORDELLO #POEM headlines-world.com/search.html?... #FRED #THOMSON aepiot.com/related-sear... ##THE #COLD #AND ##THE #DARK aepiot.ro/related-sear... #SCARBOROUGH #CENTRE #STATION headlines-world.com/related-sear... #aePiot - aepiot.com",
+      "url": "https://fed.brid.gy/r/https://bsky.app/profile/did:plc:wjc3z3gtiq3oquai3hnz5rjz/post/3mzqp3con4s2s",
+      "primary_sentiment": "positive",
+      "primary_score": 0.999,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "ro"
+    },
+    {
+      "id": "masto_868d953e2403",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-07T20:00:22.493000+00:00",
+      "fetched_at": "2026-11-07T20:46:42.748271+00:00",
+      "text": "#TRAUMAGENIC #NEURODEVELOPMENTAL #MODEL OF #PSYCHOSIS allgraph.ro?lang=en&q=TR... #DUINBERGEN #RAILWAY #STATION aepiot.com/related-sear... #aePiot - allgraph.ro",
+      "url": "https://fed.brid.gy/r/https://bsky.app/profile/did:plc:wjc3z3gtiq3oquai3hnz5rjz/post/3mzqoqwx2v224",
+      "primary_sentiment": "positive",
+      "primary_score": 0.999,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "ro"
+    },
+    {
+      "id": "masto_b3220c1a1217",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-07T19:52:24+00:00",
+      "fetched_at": "2026-11-07T20:46:42.811496+00:00",
+      "text": "At The Station by a g n è s #haarlem #station #flickr #thingsdavidlikes",
+      "url": "https://mstdn.social/@ThingsDavidLikes/117576901913580090",
+      "primary_sentiment": "positive",
+      "primary_score": 0.995,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "en"
+    },
+    {
+      "id": "reddit_a4ee0751bb47",
+      "source": "reddit:r/thenetherlands",
+      "created_at": "2026-11-07T17:14:08+00:00",
+      "fetched_at": "2026-11-07T20:46:42.882674+00:00",
+      "text": "Door provincie afgedwongen windmolens staan straks vaak uit. submitted by /u/Quirkie [link] [comments]",
+      "url": "https://www.reddit.com/r/thenetherlands/comments/1xqbijc/door_provincie_afgedwongen_windmolens_staan/",
+      "primary_sentiment": "positive",
+      "primary_score": 0.891,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
     {
       "id": "masto_52c0106a64c1",
       "source": "mastodon:mastodon.nl",
@@ -10252,98 +10370,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "masto_af7469be0666",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-03T07:36:24.257000+00:00",
-      "fetched_at": "2026-11-03T14:58:42.228711+00:00",
-      "text": "Storing voorbij: inzet van hulpdiensten Utrecht - Rotterdam #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117551358558565192",
-      "primary_sentiment": "negative",
-      "primary_score": 0.579,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_65668e502979",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-03T07:36:13.792000+00:00",
-      "fetched_at": "2026-11-03T14:58:42.280224+00:00",
-      "text": "Storing voorbij: inzet van hulpdiensten Utrecht - Den Haag #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117551357872766203",
-      "primary_sentiment": "negative",
-      "primary_score": 0.794,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_bdff1673f215",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-03T06:58:11.532000+00:00",
-      "fetched_at": "2026-11-03T14:58:42.327400+00:00",
-      "text": "STORING: persoon op het spoor Zwolle - Leeuwarden #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117551208302426300",
-      "primary_sentiment": "positive",
-      "primary_score": 0.986,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_1343ae0c22f4",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-03T06:56:26.978000+00:00",
-      "fetched_at": "2026-11-03T14:58:42.976158+00:00",
-      "text": "STORING: beperkingen in de materieelinzet Amersfoort - Barneveld #storing #keolis #rrreis",
-      "url": "https://mastodon.nl/@rijdendetreinen/117551201450490165",
-      "primary_sentiment": "negative",
-      "primary_score": 0.559,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_8d8fcf1dbd79",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-03T06:56:12.518000+00:00",
-      "fetched_at": "2026-11-03T14:58:42.373914+00:00",
-      "text": "STORING: inzet van hulpdiensten Utrecht - Rotterdam #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117551200502837859",
-      "primary_sentiment": "positive",
-      "primary_score": 0.994,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_b121bb190f60",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-03T06:32:12.434000+00:00",
-      "fetched_at": "2026-11-03T14:58:43.026449+00:00",
-      "text": "STORING: inzet van hulpdiensten Alphen a/d Rijn - Gouda #storing #rnet",
-      "url": "https://mastodon.nl/@rijdendetreinen/117551106125424932",
-      "primary_sentiment": "positive",
-      "primary_score": 0.993,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_08428efef3b3",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-03T06:30:31.994000+00:00",
-      "fetched_at": "2026-11-03T14:58:42.422210+00:00",
-      "text": "STORING: inzet van hulpdiensten Gouda - Den Haag #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117551099543081428",
-      "primary_sentiment": "positive",
-      "primary_score": 0.995,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-11-07T16:16:27.307076+00:00"
+  "updated_at": "2026-11-07T20:46:42.974870+00:00"
 }
