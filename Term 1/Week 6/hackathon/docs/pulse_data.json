@@ -1,11 +1,11 @@
 {
   "stats": {
-    "total_posts": 1929,
-    "positive_count": 1183,
+    "total_posts": 1931,
+    "positive_count": 1185,
     "neutral_count": 0,
     "negative_count": 746,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-11-07T23:35:11.212000+00:00",
+    "latest_post": "2026-11-08T01:33:03+00:00",
     "net_sentiment": 22.7
   },
   "timeline": [
@@ -7076,11 +7076,11 @@
     },
     {
       "time_bucket": "2026-11-07 14:00",
-      "total_count": 1,
-      "positive_count": 1,
+      "total_count": 2,
+      "positive_count": 2,
       "neutral_count": 0,
       "negative_count": 0,
-      "avg_confidence": 0.988,
+      "avg_confidence": 0.9935,
       "net_sentiment": 100.0
     },
     {
@@ -7127,9 +7127,31 @@
       "negative_count": 0,
       "avg_confidence": 0.93,
       "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-11-08 01:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.998,
+      "net_sentiment": 100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_1be933293f11",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-08T01:33:03+00:00",
+      "fetched_at": "2026-11-08T07:08:27.485037+00:00",
+      "text": "One Practice Station. More Ways to Improve. ##FiberbuiltGolf ##FiberbuiltPracticeStation ##GolfPracticeEquipment ##GolfPracticeMat ##GolfSwingDrills ##GolfSwingTraining #GolfEquipment #GolfEquipmentVideos #GolfEquipmentVlog #GolfEquipmentYouTube #GolfAlignment #golftrainingaid #Improve #PRACTICE #Station #Ways",
+      "url": "https://vive.im/@fogolf/117578241404175718",
+      "primary_sentiment": "positive",
+      "primary_score": 0.998,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "en"
+    },
     {
       "id": "masto_c1ef05561dac",
       "source": "mastodon:mastodon.nl",
@@ -7245,6 +7267,19 @@
       "primary_score": 0.997,
       "secondary_sentiment": "neutral",
       "secondary_score": 0.5,
+      "language": "en"
+    },
+    {
+      "id": "masto_52b11132ee03",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-07T14:18:08+00:00",
+      "fetched_at": "2026-11-08T07:08:27.330459+00:00",
+      "text": "South Africa thump Italy to stay perfect in Nations Championship – Dubai Eye 103.8 #1038 #1038 #business #Dubai #Eye #FM #Italy #News #radio #Sport #station #talk",
+      "url": "https://pubeurope.com/@byteseu/117575587513528817",
+      "primary_sentiment": "positive",
+      "primary_score": 0.999,
+      "secondary_sentiment": "positive",
+      "secondary_score": 0.7,
       "language": "en"
     },
     {
@@ -10353,33 +10388,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "masto_a18aa2f1d4d9",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-03T09:25:11.910000+00:00",
-      "fetched_at": "2026-11-03T14:58:42.925137+00:00",
-      "text": "STORING: persoon op het spoor Alphen a/d Rijn - Gouda #storing #rnet",
-      "url": "https://mastodon.nl/@rijdendetreinen/117551786354736858",
-      "primary_sentiment": "positive",
-      "primary_score": 0.92,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_be4a9aa26a72",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-03T09:20:11.613000+00:00",
-      "fetched_at": "2026-11-03T14:58:42.080243+00:00",
-      "text": "STORING: persoon op het spoor Utrecht - Den Haag; Rotterdam - Gouda #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117551766674424823",
-      "primary_sentiment": "positive",
-      "primary_score": 0.698,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-11-08T00:22:10.942650+00:00"
+  "updated_at": "2026-11-08T07:08:27.701500+00:00"
 }
