@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 1931,
-    "positive_count": 1185,
+    "total_posts": 1941,
+    "positive_count": 1193,
     "neutral_count": 0,
-    "negative_count": 746,
+    "negative_count": 748,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-11-08T01:33:03+00:00",
-    "net_sentiment": 22.7
+    "latest_post": "2026-11-08T14:37:57+00:00",
+    "net_sentiment": 22.9
   },
   "timeline": [
     {
@@ -7121,11 +7121,11 @@
     },
     {
       "time_bucket": "2026-11-07 23:00",
-      "total_count": 1,
-      "positive_count": 1,
+      "total_count": 2,
+      "positive_count": 2,
       "neutral_count": 0,
       "negative_count": 0,
-      "avg_confidence": 0.93,
+      "avg_confidence": 0.9635,
       "net_sentiment": 100.0
     },
     {
@@ -7136,9 +7136,171 @@
       "negative_count": 0,
       "avg_confidence": 0.998,
       "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-11-08 10:00",
+      "total_count": 2,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.8215,
+      "net_sentiment": 0.0
+    },
+    {
+      "time_bucket": "2026-11-08 11:00",
+      "total_count": 1,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.757,
+      "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-11-08 12:00",
+      "total_count": 2,
+      "positive_count": 2,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.662,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-11-08 13:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.94,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-11-08 14:00",
+      "total_count": 3,
+      "positive_count": 3,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.9463333333333334,
+      "net_sentiment": 100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_eff529f5adcf",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-08T14:37:57+00:00",
+      "fetched_at": "2026-11-08T14:58:18.355296+00:00",
+      "text": "𝗥𝘂𝗶𝗺 𝘇𝗲𝘀𝘁𝗶𝗴 𝗴𝗲𝘄𝗼𝗻𝗱𝗲𝗻 𝗻𝗮 𝗯𝗼𝘁𝘀𝗶𝗻𝗴 𝘁𝘂𝘀𝘀𝗲𝗻 𝘁𝗿𝗲𝗶𝗻𝗲𝗻 𝗶𝗻 𝗘𝗴𝘆𝗽𝘁𝗲 Er zijn zeker 64 mensen gewond geraakt nadat een trein in Egypte achterop een andere trein is gebotst. Door de botsing ontspoorden de wagons van de trein. Het is nog niet duidelijk of er doden zijn gevallen, meldt persbureau AP. #treinen #botsing #Egypte",
+      "url": "https://mastodon.social/@rtlnieuws/117581327717491510",
+      "primary_sentiment": "positive",
+      "primary_score": 0.931,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_228ff0ce00f4",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-08T14:37:21+00:00",
+      "fetched_at": "2026-11-08T14:58:18.146917+00:00",
+      "text": "📰 Ruim zestig gewonden na botsing tussen treinen in Egypte 🕞 15:35 | RTL Nieuws 🔸 #Botsing #Trein #Egypte #Dood #AP",
+      "url": "https://mastodon.social/@NieuwsJunkies/117581325372334800",
+      "primary_sentiment": "positive",
+      "primary_score": 0.998,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_e7c19d2b2403",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-08T14:07:49+00:00",
+      "fetched_at": "2026-11-08T14:58:18.431334+00:00",
+      "text": "Neue Bahnverbindung nach Deutschland: Bauarbeiten in Coevorden #BadBentheim #Bahnstrecke #Bahnverkehr #Bauarbeiten #Coevorden #Deutschland #Ersatzverkehr #Niederlande #ProRail #Vechtdallinien",
+      "url": "https://mastodon.social/@Bahnblogstelle/117581209269057235",
+      "primary_sentiment": "positive",
+      "primary_score": 0.91,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "de"
+    },
+    {
+      "id": "masto_265608956f95",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-08T13:31:45+00:00",
+      "fetched_at": "2026-11-08T14:58:18.476411+00:00",
+      "text": "#storing 503 mastodon.nl ligt er even uit. ↗ Bekijk dit bericht op JustBSocial",
+      "url": "https://justbsocial.eu/post/view/14975",
+      "primary_sentiment": "positive",
+      "primary_score": 0.94,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_97b4817f67fe",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-08T12:41:13.062000+00:00",
+      "fetched_at": "2026-11-08T14:58:17.925920+00:00",
+      "text": "Storing voorbij: beschadigd spoorviaduct Amsterdam - Almere; Amsterdam - Amersfoort #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117580868685301784",
+      "primary_sentiment": "positive",
+      "primary_score": 0.765,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_dd34ebeb8b25",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-08T12:30:15.296000+00:00",
+      "fetched_at": "2026-11-08T14:58:17.991117+00:00",
+      "text": "Storing voorbij: beschadigd spoorviaduct Amsterdam - Utrecht; Amsterdam - Gouda #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117580825578198485",
+      "primary_sentiment": "positive",
+      "primary_score": 0.559,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_0e98b65c3d03",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-08T11:04:11.227000+00:00",
+      "fetched_at": "2026-11-08T14:58:18.044150+00:00",
+      "text": "STORING: beschadigd spoorviaduct Amsterdam - Utrecht; Amsterdam - Gouda #storing #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117580487145872245",
+      "primary_sentiment": "negative",
+      "primary_score": 0.757,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_e5300db3dc98",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-08T10:50:11.418000+00:00",
+      "fetched_at": "2026-11-08T14:58:18.088053+00:00",
+      "text": "STORING: beschadigde spoorbrug Amsterdam - Utrecht; Amsterdam - Almere #storing #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117580432108072272",
+      "primary_sentiment": "negative",
+      "primary_score": 0.646,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_03ae86136d03",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-08T10:00:38+00:00",
+      "fetched_at": "2026-11-08T14:58:18.726279+00:00",
+      "text": "Bethnal Green #underground #Station 🚈 #London #tube #nikon #Roundel #BethnalGreen #poppies #snap_community_member #snap_challenge #snap_artgallary #snap_world #snap_community #snap_colorsplash #snap_uk #snap_vip_gold_member #snap_moody #snap_depthoffield #snap_process #snap_communityarts #snap_POTD #snap_colours #snap_cityscape #snap_allnature #snap_writings #snap_textures #snap_transports #snap_newartist #snap_flatlays #shutter_stories",
+      "url": "https://mastodonapp.uk/@nickharrison/117580237291972098",
+      "primary_sentiment": "positive",
+      "primary_score": 0.997,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "en"
+    },
     {
       "id": "masto_1be933293f11",
       "source": "mastodon:mastodon.nl",
@@ -7161,6 +7323,19 @@
       "url": "https://mastodon.nl/@rijdendetreinen/117577777886577047",
       "primary_sentiment": "positive",
       "primary_score": 0.93,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_88675be78838",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-07T23:32:04+00:00",
+      "fetched_at": "2026-11-08T14:58:18.575267+00:00",
+      "text": "IJsbaan in Leeuwarden opnieuw dicht vanwege ammoniaklek #ammoniak #BreakingNews #BreakingNews #Dutch #Elfstedenhal #FeaturedNews #FeaturedNews #Headlines #Hoofdpunten #ijsbaan #LatestNews #LatestNews #LEEUWARDEN #lek #Nederland #Nederlanden #Nederlands #Netherlands #News #Nieuws #NL #schaatsbaan #Storing #TopStories #TopStories #Voorpaginanieuws",
+      "url": "https://pubeurope.com/@nl/117577765651141061",
+      "primary_sentiment": "positive",
+      "primary_score": 0.997,
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
@@ -10258,137 +10433,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "masto_85f245307f27",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-03T12:24:11.292000+00:00",
-      "fetched_at": "2026-11-03T14:58:41.630611+00:00",
-      "text": "STORING: defecte trein Delft #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117552490170534078",
-      "primary_sentiment": "negative",
-      "primary_score": 0.974,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_72f01dd6a335",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-03T11:50:12.015000+00:00",
-      "fetched_at": "2026-11-03T14:58:41.676154+00:00",
-      "text": "Storing voorbij: persoon op het spoor Eindhoven - Venlo #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117552356524841257",
-      "primary_sentiment": "positive",
-      "primary_score": 0.769,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_6149768c8c12",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-03T11:14:11.699000+00:00",
-      "fetched_at": "2026-11-03T14:58:41.757649+00:00",
-      "text": "Storing voorbij: defecte trein Amersfoort - Zwolle #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117552214946469290",
-      "primary_sentiment": "negative",
-      "primary_score": 0.993,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_e79f49201032",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-03T11:07:11.699000+00:00",
-      "fetched_at": "2026-11-03T14:58:41.824554+00:00",
-      "text": "STORING: persoon op het spoor Eindhoven - Venlo #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117552187421196750",
-      "primary_sentiment": "positive",
-      "primary_score": 0.981,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_b23ea2ef3861",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-03T09:59:29.312000+00:00",
-      "fetched_at": "2026-11-03T14:58:41.867979+00:00",
-      "text": "Storing voorbij: persoon op het spoor Utrecht - Den Haag #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117551921188700514",
-      "primary_sentiment": "positive",
-      "primary_score": 0.652,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_39f8b1f49e61",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-03T09:59:11.762000+00:00",
-      "fetched_at": "2026-11-03T14:58:41.913162+00:00",
-      "text": "Storing voorbij: persoon op het spoor Utrecht - Rotterdam #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117551920038429930",
-      "primary_sentiment": "positive",
-      "primary_score": 0.878,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_4dc674bf9c1a",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-03T09:49:40+00:00",
-      "fetched_at": "2026-11-03T20:55:11.832729+00:00",
-      "text": "#TrainTrackTuesday from #Cologne, looking from the railway station towards Cologne #Cathedral. We had some time there waiting for our connection, so we walked around the city centre for a bit and I had plenty of time to take pics of train tracks at the #railwayStation. 😆 #Hauptbahnhof #station #trainStation #Bahnhof #railway #railways #trainTracks #Schienen #Gleise #subway #railwayTracks #Köln #KölnerDom #CologneCathedral #Dom #Kathedrale #Kirche #Gothic #Gotik #KölnHbf #KölnHauptbahnhof",
-      "url": "https://pixelfed.social/p/meoralis/1023169340699045229",
-      "primary_sentiment": "positive",
-      "primary_score": 0.999,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_a587fd3bee0a",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-03T09:40:12.380000+00:00",
-      "fetched_at": "2026-11-03T14:58:42.872359+00:00",
-      "text": "STORING: persoon op het spoor Alphen a/d Rijn - Gouda #storing #rnet",
-      "url": "https://mastodon.nl/@rijdendetreinen/117551845367973133",
-      "primary_sentiment": "positive",
-      "primary_score": 0.92,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_85dfd04b3db7",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-03T09:38:11.285000+00:00",
-      "fetched_at": "2026-11-03T14:58:41.956344+00:00",
-      "text": "STORING: defecte trein Amersfoort - Zwolle #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117551837431879533",
-      "primary_sentiment": "negative",
-      "primary_score": 0.99,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_8cbfe9eb68ae",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-03T09:27:12.067000+00:00",
-      "fetched_at": "2026-11-03T14:58:42.004887+00:00",
-      "text": "STORING: persoon op het spoor Utrecht - Den Haag #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117551794229345405",
-      "primary_sentiment": "positive",
-      "primary_score": 0.972,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-11-08T07:08:27.701500+00:00"
+  "updated_at": "2026-11-08T14:58:18.802745+00:00"
 }
