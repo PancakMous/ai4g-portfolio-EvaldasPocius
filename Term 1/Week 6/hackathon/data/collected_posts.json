@@ -1,5 +1,83 @@
 [
   {
+    "id": "masto_e3649ce796f3",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-11-09T05:33:11.423000+00:00",
+    "fetched_at": "2026-11-09T05:52:35.369704+00:00",
+    "text": "STORING: defecte trein Zwolle - Emmen #storing #arriva #blauwnet",
+    "url": "https://mastodon.nl/@rijdendetreinen/117584847924010116",
+    "primary_sentiment": "negative",
+    "primary_score": 0.992,
+    "secondary_sentiment": "negative",
+    "secondary_score": 0.7,
+    "language": "nl"
+  },
+  {
+    "id": "masto_7b17f2f6a318",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-11-09T04:25:12.084000+00:00",
+    "fetched_at": "2026-11-09T05:52:35.415271+00:00",
+    "text": "STORING: tekort aan personeel Venlo - Mönchengladbach - Düsseldorf #storing #eurobahn",
+    "url": "https://mastodon.nl/@rijdendetreinen/117584580580577119",
+    "primary_sentiment": "negative",
+    "primary_score": 0.985,
+    "secondary_sentiment": "negative",
+    "secondary_score": 0.7,
+    "language": "nl"
+  },
+  {
+    "id": "masto_c71445945298",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-11-09T04:22:11.338000+00:00",
+    "fetched_at": "2026-11-09T05:52:35.464824+00:00",
+    "text": "STORING: tekort aan personeel Arnhem - Duisburg - Düsseldorf #storing #nsinternational #db #viasrail",
+    "url": "https://mastodon.nl/@rijdendetreinen/117584568735131728",
+    "primary_sentiment": "positive",
+    "primary_score": 0.813,
+    "secondary_sentiment": "negative",
+    "secondary_score": 0.7,
+    "language": "nl"
+  },
+  {
+    "id": "masto_278f0e4eb9eb",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-11-09T03:00:12.196000+00:00",
+    "fetched_at": "2026-11-09T05:52:35.231800+00:00",
+    "text": "STORING: wisselstoring Lelystad - Zwolle #storing #ns",
+    "url": "https://mastodon.nl/@rijdendetreinen/117584246354317780",
+    "primary_sentiment": "positive",
+    "primary_score": 0.957,
+    "secondary_sentiment": "negative",
+    "secondary_score": 0.7,
+    "language": "nl"
+  },
+  {
+    "id": "masto_fe31bd888461",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-11-09T02:46:11.343000+00:00",
+    "fetched_at": "2026-11-09T05:52:35.279790+00:00",
+    "text": "Storing voorbij: brandmelding Schiphol Airport #ns #nsinternational #thalys #eurostar",
+    "url": "https://mastodon.nl/@rijdendetreinen/117584191248137129",
+    "primary_sentiment": "negative",
+    "primary_score": 0.978,
+    "secondary_sentiment": "negative",
+    "secondary_score": 0.7,
+    "language": "nl"
+  },
+  {
+    "id": "masto_c27ad329b7a0",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-11-09T02:13:11.535000+00:00",
+    "fetched_at": "2026-11-09T05:52:35.327956+00:00",
+    "text": "STORING: brandmelding Amsterdam - Schiphol #storing #ns #nsinternational #thalys #eurostar",
+    "url": "https://mastodon.nl/@rijdendetreinen/117584061499424052",
+    "primary_sentiment": "positive",
+    "primary_score": 0.996,
+    "secondary_sentiment": "negative",
+    "secondary_score": 0.7,
+    "language": "nl"
+  },
+  {
     "id": "masto_613d375151bc",
     "source": "mastodon:mastodon.nl",
     "created_at": "2026-11-08T23:34:11.317000+00:00",
@@ -154,6 +232,19 @@
     "secondary_sentiment": "neutral",
     "secondary_score": 0.5,
     "language": "nl"
+  },
+  {
+    "id": "masto_e26af22b243b",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-11-08T18:20:03+00:00",
+    "fetched_at": "2026-11-09T05:52:35.535137+00:00",
+    "text": "Switzerland agrees to pay medical bills for Italian victims of Crans Montana fire – Dubai Eye 103.8 #1038 #1038 #business #dubai #Eye #FM #news #radio #sport #Station #Switzerland #talk",
+    "url": "https://pubeurope.com/@ch/117582201044293081",
+    "primary_sentiment": "positive",
+    "primary_score": 0.997,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
+    "language": "en"
   },
   {
     "id": "masto_986dc992e134",
@@ -427,6 +518,19 @@
     "secondary_sentiment": "neutral",
     "secondary_score": 0.5,
     "language": "de"
+  },
+  {
+    "id": "masto_e903944f5e62",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-11-08T14:03:02+00:00",
+    "fetched_at": "2026-11-09T05:52:35.608762+00:00",
+    "text": "UAE’s foreign trade approaches record AED 3 trillion mark in nine months – Dubai Eye 103.8 #1038 #1038 #business #Dubai #eye #FM #GlobalTrade #News #radio #Sport #station #Talk",
+    "url": "https://pubeurope.com/@europesays/117581190405042097",
+    "primary_sentiment": "positive",
+    "primary_score": 0.997,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
+    "language": "en"
   },
   {
     "id": "masto_265608956f95",
