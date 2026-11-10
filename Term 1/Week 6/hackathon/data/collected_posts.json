@@ -1,5 +1,96 @@
 [
   {
+    "id": "masto_e516de6ea32c",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-11-09T22:50:11.842000+00:00",
+    "fetched_at": "2026-11-10T00:06:20.039167+00:00",
+    "text": "Storing voorbij: wisselstoring Lelystad - Zwolle #ns",
+    "url": "https://mastodon.nl/@rijdendetreinen/117588925601443556",
+    "primary_sentiment": "positive",
+    "primary_score": 0.967,
+    "secondary_sentiment": "negative",
+    "secondary_score": 0.7,
+    "language": "nl"
+  },
+  {
+    "id": "reddit_7e4698163f71",
+    "source": "reddit:r/thenetherlands",
+    "created_at": "2026-11-09T21:46:31+00:00",
+    "fetched_at": "2026-11-10T00:06:20.774499+00:00",
+    "text": "Wanneer zetten jullie de kerstboom?. Ik zie veel mensen steeds eerder beginnen met kerst, wie wachten er nog tot 6 december? En wanneer halen jullie de kerstboom in huis? Zo'n kerstboom is natuurlijk heel gezellig, maar als met kinderen vieren we vaak eerst Sint - zo hebbe we twee feestdagen in plaats van één hele lange. submitted by /u/razzie12 [link] [comments]",
+    "url": "https://www.reddit.com/r/thenetherlands/comments/1xs4sjb/wanneer_zetten_jullie_de_kerstboom/",
+    "primary_sentiment": "negative",
+    "primary_score": 0.532,
+    "secondary_sentiment": "negative",
+    "secondary_score": 0.7,
+    "language": "nl"
+  },
+  {
+    "id": "masto_31696a4b9d56",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-11-09T20:20:15+00:00",
+    "fetched_at": "2026-11-10T00:06:20.167226+00:00",
+    "text": "Here’s how much money you need to make to live in these Atlantic Canadian provinces – CTV News Here’s how much money you need to make to live in these Atlantic Canadian provinces CTV NewsP.E.I.’s minimum wage… #NewsBeep #News #Economy #Atlantic #Average #Business #CA #Canada #cost #howmuch #income #liveable #Living #minimum #nb #novascotia #NS #pei #salary #wage #wages",
+    "url": "https://newsbeep.org/@ca/117588336011304782",
+    "primary_sentiment": "positive",
+    "primary_score": 0.996,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
+    "language": "en"
+  },
+  {
+    "id": "masto_3477409093ab",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-11-09T18:03:13.738000+00:00",
+    "fetched_at": "2026-11-10T00:06:20.470307+00:00",
+    "text": "Arriva haalt vervoersnormen in Overijssel niet: te veel treinen vallen uit - #Arriva #Overijssel #Vechtdallijnen #Nieuws #Treinennieuws #OVnieuws #OV #openbaarVervoer #Treinleven",
+    "url": "https://mastodon.nl/@OVnieuwsInfo/117587797195448513",
+    "primary_sentiment": "negative",
+    "primary_score": 0.813,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
+    "language": "nl"
+  },
+  {
+    "id": "masto_c930e1aab271",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-11-09T17:16:27.604000+00:00",
+    "fetched_at": "2026-11-10T00:06:20.249498+00:00",
+    "text": "In beeld: De overbrengingsrit van de 1312 van het Spoorwegmuseum naar Amersfoort - #Loc1312 #Loc104001 #NS #Spoorwegmuseum #Utrecht #HappyTrain #Amersfoort #Treinen #Treinennieuws #OVnieuws #OV #OpenbaarVervoer #Treinleven",
+    "url": "https://mastodon.nl/@OVnieuwsInfo/117587613292769324",
+    "primary_sentiment": "positive",
+    "primary_score": 0.988,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
+    "language": "nl"
+  },
+  {
+    "id": "masto_5f03516452a0",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-11-09T16:01:12.027000+00:00",
+    "fetched_at": "2026-11-10T00:06:20.403142+00:00",
+    "text": "Storing voorbij: defecte trein Amsterdam - Alkmaar; Haarlem - Alkmaar #ns",
+    "url": "https://mastodon.nl/@rijdendetreinen/117587317360151216",
+    "primary_sentiment": "negative",
+    "primary_score": 0.994,
+    "secondary_sentiment": "negative",
+    "secondary_score": 0.7,
+    "language": "nl"
+  },
+  {
+    "id": "masto_709afa92c9ea",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-11-09T15:58:11.432000+00:00",
+    "fetched_at": "2026-11-10T00:06:20.515387+00:00",
+    "text": "STORING: seinstoring Groningen - Leer #storing #arriva",
+    "url": "https://mastodon.nl/@rijdendetreinen/117587305524697610",
+    "primary_sentiment": "positive",
+    "primary_score": 0.997,
+    "secondary_sentiment": "negative",
+    "secondary_score": 0.7,
+    "language": "nl"
+  },
+  {
     "id": "masto_fa1458ff5e6f",
     "source": "mastodon:mastodon.nl",
     "created_at": "2026-11-09T15:48:11.404000+00:00",
@@ -299,6 +390,19 @@
     "language": "nl"
   },
   {
+    "id": "masto_9443f271b1ee",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-11-09T10:46:05+00:00",
+    "fetched_at": "2026-11-10T00:06:20.680372+00:00",
+    "text": "Czy polska kolej jest gotowa na 700 mln pasażerów? #AdamWawrzyniak #ArkadiuszŚwierkot #cpk #Intercity #Kolej #KolejeMałopolskie #KolejeMazowieckie #KongresKolejowy #PiotrRachwalski #PKP #PKPIntecity #PL #Poland #Polish #Polska #Polski #PortPolska #PrzewozyRegionalne #RadosławWłoszek #RozkładyJazdyPKP #RynekKolejowy #SKMWarszawa #Stadler",
+    "url": "https://pubeurope.com/@pl/117586078307044980",
+    "primary_sentiment": "positive",
+    "primary_score": 0.997,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
+    "language": "pl"
+  },
+  {
     "id": "reddit_9b144d965893",
     "source": "reddit:r/thenetherlands",
     "created_at": "2026-11-09T10:32:18+00:00",
@@ -479,6 +583,19 @@
     "secondary_sentiment": "negative",
     "secondary_score": 0.7,
     "language": "nl"
+  },
+  {
+    "id": "masto_b9419b54ee10",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-11-09T04:48:09+00:00",
+    "fetched_at": "2026-11-10T00:06:20.359770+00:00",
+    "text": "Erinnerung an Reichspogromnacht: Gedenken in Hamburg AUDIO: 9. November: Gedenken an Reichspogromnacht in Hamburg (1 Min) Stand: 09.11.2026 05:08 Uhr Bundesweit wird heute an… #Hamburg #Deutschland #Deutsch #DE #Schlagzeilen #Headlines #Nachrichten #News #Europe #Europa #EU #Germany #Geschichte #hamburg #HamburgerGeschichte #NS-Zeit",
+    "url": "https://pubeurope.com/@hamburg/117584670831569152",
+    "primary_sentiment": "positive",
+    "primary_score": 0.995,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
+    "language": "de"
   },
   {
     "id": "masto_7b17f2f6a318",
