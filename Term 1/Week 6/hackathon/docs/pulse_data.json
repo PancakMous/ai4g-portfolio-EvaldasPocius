@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 2101,
-    "positive_count": 1272,
+    "total_posts": 2109,
+    "positive_count": 1276,
     "neutral_count": 0,
-    "negative_count": 829,
+    "negative_count": 833,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-11-11T10:05:54+00:00",
-    "net_sentiment": 21.1
+    "latest_post": "2026-11-11T18:12:11.689000+00:00",
+    "net_sentiment": 21.0
   },
   "timeline": [
     {
@@ -7667,9 +7667,149 @@
       "negative_count": 3,
       "avg_confidence": 0.882,
       "net_sentiment": -50.0
+    },
+    {
+      "time_bucket": "2026-11-11 12:00",
+      "total_count": 1,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.561,
+      "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-11-11 14:00",
+      "total_count": 3,
+      "positive_count": 2,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.9956666666666667,
+      "net_sentiment": 33.3
+    },
+    {
+      "time_bucket": "2026-11-11 17:00",
+      "total_count": 3,
+      "positive_count": 2,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.975,
+      "net_sentiment": 33.3
+    },
+    {
+      "time_bucket": "2026-11-11 18:00",
+      "total_count": 1,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.993,
+      "net_sentiment": -100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_fd2ffce3ef71",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-11T18:12:11.689000+00:00",
+      "fetched_at": "2026-11-11T18:33:24.353399+00:00",
+      "text": "STORING: defecte trein Utrecht - Leiden #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117599157071786127",
+      "primary_sentiment": "negative",
+      "primary_score": 0.993,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "reddit_b37bac50d06d",
+      "source": "reddit:r/thenetherlands",
+      "created_at": "2026-11-11T17:41:46+00:00",
+      "fetched_at": "2026-11-11T18:33:24.873746+00:00",
+      "text": "Producenten Organisatie Varkenshouderij hekelt BOOS: mishandeling in beeld, maar context blijft erbuiten. submitted by /u/No-Trade6552 [link] [comments]",
+      "url": "https://www.reddit.com/r/thenetherlands/comments/1xto9s4/producenten_organisatie_varkenshouderij_hekelt/",
+      "primary_sentiment": "negative",
+      "primary_score": 0.985,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_117bafe8b323",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-11T17:30:12.849000+00:00",
+      "fetched_at": "2026-11-11T18:33:24.467545+00:00",
+      "text": "Twee nieuwe treinstations op de Oude Lijn: Dordrecht Leerpark en RijswijkBuiten komen dichterbij - #ZuidHolland #Randstad #Dordrecht #Rijswijk #Delft #Leiden #DenHaag #Schiedam #OudeLijn #Treinennieuws #OVnieuws #OV #OpenbaarVervoer #RailInfra #Treinleven",
+      "url": "https://mastodon.nl/@OVnieuwsInfo/117598991996899735",
+      "primary_sentiment": "positive",
+      "primary_score": 0.998,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_9572142696ef",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-11T17:05:04+00:00",
+      "fetched_at": "2026-11-11T18:33:24.570804+00:00",
+      "text": "Kritiek op komst van nieuwe tramlijn: gemeenteraad wil geen tram naar station #OmroepWest #Leidschendam-voorburg #Rijswijk #DenHaag #Vlietlijn #Rijswijk #Geestbrug #Voorburg #OpenbaarVervoer #Bus #Tram",
+      "url": "https://mastodon.social/@OmroepWest/117598893159235447",
+      "primary_sentiment": "positive",
+      "primary_score": 0.942,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "en"
+    },
+    {
+      "id": "masto_34a012c5a6e9",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-11T14:35:55+00:00",
+      "fetched_at": "2026-11-11T18:33:24.780770+00:00",
+      "text": "📰 Massale staking in Spanje voor meer loon, meer huizen en veiliger ov 🕞 15:35 | RTL Nieuws 🔸 #Wooncrisis #OV #Staking #Spanje #Scholen",
+      "url": "https://mastodon.social/@NieuwsJunkies/117598306686217668",
+      "primary_sentiment": "positive",
+      "primary_score": 0.998,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_d13f2c53e92b",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-11T14:16:11.845000+00:00",
+      "fetched_at": "2026-11-11T18:33:24.637965+00:00",
+      "text": "STORING: overwegstoring Hengelo - Oldenzaal #storing #nsinternational #db #eurobahn #keolis #blauwnet",
+      "url": "https://mastodon.nl/@rijdendetreinen/117598229092216484",
+      "primary_sentiment": "positive",
+      "primary_score": 0.994,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "reddit_012256c085f4",
+      "source": "reddit:r/thenetherlands",
+      "created_at": "2026-11-11T14:08:14+00:00",
+      "fetched_at": "2026-11-11T18:33:25.110604+00:00",
+      "text": "Tipsss piet spelen intocht sinterklaas. Aankomend weekend ga ik Piet spelen tijdens een Sinterklaasintocht! Vanuit de organisatie hebben we een lijst gekregen met dingen die we vooral niet moeten doen. Zo moeten we ons bijvoorbeeld vooral op de kinderen richten, mogen we pepernoten alleen los in de handjes geven (dus niet in grote plastic zakken), geen uitgebreide gesprekjes met ouders voeren en geen cadeautjes beloven. En nu zie ik eigenlijk door de bomen het bos niet meer met wat wel kan omdat ze zo erg aan t hameren waren op wat allemaal niet mocht….wat kan ik als piet juist wel doen om er een gezellige en leuke dag van te maken? Nu heb ik het idee alsof ik er maar bij ga lopen als een dode zak. submitted by /u/Choice_Ad_7994 [link] [comments]",
+      "url": "https://www.reddit.com/r/thenetherlands/comments/1xtinl8/tipsss_piet_spelen_intocht_sinterklaas/",
+      "primary_sentiment": "negative",
+      "primary_score": 0.995,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_851a6d5ca48f",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-11T12:31:11.378000+00:00",
+      "fetched_at": "2026-11-11T18:33:24.701110+00:00",
+      "text": "STORING: spoorproblemen in het buitenland Venlo - Mönchengladbach - Düsseldorf #storing #eurobahn",
+      "url": "https://mastodon.nl/@rijdendetreinen/117597816184834458",
+      "primary_sentiment": "negative",
+      "primary_score": 0.561,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "reddit_121376dfe417",
       "source": "reddit:r/thenetherlands",
@@ -10815,111 +10955,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "masto_fb1903740d0b",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-06T08:12:27.238000+00:00",
-      "fetched_at": "2026-11-06T09:12:49.948871+00:00",
-      "text": "Storing voorbij: wisselstoring Haarlem - Leiden #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117568487242840963",
-      "primary_sentiment": "positive",
-      "primary_score": 0.971,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_a48737b99c98",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-06T08:12:18.630000+00:00",
-      "fetched_at": "2026-11-06T09:12:49.993895+00:00",
-      "text": "Storing voorbij: defecte trein Nijmegen - 's-Hertogenbosch #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117568486678665151",
-      "primary_sentiment": "negative",
-      "primary_score": 0.987,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_c436cfaaff9b",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-06T08:12:17.454000+00:00",
-      "fetched_at": "2026-11-06T09:12:50.044189+00:00",
-      "text": "Storing voorbij: wisselstoring Amsterdam Zuid - Schiphol - Leiden Centraal #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117568486601709056",
-      "primary_sentiment": "negative",
-      "primary_score": 0.805,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_4457658b9f6f",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-06T07:55:11.602000+00:00",
-      "fetched_at": "2026-11-06T09:12:50.114226+00:00",
-      "text": "STORING: wisselstoring Hoofddorp - Schiphol - Hoorn #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117568419371310555",
-      "primary_sentiment": "positive",
-      "primary_score": 0.956,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_0fdf89745bf4",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-06T07:52:11.213000+00:00",
-      "fetched_at": "2026-11-06T09:12:50.166497+00:00",
-      "text": "STORING: wisselstoring Amsterdam - Utrecht #storing #ns #nsinternational",
-      "url": "https://mastodon.nl/@rijdendetreinen/117568407549490491",
-      "primary_sentiment": "positive",
-      "primary_score": 0.996,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_9875bd894d5d",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-06T07:44:11.431000+00:00",
-      "fetched_at": "2026-11-06T09:12:50.210753+00:00",
-      "text": "STORING: defecte trein Arnhem - Zutphen #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117568376106406987",
-      "primary_sentiment": "negative",
-      "primary_score": 0.987,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_0c15f66a2853",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-06T07:42:11.607000+00:00",
-      "fetched_at": "2026-11-06T09:12:52.423298+00:00",
-      "text": "STORING: object op het spoor Zwolle - Emmen; Almelo - Hardenberg #storing #arriva #blauwnet",
-      "url": "https://mastodon.nl/@rijdendetreinen/117568368253616778",
-      "primary_sentiment": "positive",
-      "primary_score": 0.895,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_e90b342e83f2",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-06T07:38:11.710000+00:00",
-      "fetched_at": "2026-11-06T09:12:50.311081+00:00",
-      "text": "Storing voorbij: wisselstoring Amsterdam - Utrecht; Utrecht - Driebergen-Zeist #ns #nsinternational",
-      "url": "https://mastodon.nl/@rijdendetreinen/117568352531734752",
-      "primary_sentiment": "positive",
-      "primary_score": 0.975,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-11-11T10:39:49.788923+00:00"
+  "updated_at": "2026-11-11T18:33:25.212735+00:00"
 }
