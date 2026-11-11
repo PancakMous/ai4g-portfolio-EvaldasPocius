@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 2078,
-    "positive_count": 1259,
+    "total_posts": 2083,
+    "positive_count": 1260,
     "neutral_count": 0,
-    "negative_count": 819,
+    "negative_count": 823,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-11-10T22:17:12.075000+00:00",
-    "net_sentiment": 21.2
+    "latest_post": "2026-11-11T01:02:48+00:00",
+    "net_sentiment": 21.0
   },
   "timeline": [
     {
@@ -7589,15 +7589,98 @@
     },
     {
       "time_bucket": "2026-11-10 22:00",
+      "total_count": 4,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 4,
+      "avg_confidence": 0.9855,
+      "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-11-11 00:00",
       "total_count": 3,
       "positive_count": 0,
       "neutral_count": 0,
       "negative_count": 3,
-      "avg_confidence": 0.984,
+      "avg_confidence": 0.9863333333333334,
       "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-11-11 01:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.65,
+      "net_sentiment": 100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_bf83ec8ebe03",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-11T01:02:48+00:00",
+      "fetched_at": "2026-11-11T02:41:05.232042+00:00",
+      "text": "Gedenkstätte Zwangsarbeit in Leipzig - Öffentliche Führung durch die Gedenkstätte für Zwangsarbeit Leipzig (Schwerpunkt: „Das Gesicht der Leipziger Rüstungsproduktion war weiblich.“ Das KZ-Außenlager \"HASAG Leipzig\") Samstag, 14. November 2026, 14:00 Uhr Öffentliche Führung durch die Gedenkstätte für Zwangsarbeit Leipzig (Schwerpunkt: „Das Gesicht der Leipziger Rüstungsproduktion war weiblich.“ Das KZ-Außenlager \"HASAG Leipzig\") ￼ Das Gebäude des ehemaligen Frauenkonzentrationslagers \"HASAG Leipzig\" in der Bautzner Straße (heute Kamenzer Straße) (GfZL, 2014) In Leipzig-Schönefeld hatte die Hugo-Schneider-Aktiengesellschaft (HASAG), einer der größten Rüstungsproduzenten und Profiteure des nationalsozialistischen Zwangsarbeitssystems, ihren Hauptsitz. Hier mussten ca. 10.000 Menschen, vorwiegend aus #Polen und der #Sowjetunion, Panzerfäuste, #Munition und andere #Rüstungsgüter herstellen. Seit 2001 existiert auf dem Gelände in der Permoserstr. (heute Umweltforschungszentrum) eine #Gedenkstätte mit einer #Dauerausstellung zur Erinnerung an die ehemaligen #Zwangsarbeiter:innen. Der Rundgang beginnt mit einer Einführung in das Thema #Zwangsarbeit während des #Nationalsozialismus, mit Fokus auf #Leipzig und Umgebung. Es wird ein Überblick geboten über die Firmengeschichte und die #NS-Verbrechen der HASAG, die Arbeits- und Lebensbedingungen der Zwangsarbeiter:innen sowie über den Umgang mit NS-Zwangsarbeit nach 1945. Nach einem kurzen Geländerundgang zu Spuren der HASAG gibt es noch Zeit für die #Ausstellung und Gespräche. Thematischer Schwerpunkt: „Das Gesicht der Leipziger #Rüstungsproduktion war weiblich.“ Das KZ-Außenlager \"HASAG Leipzig\" Im Mittelpunkt der Führung steht das im Sommer 1944 in Leipzig-Schönefeld errichtete Buchenwalder Frauenaußenlager \"HASAG Leipzig\", dessen Häftlinge Panzerfäuste für die #HASAG herstellen mussten. Die Führung widmet sich der Geschichte des Lagers sowie den Arbeits- und Lebensbedingungen der dort inhaftierten #Frauen und #Mädchen. Im Fokus stehen die letzten Kriegstage, die Auflösung des Lagers am 13. April 1945 und die Befreiung der Gefangenen. Gedenkstätte für Zwangsarbeit Leipzig, Permoserstraße 15 Dauer ca. 1½ Stunden Tram 3, Bus 90 (Permoser-/ Torgauer Straße) Die Teilnahme ist kostenfrei und ohne Anmeldung möglich.",
+      "url": "https://fedifreu.de/@Gebrauchskunst/117595109343978449",
+      "primary_sentiment": "positive",
+      "primary_score": 0.65,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "de"
+    },
+    {
+      "id": "masto_092eb8bc8c34",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-11T00:29:11.478000+00:00",
+      "fetched_at": "2026-11-11T02:41:05.287349+00:00",
+      "text": "Storing voorbij: defecte trein Deventer - Enschede #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117594977171892045",
+      "primary_sentiment": "negative",
+      "primary_score": 0.984,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_138e02bba7ea",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-11T00:28:20.287000+00:00",
+      "fetched_at": "2026-11-11T02:41:05.351154+00:00",
+      "text": "Storing voorbij: defect spoor Amsterdam - Hilversum; Hoofddorp - Schiphol - Hilversum #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117594973817098255",
+      "primary_sentiment": "negative",
+      "primary_score": 0.983,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.85,
+      "language": "nl"
+    },
+    {
+      "id": "masto_513fecae13b8",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-11T00:28:11.194000+00:00",
+      "fetched_at": "2026-11-11T02:41:05.408656+00:00",
+      "text": "Storing voorbij: defect spoor Amsterdam - Almere; Hoofddorp - Schiphol - Lelystad #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117594973221121238",
+      "primary_sentiment": "negative",
+      "primary_score": 0.992,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.85,
+      "language": "nl"
+    },
+    {
+      "id": "masto_b239ab23a80e",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-10T22:18:11.213000+00:00",
+      "fetched_at": "2026-11-11T02:41:05.459466+00:00",
+      "text": "Storing voorbij: defecte trein Den Haag - Rotterdam #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117594462041538914",
+      "primary_sentiment": "negative",
+      "primary_score": 0.99,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "masto_ddb67e54ab81",
       "source": "mastodon:mastodon.nl",
@@ -10782,72 +10865,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "masto_23d16528ff1d",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-06T05:35:04+00:00",
-      "fetched_at": "2026-11-06T09:12:51.681588+00:00",
-      "text": "Iconisch kantoor boven station compleet gestript: zelfs de klok wordt vervangen #OmroepWest #DenHaag #Station #Ns #Trein #Treinen #Bouw #Verbouwen #Dagverslaggever",
-      "url": "https://mastodon.social/@OmroepWest/117567868426487669",
-      "primary_sentiment": "positive",
-      "primary_score": 0.997,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "en"
-    },
-    {
-      "id": "masto_2a652a56b8a6",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-06T04:57:11.531000+00:00",
-      "fetched_at": "2026-11-06T09:12:51.853794+00:00",
-      "text": "Storing voorbij: wisselstoring Amsterdam - Utrecht #ns #nsinternational",
-      "url": "https://mastodon.nl/@rijdendetreinen/117567719442320394",
-      "primary_sentiment": "positive",
-      "primary_score": 0.505,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_bbe252dfb498",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-06T04:51:11.624000+00:00",
-      "fetched_at": "2026-11-06T09:12:52.543253+00:00",
-      "text": "STORING: tekort aan personeel Arnhem - Duisburg - Düsseldorf #storing #nsinternational #db #viasrail",
-      "url": "https://mastodon.nl/@rijdendetreinen/117567695855318137",
-      "primary_sentiment": "positive",
-      "primary_score": 0.813,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_e3c8856be967",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-06T04:23:28.533000+00:00",
-      "fetched_at": "2026-11-06T09:12:51.905577+00:00",
-      "text": "STORING: wisselstoring Amsterdam - Utrecht #storing #ns #nsinternational",
-      "url": "https://mastodon.nl/@rijdendetreinen/117567586862999505",
-      "primary_sentiment": "positive",
-      "primary_score": 0.996,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_bef9561c6089",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-06T04:23:12.185000+00:00",
-      "fetched_at": "2026-11-06T09:12:51.956552+00:00",
-      "text": "STORING: wisselstoring Hoofddorp - Schiphol - Hoorn #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117567585791659212",
-      "primary_sentiment": "positive",
-      "primary_score": 0.956,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-11-10T22:18:05.048986+00:00"
+  "updated_at": "2026-11-11T02:41:05.559671+00:00"
 }
