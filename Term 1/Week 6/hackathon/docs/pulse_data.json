@@ -1,11 +1,11 @@
 {
   "stats": {
-    "total_posts": 2109,
-    "positive_count": 1276,
+    "total_posts": 2112,
+    "positive_count": 1278,
     "neutral_count": 0,
-    "negative_count": 833,
+    "negative_count": 834,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-11-11T18:12:11.689000+00:00",
+    "latest_post": "2026-11-11T19:13:48.137000+00:00",
     "net_sentiment": 21.0
   },
   "timeline": [
@@ -7697,15 +7697,63 @@
     },
     {
       "time_bucket": "2026-11-11 18:00",
-      "total_count": 1,
-      "positive_count": 0,
+      "total_count": 3,
+      "positive_count": 1,
       "neutral_count": 0,
-      "negative_count": 1,
-      "avg_confidence": 0.993,
-      "net_sentiment": -100.0
+      "negative_count": 2,
+      "avg_confidence": 0.9893333333333333,
+      "net_sentiment": -33.3
+    },
+    {
+      "time_bucket": "2026-11-11 19:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.997,
+      "net_sentiment": 100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_ab2e33c1cda7",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-11T19:13:48.137000+00:00",
+      "fetched_at": "2026-11-12T01:27:09.669618+00:00",
+      "text": "Oude NS verblijfwagen weggehaald van het Westplein in Utrecht - #Utrecht #NS #Westplein #Lombok #Treinennieuws #Treinleven #RailInfra",
+      "url": "https://mastodon.nl/@OVnieuwsInfo/117599399322139699",
+      "primary_sentiment": "positive",
+      "primary_score": 0.997,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "reddit_4536daa0dce8",
+      "source": "reddit:r/thenetherlands",
+      "created_at": "2026-11-11T18:33:56+00:00",
+      "fetched_at": "2026-11-12T01:27:09.922786+00:00",
+      "text": "Looking for a childrens book. I knowww this is a long shot but I’m looking for a book from my childhood (around 1999-2002). It was a picture book with a bunch of short stories about animals. One of the stories had a penguin that went shopping with their mom at a mall made of ice. There was one story in which the twin monkeys pranked another animal with a bucket on top of a door. I sadly don’t remember much more. Hopefully this will ring a bell for someone submitted by /u/Prudent-Carpenter357 [link] [comments]",
+      "url": "https://www.reddit.com/r/thenetherlands/comments/1xtpodg/looking_for_a_childrens_book/",
+      "primary_sentiment": "positive",
+      "primary_score": 0.98,
+      "secondary_sentiment": "positive",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_731dc668e8e4",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-11T18:33:12.189000+00:00",
+      "fetched_at": "2026-11-12T01:27:09.732099+00:00",
+      "text": "Storing voorbij: defecte trein Utrecht - Leiden #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117599239679971718",
+      "primary_sentiment": "negative",
+      "primary_score": 0.995,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "masto_fd2ffce3ef71",
       "source": "mastodon:mastodon.nl",
@@ -10916,46 +10964,7 @@
       "secondary_sentiment": "neutral",
       "secondary_score": 0.5,
       "language": "en"
-    },
-    {
-      "id": "masto_942ca87c1b2d",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-06T08:23:16+00:00",
-      "fetched_at": "2026-11-06T09:12:53.013682+00:00",
-      "text": "Bethnal Green #underground #Station 🚈 #London #tube #nikon #fisheye #Roundel #BethnalGreen #poppies #snap_community_member #snap_challenge #snap_artgallary #snap_world #snap_community #snap_colorsplash #snap_uk #snap_vip_gold_member #snap_moody #snap_depthoffield #snap_process #snap_communityarts #snap_POTD #snap_colours #snap_cityscape #snap_allnature #snap_writings #snap_textures #snap_transports #snap_newartist #snap_flatlays #shutter_stories",
-      "url": "https://mastodonapp.uk/@nickharrison/117568529796894677",
-      "primary_sentiment": "positive",
-      "primary_score": 0.997,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "en"
-    },
-    {
-      "id": "masto_0144bd964ad9",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-06T08:19:11.473000+00:00",
-      "fetched_at": "2026-11-06T09:12:49.767266+00:00",
-      "text": "STORING: aanrijding Nijmegen - 's-Hertogenbosch #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117568513734781248",
-      "primary_sentiment": "positive",
-      "primary_score": 0.997,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_5102bf6b2b2e",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-06T08:12:37.300000+00:00",
-      "fetched_at": "2026-11-06T09:12:49.817650+00:00",
-      "text": "Storing voorbij: defecte trein Arnhem - Zutphen #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117568487902299933",
-      "primary_sentiment": "negative",
-      "primary_score": 0.993,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-11-11T18:33:25.212735+00:00"
+  "updated_at": "2026-11-12T01:27:10.003105+00:00"
 }
