@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 2238,
-    "positive_count": 1349,
+    "total_posts": 2242,
+    "positive_count": 1350,
     "neutral_count": 0,
-    "negative_count": 889,
+    "negative_count": 892,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-11-13T21:50:20.961000+00:00",
-    "net_sentiment": 20.6
+    "latest_post": "2026-11-14T01:25:11.460000+00:00",
+    "net_sentiment": 20.4
   },
   "timeline": [
     {
@@ -7895,12 +7895,12 @@
     },
     {
       "time_bucket": "2026-11-12 21:00",
-      "total_count": 3,
-      "positive_count": 2,
+      "total_count": 4,
+      "positive_count": 3,
       "neutral_count": 0,
       "negative_count": 1,
-      "avg_confidence": 0.8516666666666666,
-      "net_sentiment": 33.3
+      "avg_confidence": 0.8885,
+      "net_sentiment": 50.0
     },
     {
       "time_bucket": "2026-11-12 22:00",
@@ -8081,9 +8081,75 @@
       "negative_count": 1,
       "avg_confidence": 0.9263333333333333,
       "net_sentiment": 33.3
+    },
+    {
+      "time_bucket": "2026-11-13 22:00",
+      "total_count": 1,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.915,
+      "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-11-13 23:00",
+      "total_count": 1,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.896,
+      "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-11-14 01:00",
+      "total_count": 1,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.994,
+      "net_sentiment": -100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_88c7cb0f57c1",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-14T01:25:11.460000+00:00",
+      "fetched_at": "2026-11-14T03:00:52.636375+00:00",
+      "text": "Storing voorbij: defecte trein Schiphol - Rotterdam #ns #nsinternational #thalys #eurostar",
+      "url": "https://mastodon.nl/@rijdendetreinen/117612184302700519",
+      "primary_sentiment": "negative",
+      "primary_score": 0.994,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_33163624479b",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-13T23:40:12.048000+00:00",
+      "fetched_at": "2026-11-14T03:00:52.684847+00:00",
+      "text": "Storing voorbij: eerdere verstoring Roermond - Maastricht - Maastricht Randwyck #ns #arriva",
+      "url": "https://mastodon.nl/@rijdendetreinen/117611771464471599",
+      "primary_sentiment": "negative",
+      "primary_score": 0.896,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_5c53ba6aa64f",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-13T22:43:11.649000+00:00",
+      "fetched_at": "2026-11-14T03:00:52.733308+00:00",
+      "text": "STORING: defecte trein Schiphol - Rotterdam #storing #ns #nsinternational #thalys #eurostar",
+      "url": "https://mastodon.nl/@rijdendetreinen/117611547305324700",
+      "primary_sentiment": "negative",
+      "primary_score": 0.915,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "masto_a8bdbdaebb0c",
       "source": "mastodon:mastodon.nl",
@@ -8966,6 +9032,19 @@
       "primary_score": 0.856,
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_7819627f14c8",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-12T21:05:07+00:00",
+      "fetched_at": "2026-11-14T03:00:52.832212+00:00",
+      "text": "Coalitie haalt uit naar oppositie na nieuwe motie tegen wethouder: ‘Potsierlijk’ – Rijnmond #BETAALDPARKEREN #bus #Business #Commercial #cultuur #dieren #Dutch #HETWEER #METRO #Nederland #Nederlanden #Nederlands #Netherlands #Nieuws #NL #OPENBAARVERVOER #OUDEREN #Parkeren #Politiek #rotterdam #tram #Weer #WETHOUDER #Zakelijk #ZOMERVAKANTIE",
+      "url": "https://pubeurope.com/@nl/117605499346690310",
+      "primary_sentiment": "positive",
+      "primary_score": 0.999,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
       "language": "nl"
     },
     {
@@ -11281,59 +11360,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "masto_8b7f3f3a6329",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-09T10:00:13.172000+00:00",
-      "fetched_at": "2026-11-09T15:55:52.246503+00:00",
-      "text": "Storing voorbij: gestrande trein Rotterdam - Breda #ns #nsinternational",
-      "url": "https://mastodon.nl/@rijdendetreinen/117585897925411514",
-      "primary_sentiment": "negative",
-      "primary_score": 0.986,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_95e47f0b8e2d",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-09T09:46:11.752000+00:00",
-      "fetched_at": "2026-11-09T15:55:52.295540+00:00",
-      "text": "Storing voorbij: gestrande trein Dordrecht - Roosendaal #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117585842782149312",
-      "primary_sentiment": "negative",
-      "primary_score": 0.972,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_e4a11eea99f3",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-09T09:37:11.918000+00:00",
-      "fetched_at": "2026-11-09T15:55:52.353120+00:00",
-      "text": "STORING: defecte trein Roosendaal - Vlissingen; Roosendaal - Antwerpen #storing #ns #nsinternational #nmbs",
-      "url": "https://mastodon.nl/@rijdendetreinen/117585807403410461",
-      "primary_sentiment": "negative",
-      "primary_score": 0.991,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_040f03e1c899",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-09T09:04:12.222000+00:00",
-      "fetched_at": "2026-11-09T15:55:52.402038+00:00",
-      "text": "STORING: gestrande trein Dordrecht - Roosendaal #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117585677662280351",
-      "primary_sentiment": "negative",
-      "primary_score": 0.986,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-11-13T22:28:51.768653+00:00"
+  "updated_at": "2026-11-14T03:00:52.935601+00:00"
 }
