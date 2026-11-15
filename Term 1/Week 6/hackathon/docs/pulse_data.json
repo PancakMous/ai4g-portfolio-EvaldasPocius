@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 2286,
-    "positive_count": 1373,
+    "total_posts": 2288,
+    "positive_count": 1375,
     "neutral_count": 0,
     "negative_count": 913,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-11-14T20:12:04.514000+00:00",
-    "net_sentiment": 20.1
+    "latest_post": "2026-11-14T23:40:11.397000+00:00",
+    "net_sentiment": 20.2
   },
   "timeline": [
     {
@@ -8234,9 +8234,44 @@
       "negative_count": 0,
       "avg_confidence": 0.999,
       "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-11-14 23:00",
+      "total_count": 2,
+      "positive_count": 2,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.9630000000000001,
+      "net_sentiment": 100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_61116097894a",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-14T23:40:11.397000+00:00",
+      "fetched_at": "2026-11-15T01:43:20.833401+00:00",
+      "text": "STORING: aanrijding 's-Hertogenbosch - Eindhoven #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117617433732277846",
+      "primary_sentiment": "positive",
+      "primary_score": 0.996,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_72442c667172",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-14T23:18:12.205000+00:00",
+      "fetched_at": "2026-11-15T01:43:20.892140+00:00",
+      "text": "Storing voorbij: seinstoring Haarlem - Alkmaar #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117617347277771199",
+      "primary_sentiment": "positive",
+      "primary_score": 0.93,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "masto_4d745887469c",
       "source": "mastodon:mastodon.nl",
@@ -11460,33 +11495,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "masto_9975ea03fa57",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-10T07:02:13.516000+00:00",
-      "fetched_at": "2026-11-10T08:13:11.623894+00:00",
-      "text": "Storing voorbij: defecte trein Nijmegen - 's-Hertogenbosch #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117590860333971555",
-      "primary_sentiment": "negative",
-      "primary_score": 0.987,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_bcdf3a5694c6",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-10T07:02:12.114000+00:00",
-      "fetched_at": "2026-11-10T08:13:11.675546+00:00",
-      "text": "Storing voorbij: defecte trein Arnhem - Nijmegen #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117590860242068319",
-      "primary_sentiment": "negative",
-      "primary_score": 0.994,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-11-14T21:20:40.425878+00:00"
+  "updated_at": "2026-11-15T01:43:21.000616+00:00"
 }
