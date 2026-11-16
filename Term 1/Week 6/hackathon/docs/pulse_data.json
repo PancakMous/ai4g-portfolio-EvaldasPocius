@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 2359,
-    "positive_count": 1401,
+    "total_posts": 2368,
+    "positive_count": 1404,
     "neutral_count": 0,
-    "negative_count": 958,
+    "negative_count": 964,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-11-15T21:32:33.749000+00:00",
-    "net_sentiment": 18.8
+    "latest_post": "2026-11-16T01:21:11.944000+00:00",
+    "net_sentiment": 18.6
   },
   "timeline": [
     {
@@ -8200,6 +8200,15 @@
       "net_sentiment": -100.0
     },
     {
+      "time_bucket": "2026-11-14 13:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.999,
+      "net_sentiment": 100.0
+    },
+    {
       "time_bucket": "2026-11-14 14:00",
       "total_count": 3,
       "positive_count": 3,
@@ -8423,9 +8432,149 @@
       "negative_count": 3,
       "avg_confidence": 0.8808,
       "net_sentiment": -20.0
+    },
+    {
+      "time_bucket": "2026-11-15 22:00",
+      "total_count": 5,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 4,
+      "avg_confidence": 0.991,
+      "net_sentiment": -60.0
+    },
+    {
+      "time_bucket": "2026-11-15 23:00",
+      "total_count": 1,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.991,
+      "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-11-16 00:00",
+      "total_count": 1,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.993,
+      "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-11-16 01:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.711,
+      "net_sentiment": 100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_55c1d6ccb96e",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-16T01:21:11.944000+00:00",
+      "fetched_at": "2026-11-16T01:48:10.331334+00:00",
+      "text": "STORING: beperkingen in de materieelinzet Arnhem - Doetinchem #storing #arriva #breng",
+      "url": "https://mastodon.nl/@rijdendetreinen/117623493226749678",
+      "primary_sentiment": "positive",
+      "primary_score": 0.711,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_f9c2456d0adb",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-16T00:00:11.740000+00:00",
+      "fetched_at": "2026-11-16T01:48:10.091170+00:00",
+      "text": "Storing voorbij: defecte trein Amersfoort - Zwolle #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117623174708441947",
+      "primary_sentiment": "negative",
+      "primary_score": 0.993,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_40699e323c88",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-15T23:08:11.693000+00:00",
+      "fetched_at": "2026-11-16T01:48:10.141890+00:00",
+      "text": "Storing voorbij: defecte trein Eindhoven - Sittard #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117622970232970677",
+      "primary_sentiment": "negative",
+      "primary_score": 0.991,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_df342cb8e0ad",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-15T22:54:11.509000+00:00",
+      "fetched_at": "2026-11-16T01:48:10.177088+00:00",
+      "text": "STORING: defecte trein Amersfoort - Zwolle #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117622915170570966",
+      "primary_sentiment": "negative",
+      "primary_score": 0.99,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_3efdff821c0f",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-15T22:43:53+00:00",
+      "fetched_at": "2026-11-16T01:48:10.462526+00:00",
+      "text": "#eiserbahn #bahnübergang #sicherheit #spoorwegen #overwegen #VeiligheidVoorop #IdiotenOpDeWeg #BlijvenLevenWachtDanEven",
+      "url": "https://toot.re/@feike/117622874688974492",
+      "primary_sentiment": "positive",
+      "primary_score": 0.999,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_7d09ec999e4b",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-15T22:37:11.618000+00:00",
+      "fetched_at": "2026-11-16T01:48:10.213073+00:00",
+      "text": "STORING: defecte trein Eindhoven - Sittard #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117622848330972678",
+      "primary_sentiment": "negative",
+      "primary_score": 0.993,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_e51543b03c27",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-15T22:22:11.738000+00:00",
+      "fetched_at": "2026-11-16T01:48:10.254449+00:00",
+      "text": "Storing voorbij: defecte trein Den Haag - Rotterdam #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117622789356629814",
+      "primary_sentiment": "negative",
+      "primary_score": 0.99,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_dca010b2f171",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-15T22:00:11.557000+00:00",
+      "fetched_at": "2026-11-16T01:48:10.292466+00:00",
+      "text": "STORING: defecte trein Den Haag - Rotterdam #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117622702837253758",
+      "primary_sentiment": "negative",
+      "primary_score": 0.983,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "masto_4bdc847e18e4",
       "source": "mastodon:mastodon.nl",
@@ -9491,6 +9640,19 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
+    },
+    {
+      "id": "masto_1f23b03e608f",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-14T13:48:08+00:00",
+      "fetched_at": "2026-11-16T01:48:10.416194+00:00",
+      "text": "US floated NATO-for-Donbas proposal in Ukraine talks, Zelenskyy says – Dubai Eye 103.8 Saturday, 14 November 2026 at 17:34 By Reuters Jared Kushner, Volodymyr Zelenskyy, Steve Witkoff Photo: PAUL FAITH /… #NATO #OTAN #Europe #Europa #EU #News #103.8 #1038 #business #Dubai #Eye #FM #news #radio #sport #Station #Talk",
+      "url": "https://pubeurope.com/@nato/117615105676710208",
+      "primary_sentiment": "positive",
+      "primary_score": 0.999,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "en"
     },
     {
       "id": "masto_a2ba03623386",
@@ -11558,124 +11720,7 @@
       "secondary_sentiment": "neutral",
       "secondary_score": 0.5,
       "language": "en"
-    },
-    {
-      "id": "masto_ed4263489fe5",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-11T19:49:02+00:00",
-      "fetched_at": "2026-11-13T00:05:11.128047+00:00",
-      "text": "SoCal man abandoned teen on L.A. freeway after abducting him for forced labor #boy #BrandonHolguin #Ca #california #ChildAbuse #day #Deputy #DistrictAttorney #LAFreeway #La #Labor #LosAngeles #LosAngeles #may #office #sheriff #Station #Teen #teenager #TextMessage",
-      "url": "https://pubeurope.com/@us/117599537887283761",
-      "primary_sentiment": "positive",
-      "primary_score": 0.998,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "en"
-    },
-    {
-      "id": "masto_ab2e33c1cda7",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-11T19:13:48.137000+00:00",
-      "fetched_at": "2026-11-12T01:27:09.669618+00:00",
-      "text": "Oude NS verblijfwagen weggehaald van het Westplein in Utrecht - #Utrecht #NS #Westplein #Lombok #Treinennieuws #Treinleven #RailInfra",
-      "url": "https://mastodon.nl/@OVnieuwsInfo/117599399322139699",
-      "primary_sentiment": "positive",
-      "primary_score": 0.997,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "reddit_4536daa0dce8",
-      "source": "reddit:r/thenetherlands",
-      "created_at": "2026-11-11T18:33:56+00:00",
-      "fetched_at": "2026-11-12T01:27:09.922786+00:00",
-      "text": "Looking for a childrens book. I knowww this is a long shot but I’m looking for a book from my childhood (around 1999-2002). It was a picture book with a bunch of short stories about animals. One of the stories had a penguin that went shopping with their mom at a mall made of ice. There was one story in which the twin monkeys pranked another animal with a bucket on top of a door. I sadly don’t remember much more. Hopefully this will ring a bell for someone submitted by /u/Prudent-Carpenter357 [link] [comments]",
-      "url": "https://www.reddit.com/r/thenetherlands/comments/1xtpodg/looking_for_a_childrens_book/",
-      "primary_sentiment": "positive",
-      "primary_score": 0.98,
-      "secondary_sentiment": "positive",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_731dc668e8e4",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-11T18:33:12.189000+00:00",
-      "fetched_at": "2026-11-12T01:27:09.732099+00:00",
-      "text": "Storing voorbij: defecte trein Utrecht - Leiden #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117599239679971718",
-      "primary_sentiment": "negative",
-      "primary_score": 0.995,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_fd2ffce3ef71",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-11T18:12:11.689000+00:00",
-      "fetched_at": "2026-11-11T18:33:24.353399+00:00",
-      "text": "STORING: defecte trein Utrecht - Leiden #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117599157071786127",
-      "primary_sentiment": "negative",
-      "primary_score": 0.993,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "reddit_b37bac50d06d",
-      "source": "reddit:r/thenetherlands",
-      "created_at": "2026-11-11T17:41:46+00:00",
-      "fetched_at": "2026-11-11T18:33:24.873746+00:00",
-      "text": "Producenten Organisatie Varkenshouderij hekelt BOOS: mishandeling in beeld, maar context blijft erbuiten. submitted by /u/No-Trade6552 [link] [comments]",
-      "url": "https://www.reddit.com/r/thenetherlands/comments/1xto9s4/producenten_organisatie_varkenshouderij_hekelt/",
-      "primary_sentiment": "negative",
-      "primary_score": 0.985,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_117bafe8b323",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-11T17:30:12.849000+00:00",
-      "fetched_at": "2026-11-11T18:33:24.467545+00:00",
-      "text": "Twee nieuwe treinstations op de Oude Lijn: Dordrecht Leerpark en RijswijkBuiten komen dichterbij - #ZuidHolland #Randstad #Dordrecht #Rijswijk #Delft #Leiden #DenHaag #Schiedam #OudeLijn #Treinennieuws #OVnieuws #OV #OpenbaarVervoer #RailInfra #Treinleven",
-      "url": "https://mastodon.nl/@OVnieuwsInfo/117598991996899735",
-      "primary_sentiment": "positive",
-      "primary_score": 0.998,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_9572142696ef",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-11T17:05:04+00:00",
-      "fetched_at": "2026-11-11T18:33:24.570804+00:00",
-      "text": "Kritiek op komst van nieuwe tramlijn: gemeenteraad wil geen tram naar station #OmroepWest #Leidschendam-voorburg #Rijswijk #DenHaag #Vlietlijn #Rijswijk #Geestbrug #Voorburg #OpenbaarVervoer #Bus #Tram",
-      "url": "https://mastodon.social/@OmroepWest/117598893159235447",
-      "primary_sentiment": "positive",
-      "primary_score": 0.942,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "en"
-    },
-    {
-      "id": "masto_34a012c5a6e9",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-11T14:35:55+00:00",
-      "fetched_at": "2026-11-11T18:33:24.780770+00:00",
-      "text": "📰 Massale staking in Spanje voor meer loon, meer huizen en veiliger ov 🕞 15:35 | RTL Nieuws 🔸 #Wooncrisis #OV #Staking #Spanje #Scholen",
-      "url": "https://mastodon.social/@NieuwsJunkies/117598306686217668",
-      "primary_sentiment": "positive",
-      "primary_score": 0.998,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-11-15T21:39:30.667870+00:00"
+  "updated_at": "2026-11-16T01:48:10.544603+00:00"
 }
