@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 2622,
-    "positive_count": 1519,
+    "total_posts": 2625,
+    "positive_count": 1522,
     "neutral_count": 0,
     "negative_count": 1103,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-11-19T20:34:02.297000+00:00",
-    "net_sentiment": 15.9
+    "latest_post": "2026-11-20T01:55:11.552000+00:00",
+    "net_sentiment": 16.0
   },
   "timeline": [
     {
@@ -8831,12 +8831,12 @@
     },
     {
       "time_bucket": "2026-11-18 04:00",
-      "total_count": 3,
-      "positive_count": 0,
+      "total_count": 5,
+      "positive_count": 2,
       "neutral_count": 0,
       "negative_count": 3,
-      "avg_confidence": 0.7680000000000001,
-      "net_sentiment": -100.0
+      "avg_confidence": 0.8598000000000001,
+      "net_sentiment": -20.0
     },
     {
       "time_bucket": "2026-11-18 05:00",
@@ -9134,9 +9134,31 @@
       "negative_count": 1,
       "avg_confidence": 0.9977,
       "net_sentiment": 80.0
+    },
+    {
+      "time_bucket": "2026-11-20 01:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.864,
+      "net_sentiment": 100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_1ee7ae05ae7c",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-20T01:55:11.552000+00:00",
+      "fetched_at": "2026-11-20T02:57:27.396257+00:00",
+      "text": "Storing voorbij: herstelwerkzaamheden Amsterdam Sloterdijk - Hoorn Kersenboogerd #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117646276136023414",
+      "primary_sentiment": "positive",
+      "primary_score": 0.864,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "masto_2ef0c4b029d1",
       "source": "mastodon:mastodon.nl",
@@ -10423,6 +10445,32 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
+    },
+    {
+      "id": "masto_cc547969cea0",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-18T04:45:06+00:00",
+      "fetched_at": "2026-11-20T02:57:27.513690+00:00",
+      "text": "Un bagage abandonné à la station Castellane perturbe la circulation du métro à Marseille ce mardi soir Le M1 est interrompu de Saint-Charles à Timone et le M2 ne circule pas entre Joliette et Sainte-Marguerite-Dromel.… #Marseille #FR #France #Actu #News #Europe #EU #2026 #abandonné #actu #Actualités #bagage #Castellane #Circulation #europe #Faits-divers-Justice #Métro #perturbé #Provence-Alpes-Côted'Azur #Républiquefrançaise #station",
+      "url": "https://pubeurope.com/@marseille/117635619649099025",
+      "primary_sentiment": "positive",
+      "primary_score": 0.997,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "fr"
+    },
+    {
+      "id": "masto_9229014f98eb",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-18T04:32:03+00:00",
+      "fetched_at": "2026-11-20T02:57:27.593573+00:00",
+      "text": "Un bagage abandonné à la station Castellane perturbe la circulation du métro à Marseille ce mardi soir #2026 #abandonné #actu #Actualités #bagage #Castellane #Circulation #EU #europe #FaitsDiversJustice #FR #France #Marseille #Métro #News #perturbé #ProvenceAlpesCôteD'Azur #RépubliqueFrançaise #station",
+      "url": "https://pubeurope.com/@fr/117635568330207229",
+      "primary_sentiment": "positive",
+      "primary_score": 0.998,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "fr"
     },
     {
       "id": "masto_110b4eb21ed7",
@@ -12347,46 +12395,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "masto_f9c2456d0adb",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-16T00:00:11.740000+00:00",
-      "fetched_at": "2026-11-16T01:48:10.091170+00:00",
-      "text": "Storing voorbij: defecte trein Amersfoort - Zwolle #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117623174708441947",
-      "primary_sentiment": "negative",
-      "primary_score": 0.993,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_40699e323c88",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-15T23:08:11.693000+00:00",
-      "fetched_at": "2026-11-16T01:48:10.141890+00:00",
-      "text": "Storing voorbij: defecte trein Eindhoven - Sittard #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117622970232970677",
-      "primary_sentiment": "negative",
-      "primary_score": 0.991,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_df342cb8e0ad",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-15T22:54:11.509000+00:00",
-      "fetched_at": "2026-11-16T01:48:10.177088+00:00",
-      "text": "STORING: defecte trein Amersfoort - Zwolle #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117622915170570966",
-      "primary_sentiment": "negative",
-      "primary_score": 0.99,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-11-19T21:20:09.549158+00:00"
+  "updated_at": "2026-11-20T02:57:27.679935+00:00"
 }

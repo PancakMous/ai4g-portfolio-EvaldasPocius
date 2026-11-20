@@ -1,5 +1,18 @@
 [
   {
+    "id": "masto_1ee7ae05ae7c",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-11-20T01:55:11.552000+00:00",
+    "fetched_at": "2026-11-20T02:57:27.396257+00:00",
+    "text": "Storing voorbij: herstelwerkzaamheden Amsterdam Sloterdijk - Hoorn Kersenboogerd #ns",
+    "url": "https://mastodon.nl/@rijdendetreinen/117646276136023414",
+    "primary_sentiment": "positive",
+    "primary_score": 0.864,
+    "secondary_sentiment": "negative",
+    "secondary_score": 0.7,
+    "language": "nl"
+  },
+  {
     "id": "masto_2ef0c4b029d1",
     "source": "mastodon:mastodon.nl",
     "created_at": "2026-11-19T20:34:02.297000+00:00",
@@ -1285,6 +1298,32 @@
     "secondary_sentiment": "negative",
     "secondary_score": 0.7,
     "language": "nl"
+  },
+  {
+    "id": "masto_cc547969cea0",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-11-18T04:45:06+00:00",
+    "fetched_at": "2026-11-20T02:57:27.513690+00:00",
+    "text": "Un bagage abandonné à la station Castellane perturbe la circulation du métro à Marseille ce mardi soir Le M1 est interrompu de Saint-Charles à Timone et le M2 ne circule pas entre Joliette et Sainte-Marguerite-Dromel.… #Marseille #FR #France #Actu #News #Europe #EU #2026 #abandonné #actu #Actualités #bagage #Castellane #Circulation #europe #Faits-divers-Justice #Métro #perturbé #Provence-Alpes-Côted'Azur #Républiquefrançaise #station",
+    "url": "https://pubeurope.com/@marseille/117635619649099025",
+    "primary_sentiment": "positive",
+    "primary_score": 0.997,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
+    "language": "fr"
+  },
+  {
+    "id": "masto_9229014f98eb",
+    "source": "mastodon:mastodon.nl",
+    "created_at": "2026-11-18T04:32:03+00:00",
+    "fetched_at": "2026-11-20T02:57:27.593573+00:00",
+    "text": "Un bagage abandonné à la station Castellane perturbe la circulation du métro à Marseille ce mardi soir #2026 #abandonné #actu #Actualités #bagage #Castellane #Circulation #EU #europe #FaitsDiversJustice #FR #France #Marseille #Métro #News #perturbé #ProvenceAlpesCôteD'Azur #RépubliqueFrançaise #station",
+    "url": "https://pubeurope.com/@fr/117635568330207229",
+    "primary_sentiment": "positive",
+    "primary_score": 0.998,
+    "secondary_sentiment": "neutral",
+    "secondary_score": 0.5,
+    "language": "fr"
   },
   {
     "id": "masto_110b4eb21ed7",
