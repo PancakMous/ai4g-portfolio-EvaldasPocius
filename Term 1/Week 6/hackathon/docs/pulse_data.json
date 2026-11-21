@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 2686,
-    "positive_count": 1563,
+    "total_posts": 2693,
+    "positive_count": 1566,
     "neutral_count": 0,
-    "negative_count": 1123,
+    "negative_count": 1127,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-11-20T19:54:11.853000+00:00",
-    "net_sentiment": 16.4
+    "latest_post": "2026-11-21T00:11:11.986000+00:00",
+    "net_sentiment": 16.3
   },
   "timeline": [
     {
@@ -8966,11 +8966,11 @@
     },
     {
       "time_bucket": "2026-11-18 21:00",
-      "total_count": 6,
-      "positive_count": 6,
+      "total_count": 7,
+      "positive_count": 7,
       "neutral_count": 0,
       "negative_count": 0,
-      "avg_confidence": 0.9413333333333332,
+      "avg_confidence": 0.949,
       "net_sentiment": 100.0
     },
     {
@@ -9272,15 +9272,120 @@
     },
     {
       "time_bucket": "2026-11-20 19:00",
-      "total_count": 2,
-      "positive_count": 0,
+      "total_count": 3,
+      "positive_count": 1,
       "neutral_count": 0,
       "negative_count": 2,
-      "avg_confidence": 0.9884999999999999,
+      "avg_confidence": 0.989,
+      "net_sentiment": -33.3
+    },
+    {
+      "time_bucket": "2026-11-20 20:00",
+      "total_count": 1,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.585,
       "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-11-20 21:00",
+      "total_count": 3,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 3,
+      "avg_confidence": 0.967,
+      "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-11-21 00:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.813,
+      "net_sentiment": 100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_76271350397f",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-21T00:11:11.986000+00:00",
+      "fetched_at": "2026-11-21T01:20:07.048606+00:00",
+      "text": "STORING: tekort aan personeel Arnhem - Duisburg - Düsseldorf #storing #nsinternational #db #viasrail",
+      "url": "https://mastodon.nl/@rijdendetreinen/117651529530338012",
+      "primary_sentiment": "positive",
+      "primary_score": 0.813,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_be76180a6514",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-20T21:52:11.637000+00:00",
+      "fetched_at": "2026-11-21T01:20:06.618617+00:00",
+      "text": "Storing voorbij: gestrande trein Breda - Tilburg #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117650982937219879",
+      "primary_sentiment": "negative",
+      "primary_score": 0.984,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_c2e2ebbd5860",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-20T21:12:11.449000+00:00",
+      "fetched_at": "2026-11-21T01:20:06.675180+00:00",
+      "text": "STORING: gestrande trein Breda - Tilburg #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117650825638398297",
+      "primary_sentiment": "negative",
+      "primary_score": 0.977,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_eaf8dece6e4e",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-20T21:10:11.950000+00:00",
+      "fetched_at": "2026-11-21T01:20:06.721915+00:00",
+      "text": "Storing voorbij: aanrijding Dordrecht - Roosendaal #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117650817807021910",
+      "primary_sentiment": "negative",
+      "primary_score": 0.94,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_06772062ffca",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-20T20:40:11.761000+00:00",
+      "fetched_at": "2026-11-21T01:20:06.772785+00:00",
+      "text": "Storing voorbij: inzet van hulpdiensten Almere - Zwolle #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117650699829774148",
+      "primary_sentiment": "negative",
+      "primary_score": 0.585,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_c311d3c259d9",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-20T19:56:11.697000+00:00",
+      "fetched_at": "2026-11-21T01:20:06.826509+00:00",
+      "text": "STORING: inzet van hulpdiensten Almere - Zwolle #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117650526810560548",
+      "primary_sentiment": "positive",
+      "primary_score": 0.99,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "masto_7166622e618f",
       "source": "mastodon:mastodon.nl",
@@ -10759,6 +10864,19 @@
       "url": "https://mastodon.nl/@rijdendetreinen/117639725185960421",
       "primary_sentiment": "positive",
       "primary_score": 0.934,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_c2e9d27af3ea",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-18T21:59:06+00:00",
+      "fetched_at": "2026-11-21T01:20:06.982253+00:00",
+      "text": "Binnen enkele minuten werden treinen en bus bekogeld: 'Machinisten geschrokken, voertuigen defect' – L1 Nieuws #ARRIVA #BreakingNews #BreakingNews #busvervoer #Dutch #FeaturedNews #FeaturedNews #Headlines #Hoofdpunten #LatestNews #LatestNews #Nederland #Nederlanden #Nederlands #Netherlands #News #Nieuws #NL #TopStories #TopStories #trein #treinverkeer #vandalisme #Voorpaginanieuws",
+      "url": "https://pubeurope.com/@nl/117639685499368922",
+      "primary_sentiment": "positive",
+      "primary_score": 0.995,
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
@@ -12439,98 +12557,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "masto_a55ace76ee3a",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-17T05:17:11.210000+00:00",
-      "fetched_at": "2026-11-17T13:01:39.806137+00:00",
-      "text": "STORING: gestrande trein Zwolle - Groningen #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117630083478725213",
-      "primary_sentiment": "negative",
-      "primary_score": 0.99,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_aaea8336259b",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-17T04:37:11.702000+00:00",
-      "fetched_at": "2026-11-17T13:01:39.853149+00:00",
-      "text": "STORING: uitloop van werkzaamheden Roosendaal - Vlissingen #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117629926224688795",
-      "primary_sentiment": "negative",
-      "primary_score": 0.85,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_87e8da266665",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-17T04:12:07+00:00",
-      "fetched_at": "2026-11-19T03:07:15.375671+00:00",
-      "text": "Hessen: Bahn stellt unterirdische Station unter Hauptbahnhof vor HessenBahn stellt unterirdische Station unter Hauptbahnhof vor(Foto: Hannes P. Albert/dpa) Eine wie gefaltet wirkende Decke, integrierte Beleuchtung und… #Frankfurt #FrankfurtamMain #Deutschland #Deutsch #DE #Schlagzeilen #Headlines #Nachrichten #News #Europe #Europa #EU #Bahn #Germany #Hauptbahnhof #Hessen #Station",
-      "url": "https://pubeurope.com/@frankfurt/117629827642655388",
-      "primary_sentiment": "positive",
-      "primary_score": 0.993,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "de"
-    },
-    {
-      "id": "masto_eca4a76f9db1",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-17T03:22:12+00:00",
-      "fetched_at": "2026-11-19T03:07:15.425628+00:00",
-      "text": "Hessen: Bahn stellt unterirdische Station unter Hauptbahnhof vor #Bahn #Deutschland #Frankfurt #FrankfurtAmMain #Germany #Hauptbahnhof #Hessen #Station",
-      "url": "https://pubeurope.com/@de/117629631347706730",
-      "primary_sentiment": "positive",
-      "primary_score": 0.99,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "de"
-    },
-    {
-      "id": "masto_5233231c8ecd",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-17T02:28:11.234000+00:00",
-      "fetched_at": "2026-11-17T03:39:29.507005+00:00",
-      "text": "STORING: beperkingen in de materieelinzet Nijmegen - Venray #storing #arriva",
-      "url": "https://mastodon.nl/@rijdendetreinen/117629418945311178",
-      "primary_sentiment": "negative",
-      "primary_score": 0.756,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_6eb69ff5ca03",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-16T22:35:04+00:00",
-      "fetched_at": "2026-11-18T21:47:41.066502+00:00",
-      "text": "Pożar w IC Uszatek. Wstrzymany ruch Łódź Widzew – Koluszki #EU200 #ICUszatek #Intercity #Kolej #KolejeMazowieckie #Łódź #PKP #PKPIntercity #PL #Poland #Polish #Polska #Polski #pozar #PrzewozyRegionalne #RozkładyJazdyPKP #RynekKolejowy #utrudnienia #UtrudnieniaWRuchu",
-      "url": "https://pubeurope.com/@pl/117628502331698367",
-      "primary_sentiment": "positive",
-      "primary_score": 0.993,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "pl"
-    },
-    {
-      "id": "reddit_7bd498b9264b",
-      "source": "reddit:r/thenetherlands",
-      "created_at": "2026-11-16T21:51:30+00:00",
-      "fetched_at": "2026-11-17T03:39:29.583465+00:00",
-      "text": "Coalitie gaat ondanks eerdere verwijten met zijn drieën verder. submitted by /u/ConstantAd8643 [link] [comments]",
-      "url": "https://www.reddit.com/r/thenetherlands/comments/1xy2fgd/coalitie_gaat_ondanks_eerdere_verwijten_met_zijn/",
-      "primary_sentiment": "positive",
-      "primary_score": 0.921,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-11-20T19:55:32.162327+00:00"
+  "updated_at": "2026-11-21T01:20:07.169827+00:00"
 }
