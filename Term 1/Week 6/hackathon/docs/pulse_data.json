@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 2703,
-    "positive_count": 1571,
+    "total_posts": 2709,
+    "positive_count": 1573,
     "neutral_count": 0,
-    "negative_count": 1132,
+    "negative_count": 1136,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-11-21T09:29:11.315000+00:00",
-    "net_sentiment": 16.2
+    "latest_post": "2026-11-21T14:46:11.299000+00:00",
+    "net_sentiment": 16.1
   },
   "timeline": [
     {
@@ -9065,12 +9065,12 @@
     },
     {
       "time_bucket": "2026-11-19 11:00",
-      "total_count": 1,
+      "total_count": 2,
       "positive_count": 1,
       "neutral_count": 0,
-      "negative_count": 0,
-      "avg_confidence": 1.0,
-      "net_sentiment": 100.0
+      "negative_count": 1,
+      "avg_confidence": 0.79,
+      "net_sentiment": 0.0
     },
     {
       "time_bucket": "2026-11-19 12:00",
@@ -9353,15 +9353,98 @@
     },
     {
       "time_bucket": "2026-11-21 09:00",
-      "total_count": 2,
+      "total_count": 4,
       "positive_count": 0,
       "neutral_count": 0,
-      "negative_count": 2,
-      "avg_confidence": 0.9924999999999999,
+      "negative_count": 4,
+      "avg_confidence": 0.992,
       "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-11-21 10:00",
+      "total_count": 2,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.998,
+      "net_sentiment": 0.0
+    },
+    {
+      "time_bucket": "2026-11-21 14:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.966,
+      "net_sentiment": 100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_ef809a8ec4f4",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-21T14:46:11.299000+00:00",
+      "fetched_at": "2026-11-21T17:18:18.480374+00:00",
+      "text": "STORING: overwegstoring Amersfoort - Zwolle #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117654970125302081",
+      "primary_sentiment": "positive",
+      "primary_score": 0.966,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_ebe7b48c5e8e",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-21T10:59:11+00:00",
+      "fetched_at": "2026-11-21T17:18:18.640448+00:00",
+      "text": "De #ns conducteur die zorgvuldig de stiltecoupés benoemt en omschrijft dat je een telefoongesprek ook met oortjes in kunt voeten, chapeau!",
+      "url": "https://kde.social/@kdedude/117654077541572380",
+      "primary_sentiment": "positive",
+      "primary_score": 1.0,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "en"
+    },
+    {
+      "id": "masto_aab2186b58d0",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-21T10:25:12.066000+00:00",
+      "fetched_at": "2026-11-21T17:18:18.749444+00:00",
+      "text": "Storing voorbij: defecte trein Utrecht - Den Haag #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117653943881756261",
+      "primary_sentiment": "negative",
+      "primary_score": 0.996,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_e9a537d164c5",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-21T09:50:11.872000+00:00",
+      "fetched_at": "2026-11-21T17:18:18.793941+00:00",
+      "text": "Storing voorbij: defecte trein Amersfoort - Zwolle #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117653806243504652",
+      "primary_sentiment": "negative",
+      "primary_score": 0.993,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_3a0f12d9be2a",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-21T09:42:11.234000+00:00",
+      "fetched_at": "2026-11-21T17:18:18.837734+00:00",
+      "text": "STORING: defecte trein Amersfoort - Zwolle #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117653774744386758",
+      "primary_sentiment": "negative",
+      "primary_score": 0.99,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "masto_e7679b6cd09b",
       "source": "mastodon:mastodon.nl",
@@ -10736,6 +10819,19 @@
       "url": "https://ieji.de/@martijn/117642946276657330",
       "primary_sentiment": "positive",
       "primary_score": 1.0,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_c4f73c2680c3",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-19T11:36:03+00:00",
+      "fetched_at": "2026-11-21T17:18:18.577600+00:00",
+      "text": "Waarschijnlijk geen prijsverhoging treinkaartjes door ingreep Tweede Kamer #betaalbaarheid #Business #Commercial #Dutch #Nederland #Nederlanden #Nederlands #Netherlands #NL #NS #PolitiekEnOverheid #treinkaartjes #Zakelijk",
+      "url": "https://pubeurope.com/@nl/117642897904243793",
+      "primary_sentiment": "negative",
+      "primary_score": 0.58,
       "secondary_sentiment": "neutral",
       "secondary_score": 0.5,
       "language": "nl"
@@ -12533,85 +12629,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "masto_294089eed2b6",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-17T11:02:11.804000+00:00",
-      "fetched_at": "2026-11-17T13:01:39.021264+00:00",
-      "text": "STORING: defecte trein Arnhem - Zutphen #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117631440112790741",
-      "primary_sentiment": "negative",
-      "primary_score": 0.987,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_c55e1bd09a72",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-17T10:50:52+00:00",
-      "fetched_at": "2026-11-17T13:01:40.014075+00:00",
-      "text": "📰 Tientallen gewonden bij treinbotsing bij centraal station Praag 🕛 11:48 | RTL Nieuws 🔸 #Botsing #Trein #Station #Gewond",
-      "url": "https://mastodon.social/@NieuwsJunkies/117631395563102316",
-      "primary_sentiment": "positive",
-      "primary_score": 0.996,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_db7c3b65690e",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-17T10:16:31+00:00",
-      "fetched_at": "2026-11-17T13:01:40.082045+00:00",
-      "text": "📰 Tientallen gewonden bij botsing tussen passagierstreinen in Praag 🕚 11:09 | NOS Nieuws 🔸 #Botsing #Trein #Ongeluk #Gewond",
-      "url": "https://mastodon.social/@NieuwsJunkies/117631260506990626",
-      "primary_sentiment": "positive",
-      "primary_score": 0.998,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "reddit_5337e4c8ae11",
-      "source": "reddit:r/thenetherlands",
-      "created_at": "2026-11-17T10:08:17+00:00",
-      "fetched_at": "2026-11-17T13:01:40.712274+00:00",
-      "text": "Dinsdagdraadje - vriendschappen. Man bijt hond vraagt zich af: “Klik je beter met vrienden van hetzelfde geslacht of het andere geslacht en waarom?” submitted by /u/Btreeb [link] [comments]",
-      "url": "https://www.reddit.com/r/thenetherlands/comments/1xygpqp/dinsdagdraadje_vriendschappen/",
-      "primary_sentiment": "positive",
-      "primary_score": 0.904,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_6568f808bdd8",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-17T09:38:36.616000+00:00",
-      "fetched_at": "2026-11-17T13:01:40.156791+00:00",
-      "text": "GVB kijkt tevreden terug op eerste proefweekend met nieuw metronetwerk - #Amsterdam #GVB #OpenbaarVervoer #OV #OVnieuws",
-      "url": "https://mastodon.nl/@OVnieuwsInfo/117631111437527888",
-      "primary_sentiment": "positive",
-      "primary_score": 0.998,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_0c58140fb8fd",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-17T08:53:11.585000+00:00",
-      "fetched_at": "2026-11-17T13:01:39.072766+00:00",
-      "text": "Storing voorbij: uitloop van werkzaamheden Roosendaal - Vlissingen #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117630932849858337",
-      "primary_sentiment": "negative",
-      "primary_score": 0.991,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-11-21T09:32:53.315995+00:00"
+  "updated_at": "2026-11-21T17:18:18.940400+00:00"
 }
