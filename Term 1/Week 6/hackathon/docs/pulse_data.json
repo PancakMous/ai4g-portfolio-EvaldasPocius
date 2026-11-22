@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 2717,
+    "total_posts": 2718,
     "positive_count": 1578,
     "neutral_count": 0,
-    "negative_count": 1139,
+    "negative_count": 1140,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-11-21T21:12:20.151000+00:00",
-    "net_sentiment": 16.2
+    "latest_post": "2026-11-22T02:53:11.272000+00:00",
+    "net_sentiment": 16.1
   },
   "timeline": [
     {
@@ -9422,9 +9422,31 @@
       "negative_count": 1,
       "avg_confidence": 0.995,
       "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-11-22 02:00",
+      "total_count": 1,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.878,
+      "net_sentiment": -100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_dda84ee00e3d",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-22T02:53:11.272000+00:00",
+      "fetched_at": "2026-11-22T03:01:27.660208+00:00",
+      "text": "Storing voorbij: herstelwerkzaamheden Roosendaal - Vlissingen #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117657828803773859",
+      "primary_sentiment": "negative",
+      "primary_score": 0.878,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "masto_2f5730813a9a",
       "source": "mastodon:mastodon.nl",
@@ -12661,20 +12683,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "masto_4184e786b8a9",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-17T13:01:11.253000+00:00",
-      "fetched_at": "2026-11-17T13:01:38.671854+00:00",
-      "text": "Storing voorbij: defecte trein Lelystad - Zwolle #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117631908003847546",
-      "primary_sentiment": "negative",
-      "primary_score": 0.995,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-11-21T23:00:21.296123+00:00"
+  "updated_at": "2026-11-22T03:01:27.753679+00:00"
 }
