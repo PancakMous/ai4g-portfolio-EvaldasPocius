@@ -1,12 +1,12 @@
 {
   "stats": {
-    "total_posts": 3039,
-    "positive_count": 1755,
+    "total_posts": 3052,
+    "positive_count": 1760,
     "neutral_count": 0,
-    "negative_count": 1284,
+    "negative_count": 1292,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-11-26T20:58:11.904000+00:00",
-    "net_sentiment": 15.5
+    "latest_post": "2026-11-27T07:47:12.135000+00:00",
+    "net_sentiment": 15.3
   },
   "timeline": [
     {
@@ -9830,12 +9830,12 @@
     },
     {
       "time_bucket": "2026-11-24 12:00",
-      "total_count": 7,
-      "positive_count": 4,
+      "total_count": 8,
+      "positive_count": 5,
       "neutral_count": 0,
       "negative_count": 3,
-      "avg_confidence": 0.9528571428571428,
-      "net_sentiment": 14.3
+      "avg_confidence": 0.958625,
+      "net_sentiment": 25.0
     },
     {
       "time_bucket": "2026-11-24 13:00",
@@ -10241,9 +10241,210 @@
       "negative_count": 1,
       "avg_confidence": 0.847,
       "net_sentiment": 33.3
+    },
+    {
+      "time_bucket": "2026-11-27 00:00",
+      "total_count": 1,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.562,
+      "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-11-27 03:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.966,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-11-27 05:00",
+      "total_count": 3,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 2,
+      "avg_confidence": 0.9893333333333333,
+      "net_sentiment": -33.3
+    },
+    {
+      "time_bucket": "2026-11-27 06:00",
+      "total_count": 4,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 3,
+      "avg_confidence": 0.81575,
+      "net_sentiment": -50.0
+    },
+    {
+      "time_bucket": "2026-11-27 07:00",
+      "total_count": 3,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 2,
+      "avg_confidence": 0.981,
+      "net_sentiment": -33.3
     }
   ],
   "posts": [
+    {
+      "id": "masto_db58053bf6ae",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-27T07:47:12.135000+00:00",
+      "fetched_at": "2026-11-27T07:57:08.361753+00:00",
+      "text": "Storing voorbij: defecte trein Deventer #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117687296467466748",
+      "primary_sentiment": "negative",
+      "primary_score": 0.986,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_636f0b5477cb",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-27T07:24:14.262000+00:00",
+      "fetched_at": "2026-11-27T07:57:08.401100+00:00",
+      "text": "STORING: wisselstoring Arnhem - Nijmegen #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117687206167098025",
+      "primary_sentiment": "positive",
+      "primary_score": 0.987,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_aa1574129d45",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-27T07:05:11.577000+00:00",
+      "fetched_at": "2026-11-27T07:57:08.438283+00:00",
+      "text": "STORING: gestrande trein Hilversum - Amersfoort #storing #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117687131280072821",
+      "primary_sentiment": "negative",
+      "primary_score": 0.97,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_c8ab68822b8e",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-27T06:29:12.062000+00:00",
+      "fetched_at": "2026-11-27T07:57:08.476872+00:00",
+      "text": "Storing voorbij: brandmelding Hoofddorp - Schiphol - Hoorn; Amsterdam - Enkhuizen #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117686989754161669",
+      "primary_sentiment": "negative",
+      "primary_score": 0.562,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_fdb0e32e1088",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-27T06:28:12.575000+00:00",
+      "fetched_at": "2026-11-27T07:57:08.518802+00:00",
+      "text": "Storing voorbij: defecte trein Zwolle - Groningen #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117686985855644435",
+      "primary_sentiment": "negative",
+      "primary_score": 0.997,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_cd1162ff36b4",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-27T06:21:13.444000+00:00",
+      "fetched_at": "2026-11-27T07:57:08.733724+00:00",
+      "text": "STORING: beperkingen in de materieelinzet Arnhem - Doetinchem #storing #arriva #breng",
+      "url": "https://mastodon.nl/@rijdendetreinen/117686958387338106",
+      "primary_sentiment": "positive",
+      "primary_score": 0.711,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_50facb51741d",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-27T06:11:13.044000+00:00",
+      "fetched_at": "2026-11-27T07:57:08.553139+00:00",
+      "text": "STORING: defecte trein Zwolle - Groningen #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117686919039594161",
+      "primary_sentiment": "negative",
+      "primary_score": 0.993,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_cc6cf76a163f",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-27T05:30:12.189000+00:00",
+      "fetched_at": "2026-11-27T07:57:08.590410+00:00",
+      "text": "STORING: defecte trein Apeldoorn - Deventer #storing #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117686757764493847",
+      "primary_sentiment": "negative",
+      "primary_score": 0.987,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_375e52c57abd",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-27T05:20:04+00:00",
+      "fetched_at": "2026-11-27T07:57:08.785201+00:00",
+      "text": "Bewoners nog altijd onzeker over warmte: 'Ik ben doodsbang dat er weer een storing komt' #OmroepWest #DenHaag #Storing #Warmte #Kou #Verwarming #Warmtenet #Dagverslaggever",
+      "url": "https://mastodon.social/@OmroepWest/117686717941333430",
+      "primary_sentiment": "positive",
+      "primary_score": 0.999,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.85,
+      "language": "en"
+    },
+    {
+      "id": "masto_0fddc06ed684",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-27T05:12:11.241000+00:00",
+      "fetched_at": "2026-11-27T07:57:08.626759+00:00",
+      "text": "STORING: defecte trein Amersfoort - Deventer #storing #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117686686924063570",
+      "primary_sentiment": "negative",
+      "primary_score": 0.982,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_bee37b971c8e",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-27T03:59:11.871000+00:00",
+      "fetched_at": "2026-11-27T07:57:08.662207+00:00",
+      "text": "STORING: brandmelding Hoofddorp - Schiphol - Hoorn; Amsterdam - Enkhuizen #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117686399917645984",
+      "primary_sentiment": "positive",
+      "primary_score": 0.966,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_c7cd50fe6df1",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-27T00:16:12.754000+00:00",
+      "fetched_at": "2026-11-27T07:57:08.698518+00:00",
+      "text": "Storing voorbij: brandmelding Hoofddorp - Schiphol - Hoorn; Amsterdam - Enkhuizen #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117685523103904619",
+      "primary_sentiment": "negative",
+      "primary_score": 0.562,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
     {
       "id": "masto_6917f508377b",
       "source": "mastodon:mastodon.nl",
@@ -11961,6 +12162,19 @@
       "language": "nl"
     },
     {
+      "id": "masto_c09a41038874",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-24T12:45:10+00:00",
+      "fetched_at": "2026-11-27T07:57:08.880908+00:00",
+      "text": "La « copie » chinoise du Land Rover Defender de BYD interdite à la vente en Europe ! #[USER] #2026 #BE #BEFr #Belgique #Belgium #BorneDeChargement #brussels #Business #chargement #DidierLebrun #Économie #Economy #electricité #electrisch #elektriciteit #ElektrischeWagen #energie #fastned #illustraties #illustrations #laden #oplaadpunt #oplaadstation #station #voiture #Voitureélectrique #wagen",
+      "url": "https://pubeurope.com/@be_fr/117671481235712920",
+      "primary_sentiment": "positive",
+      "primary_score": 0.999,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "fr"
+    },
+    {
       "id": "masto_89d2062f7669",
       "source": "mastodon:mastodon.nl",
       "created_at": "2026-11-24T12:20:11.651000+00:00",
@@ -13324,176 +13538,7 @@
       "secondary_sentiment": "negative",
       "secondary_score": 0.7,
       "language": "nl"
-    },
-    {
-      "id": "masto_49bcd7df6084",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-23T08:01:11.518000+00:00",
-      "fetched_at": "2026-11-23T10:36:33.418262+00:00",
-      "text": "Storing voorbij: defecte trein Almere - Lelystad #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117664702235613023",
-      "primary_sentiment": "negative",
-      "primary_score": 0.997,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_cc496da807da",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-23T07:51:22.952000+00:00",
-      "fetched_at": "2026-11-23T10:36:34.374323+00:00",
-      "text": "STORING: seinstoring Zwolle - Emmen #storing #arriva #blauwnet",
-      "url": "https://mastodon.nl/@rijdendetreinen/117664663663381236",
-      "primary_sentiment": "positive",
-      "primary_score": 0.953,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_3fc4e38a715c",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-23T07:51:12.122000+00:00",
-      "fetched_at": "2026-11-23T10:36:33.451934+00:00",
-      "text": "STORING: defecte trein Utrecht - Rhenen #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117664662953591553",
-      "primary_sentiment": "negative",
-      "primary_score": 0.992,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_9857445f1002",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-23T07:28:45+00:00",
-      "fetched_at": "2026-11-23T10:36:34.819126+00:00",
-      "text": "📰 Reizigers in Utrecht zijn verrast door uitvallende ritten 🕣 08:25 | NOS Video 🔸 #OV #Utrecht #Reizigers",
-      "url": "https://mastodon.social/@NieuwsJunkies/117664574723644648",
-      "primary_sentiment": "positive",
-      "primary_score": 0.996,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "nl"
-    },
-    {
-      "id": "masto_cca9e6b94417",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-23T07:28:12.969000+00:00",
-      "fetched_at": "2026-11-23T10:36:33.488214+00:00",
-      "text": "STORING: wisselstoring Hoofddorp - Schiphol - Hilversum #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117664572569382661",
-      "primary_sentiment": "positive",
-      "primary_score": 0.924,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_2bb2d89033db",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-23T07:28:11.626000+00:00",
-      "fetched_at": "2026-11-23T10:36:33.521837+00:00",
-      "text": "Storing voorbij: defecte trein Utrecht - 's-Hertogenbosch #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117664572481446833",
-      "primary_sentiment": "negative",
-      "primary_score": 0.981,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_d7a6ba289544",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-23T07:26:21.527000+00:00",
-      "fetched_at": "2026-11-23T10:36:33.557251+00:00",
-      "text": "STORING: inzet van hulpdiensten Amsterdam - Schiphol #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117664565265926662",
-      "primary_sentiment": "positive",
-      "primary_score": 0.994,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_8f4ada6686a7",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-23T07:26:14+00:00",
-      "fetched_at": "2026-11-23T10:36:34.724374+00:00",
-      "text": "Bij #WNL maken ze korte metten met de #OVStaking, bij monde van Sjuul Paradijs. \"Ze hebben werk! Ze hebben een mooi loon, het gaat alleen om roosters. En iedereen heeft werkstress\". \"Het OV zou wettelijk niet mogen staken\" vindt hij. Paradijs vergeet dat het nieuwe roostersysteem chauffeurs pas 4 (!) dagen van te voren zicht op hun werkdagen. Probeer dan eens opvang te regelen of een social life te hebben. Als OV niet mag staken gaan ze ander werk zoeken. Nee, ~dat~ is goed voor het OV!",
-      "url": "https://masto.ai/@theosvv/117664564814297785",
-      "primary_sentiment": "positive",
-      "primary_score": 0.999,
-      "secondary_sentiment": "positive",
-      "secondary_score": 0.85,
-      "language": "nl"
-    },
-    {
-      "id": "masto_b16ad776d081",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-23T07:26:12.054000+00:00",
-      "fetched_at": "2026-11-23T10:36:33.598941+00:00",
-      "text": "Storing voorbij: staking Sittard - Heerlen #ns #arriva",
-      "url": "https://mastodon.nl/@rijdendetreinen/117664564645177285",
-      "primary_sentiment": "negative",
-      "primary_score": 0.996,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_3728cd47528e",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-23T07:22:31.670000+00:00",
-      "fetched_at": "2026-11-23T10:36:34.777635+00:00",
-      "text": "Dochterlief was in de kou toch vol goede moed op de fiets gesprongen ipv met de bus, maar eenmaal op het station aangekomen heeft ze besloten toch maar weer huiswaarts te keren. Geen colleges voor haar vandaag (en morgen waarschijnlijk ook niet) #OVStaking #UU",
-      "url": "https://mastodon.nl/@teacher_rick/117664550202112670",
-      "primary_sentiment": "negative",
-      "primary_score": 0.512,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_1b5856553bb7",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-23T07:15:11.535000+00:00",
-      "fetched_at": "2026-11-23T10:36:33.632868+00:00",
-      "text": "STORING: defecte trein Almere - Lelystad #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117664521357434996",
-      "primary_sentiment": "negative",
-      "primary_score": 0.99,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_21f820882457",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-23T07:13:12.135000+00:00",
-      "fetched_at": "2026-11-23T10:36:33.672992+00:00",
-      "text": "Storing voorbij: defecte trein Roosendaal - Vlissingen #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117664513532418087",
-      "primary_sentiment": "negative",
-      "primary_score": 0.992,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_634f46e7700d",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-23T07:07:12.013000+00:00",
-      "fetched_at": "2026-11-23T10:36:33.713043+00:00",
-      "text": "Storing voorbij: defecte trein Eindhoven - Sittard #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117664489931440809",
-      "primary_sentiment": "negative",
-      "primary_score": 0.991,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-11-26T23:41:13.548783+00:00"
+  "updated_at": "2026-11-27T07:57:08.979332+00:00"
 }
