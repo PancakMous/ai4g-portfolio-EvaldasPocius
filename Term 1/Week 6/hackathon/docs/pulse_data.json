@@ -1,11 +1,11 @@
 {
   "stats": {
-    "total_posts": 3122,
-    "positive_count": 1801,
+    "total_posts": 3133,
+    "positive_count": 1807,
     "neutral_count": 0,
-    "negative_count": 1321,
+    "negative_count": 1326,
     "earliest_post": "2023-01-19T09:51:55+00:00",
-    "latest_post": "2026-11-28T00:35:49+00:00",
+    "latest_post": "2026-11-28T10:06:25+00:00",
     "net_sentiment": 15.4
   },
   "timeline": [
@@ -9983,12 +9983,12 @@
     },
     {
       "time_bucket": "2026-11-25 07:00",
-      "total_count": 1,
-      "positive_count": 0,
+      "total_count": 2,
+      "positive_count": 1,
       "neutral_count": 0,
       "negative_count": 1,
-      "avg_confidence": 0.984,
-      "net_sentiment": -100.0
+      "avg_confidence": 0.9904999999999999,
+      "net_sentiment": 0.0
     },
     {
       "time_bucket": "2026-11-25 08:00",
@@ -10430,9 +10430,184 @@
       "negative_count": 0,
       "avg_confidence": 0.9684999999999999,
       "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-11-28 05:00",
+      "total_count": 3,
+      "positive_count": 2,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.965,
+      "net_sentiment": 33.3
+    },
+    {
+      "time_bucket": "2026-11-28 06:00",
+      "total_count": 3,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 3,
+      "avg_confidence": 0.9826666666666667,
+      "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-11-28 07:00",
+      "total_count": 1,
+      "positive_count": 0,
+      "neutral_count": 0,
+      "negative_count": 1,
+      "avg_confidence": 0.992,
+      "net_sentiment": -100.0
+    },
+    {
+      "time_bucket": "2026-11-28 08:00",
+      "total_count": 2,
+      "positive_count": 2,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.978,
+      "net_sentiment": 100.0
+    },
+    {
+      "time_bucket": "2026-11-28 10:00",
+      "total_count": 1,
+      "positive_count": 1,
+      "neutral_count": 0,
+      "negative_count": 0,
+      "avg_confidence": 0.999,
+      "net_sentiment": 100.0
     }
   ],
   "posts": [
+    {
+      "id": "masto_1b3f7271edf8",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-28T10:06:25+00:00",
+      "fetched_at": "2026-11-28T10:06:57.320969+00:00",
+      "text": "Kungsträdgården #Stockholm #Metro #Station Blue Line #sweden 🚇🇸🇪 #nikon #hiddenlondonhangouts #nikon #Kungstradgarden",
+      "url": "https://mastodonapp.uk/@nickharrison/117693506214774764",
+      "primary_sentiment": "positive",
+      "primary_score": 0.999,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "en"
+    },
+    {
+      "id": "masto_10f492f16a32",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-28T08:56:12.243000+00:00",
+      "fetched_at": "2026-11-28T10:06:56.790986+00:00",
+      "text": "STORING: wisselstoring Arnhem - Nijmegen #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117693230103902138",
+      "primary_sentiment": "positive",
+      "primary_score": 0.987,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_ae275319f3b5",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-28T08:39:14.168000+00:00",
+      "fetched_at": "2026-11-28T10:06:56.829741+00:00",
+      "text": "STORING: wisselstoring Nijmegen - Wijchen #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117693163383408917",
+      "primary_sentiment": "positive",
+      "primary_score": 0.969,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_a0394fcf3b4b",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-28T07:22:12.706000+00:00",
+      "fetched_at": "2026-11-28T10:06:56.863444+00:00",
+      "text": "STORING: defecte trein Utrecht - Rhenen #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117692860511273520",
+      "primary_sentiment": "negative",
+      "primary_score": 0.992,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_3ff7beecc8d5",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-28T06:24:11.504000+00:00",
+      "fetched_at": "2026-11-28T10:06:56.899033+00:00",
+      "text": "Storing voorbij: defecte trein Amsterdam - Hilversum; Amsterdam - Almere; Hoofddorp - Schiphol - Hilversum #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117692632367193633",
+      "primary_sentiment": "negative",
+      "primary_score": 0.997,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_9bd0a7eb2a16",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-28T06:19:12.263000+00:00",
+      "fetched_at": "2026-11-28T10:06:56.935046+00:00",
+      "text": "STORING: defecte trein Amsterdam - Hilversum; Amsterdam - Almere; Hoofddorp - Schiphol - Hilversum #storing #ns #nsinternational",
+      "url": "https://mastodon.nl/@rijdendetreinen/117692612756089252",
+      "primary_sentiment": "negative",
+      "primary_score": 0.955,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_20b3fb0519d8",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-28T06:09:11.310000+00:00",
+      "fetched_at": "2026-11-28T10:06:56.968426+00:00",
+      "text": "Storing voorbij: defecte trein Amsterdam - Almere; Utrecht - Almere #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117692573371955589",
+      "primary_sentiment": "negative",
+      "primary_score": 0.996,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_63c9833d052d",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-28T05:58:12.293000+00:00",
+      "fetched_at": "2026-11-28T10:06:57.002937+00:00",
+      "text": "STORING: defecte trein Amsterdam - Almere; Utrecht - Almere #storing #ns",
+      "url": "https://mastodon.nl/@rijdendetreinen/117692530182700341",
+      "primary_sentiment": "negative",
+      "primary_score": 0.992,
+      "secondary_sentiment": "negative",
+      "secondary_score": 0.7,
+      "language": "nl"
+    },
+    {
+      "id": "masto_1ee50346c92b",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-28T05:42:10+00:00",
+      "fetched_at": "2026-11-28T10:06:57.049216+00:00",
+      "text": "📰 ProRail schakelt uit voorzorg achttien extra roltrappen uit va ongeluk station Bijlmer 🕡 06:37 | RTL Nieuws 🔸 #ProRail #Amsterdam #Ongeluk #Preventie #Incident",
+      "url": "https://mastodon.social/@NieuwsJunkies/117692467124715691",
+      "primary_sentiment": "positive",
+      "primary_score": 0.998,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
+    {
+      "id": "masto_583835351b12",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-28T05:40:57+00:00",
+      "fetched_at": "2026-11-28T10:06:57.270975+00:00",
+      "text": "𝗣𝗿𝗼𝗥𝗮𝗶𝗹 𝘀𝗰𝗵𝗮𝗸𝗲𝗹𝘁 𝘂𝗶𝘁 𝘃𝗼𝗼𝗿𝘇𝗼𝗿𝗴 𝗮𝗰𝗵𝘁𝘁𝗶𝗲𝗻 𝗲𝘅𝘁𝗿𝗮 𝗿𝗼𝗹𝘁𝗿𝗮𝗽𝗽𝗲𝗻 𝘂𝗶𝘁 𝘃𝗮 𝗼𝗻𝗴𝗲𝗹𝘂𝗸 𝘀𝘁𝗮𝘁𝗶𝗼𝗻 𝗕𝗶𝗷𝗹𝗺𝗲𝗿 ProRail heeft achttien extra roltrappen op vijf stations preventief buiten gebruik genomen. Dat maakte de organisatie vannacht bekend. Aanleiding is het incident op station Amsterdam Bijlmer ArenA afgelopen zondag, waarbij meerdere mensen gewond... #ProRail #roltrappen #ongeluk",
+      "url": "https://mastodon.social/@rtlnieuws/117692462365791862",
+      "primary_sentiment": "positive",
+      "primary_score": 0.905,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "nl"
+    },
     {
       "id": "masto_b853409537a7",
       "source": "mastodon:mastodon.nl",
@@ -12631,6 +12806,19 @@
       "language": "nl"
     },
     {
+      "id": "masto_7e255d6dd69a",
+      "source": "mastodon:mastodon.nl",
+      "created_at": "2026-11-25T07:17:04+00:00",
+      "fetched_at": "2026-11-28T10:06:57.408615+00:00",
+      "text": "SKM Szczecin. Marcowy termin startu połączeń do Polic aktualny #Intercity #Kolej #KolejeMazowieckie #Linia406 #PKP #PKPPLK #PL #Poland #Polish #Polska #Polski #PrzewozyRegionalne #RozkładyJazdyPKP #RynekKolejowy #SKMSzczecin #SSOM #Szczecin #SzczecińskaKolejMetropolitalna",
+      "url": "https://pubeurope.com/@pl/117675853373368002",
+      "primary_sentiment": "positive",
+      "primary_score": 0.997,
+      "secondary_sentiment": "neutral",
+      "secondary_score": 0.5,
+      "language": "pl"
+    },
+    {
       "id": "masto_aebb1cd06c36",
       "source": "mastodon:mastodon.nl",
       "created_at": "2026-11-25T07:15:11.346000+00:00",
@@ -13539,150 +13727,7 @@
       "secondary_sentiment": "neutral",
       "secondary_score": 0.5,
       "language": "ro"
-    },
-    {
-      "id": "masto_21583135e4ad",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-24T09:13:11.636000+00:00",
-      "fetched_at": "2026-11-24T18:48:11.388055+00:00",
-      "text": "STORING: technisch onderzoek Den Haag - Rotterdam #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117670647669277368",
-      "primary_sentiment": "positive",
-      "primary_score": 0.984,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_8d3e61d322fa",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-24T08:56:11.539000+00:00",
-      "fetched_at": "2026-11-24T18:48:12.839222+00:00",
-      "text": "STORING: staking bij Qbuzz Dordrecht - Geldermalsen #storing #qbuzz",
-      "url": "https://mastodon.nl/@rijdendetreinen/117670580816239584",
-      "primary_sentiment": "negative",
-      "primary_score": 0.983,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_f5f5d0cf113e",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-24T08:47:39.049000+00:00",
-      "fetched_at": "2026-11-24T18:48:15.505210+00:00",
-      "text": "#TAIWAN #INDIGENOUS #POP #MUSIC www.sheetmusicplus.com/en/explore?a... #NEW #LYNN #RAILWAY #STATION aepiot.app-aepiot.workers.dev?lang=en&q=NE... 2026 UK #CHAMPIONSHIP aepiot.ro/related-sear... #aePiot - aepiot.ro",
-      "url": "https://fed.brid.gy/r/https://bsky.app/profile/did:plc:wjc3z3gtiq3oquai3hnz5rjz/post/3n32b3o7c3c2r",
-      "primary_sentiment": "positive",
-      "primary_score": 0.999,
-      "secondary_sentiment": "neutral",
-      "secondary_score": 0.5,
-      "language": "ro"
-    },
-    {
-      "id": "masto_710273cf28e6",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-24T08:34:12.205000+00:00",
-      "fetched_at": "2026-11-24T18:48:11.442706+00:00",
-      "text": "Storing voorbij: object op het spoor Dordrecht - Roosendaal #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117670494352375700",
-      "primary_sentiment": "negative",
-      "primary_score": 0.53,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_12a44c8bd4fb",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-24T08:25:11.772000+00:00",
-      "fetched_at": "2026-11-24T18:48:11.498931+00:00",
-      "text": "Storing voorbij: defecte trein Tilburg - Eindhoven; 's-Hertogenbosch - Tilburg #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117670458934526370",
-      "primary_sentiment": "negative",
-      "primary_score": 0.974,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_ccdd0767f98a",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-24T08:22:11.361000+00:00",
-      "fetched_at": "2026-11-24T18:48:11.561576+00:00",
-      "text": "STORING: defecte trein Tilburg - Eindhoven; 's-Hertogenbosch - Tilburg #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117670447111185159",
-      "primary_sentiment": "negative",
-      "primary_score": 0.995,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_584b2f6c3e7c",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-24T08:21:12.131000+00:00",
-      "fetched_at": "2026-11-24T18:48:11.615302+00:00",
-      "text": "Storing voorbij: defecte trein Zwolle - Groningen #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117670443229415576",
-      "primary_sentiment": "negative",
-      "primary_score": 0.997,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_9e6b98eb34b0",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-24T08:10:12.153000+00:00",
-      "fetched_at": "2026-11-24T18:48:11.669945+00:00",
-      "text": "Storing voorbij: defecte trein Rotterdam - Breda #ns #nsinternational",
-      "url": "https://mastodon.nl/@rijdendetreinen/117670399977077986",
-      "primary_sentiment": "negative",
-      "primary_score": 0.989,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_e631512da33c",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-24T08:09:12.047000+00:00",
-      "fetched_at": "2026-11-24T18:48:11.725921+00:00",
-      "text": "STORING: aanrijding Dordrecht - Roosendaal #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117670396037968845",
-      "primary_sentiment": "negative",
-      "primary_score": 0.923,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_c38daf1eb2ba",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-24T08:02:12.124000+00:00",
-      "fetched_at": "2026-11-24T18:48:11.777814+00:00",
-      "text": "Storing voorbij: defecte trein Zwolle - Groningen #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117670368517707411",
-      "primary_sentiment": "negative",
-      "primary_score": 0.997,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
-    },
-    {
-      "id": "masto_e0e49c2d2d8e",
-      "source": "mastodon:mastodon.nl",
-      "created_at": "2026-11-24T07:45:11.285000+00:00",
-      "fetched_at": "2026-11-24T18:48:11.829657+00:00",
-      "text": "STORING: defecte trein Zwolle - Groningen #storing #ns",
-      "url": "https://mastodon.nl/@rijdendetreinen/117670301616225618",
-      "primary_sentiment": "negative",
-      "primary_score": 0.993,
-      "secondary_sentiment": "negative",
-      "secondary_score": 0.7,
-      "language": "nl"
     }
   ],
-  "updated_at": "2026-11-28T01:52:06.114017+00:00"
+  "updated_at": "2026-11-28T10:06:57.508035+00:00"
 }
